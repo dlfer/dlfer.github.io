@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DL Ferrario&#39;s Page </title>
+    <link>http://localhost:1313/post/</link>
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2016</rights>
+    <updated>2016-09-22 00:00:00 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>provapost</title>
+          <link>http://localhost:1313/post/provapost/</link>
+          <pubDate>Thu, 22 Sep 2016 00:00:00 UTC</pubDate>
+          <author></author>
+          <guid>http://localhost:1313/post/provapost/</guid>
+          <description>
+
+&lt;h2 id=&#34;and-this-is-a-title&#34;&gt;and this is a title&lt;/h2&gt;
+
+&lt;p&gt;$$1+2$$&lt;/p&gt;
+
+&lt;p&gt;bh ad abosdi baosdib aosidb aosidb aosidb
+bh ad abosdi baosdib aosidb aosidb aosidb
+bh ad abosdi baosdib aosidb aosidb aosidb
+bh ad abosdi baosdib aosidb aosidb aosidb
+bh ad abosdi baosdib aosidb aosidb aosidb
+bh ad abosdi baosdib aosidb aosidb aosidb
+bh ad abosdi baosdib aosidb aosidb aosidb&lt;/p&gt;
+
+&lt;p&gt;asdb aoisdb aosibd oasidb aosidb aosdb
+asdb aoisdb aosibd oasidb aosidb aosdb
+asdb aoisdb aosibd oasidb aosidb aosdb
+asdb aoisdb aosibd oasidb aosidb aosdb
+asdb aoisdb aosibd oasidb aosidb aosdb
+asdb aoisdb aosibd oasidb aosidb aosdb
+asdb aoisdb aosibd oasidb aosidb aosdb
+a sa&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;TODO=/asdoib/bin/bash
+
+asdo ibasd ${UNO}
+due tre || quattro
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
