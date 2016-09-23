@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Page </title>
-    <link>http://localhost:1313/</link>
+    <link>https://dlfer.github.io/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2016</rights>
@@ -16,10 +16,10 @@
       
         <item>
           <title>provapost</title>
-          <link>http://localhost:1313/post/provapost/</link>
+          <link>https://dlfer.github.io/post/provapost/</link>
           <pubDate>Thu, 22 Sep 2016 00:00:00 UTC</pubDate>
           <author></author>
-          <guid>http://localhost:1313/post/provapost/</guid>
+          <guid>https://dlfer.github.io/post/provapost/</guid>
           <description>
 
 &lt;h2 id=&#34;and-this-is-a-title&#34;&gt;and this is a title&lt;/h2&gt;
