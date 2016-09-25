@@ -1,6 +1,8 @@
 /*************************************************
+ *  Style taken from:
  *  Hugo Academic: an academic theme for Hugo.
  *  https://github.com/gcushen/hugo-academic
+ *  [and then modified]
  **************************************************/
 
 
@@ -53,7 +55,7 @@ h4,
 h5,
 h6,
 .navbar-default {
-    font-family: Georgia, sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     font-weight: 400;
     line-height: 1.25;
     text-rendering: optimizeLegibility;
@@ -107,7 +109,7 @@ figcaption {
     line-height: 1.25;
     font-size: 1rem;
     margin-bottom: 1.65rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     counter-increment: captions;
 }
 
@@ -159,12 +161,19 @@ pre {
     background-color: rgb(247, 247, 247);
 }
 
+section.home-section-contacts {
+    background-color: #F0F0F0; 
+    padding: 14px 0px 0px 00px;
+    border: 2px solid gray;
+    margin-top: 60px;
+}
+
 .section-heading h1 {
     margin: 0 0 10px 0;
 }
 
 .section-heading p {
-    font-family: 'Courier New', sans-serif;
+    font-family: 'Roboto Slab','Courier New', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
     color: #b2b2b2;
