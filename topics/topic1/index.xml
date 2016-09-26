@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>https://blog.dlfer.xyz/topics/topic1/</link>
+    <link>http://blog.dlfer.xyz/topics/topic1/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2016</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>provapost</title>
-          <link>https://blog.dlfer.xyz/post/provapost/</link>
+          <link>http://blog.dlfer.xyz/post/provapost/</link>
           <pubDate>Thu, 22 Sep 2016 00:00:00 UTC</pubDate>
           <author></author>
-          <guid>https://blog.dlfer.xyz/post/provapost/</guid>
+          <guid>http://blog.dlfer.xyz/post/provapost/</guid>
           <description>
 
 &lt;h2 id=&#34;and-this-is-a-title&#34;&gt;and this is a title&lt;/h2&gt;
