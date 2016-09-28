@@ -6,8 +6,10 @@
     <language>en-us</language>
     <author></author>
     <rights>(C) 2016</rights>
-    <updated>2016-09-23 18:51:48 &#43;0200 CEST</updated>
+    <updated>2016-09-28 10:30:48 &#43;0200 CEST</updated>
 
+    
+      
     
       
     
@@ -43,12 +45,12 @@ asdb aoisdb aosibd oasidb aosidb aosdb
 asdb aoisdb aosibd oasidb aosidb aosdb
 a sa&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;TODO=/asdoib/bin/bash
+&lt;div class=&#34;highlight&#34; style=&#34;background: #f8f8f8&#34;&gt;&lt;pre style=&#34;line-height: 125%&#34;&gt;&lt;span style=&#34;color: #AA22FF; font-weight: bold&#34;&gt;\documentclass&lt;/span&gt;&lt;span style=&#34;color: #AA22FF&#34;&gt;{&lt;/span&gt;article&lt;span style=&#34;color: #AA22FF&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color: #AA22FF; font-weight: bold&#34;&gt;\begin&lt;/span&gt;&lt;span style=&#34;color: #AA22FF&#34;&gt;{&lt;/span&gt;document&lt;span style=&#34;color: #AA22FF&#34;&gt;}&lt;/span&gt;
+&lt;span style=&#34;color: #BB4444&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color: #666666&#34;&gt;1+1=2&lt;/span&gt;&lt;span style=&#34;color: #BB4444&#34;&gt;$&lt;/span&gt;
+&lt;span style=&#34;color: #AA22FF; font-weight: bold&#34;&gt;\end&lt;/span&gt;&lt;span style=&#34;color: #AA22FF&#34;&gt;{&lt;/span&gt;document&lt;span style=&#34;color: #AA22FF&#34;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
-asdo ibasd ${UNO}
-due tre || quattro
-
-&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
       
