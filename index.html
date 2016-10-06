@@ -183,8 +183,8 @@ Curriculum Vitae: <a href="cv-2013-10-25en.pdf">CV</a> (<a href="cv-2013-10-25it
 <h1 id="did">Did</h1>
 
 <ul>
+<li><a href="http://www.matapp.unimib.it/~ferrario/agt-2017/">Argomenti di Geometria e Topologia (2016-17)</a></li>
 <li><a href="http://www.matapp.unimib.it/~ferrario/geo1-2016">Geometria I (2015-16.2S)</a></li>
-<li><a href="http://blog.dlfer.xyz/p/agt-2016-17/">Argomenti di Geometria e Topologia (2016-17)</a></li>
 <li><em><a href="http://www.matapp.unimib.it/~ferrario/anniscorsi.html">Anni scorsi</a></em> (corsi fino al 2014-15).</li>
 </ul>
 
@@ -204,6 +204,31 @@ a latex-to-XHTML-MathJax conversion tool.</li>
 
 
 
+
+
+
+
+<div class="homepage-content">
+<h1 id="posts-header">Recent posts</h1>
+   <ul>
+  
+    
+     <li>
+        <a href="http://blog.dlfer.xyz/post/counterexample-to-adjoint/">A counter-example for the exponentiation / adjoint of a function</a>
+        <span class="post-date">(2016-10-05)</span>
+     </li>
+     
+  
+     
+  
+     
+  
+     
+  
+     
+  
+  </ul>
+</div>
 
 
 
@@ -310,9 +335,18 @@ a latex-to-XHTML-MathJax conversion tool.</li>
         
         
         <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js"] }
+                                           } 
+                                });
         </script>
-        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        <script async src="http://blog.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
         
   
  

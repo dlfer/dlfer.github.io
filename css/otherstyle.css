@@ -748,3 +748,39 @@ table > tbody > tr:hover > th {
 	background-size: 100%;
 	background-width: 100%;
 }
+
+
+/* Pathetic trial to have a theorem-like environment from DL - DT - DD */ 
+
+dl {
+}
+
+dt {
+width 35pt;
+font-weight : bold;
+text-decoration: none;
+display: inline-block;
+min-width:35pt;
+float: left;
+clear: left;
+text-align: left;
+}
+
+dt:after {
+content: ":";
+}
+
+dd {
+width:calc(100%-35pt-35pt);
+margin-left: 35pt;
+padding: 4pt;
+border: 1px solid gray;
+background-color: #ffff99;
+}
+
+dd:after {
+display: table; 
+content: '';
+clear: both;
+}
+

@@ -100,11 +100,11 @@
   
   <article class="container">
     <h2> 
-      <a href="http://blog.dlfer.xyz/topics/topic1">topic1</a>
+      <a href="http://blog.dlfer.xyz/topics/mathematics">mathematics</a>
     </h2>
     <ul> 
       <li>
-        <a href="http://blog.dlfer.xyz/post/provapost/">provapost</a>
+        <a href="http://blog.dlfer.xyz/post/counterexample-to-adjoint/">A counter-example for the exponentiation / adjoint of a function</a>
       </li>
       
     </ul>
@@ -130,9 +130,18 @@
         
         
         <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js"] }
+                                           } 
+                                });
         </script>
-        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        <script async src="http://blog.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
         
   
  
