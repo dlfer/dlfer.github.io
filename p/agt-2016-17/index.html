@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="http://blog.dlfer.xyz//css/syntax.css">
   <link rel="stylesheet" href="http://blog.dlfer.xyz//css/lanyon.css">
   
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/fonts.css">
+  
    
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
 
@@ -60,11 +62,13 @@
       
     
       
+    
+      
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
       
     
       
-        <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About</a>
+        <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About/now</a>
       
     
   </nav>
@@ -91,9 +95,16 @@
 <div class="page">
 	<h1 class="page-title">Argomenti di Geometria e Topologia - AA 2016-17</h1>
 	<span class="post-date">(Last modified on: 2016-09-23) </span>
-  
+  <div class="poem-stanza">
+<h2>  prova </h2>
+<div class="poem-firstline">
+Sempre caro mi fu quest'ermo colle
+</div>
+<div class="poem-line">
+E questa siepe, che da tanta parte il guardo esclude.
+</div>
 
-<h2 id="prova">prova</h2>
+<p></div></p>
 
 </div>
 
@@ -105,6 +116,7 @@
     <div class="container">
         <p class="powered-by">
             Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+	    <a href="http://blog.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
         </p>
@@ -115,9 +127,18 @@
         
         
         <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js"] }
+                                           } 
+                                });
         </script>
-        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        <script async src="http://blog.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
         
   
  

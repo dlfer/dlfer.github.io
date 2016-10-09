@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title> 
-      About &middot; DL Ferrario&#39;s Test  Web Page
+      About/now &middot; DL Ferrario&#39;s Test  Web Page
      </title>
 
   
@@ -30,6 +30,8 @@
   <link rel="stylesheet" href="http://blog.dlfer.xyz//css/poole.css">
   <link rel="stylesheet" href="http://blog.dlfer.xyz//css/syntax.css">
   <link rel="stylesheet" href="http://blog.dlfer.xyz//css/lanyon.css">
+  
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/fonts.css">
   
    
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
@@ -60,11 +62,13 @@
       
     
       
+    
+      
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
       
     
       
-        <a class="sidebar-nav-item  active " href="http://blog.dlfer.xyz/p/now/">About</a>
+        <a class="sidebar-nav-item  active " href="http://blog.dlfer.xyz/p/now/">About/now</a>
       
     
   </nav>
@@ -72,7 +76,7 @@
 
 <title>
     
-      About &middot; DL Ferrario&#39;s Test  Web Page
+      About/now &middot; DL Ferrario&#39;s Test  Web Page
     
   </title>
     
@@ -89,16 +93,14 @@
 
 
 <div class="page">
-	<h1 class="page-title">About</h1>
-	<span class="post-date">(Last modified on: 2016-09-24) </span>
+	<h1 class="page-title">About/now</h1>
+	<span class="post-date">(Last modified on: 2016-09-28) </span>
   <p>Now I am doing something I do not quite understand.
 To do:</p>
 
 <ul>
-<li>Fix css&rsquo;s</li>
 <li>Add papers (and write some, hence)</li>
-<li>Credits</li>
-<li>Tree of Tags and Topics?</li>
+<li>Really write posts?</li>
 </ul>
 
 </div>
@@ -111,6 +113,7 @@ To do:</p>
     <div class="container">
         <p class="powered-by">
             Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+	    <a href="http://blog.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
         </p>
@@ -121,9 +124,18 @@ To do:</p>
         
         
         <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js"] }
+                                           } 
+                                });
         </script>
-        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        <script async src="http://blog.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
         
   
  
