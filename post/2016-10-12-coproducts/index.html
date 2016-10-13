@@ -290,6 +290,64 @@ minimum of the upper bounds.</p>
 product.
 <em>(/Proof)</em></p>
 
+<p>$\newcommand{\bD}{\mathbf{D}}$ $\newcommand{\bC}{\mathbf{C}}$</p>
+
+<h2 id="coproducts-for-the-working-mathematician">Coproducts for the Working Mathematician</h2>
+
+<p><a href="http://link.springer.com/book/10.1007/978-1-4757-4721-8/page/1" target="_blank">Categories for the Working Mathematician</a> is the go-to reference for anything categorical.
+Let $\bC, \bD$ be  categories, and $F\from \bC \to \bD$ a functor.
+The <strong>comma category</strong> $X \downarrow F$ of objects $F$-under $X$,
+for $X$ object in $\bD$,
+has as objects the pairs $(f,Y)$ with $Y\in \bC$ and
+$f\from X \to F(Y)$,
+and as morphisms (arrows) $h \from (f,Y) \to (f&rsquo;,Y&rsquo;)$
+all morhpisms $h\from Y \to Y&rsquo;$ su h that $f&rsquo;=F(h) f$
+as in the following diagram.
+<center>
+<img src="http://blog.dlfer.xyz/img/comma1.svg" alt="Comma category diagram" />
+</center>
+Given $X\in \bD$ and $F\from \bC \to \bD$,
+the comma category $X \downarrow F$ is uniquely defined.
+If $X\downarrow F$ has an <strong><a href="https://en.wikipedia.org/wiki/Initial_and_terminal_objects" target="_blank">initial object</a></strong>,
+then this is termed the <strong>universal arrow</strong> from $X$ to $F$.</p>
+
+<dl>
+<dt>(5)</dt>
+<dd>The coproduct of two objects $X_ 1,X_ 2$ in $\vC$
+is the initial object of the comma category
+$(X_ 1,X_ 2) \downarrow \Delta$,
+where $\Delta\from \bC \to \bC\times \bC$ is the diagonal functor.
+Hence it is the universal arrow from $(X_1,X_2)$ to $\Delta$.</dd>
+</dl>
+
+<p><em>Proof:</em>
+Consider the diagonal functor
+$F=\Delta \from \bC \to \bD = \bC \times \bC $ (which sends
+$Y$ to $(Y,Y)$ for each object $Y$ of the category $\bC$,
+and morphisms accordingly).
+Given an element $X=(X_ 1,X_ 2) \in \bD = \bC\times \bC$,
+the initial object (if it exists) of the comma category
+$(X_ 1,X_ 2) \downarrow \Delta$ is exactly the coproduct
+$X_ 1 \coprod X_ 2$ in $\bC$.
+In fact, an initial object is an object
+$(j,A) \in (X_ 1,X_ 2) \downarrow \Delta$
+such that for each object
+$(h,Z) \in  (X_ 1,X_ 2) \downarrow \Delta$
+there exists a unique morphism
+$(j,A) \to (h,Z)$.
+In other words,
+an initial object is a pair $(j,A)$ with $A\in \bC$
+and $j \from (X_ 1, X_ 2) \to (A,A)$ such that
+for each
+$(h,Z)$, with $h\from (X_ 1, X_ 2) \to (Z,Z)$ there exists a unique
+morphism $f \from (j,A) \to (h,Z)$,
+i.e. a unique morphism
+$f \from A \to Z$
+such that the composition
+$ \Delta(f) j\from (X_ 1,X_ 2) \to (A,A) \to (Z,Z)$
+is equal to $h$.
+<em>(/Proof)</em></p>
+
 </div>
 
      </div>

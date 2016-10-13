@@ -208,6 +208,64 @@ minimum of the upper bounds.&lt;/p&gt;
 &lt;p&gt;Reversing arrows in $\mathbf{P}$ one obtains the result for the
 product.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;$\newcommand{\bD}{\mathbf{D}}$ $\newcommand{\bC}{\mathbf{C}}$&lt;/p&gt;
+
+&lt;h2 id=&#34;coproducts-for-the-working-mathematician&#34;&gt;Coproducts for the Working Mathematician&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://link.springer.com/book/10.1007/978-1-4757-4721-8/page/1&#34; target=&#34;_blank&#34;&gt;Categories for the Working Mathematician&lt;/a&gt; is the go-to reference for anything categorical.
+Let $\bC, \bD$ be  categories, and $F\from \bC \to \bD$ a functor.
+The &lt;strong&gt;comma category&lt;/strong&gt; $X \downarrow F$ of objects $F$-under $X$,
+for $X$ object in $\bD$,
+has as objects the pairs $(f,Y)$ with $Y\in \bC$ and
+$f\from X \to F(Y)$,
+and as morphisms (arrows) $h \from (f,Y) \to (f&amp;rsquo;,Y&amp;rsquo;)$
+all morhpisms $h\from Y \to Y&amp;rsquo;$ su h that $f&amp;rsquo;=F(h) f$
+as in the following diagram.
+&lt;center&gt;
+&lt;img src=&#34;http://blog.dlfer.xyz/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
+&lt;/center&gt;
+Given $X\in \bD$ and $F\from \bC \to \bD$,
+the comma category $X \downarrow F$ is uniquely defined.
+If $X\downarrow F$ has an &lt;strong&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Initial_and_terminal_objects&#34; target=&#34;_blank&#34;&gt;initial object&lt;/a&gt;&lt;/strong&gt;,
+then this is termed the &lt;strong&gt;universal arrow&lt;/strong&gt; from $X$ to $F$.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;(5)&lt;/dt&gt;
+&lt;dd&gt;The coproduct of two objects $X_ 1,X_ 2$ in $\vC$
+is the initial object of the comma category
+$(X_ 1,X_ 2) \downarrow \Delta$,
+where $\Delta\from \bC \to \bC\times \bC$ is the diagonal functor.
+Hence it is the universal arrow from $(X_1,X_2)$ to $\Delta$.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;em&gt;Proof:&lt;/em&gt;
+Consider the diagonal functor
+$F=\Delta \from \bC \to \bD = \bC \times \bC $ (which sends
+$Y$ to $(Y,Y)$ for each object $Y$ of the category $\bC$,
+and morphisms accordingly).
+Given an element $X=(X_ 1,X_ 2) \in \bD = \bC\times \bC$,
+the initial object (if it exists) of the comma category
+$(X_ 1,X_ 2) \downarrow \Delta$ is exactly the coproduct
+$X_ 1 \coprod X_ 2$ in $\bC$.
+In fact, an initial object is an object
+$(j,A) \in (X_ 1,X_ 2) \downarrow \Delta$
+such that for each object
+$(h,Z) \in  (X_ 1,X_ 2) \downarrow \Delta$
+there exists a unique morphism
+$(j,A) \to (h,Z)$.
+In other words,
+an initial object is a pair $(j,A)$ with $A\in \bC$
+and $j \from (X_ 1, X_ 2) \to (A,A)$ such that
+for each
+$(h,Z)$, with $h\from (X_ 1, X_ 2) \to (Z,Z)$ there exists a unique
+morphism $f \from (j,A) \to (h,Z)$,
+i.e. a unique morphism
+$f \from A \to Z$
+such that the composition
+$ \Delta(f) j\from (X_ 1,X_ 2) \to (A,A) \to (Z,Z)$
+is equal to $h$.
+&lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 </description>
         </item>
       

@@ -1,6 +1,7 @@
 TODO=coprod1
 TODO=coprod2
 TODO=prod1
+TODO=comma1
 
 default:
 	pdflatex $(TODO).tex
