@@ -246,7 +246,7 @@ then this is termed the &lt;strong&gt;universal arrow&lt;/strong&gt; from $X$ to
 
 &lt;dl&gt;
 &lt;dt&gt;(5)&lt;/dt&gt;
-&lt;dd&gt;The coproduct of two objects $X_ 1,X_ 2$ in $\vC$
+&lt;dd&gt;The coproduct of two objects $X_ 1,X_ 2$ in $\bC$
 is the initial object of the comma category
 $(X_ 1,X_ 2) \downarrow \Delta$,
 where $\Delta\from \bC \to \bC\times \bC$ is the diagonal functor.
