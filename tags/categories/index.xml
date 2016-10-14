@@ -209,7 +209,21 @@ minimum of the upper bounds.&lt;/p&gt;
 product.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;$\newcommand{\bD}{\mathbf{D}}$ $\newcommand{\bC}{\mathbf{C}}$&lt;/p&gt;
+&lt;p&gt;$\newcommand{\bD}{\mathbf{D}}$ $\newcommand{\bC}{\mathbf{C}}$
+$\newcommand{\bP}{\mathbf{P}}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
+Consider the poset $\bP$ of all subsets of a set $S$,
+with $A\leq B$ if and only if $A\subseteq B \subseteq S$.
+Then the coproduct and the product are the union and intersection
+of the sets,
+respectively:
+$$
+\coprod_ {\alpha} X_ \alpha = \bigcup_ \alpha X_ \alpha
+$$
+$$
+\prod_ {\alpha} X_ \alpha = \bigcap_ \alpha X_ \alpha
+$$&lt;/p&gt;
 
 &lt;h2 id=&#34;coproducts-for-the-working-mathematician&#34;&gt;Coproducts for the Working Mathematician&lt;/h2&gt;
 
