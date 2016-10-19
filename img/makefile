@@ -2,6 +2,12 @@ TODO=coprod1
 TODO=coprod2
 TODO=prod1
 TODO=comma1
+TODO=toro
+
+
+
+TMPROOT=/tmp/tmpimg
+BASEOUTPUT=$(TODO)
 
 default:
 	pdflatex $(TODO).tex
@@ -11,4 +17,9 @@ clean:
 	rm *.aux 
 	rm *.log
 	rm *.pdf
+
+potrace-png:
+	convert $(TODO).png $(TMPROOT)-000.pnm
+	potrace -b svg -c -q -t 0.1  --tight --output $(BASEOUTPUT).svg  $(TMPROOT)-000.pnm
+	# rm $(TMPROOT)-00*
 	

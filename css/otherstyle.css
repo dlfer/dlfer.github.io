@@ -787,7 +787,6 @@ content: '';
 clear: both;
 }
 
-
 /* Even more pathetic trial to render poetry */ 
 
 
@@ -833,4 +832,18 @@ clear: both;
 .poem-stanza { margin-top: 1em; margin-bottom: 0em; }
 .poem-firstline { text-indent: -2em; }
 .poem-line { text-indent: -4em; }
+
+
+/* Now lettrine (drop caps) try */ 
+span.lettrine {
+  font-variant: small-caps;
+  float       : left;
+  font-size   : 3.56em;
+  line-height : 0.5;
+  margin      : 0.205em 0.053em 0 0;
+}
+
+.lettrine + span {
+	margin-left: -0.5em;
+}
 
