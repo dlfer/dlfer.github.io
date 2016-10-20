@@ -320,6 +320,18 @@ found n.  42  :  (0,6,2,1,5,3,4)
 &lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
 
 &lt;p&gt;The problem of embedding is not trivial. But &amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;poincaré-homology-3-sphere&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
+
+&lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on&amp;hellip;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: Sigma3 = simplicial_complexes.PoincareHomologyThreeSphere()
+sage: Sigma3.homology()
+{0: 0, 1: 0, 2: 0, 3: Z}
+sage: Sigma3.fundamental_group().cardinality()
+sage: [len(Sigma3.faces()[x]) for x in range(4)]
+[16, 106, 180, 90]
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
       

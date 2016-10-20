@@ -404,6 +404,18 @@ found n.  42  :  (0,6,2,1,5,3,4)
 
 <p>The problem of embedding is not trivial. But &hellip;</p>
 
+<h2 id="poincaré-homology-3-sphere">Poincaré Homology 3-sphere</h2>
+
+<p>From <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere" target="_blank">sagemath documentation</a>, and adding on&hellip;</p>
+
+<pre><code class="language-python">sage: Sigma3 = simplicial_complexes.PoincareHomologyThreeSphere()
+sage: Sigma3.homology()
+{0: 0, 1: 0, 2: 0, 3: Z}
+sage: Sigma3.fundamental_group().cardinality()
+sage: [len(Sigma3.faces()[x]) for x in range(4)]
+[16, 106, 180, 90]
+</code></pre>
+
 </div>
 
      </div>
