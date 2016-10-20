@@ -227,7 +227,8 @@ sage: len(G)
 42
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;and hence there are 120 = 7!/42 distinct possible permutations. The easiest is $(0,6)$, which transform one into the other.&lt;/p&gt;
+&lt;p&gt;and hence there are 120 = 7!/42 distinct possible classes of
+ permutations. The easiest is $(0,6)$, which transforms one set of 2-faces into the other.&lt;/p&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;(3)&lt;/dt&gt;
