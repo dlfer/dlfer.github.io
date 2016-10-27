@@ -317,6 +317,14 @@ found n.  41  :  (0,6,5)(1,4)(2,3)
 found n.  42  :  (0,6,2,1,5,3,4)
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;Equivalently, and shortly:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: K=SimplicialComplex(myFacce)
+sage: T=simplicial_complexes.Torus()
+sage: T.is_isomorphic(K)
+True
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
 
 &lt;p&gt;The problem of embedding is not trivial. But &amp;hellip;&lt;/p&gt;

@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+
+  <head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+  <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
+  <meta name="author" content="DL Ferrario">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> 
+      Computing the Smith Normal Form of a matrix &middot; DL Ferrario&#39;s Test  Web Page
+     </title>
+
+  
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/highlight.min.css">  
+  <script src="http://blog.dlfer.xyz//js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/academicons.min.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/otherstyle.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/poole.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/syntax.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/lanyon.css">
+  
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/fonts.css">
+  
+   
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="http://blog.dlfer.xyz/assets/favicon.ico">
+</head>
+
+  <body class="theme-base-0x">
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<div class="sidebar" id="sidebar">
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/">Home</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/post">All Posts</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/topics/">Topics</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/tags/">Tags</a>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About/now</a>
+      
+    
+  </nav>
+</div>
+
+<title>
+    
+      Computing the Smith Normal Form of a matrix &middot; DL Ferrario&#39;s Test  Web Page
+    
+  </title>
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://blog.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
+     
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Computing the Smith Normal Form of a matrix</h1>
+  <span class="post-date">2016-10-27</span>
+  
+
+<h2 id="an-simple-algorithm-for-computing-the-smith-normal-form-of-a-matrix-in-zz">An simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$</h2>
+
+<p>The proof and the algorithm are the same.</p>
+
+<p>First, a few auxiliary functions. Given a matrix $M$, the follow two functions are
+self-explanatory.</p>
+
+<pre><code class="language-python">def dims(M):
+ num_righe=len(M)
+ num_colonne=len(M[0])
+ return (num_righe,num_colonne)
+
+def MinAij(M,s):
+ num_righe, num_colonne=dims(M)
+ ijmin=[s,s]
+ valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) )
+ for i in (range(s,num_righe)):
+  for j in (range(s,num_colonne)):
+   if (M[i][j] != 0 ) and (abs(M[i][j]) &lt;= valmin) :
+    ijmin = [i,j]
+    valmin = abs(M[i][j])
+ return ijmin
+
+def IdentityMatrix(n):
+ res=[[0 for j in range(n)] for i in range(n)]
+ for i in range(n):
+  res[i][i] = 1
+ return res
+
+def display(M):
+ r=&quot;&quot;
+ for x in M:
+  r += &quot;%s\n&quot; % x
+ return r +&quot;&quot;
+</code></pre>
+
+<p>Then, one needs the elementary operations on rows and columns on the matrix $M$:
+swap (permute) two rows, add to a row an integer multiple of another row, and
+change sign of a row. The same for columns.</p>
+
+<pre><code class="language-python">def swap_rows(M,i,j):
+ tmp=M[i]
+ M[i]=M[j]
+ M[j]=tmp
+
+def swap_columns(M,i,j):
+ num_of_columns=len(M)
+ for x in range(num_of_columns):
+  tmp=M[x][i]
+  M[x][i] = M[x][j]
+  M[x][j] = tmp
+
+def add_to_row(M,x,k,s):
+ num_righe,num_colonne=dims(M)
+ for tmpj in range(num_colonne):
+  M[x][tmpj] += k * M[s][tmpj]
+
+def add_to_column(M,x,k,s):
+ num_righe,num_colonne=dims(M)
+ for tmpj in range(num_righe):
+  M[tmpj][x] += k * M[tmpj][s]
+
+def change_sign_row(M,x):
+ num_righe,num_colonne=dims(M)
+ for tmpj in range(num_colonne):
+  M[x][tmpj] = - M[x][tmpj]
+
+def change_sign_column(M,x):
+ num_righe,num_colonne=dims(M)
+ for tmpj in range(num_righe):
+  M[tmpj][x] = - M[tmpj][x]
+</code></pre>
+
+<p>Finally, two important functions. The first,  checks that the entry at place $(s,s)$ in the matrix $M$
+is the only one non-zero in its $s$-th column under $s$ and $s$-th row at the right of $s$. If this is true,
+then the algorithm will proceed.</p>
+
+<p>The second, will scan in the submatrix at the lower-right of $M_ {s,s}$, to check if there is any entry which
+is not divisible by $M_ {s,s}$. If it cannot be found, then it returns an empty set.</p>
+
+<pre><code class="language-python">def is_lone(M,s):
+ num_righe,num_colonne=dims(M)
+ if [M[s][x] for x in range(s+1,num_colonne) if M[s][x] != 0] + [ M[y][s] for y in range(s+1,num_righe) if M[y][s] != 0] == []:
+  return True
+ else:
+  return False
+
+def get_nextentry(M,s):
+  # find and element which is not divisible by M[s][s]
+  num_righe,num_colonne=dims(M)
+  for x in range(s+1,num_righe):
+   for y in range(s+1,num_colonne):
+    if M[x][y] % M[s][s]  != 0:
+     return (x,y)
+  return None
+</code></pre>
+
+<p>Given all these functions, the algorithm/proof is rather simple, as written in the folliwing block.
+The main idea is to put at the UL corner $M_ {0,0}$ the GCD of all matrix entries,
+by row/column operations.</p>
+
+<p>First, find the smallest non-zero entry, and put it in the UL corner.
+Then, as in the Euclidean Algorithm, sum to all rows and columns suitable multiples of the first
+row/column.
+After this, either
+all the elements in the $0$-th row and $0$-th column are zero except $M_ {0,0}$, or not.
+If all the elements in the $0$-th row and $0$-th column V
+except $M_ {0,0}$  are zero,
+then either $M_ {0,0}$ divides all the entries of $M$,
+or not.</p>
+
+<p><strong>If it does divide all</strong>,
+then proceed to the submatrix obtained by deleting the first row and the first column.
+It is important to note that since $M_ {0,0}$ divides all the entries of $M$,
+it will divide all the entries of the submatrix and also all the entries of
+the subsequente modifications of the submatrix. Hence, when at the end the matrix will be
+in diagonal form, the first term $M_ {0,0}$ will divide all the others.</p>
+
+<p><strong>If it does not divide all</strong>, then add to the first row the row containing the entry which is not
+divisible by $M_ {0,0}$.
+So, the new matrix is of the type with $M_ {0,0}$ at the UL corner, and
+not all the elements in the $0$-th row and $0$-th column
+except $M_ {0,0}$  are zero.</p>
+
+<p>Now go back  to the step of finding the new non-zero minimum, put it in $(0,0)$,  and repeat from there.</p>
+
+<p>Why in a finite number of steps $M_ {0,0}$ has to divide all the entries?
+At the UL corner, $M_ {0,0}$ was chosen to be the minimum of non-zero terms
+of $M$, and the new one will be $M&rsquo;_ {0,0} \leq M_ {0,0}$. But, if there was an entry<br />
+not divisible by $M_ {0,0}$, then $M&rsquo;_ {0,0} &lt; M_ {0,0}$.
+We show this with an example.
+Assume $a$ does not divide $b$ (and hence $a\neq b$),
+both positive. First, add the second row to the first.
+$$
+\begin{bmatrix}
+a &amp; 0 \\<br />
+0 &amp; b
+\end{bmatrix}
+\mapsto
+\begin{bmatrix}
+a &amp; b \\<br />
+0 &amp; b
+\end{bmatrix}
+$$
+Then, there are two cases: either $a &lt; b$, and we do nothing,  or $a &gt; b$,
+and we permute the two columns.
+$$
+\mapsto
+\begin{cases}
+\begin{bmatrix}
+a &amp; b \\<br />
+0 &amp; b
+\end{bmatrix}
+&amp; \text{if $a&lt;b$}
+\\<br />
+\begin{bmatrix}
+b &amp; a \\<br />
+b &amp; 0
+\end{bmatrix}
+&amp; \text{if $b &lt; a$}
+\end{cases}
+$$
+After this, it is time to add suitable multiples. In the two cases,
+it happens (adding forst rows, then columns) the following.
+$$
+\mapsto
+\begin{cases}
+\begin{bmatrix}
+a &amp; b-qa \\<br />
+0 &amp; b
+\end{bmatrix}
+&amp; \text{if $a&lt;b$}
+\\<br />
+\begin{bmatrix}
+b &amp; a-qb \\<br />
+0 &amp; -a
+\end{bmatrix}
+&amp; \text{if $b &lt; a$}
+\end{cases}
+$$
+If $a&lt;b$, it is $|b-qa|&lt;a$.
+If $b&lt;a$, it is $|a-qb| &lt; b &lt; a$.
+Hence in both cases after the row/column operations, the minimum of the matrix entries
+will be strictly smaller than $a$. Since this cannot happen indefinitively, after a finite
+number of steps $M_ {0,0}$ will divide all the remaining entries in $M$.</p>
+
+<pre><code class="language-python">def Smith(M):
+ num_righe,num_colonne=dims(M)
+ L = IdentityMatrix(num_righe)
+ R = IdentityMatrix(num_colonne)
+ maxs=min(num_righe,num_colonne)
+ for s in range(maxs):
+  print (&quot;step %s/%s\n&quot; % (s+1,maxs))
+  print &quot;M:&quot;, display(M)
+  while not is_lone(M,s):
+   i,j = MinAij(M,s) # the non-zero entry with min |.|
+   swap_rows(M,s,i)
+   swap_rows(L,s,i)
+   swap_columns(M,s,j)
+   swap_columns(R,s,j)
+   for x in range(s+1,num_righe):
+    if M[x][s] != 0:
+     k = M[x][s] // M[s][s]
+     add_to_row(M,x,-k,s)
+     add_to_row(L,x,-k,s)
+   for x in range(s+1,num_colonne):
+    if M[s][x] != 0:
+     k = M[s][x] // M[s][s]
+     add_to_column(M,x,-k,s)
+     add_to_column(R,x,-k,s)
+   if is_lone(M,s):
+    res=get_nextentry(M,s)
+    if res:
+     x,y=res
+     add_to_row(M,s,1,x)
+     add_to_row(L,s,1,x)
+    else:
+     if M[s][s]&lt;0:
+      change_sign_row(M,s)
+      change_sign_row(L,s)
+ return L,R
+</code></pre>
+
+<p>A minor step is the one for changing sign of the diagonal entry, just in the case it is negative. At the end, the matrix $M$ will be in
+ Smith Normal Form,
+and the routine will return the two unimodular matrices $L$ and $R$ resulting from the row/columns operations respectively.
+They are obtained by applying the same row/column operations on two identity matrices.</p>
+
+<h2 id="example-the-triangulated-sphere">Example: the triangulated sphere.</h2>
+
+<p>As an example, here we compute the Smith Normal Forms of the differentials of che chain complex of the triangulate $2$-sphere,
+from <a href="http://www.sagemath.org" target="_blank">sage</a>. First, the differential $\partial_ 1 \from C_ 1 \cong \ZZ^6 \to C_ 0 \cong \ZZ^4 $.</p>
+
+<pre><code class="language-python">sage: K=simplicial_complexes.Sphere(2)
+sage: CK=K.chain_complex()
+sage: 
+sage: M=matrix(ZZ,CK.differential(1)).numpy().tolist()
+sage: Smith(M)
+step 1/4
+
+M: [-1, -1, -1, 0, 0, 0]
+[1, 0, 0, -1, -1, 0]
+[0, 1, 0, 1, 0, -1]
+[0, 0, 1, 0, 1, 1]
+
+step 2/4
+
+M: [1, 0, 0, 0, 0, 0]
+[0, 0, 0, -1, -1, 1]
+[0, 1, 1, 1, 1, 0]
+[0, -1, -1, 0, 0, -1]
+
+step 3/4
+
+M: [1, 0, 0, 0, 0, 0]
+[0, 1, 0, 0, 0, 0]
+[0, 0, 1, 1, 1, 1]
+[0, 0, -1, -1, -1, -1]
+
+step 4/4
+
+M: [1, 0, 0, 0, 0, 0]
+[0, 1, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+
+([[0, 0, 0, 1], [-1, 0, 0, 0], [-1, -1, 0, 0], [1, 1, 1, 1]],
+ [[0, 1, -1, 1, 1, 0],
+  [0, 0, 1, -1, -1, -1],
+  [0, 0, 0, 0, 0, 1],
+  [0, 0, 0, 1, 0, 0],
+  [0, 0, 0, 0, 1, 0],
+  [1, 0, 0, 0, -1, -1]])
+sage: print &quot;\nsmith form of d_1:\n&quot;, display(M)
+
+smith form of d_1:
+[1, 0, 0, 0, 0, 0]
+[0, 1, 0, 0, 0, 0]
+[0, 0, 1, 0, 0, 0]
+[0, 0, 0, 0, 0, 0]
+</code></pre>
+
+<p>Hence $\operatorname{coker} \partial_ 1 \cong  \ZZ^1$ and $\ker \partial_ 1 \cong  \ZZ^3$.
+What about the generators of $\ker \partial_ 1$?
+Let $L$ and $R$ denote the left and right matrices, and $M$ the matrix of $\partial_ 1$.
+Then let $S$ denote the Smith Normal Form of $\partial_ 1$, so that
+$LMR = S$.
+Since $\ker S$ is generated by the three vectors
+$$
+\begin{bmatrix}
+0\\<br />
+0\\<br />
+0\\<br />
+1\\<br />
+0\\<br />
+0
+\end{bmatrix}
+\begin{bmatrix}
+0\\<br />
+0\\<br />
+0\\<br />
+0\\<br />
+1\\<br />
+0
+\end{bmatrix}
+\begin{bmatrix}
+0\\<br />
+0\\<br />
+0\\<br />
+0\\<br />
+0\\<br />
+1
+\end{bmatrix},
+$$
+then $\ker LM = \ker M$ is generated by their images by $R$, i.e.
+the last three columns of $R$:
+$$
+\begin{bmatrix}
+1\\<br />
+-1\\<br />
+0\\<br />
+1\\<br />
+0\\<br />
+0
+\end{bmatrix}
+\begin{bmatrix}
+1\\<br />
+-1\\<br />
+0\\<br />
+0\\<br />
+1\\<br />
+-1
+\end{bmatrix}
+\begin{bmatrix}
+0\\<br />
+-1\\<br />
+1\\<br />
+0\\<br />
+0\\<br />
+-1
+\end{bmatrix},
+$$
+These three cycles are, in the standard basis of $1$-simplices of $K$
+$[(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)]$:
+$$
+[01]+[20]+[12] = [01] + [12] + [20]~,
+$$
+$$
+[01]+[20]+[13]+[32] = [01] + [13] + [32] + [21]~,
+$$
+$$
+[20] + [03] + [32]~.
+$$</p>
+
+<p>Furthermore, about the differential $\partial_ 2$ from $C_ 2 \cong \ZZ^4 \to C_ 1 \cong \ZZ^6 $.</p>
+
+<pre><code class="language-python">sage: M=matrix(ZZ,CK.differential(2)).numpy().tolist()
+sage: Smith(M)
+step 1/4
+
+M: [1, 1, 0, 0]
+[-1, 0, 1, 0]
+[0, -1, -1, 0]
+[1, 0, 0, 1]
+[0, 1, 0, -1]
+[0, 0, 1, 1]
+
+step 2/4
+
+M: [1, 0, 0, 0]
+[0, 0, 1, -1]
+[0, -1, -1, 0]
+[0, 0, -1, 1]
+[0, 1, 1, 0]
+[0, 1, 0, 1]
+
+step 3/4
+
+M: [1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, -1, -1]
+[0, 0, -1, -1]
+[0, 0, 1, 1]
+[0, 0, 1, 1]
+
+step 4/4
+
+M: [1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+
+([[0, 0, 0, 0, 0, 1],
+  [1, 0, 0, 0, 0, 0],
+  [1, 1, 0, 0, 0, 0],
+  [0, 1, 0, 1, 0, -1],
+  [-1, -1, 0, 0, 1, 1],
+  [1, 1, 1, 0, 0, 0]],
+ [[0, 1, -1, 1], [0, 0, 1, -1], [0, 0, 0, 1], [1, 0, 0, -1]])
+sage: print &quot;\nsmith form of d_2:\n&quot;, display(M)
+
+smith form of d_2:
+[1, 0, 0, 0]
+[0, 1, 0, 0]
+[0, 0, 1, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+[0, 0, 0, 0]
+</code></pre>
+
+<p>Therefore, $\ker \partial_ 2 \cong \ZZ$, and $\operatorname{coker} \partial_ 2 \cong \ZZ^3$.
+The generator of $\ker \partial_ 2$ is, as above, the last column of $R$,
+which is
+$$
+\begin{bmatrix}
+1\\<br />
+-1\\<br />
+1\\<br />
+-1\\<br />
+\end{bmatrix}
+$$
+which correspond to the cycle
+in the standard base $ [ (0, 1, 2), (0, 1, 3), (0, 2, 3), (1, 2, 3) ] $
+$$
+  [ 012 ] - [ 013 ] + [ 023 ] - [ 123 ] = - ( [ 123 ] - [ 023 ] + [ 013 ] - [ 012 ] ) =
+$$
+$$
+= - \sum_ {j=0}^3 (-1)^j [ 0 \ldots \hat j \ldots 3 ]~.
+$$</p>
+
+<p>Is it possible to compute the homology with these data?</p>
+
+</div>
+
+     </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+	    <a href="http://blog.dlfer.xyz/p/privacy/">Privacy</a> &middot;
+            Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+        </p>
+    </div>
+</footer>
+    
+  
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js","AMScd.js"] }
+                                           } 
+                                });
+        </script>
+        <script async src="http://blog.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
+        
+  
+ 
+</body>
+</html>
+
