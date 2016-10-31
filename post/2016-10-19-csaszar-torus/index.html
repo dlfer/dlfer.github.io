@@ -152,7 +152,7 @@ $x\neq 5$ (otherwise $\{0,6\} = \{6,7 \} \in D_ x \cap H_ x$).
 We are left with the cases
 $x=2$ or $x=4$.
 Lazy idea: write a few lines of python (2.7) and compute the number of elements
-of $\Phi_ x$ for each $x$&hellip;</p>
+of $\Phi_ x$ for each $x$...</p>
 
 <pre><code class="language-python">&gt;&gt;&gt; def NumberOfPhi(x):
 ...  H= [ frozenset([j,(j+1) % 7 ]) for j in range(7) ]
@@ -205,7 +205,7 @@ The complex can be represented as in the following badly drawn diagram:
 <img src="http://blog.dlfer.xyz/img/toro.svg" alt="Csaszar Torus" />
 </center></p>
 
-<p>With a little bit of imagination and glueing, it is possible to &ldquo;prove&rdquo; the following proposition.</p>
+<p>With a little bit of imagination and glueing, it is possible to &quot;prove&quot; the following proposition.</p>
 
 <dl>
 <dt>(2)</dt>
@@ -225,7 +225,7 @@ more details a the <a href="http://www.eg-models.de/models/Classical_Models/2001
 
 <h2 id="sagemath">SageMath</h2>
 
-<p>Here is a plain sage session. According to <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html" target="_blank">the documentation</a>, the function <code>Torus</code> returns Csaszar&rsquo;s Torus.</p>
+<p>Here is a plain sage session. According to <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html" target="_blank">the documentation</a>, the function <code>Torus</code> returns Csaszar's Torus.</p>
 
 <pre><code class="language-sage">sage: T = simplicial_complexes.Torus();
 sage: T.faces()
@@ -268,7 +268,7 @@ sage: T.faces()
       (0, 3, 4)])}
 </code></pre>
 
-<p>After a little bit of reordering, faces of sage&rsquo;s $T$ are</p>
+<p>After a little bit of reordering, faces of sage's $T$ are</p>
 
 <pre><code class="language-python">[(0, 1, 2),
  (0, 1, 5),
@@ -412,11 +412,11 @@ True
 
 <h2 id="embedding-the-complex-in-rr-3">Embedding the complex in $\RR^3$</h2>
 
-<p>The problem of embedding is not trivial. But &hellip;</p>
+<p>The problem of embedding is not trivial. But ...</p>
 
 <h2 id="poincaré-homology-3-sphere">Poincaré Homology 3-sphere</h2>
 
-<p>From <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere" target="_blank">sagemath documentation</a>, and adding on&hellip;</p>
+<p>From <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere" target="_blank">sagemath documentation</a>, and adding on...</p>
 
 <pre><code class="language-python">sage: Sigma3 = simplicial_complexes.PoincareHomologyThreeSphere()
 sage: Sigma3.homology()

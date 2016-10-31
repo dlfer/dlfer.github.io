@@ -67,7 +67,7 @@ $x\neq 5$ (otherwise $\{0,6\} = \{6,7 \} \in D_ x \cap H_ x$).
 We are left with the cases
 $x=2$ or $x=4$.
 Lazy idea: write a few lines of python (2.7) and compute the number of elements
-of $\Phi_ x$ for each $x$&amp;hellip;&lt;/p&gt;
+of $\Phi_ x$ for each $x$...&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; def NumberOfPhi(x):
 ...  H= [ frozenset([j,(j+1) % 7 ]) for j in range(7) ]
@@ -120,7 +120,7 @@ The complex can be represented as in the following badly drawn diagram:
 &lt;img src=&#34;http://blog.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;ldquo;prove&amp;rdquo; the following proposition.&lt;/p&gt;
+&lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;(2)&lt;/dt&gt;
@@ -140,7 +140,7 @@ more details a the &lt;a href=&#34;http://www.eg-models.de/models/Classical_Mode
 
 &lt;h2 id=&#34;sagemath&#34;&gt;SageMath&lt;/h2&gt;
 
-&lt;p&gt;Here is a plain sage session. According to &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html&#34; target=&#34;_blank&#34;&gt;the documentation&lt;/a&gt;, the function &lt;code&gt;Torus&lt;/code&gt; returns Csaszar&amp;rsquo;s Torus.&lt;/p&gt;
+&lt;p&gt;Here is a plain sage session. According to &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html&#34; target=&#34;_blank&#34;&gt;the documentation&lt;/a&gt;, the function &lt;code&gt;Torus&lt;/code&gt; returns Csaszar&#39;s Torus.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sage&#34;&gt;sage: T = simplicial_complexes.Torus();
 sage: T.faces()
@@ -183,7 +183,7 @@ sage: T.faces()
       (0, 3, 4)])}
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;After a little bit of reordering, faces of sage&amp;rsquo;s $T$ are&lt;/p&gt;
+&lt;p&gt;After a little bit of reordering, faces of sage&#39;s $T$ are&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;[(0, 1, 2),
  (0, 1, 5),
@@ -327,11 +327,11 @@ True
 
 &lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
 
-&lt;p&gt;The problem of embedding is not trivial. But &amp;hellip;&lt;/p&gt;
+&lt;p&gt;The problem of embedding is not trivial. But ...&lt;/p&gt;
 
 &lt;h2 id=&#34;poincaré-homology-3-sphere&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
 
-&lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on...&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: Sigma3 = simplicial_complexes.PoincareHomologyThreeSphere()
 sage: Sigma3.homology()
