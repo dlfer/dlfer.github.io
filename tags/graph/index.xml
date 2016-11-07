@@ -202,27 +202,16 @@ $c_ 1$ is the number of edges of $K$.&lt;/dd&gt;
 
 &lt;p&gt;&lt;em&gt;Proof:&lt;/em&gt;
 Let $T\subset K$ be a spanning tree, with -say- $l+1$ vertices.
-Let $z\in Z_ 1 (T) = \ker \partial_ 1$ be a 1-cycle in $T$.
+By definition, $Z_ 1(T) = 0$.
 Let $R$ be a vertex of $T$.
 It is possible to define an ascending chain of trees
 $\{R\} = T_ 0 \subset  T_ 1 \subset \ldots \subset T_ l = T$,
 such that the $j$-th tree $T_ j$ has $j+1$ vertices.
 Let $P_ j$ denote the vertex of $T_ j $ which is not in $T_ {j-1}$ (if $j=0$,
 $P_ 0 =R$). Such a vertex, for $j&amp;gt;0$, belongs to a unique edge in $T_ j$:
-let $P_ j&#39;$ be the other vertex of such a simplex. Of course,
-$P_ j&#39; \in T_ {j-1}$.&lt;br /&gt;
-Hence, the set of edges of $T$ is given by all the $[P&#39;_ j, P_ j]$, and
-$$
-z = \sum_ {j=1}^l  \alpha_ j [P&#39;_ j, P_ j]
-\implies
-\partial_ 1 z =
-\sum_ {j=1}^l  \alpha_ j (P_ j - P&#39;_ j),
-$$
-and
-$ \partial_ 1 z = 0 \implies \alpha_ l =0 \implies \alpha_ {l-1} = 0 \implies \ldots \ldots \alpha_ 0 = 0, $
-which means $Z_ 1(T_ j) = 0 $ for each $j$. In particular $Z_ 1(T) = 0$.&lt;/p&gt;
-
-&lt;p&gt;Now, consider that $T$ has $c_ 0$ vertices (the same as $K$), and $c_ 0-1$ edges (after $R$,
+let $P_ j&#39;$ be the other vertex of such a simplex.
+Hence $T_ j$ has $j+1$ vertices and $j$ edges, and therefore
+$T$ has $c_ 0$ vertices (the same as $K$), and $c_ 0-1$ edges (after $R$,
 $T$ is obtained by adding iteratively $l$ edges). Let $Y$ denote the set of edges
 of $K$ which are &lt;strong&gt;not&lt;/strong&gt; in $T$: it has $r= c_ 1 - (c_ 0 - 1)= c_ 1 - c_ 0 + 1$ elements.
 Let $\pi \from C_ 1(K) \to \ZZ[Y]\cong \ZZ^r $
@@ -282,6 +271,37 @@ $$
 is a boundary. Therefore $B_ 0(K) = \ker \epsilon$, and
 $H_ 0(K) = \ZZ$.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;$\newcommand{\rk}{\operatorname{rank}}$&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remark:&lt;/strong&gt;
+Given a short exact sequence of abelian groups $0\to A \to B \to C \to 0$,
+one has $\rk B = \rk A + \rk C$.
+Now, consider the two exact sequences
+$$
+0 \to B_ j \to Z_ j \to  H_ j \to 0
+\implies
+\rk Z_ j = \rk B_ j + \rk H_ j
+$$
+$$
+0 \to Z_ {j} \to C_  j \to B_ {j-1} \to 0
+\implies
+\rk C_ j = \rk Z_ j + \rk B_ {j-1},
+$$
+which implies
+$$\begin{aligned}
+\sum_ {j} (-1)^j \rk C_ j &amp;amp; =
+\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\&lt;br /&gt;
+&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\&lt;br /&gt;
+&amp;amp;=
+\sum_ {j} (-1)^j \rk B_ j  +
+\sum_ {j} (-1)^{j+1} \rk B_ j +
+\sum_ {j} (-1)^j \rk H_ j  \\&lt;br /&gt;
+&amp;amp;=
+\sum_ {j} (-1)^j \rk H_ j
+\end{aligned}
+$$
+which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.&lt;/p&gt;
 </description>
         </item>
       
