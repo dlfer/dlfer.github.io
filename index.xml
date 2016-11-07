@@ -25,7 +25,7 @@ That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices
 and $\Phi_ K$ is the set of  simplexes,
 with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where
 $E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed &lt;em&gt;edges&lt;/em&gt; of $K$)
-and $\Phi^0_ K = { {P} : P \in X_ K }$ are the $0$-dimensional simplexes (sometimes
+and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes
 termed again &lt;em&gt;vertices&lt;/em&gt; of $K$).&lt;/p&gt;
 
 &lt;p&gt;A &lt;em&gt;subgraph&lt;/em&gt; $X \subset K$ is a graph with as vertices
