@@ -1021,7 +1021,7 @@ sage: len(G)
 &lt;br /&gt;&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;p&gt;A little bit of &lt;a href=&#34;www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sagemath&lt;/a&gt; help in finding such permutations:&lt;/p&gt;
+&lt;p&gt;A little bit of &lt;a href=&#34;http://www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sagemath&lt;/a&gt; help in finding such permutations:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;T = simplicial_complexes.Torus();
 
