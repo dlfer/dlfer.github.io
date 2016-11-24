@@ -791,7 +791,7 @@ clear: both;
 
 
 .poem { 
-    font-family: 'Alegreya', serif;
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     line-height: 1.25;
     min-height: 100%;
@@ -805,14 +805,14 @@ clear: both;
 }
 
 .poem h2 {
- font-family: 'Alegreya', serif;	
+ font-family: 'Merriweather', serif;	
  font-variant: small-caps;
  text-align: left;
  margin: 0;
  padding: 0;
 }
 .poem h5 {
- font-family: 'Alegreya', serif;	
+ font-family: 'Merriweather', serif;	
  font-style: italic;
  text-align: left;
  margin: 0;
