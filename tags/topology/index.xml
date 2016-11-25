@@ -2,12 +2,347 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/tags/topology/</link>
+    <link>http://blog.dlfer.xyz/tags/topology/index.xml</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2016</rights>
-    <updated>2016-10-05 14:24:49 &#43;0200 CEST</updated>
+    <updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
 
+    
+      
+        <item>
+          <title>Császár torus, python and sagemath</title>
+          <link>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
+          <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
+          <description>
+
+&lt;h2 id=&#34;the-simplicial-complex&#34;&gt;The simplicial complex&lt;/h2&gt;
+
+&lt;p&gt;Consider the (abstract) simplicial  $T$ defined as follows:
+vertices are
+$$
+X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}.
+$$&lt;/p&gt;
+
+&lt;p&gt;Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ :
+$$
+\begin{aligned}
+H_ x &amp;amp;=
+\{ \{j,j+1\}  : j =0 \ldots 6 \}
+= \{ \{j,j-1\}  : j =0 \ldots 6 \}
+\\&lt;br /&gt;
+V_ x &amp;amp;=
+\{ \{ j,j+x \}  : j =0 \ldots 6 \}
+= \{ \{ j,j-x \}  : j =0 \ldots 6 \}
+\\&lt;br /&gt;
+D_ x &amp;amp;=
+\{ \{ j, j + x+1 \} : j = 0 \ldots 6 \}
+ = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \}
+\\&lt;br /&gt;
+\Phi_ x &amp;amp; =
+H_ x
+\cup
+V_ x
+\cup
+D_ x
+\end{aligned}
+$$
+where all the integers $j$ are meant $\mod 7$.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;(1)&lt;/dt&gt;
+&lt;dd&gt;The set $\Phi_ x$ has 21 elements (i.e., it is the set of all possible subsets of $X$ of cardinality $2$)
+if and only if $x=2$ or $x=4$.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;em&gt;Proof&lt;/em&gt;:
+$\Phi_ x$ has 21 elements if and only if the three sets $H_ x$, $V_ x$ and $D_ x$ are disjoint.
+Hence if they are disjoint then $x\neq 0$ (otherwise $D_ x =H_ x$),
+$x\neq 1,6$ (otherwise $H_ x = V_ x$),
+$x\neq 3$ (otherwise $\{0,3\} = \{ 3,7 \} \in V_ x \cap D_ x $),
+and
+$x\neq 5$ (otherwise $\{0,6\} = \{6,7 \} \in D_ x \cap H_ x$).
+We are left with the cases
+$x=2$ or $x=4$.
+Lazy idea: write a few lines of python (2.7) and compute the number of elements
+of $\Phi_ x$ for each $x$...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; def NumberOfPhi(x):
+...  H= [ frozenset([j,(j+1) % 7 ]) for j in range(7) ]
+...  V= [ frozenset([j,(j+x) % 7 ]) for j in range(7) ]
+...  D = [ frozenset([j,(j+x+1) % 7 ]) for j in range(7) ]
+...  return len( set(H) | set(V) | set(D) )
+... 
+&amp;gt;&amp;gt;&amp;gt; 
+&amp;gt;&amp;gt;&amp;gt; [ NumberOfPhi(x) for x in range(7) ]
+[14, 14, 21, 14, 21, 14, 14]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the end of the proof. &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, for $2$-simplexes we can proceed in a similar way. For each $x$,
+let
+$$ \begin{aligned}
+L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+U_ x  &amp;amp; = \{ \{ j, j+x, j+x+1 \} : j = 0 \ldots 6 \}.
+\end{aligned}
+$$
+Hence
+$$ \begin{aligned}
+L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\&lt;br /&gt;
+U_ 4  &amp;amp; = \{ \{ j, j+4, j+5 \} : j = 0 \ldots 6 \} \implies U_ 4 = L_ 2.
+\end{aligned}
+$$&lt;/p&gt;
+
+&lt;p&gt;A little bit of typing and&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt;&amp;gt; def Inter(x):
+...  L = [ frozenset( [j,(j+1)%7, (j+x+1)%7 ]) for j in range(7) ]
+...  U = [ frozenset( [j,(j+x)%7, (j+x+1)%7 ]) for j in range(7) ]
+...  return len( set(L) | set(V) )
+... 
+&amp;gt;&amp;gt;&amp;gt; [ (x,Inter(x)) for x in range(7) ]
+[(0, 14), (1, 14), (2, 14), (3, 14), (4, 14), (5, 14), (6, 14)]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This implies that for $x=2,4$ the following is an abstract simplicial complex:
+$$
+T = ( X, \{ L_ 2 \cup U_ 2 \cup \ldots \} )
+ = ( X, \{ L_ 4 \cup U_ 4 \cup \ldots \} ),
+$$
+where the dots stand for all possible $1$-dimensional (i.e. 21) and $0$-dimensional (i.e. 7) simplexes.
+The complex can be represented as in the following badly drawn diagram:
+&lt;center&gt;
+&lt;img src=&#34;http://blog.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;(2)&lt;/dt&gt;
+&lt;dd&gt;The abstract simplicial complex $T$ has the geometric realization which is homeomorphic to the torus $T^2 = S^1 \times S^1$.&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;em&gt;Proof&lt;/em&gt;:
+It follows from the badly drawn diagram. The $2$-simplices $U_ 2$
+are the upper diagonal triangles. The $2$-simplices
+$L_ 2$ are the lower diagonal triangles.
+The $21$ elements of $\Phi_ 2$ are all the edges (up to identification).&lt;br /&gt;
+&lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This complex is actually embeddable in $\RR^3$: on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Cs%C3%A1sz%C3%A1r_polyhedron&#34; target=&#34;_blank&#34;&gt;Wikipedia page&lt;/a&gt;
+one can find an embedding;
+more details a the &lt;a href=&#34;http://www.eg-models.de/models/Classical_Models/2001.02.069/_preview.html&#34; target=&#34;_blank&#34;&gt;page in the Archive of Electronic Geometry Models&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;sagemath&#34;&gt;SageMath&lt;/h2&gt;
+
+&lt;p&gt;Here is a plain sage session. According to &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html&#34; target=&#34;_blank&#34;&gt;the documentation&lt;/a&gt;, the function &lt;code&gt;Torus&lt;/code&gt; returns Csaszar&#39;s Torus.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sage&#34;&gt;sage: T = simplicial_complexes.Torus();
+sage: T.faces()
+{-1: set([()]),
+ 0: set([(4,), (5,), (3,), (0,), (1,), (6,), (2,)]),
+ 1: set([(0, 6),
+      (0, 5),
+      (3, 6),
+      (1, 2),
+      (1, 5),
+      (1, 6),
+      (1, 3),
+      (0, 3),
+      (2, 6),
+      (2, 4),
+      (1, 4),
+      (3, 5),
+      (3, 4),
+      (2, 3),
+      (4, 6),
+      (2, 5),
+      (5, 6),
+      (0, 2),
+      (0, 1),
+      (0, 4),
+      (4, 5)]),
+ 2: set([(2, 4, 5),
+      (0, 1, 5),
+      (0, 4, 6),
+      (1, 3, 6),
+      (0, 3, 5),
+      (1, 2, 4),
+      (2, 3, 5),
+      (1, 3, 4),
+      (2, 3, 6),
+      (0, 2, 6),
+      (1, 5, 6),
+      (0, 1, 2),
+      (4, 5, 6),
+      (0, 3, 4)])}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After a little bit of reordering, faces of sage&#39;s $T$ are&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;[(0, 1, 2),
+ (0, 1, 5),
+ (0, 2, 6),
+ (0, 3, 4),
+ (0, 3, 5),
+ (0, 4, 6),
+ (1, 2, 4),
+ (1, 3, 4),
+ (1, 3, 6),
+ (1, 5, 6),
+ (2, 3, 5),
+ (2, 3, 6),
+ (2, 4, 5),
+ (4, 5, 6)]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;while faces in $U_ 2 \cup L_ 2$ are different.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;[(0, 1, 3),
+ (0, 1, 5),
+ (0, 2, 3),
+ (0, 2, 6),
+ (0, 4, 5),
+ (0, 4, 6),
+ (1, 2, 4),
+ (1, 2, 6),
+ (1, 3, 4),
+ (1, 5, 6),
+ (2, 3, 5),
+ (2, 4, 5),
+ (3, 4, 6),
+ (3, 5, 6)]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It it just a permutation of indices, or they are distinct as simplicial complexes?
+The automorphism group of $T$ has 42 elements&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: G=T.automorphism_group()
+sage: len(G)
+42
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and hence there are 120 = 7!/42 distinct possible classes of
+ permutations. The easiest is $(0,6)$, which transforms one set of 2-faces into the other.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;(3)&lt;/dt&gt;
+&lt;dd&gt;The two simplicial complexes are equivalent.
+&lt;br /&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;A little bit of &lt;a href=&#34;http://www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sagemath&lt;/a&gt; help in finding such permutations:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;T = simplicial_complexes.Torus();
+
+Facce= list(T.faces()[2])
+Facce.sort()
+
+def L(x):
+ return set([ frozenset( [j,(j+1) % 7, (j+x+1) % 7 ]) for j in range(7) ] )
+def U(x):
+ return set([ frozenset( [j,(j+x) % 7, (j+x+1) % 7 ]) for j in range(7) ] )
+
+myFacce=[tuple(a) for a in ( L(2) | U(2) ) ]
+myFacce.sort()
+
+G =SymmetricGroup((0,1,2,3,4,5,6))
+
+def PermutedFacce(g,ListOfTuples):
+ result=[]
+ for t in ListOfTuples:
+  goft=[g(x) for x in t ]
+  goft.sort()
+  result = result + [tuple(goft)]
+ result.sort()
+ return result
+
+found=0
+for g in G:
+ pFacce=PermutedFacce(g,Facce)
+ if pFacce == myFacce:
+  found += 1
+  print &amp;quot;found n. &amp;quot;, found, &amp;quot; : &amp;quot;, g
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And interactively loading it (saved as &lt;code&gt;c.sage&lt;/code&gt;) gives the following session.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: runfile (&amp;quot;c.sage&amp;quot;)
+found n.  1  :  (2,5,3)(4,6)
+found n.  2  :  (1,2,3,4,5,6)
+found n.  3  :  (1,3,6,5,2)
+found n.  4  :  (1,4,3)(2,6)
+found n.  5  :  (1,5)(2,4)
+found n.  6  :  (1,6,3,5,4)
+found n.  7  :  (0,1)(2,3,6,4)
+found n.  8  :  (0,1,2,6,5,4)
+found n.  9  :  (0,1,3,5)(2,4,6)
+found n.  10  :  (0,1,4,5,3)
+found n.  11  :  (0,1,5,6,3,2)
+found n.  12  :  (0,1,6)(2,5)(3,4)
+found n.  13  :  (0,2,6,1)(3,5)
+found n.  14  :  (0,2,4,3)(5,6)
+found n.  15  :  (0,2)(1,3,4)
+found n.  16  :  (0,2,5,1,4)(3,6)
+found n.  17  :  (0,2,3,1,5,4,6)
+found n.  18  :  (0,2,1,6,4,5)
+found n.  19  :  (0,3,4,6,5,1)
+found n.  20  :  (0,3,6,2)(4,5)
+found n.  21  :  (0,3,1,2,5)
+found n.  22  :  (0,3,5,6)(1,4,2)
+found n.  23  :  (0,3)(1,5,2,6,4)
+found n.  24  :  (0,3,2,4)(1,6)
+found n.  25  :  (0,4,1)(2,5,6)
+found n.  26  :  (0,4)(2,3,5)
+found n.  27  :  (0,4,6,3)(1,2)
+found n.  28  :  (0,4,5,1,3,2,6)
+found n.  29  :  (0,4,3,6,1,5)
+found n.  30  :  (0,4,2)(1,6,5,3)
+found n.  31  :  (0,5,4,3,2,1)
+found n.  32  :  (0,5)(2,6,3,4)
+found n.  33  :  (0,5,3,6)(1,2,4)
+found n.  34  :  (0,5,6,4)(1,3)
+found n.  35  :  (0,5,2)(1,4,6)
+found n.  36  :  (0,5,1,6,2,3)
+found n.  37  :  (0,6,3,1)(2,4,5)
+found n.  38  :  (0,6)
+found n.  39  :  (0,6,4,3,5,1,2)
+found n.  40  :  (0,6,1,3)(2,5,4)
+found n.  41  :  (0,6,5)(1,4)(2,3)
+found n.  42  :  (0,6,2,1,5,3,4)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Equivalently, and shortly:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: K=SimplicialComplex(myFacce)
+sage: T=simplicial_complexes.Torus()
+sage: T.is_isomorphic(K)
+True
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
+
+&lt;p&gt;The problem of embedding is not trivial. But ...&lt;/p&gt;
+
+&lt;h2 id=&#34;poincaré-homology-3-sphere&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
+
+&lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;sage: Sigma3 = simplicial_complexes.PoincareHomologyThreeSphere()
+sage: Sigma3.homology()
+{0: 0, 1: 0, 2: 0, 3: Z}
+sage: Sigma3.fundamental_group().cardinality()
+sage: [len(Sigma3.faces()[x]) for x in range(4)]
+[16, 106, 180, 90]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
     
       
         <item>

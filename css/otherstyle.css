@@ -787,12 +787,11 @@ content: '';
 clear: both;
 }
 
-
 /* Even more pathetic trial to render poetry */ 
 
 
 .poem { 
-    font-family: 'Alegreya', serif;
+    font-family: 'Merriweather', serif;
     font-size: 16px;
     line-height: 1.25;
     min-height: 100%;
@@ -806,14 +805,14 @@ clear: both;
 }
 
 .poem h2 {
- font-family: 'Alegreya', serif;	
+ font-family: 'Merriweather', serif;	
  font-variant: small-caps;
  text-align: left;
  margin: 0;
  padding: 0;
 }
 .poem h5 {
- font-family: 'Alegreya', serif;	
+ font-family: 'Merriweather', serif;	
  font-style: italic;
  text-align: left;
  margin: 0;
@@ -833,4 +832,18 @@ clear: both;
 .poem-stanza { margin-top: 1em; margin-bottom: 0em; }
 .poem-firstline { text-indent: -2em; }
 .poem-line { text-indent: -4em; }
+
+
+/* Now lettrine (drop caps) try */ 
+span.lettrine {
+  font-variant: small-caps;
+  float       : left;
+  font-size   : 3.56em;
+  line-height : 0.5;
+  margin      : 0.205em 0.053em 0 0;
+}
+
+.lettrine + span {
+	margin-left: -0.5em;
+}
 
