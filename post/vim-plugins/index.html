@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+
+  <head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+  <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
+  <meta name="author" content="DL Ferrario">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> 
+      Updating my (Xe)LaTeX vim plugin &middot; DL Ferrario&#39;s Test  Web Page
+     </title>
+
+  
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/highlight.min.css">  
+  <script src="http://blog.dlfer.xyz//js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/academicons.min.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/otherstyle.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/poole.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/syntax.css">
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/lanyon.css">
+  
+  <link rel="stylesheet" href="http://blog.dlfer.xyz//css/fonts.css">
+  
+   
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="http://blog.dlfer.xyz/assets/favicon.ico">
+</head>
+
+  <body class="theme-base-0x">
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<div class="sidebar" id="sidebar">
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/">Home</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/post">All Posts</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/topics/">Topics</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/tags/">Tags</a>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About/now</a>
+      
+    
+  </nav>
+</div>
+
+<title>
+    
+      Updating my (Xe)LaTeX vim plugin &middot; DL Ferrario&#39;s Test  Web Page
+    
+  </title>
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://blog.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
+     
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Updating my (Xe)LaTeX vim plugin</h1>
+  <span class="post-date">2017-07-04</span>
+  
+
+<h3 id="after-some-years-it-was-time-to-update-my-latex-vim-plugins">After some years, it was time to update my LaTeX vim plugins.</h3>
+
+<p>My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.</p>
+
+<p>Now, with the <strong>vundle</strong> plugin.</p>
+
+<p>Things to do:
+I had <a href="https://github.com/VundleVim/Vundle.vim" target="_blank">vundle</a> installed already.
+I needed to add lervag's <a href="https://github.com/lervag/vimtex" target="_blank">vimtex</a> and ajh17's <a href="https://github.com/ajh17/VimCompletesMe" target="_blank">VimCompletesMe</a>.</p>
+
+<p>Hence, in <strong>.vimrc</strong>:</p>
+
+<pre><code>&quot; set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+&quot; let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'lervag/vimtex'
+let g:vimtex_view_general_viewer='okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+let g:vimtex_view_general_options_latexmk = '--unique'
+
+Plugin 'ajh17/VimCompletesMe'
+augroup VimCompletesMeTex
+   autocmd!
+   autocmd FileType tex
+       \ let b:vcm_omni_pattern = g:vimtex#re#neocomplete
+augroup END
+&quot; All of your Plugins must be added before the following line
+call vundle#end()            &quot; required
+filetype plugin indent on    &quot; required
+</code></pre>
+
+<p>Remember <strong>:PluginInstall</strong> after adding these lines.</p>
+
+<p>Commands to remember:</p>
+
+<pre><code>\ll       =&gt; Start/stop continuous compiling
+\lv       =&gt; Forward search in the PDF
+\le       =&gt; Parse the log file.
+\lc | \lC =&gt; clean .aux files (or also .pdf file)
+[TAB]     =&gt; AutoCompletion
+</code></pre>
+
+<p>At the first lines of the master .TEX file the line:</p>
+
+<pre><code>%! TEX program = xelatex
+</code></pre>
+
+<p>Then <strong>okular</strong> shoul have the inverse/backward search enabled with the Custom Text Editor as
+one of the two lines:</p>
+
+<pre><code>gvim --remote-silent +%l &quot;%f&quot;
+gvim --servername GVIM --remote +%l %f
+</code></pre>
+
+<p>Further <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt" target="_blank">Help</a>.</p>
+
+<h3 id="spell-check">Spell check</h3>
+
+<pre><code>map &lt;C-s&gt; : set spl=it spell
+setlocal spell spelllang=it_it
+set spell spelllang=en_us
+</code></pre>
+
+<h3 id="multi-file">Multi-file</h3>
+
+<p>As with the documentation in <strong>:h vimtex-multi-file</strong>,
+either add the root line in all subfiles</p>
+
+<pre><code>%! TEX root = /path/to/my-main.tex
+</code></pre>
+
+<p>or use the <strong>.latexmain</strong> specifier:</p>
+
+<pre><code>touch main.tex.latexmain
+</code></pre>
+
+<h3 id="color-scheme-and-font">Color scheme and font</h3>
+
+<pre><code>colorscheme ir_black
+set guifont=Courier\ New\ 16
+</code></pre>
+
+</div>
+
+     </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+	    <a href="http://blog.dlfer.xyz/p/privacy/">Privacy</a> &middot;
+            Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+        </p>
+    </div>
+</footer>
+    
+  
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js","AMScd.js"] }
+                                           } 
+                                });
+        </script>
+        <script async src="http://blog.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
+        
+  
+ 
+</body>
+</html>
+
