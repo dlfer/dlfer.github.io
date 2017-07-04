@@ -12,10 +12,10 @@
       
         <item>
           <title>Updating my (Xe)LaTeX vim plugin</title>
-          <link>http://blog.dlfer.xyz/post/vim-plugins/</link>
+          <link>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
           <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
           <author></author>
-          <guid>http://blog.dlfer.xyz/post/vim-plugins/</guid>
+          <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
 &lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
@@ -100,8 +100,12 @@ either add the root line in all subfiles&lt;/p&gt;
 
 &lt;h3 id=&#34;color-scheme-and-font&#34;&gt;Color scheme and font&lt;/h3&gt;
 
-&lt;pre&gt;&lt;code&gt;colorscheme ir_black
+&lt;pre&gt;&lt;code&gt;if has(&#39;gui_running&#39;)
+colorscheme ir_black
 set guifont=Courier\ New\ 16
+else
+color desert
+endif
 &lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>

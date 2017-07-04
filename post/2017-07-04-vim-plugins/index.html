@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title> 
-      Topics &middot; DL Ferrario&#39;s Test  Web Page
+      Updating my (Xe)LaTeX vim plugin &middot; DL Ferrario&#39;s Test  Web Page
      </title>
 
   
@@ -49,7 +49,7 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/">Home</a>
     <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/post">All Posts</a>
-    <a class="sidebar-nav-item  active " href="http://blog.dlfer.xyz/topics/">Topics</a>
+    <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/topics/">Topics</a>
     <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/tags/">Tags</a>
     
     
@@ -106,7 +106,7 @@
 
 <title>
     
-      Topics &middot; DL Ferrario&#39;s Test  Web Page
+      Updating my (Xe)LaTeX vim plugin &middot; DL Ferrario&#39;s Test  Web Page
     
   </title>
     
@@ -121,112 +121,104 @@
       </div>
       <div class="container content">
 
-<section id="main-content" class="container main_content terms topic">
-  <header class="container">
-  <h1>Topics
-</h1>
 
-  </header>
+<div class="post">
+  <h1 class="post-title">Updating my (Xe)LaTeX vim plugin</h1>
+  <span class="post-date">2017-07-04</span>
   
-  
-  
-  <article class="container">
-    <h2> 
-      <a href="http://blog.dlfer.xyz/topics/algebra">algebra</a>
-    </h2>
-    <ul> 
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2017-04-28-sylow/">Wielandt&#39;s proof of Sylow&#39;s Theorem</a>
-      </li>
-      
-    </ul>
-  </article>
-  
-  <article class="container">
-    <h2> 
-      <a href="http://blog.dlfer.xyz/topics/poetry">poetry</a>
-    </h2>
-    <ul> 
-      <li>
-        <a href="http://blog.dlfer.xyz/poem/deisepolcri/">Dei sepolcri (Ugo Foscolo)</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/">Rescritto imperiale sull&#39;educazione (1890)</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/poem/vidadeperros/">Vida de perros (Nicanor Parra)</a>
-      </li>
-      
-    </ul>
-  </article>
-  
-  <article class="container">
-    <h2> 
-      <a href="http://blog.dlfer.xyz/topics/topology">topology</a>
-    </h2>
-    <ul> 
-      <li>
-        <a href="http://blog.dlfer.xyz/post/counterexample-to-adjoint/">A counter-example for the exponentiation / adjoint of a function</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-10-12-coproducts/">Categorical products and coproducts </a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/">Computing the Smith Normal Form of a matrix, and homology groups?</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/">Császár torus, python and sagemath</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-11-25-diracscissors/">Fundamental group of SO(3) and Dirac&#39;s scissors</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-11-04-graphs/">Graphs, trees and simplicial complexes</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-11-21-topappl/">Homology of (simplicial) spheres and applications</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/">Joins and Products of polyhedra</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-11-18-barycentric/">Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-11-09-Tensors/">Ranks, Tensors and Abelian Groups</a>
-      </li>
-      
-    </ul>
-  </article>
-  
-  <article class="container">
-    <h2> 
-      <a href="http://blog.dlfer.xyz/topics/var">var</a>
-    </h2>
-    <ul> 
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/">Lettera sulla Polonia (1574-09-25)</a>
-      </li>
-      
-      <li>
-        <a href="http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/">Updating my (Xe)LaTeX vim plugin</a>
-      </li>
-      
-    </ul>
-  </article>
-  
-</section>
+
+<h3 id="after-some-years-it-was-time-to-update-my-latex-vim-plugins">After some years, it was time to update my LaTeX vim plugins.</h3>
+
+<p>My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.</p>
+
+<p>Now, with the <strong>vundle</strong> plugin.</p>
+
+<p>Things to do:
+I had <a href="https://github.com/VundleVim/Vundle.vim" target="_blank">vundle</a> installed already.
+I needed to add lervag's <a href="https://github.com/lervag/vimtex" target="_blank">vimtex</a> and ajh17's <a href="https://github.com/ajh17/VimCompletesMe" target="_blank">VimCompletesMe</a>.</p>
+
+<p>Hence, in <strong>.vimrc</strong>:</p>
+
+<pre><code>&quot; set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+&quot; let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'lervag/vimtex'
+let g:vimtex_view_general_viewer='okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+let g:vimtex_view_general_options_latexmk = '--unique'
+
+Plugin 'ajh17/VimCompletesMe'
+augroup VimCompletesMeTex
+   autocmd!
+   autocmd FileType tex
+       \ let b:vcm_omni_pattern = g:vimtex#re#neocomplete
+augroup END
+&quot; All of your Plugins must be added before the following line
+call vundle#end()            &quot; required
+filetype plugin indent on    &quot; required
+</code></pre>
+
+<p>Remember <strong>:PluginInstall</strong> after adding these lines.</p>
+
+<p>Commands to remember:</p>
+
+<pre><code>\ll       =&gt; Start/stop continuous compiling
+\lv       =&gt; Forward search in the PDF
+\le       =&gt; Parse the log file.
+\lc | \lC =&gt; clean .aux files (or also .pdf file)
+[TAB]     =&gt; AutoCompletion
+</code></pre>
+
+<p>At the first lines of the master .TEX file the line:</p>
+
+<pre><code>%! TEX program = xelatex
+</code></pre>
+
+<p>Then <strong>okular</strong> shoul have the inverse/backward search enabled with the Custom Text Editor as
+one of the two lines:</p>
+
+<pre><code>gvim --remote-silent +%l &quot;%f&quot;
+gvim --servername GVIM --remote +%l %f
+</code></pre>
+
+<p>Further <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt" target="_blank">Help</a>.</p>
+
+<h3 id="spell-check">Spell check</h3>
+
+<pre><code>map &lt;C-s&gt; : set spl=it spell
+setlocal spell spelllang=it_it
+set spell spelllang=en_us
+</code></pre>
+
+<h3 id="multi-file">Multi-file</h3>
+
+<p>As with the documentation in <strong>:h vimtex-multi-file</strong>,
+either add the root line in all subfiles</p>
+
+<pre><code>%! TEX root = /path/to/my-main.tex
+</code></pre>
+
+<p>or use the <strong>.latexmain</strong> specifier:</p>
+
+<pre><code>touch main.tex.latexmain
+</code></pre>
+
+<h3 id="color-scheme-and-font">Color scheme and font</h3>
+
+<pre><code>if has('gui_running')
+colorscheme ir_black
+set guifont=Courier\ New\ 16
+else
+color desert
+endif
+</code></pre>
+
+</div>
+
      </div>
     </div>
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
