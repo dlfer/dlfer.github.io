@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.16" />
+  <meta name="generator" content="Hugo 0.17" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -124,7 +124,8 @@
 
 <div class="post">
   <h1 class="post-title">Updating my (Xe)LaTeX vim plugin</h1>
-  <span class="post-date">2017-07-04</span>
+  <span class="post-date">2017-07-04 
+  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2017-08-08) </span>
   
 
 <h3 id="after-some-years-it-was-time-to-update-my-latex-vim-plugins">After some years, it was time to update my LaTeX vim plugins.</h3>
@@ -148,8 +149,16 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'lervag/vimtex'
 let g:vimtex_view_general_viewer='okular'
+&quot; 'skim' for Mac OSX instead.
+&quot; let g:Tex_ViewRule_pdf = 'Skim'
+&quot; also: forward search
+&quot; map ,p :w&lt;CR&gt;:silent !/Applications/Skim.app/Contents/SharedSupport/displayline
+&quot; on Windows Linux (WSL) 'zathura'
 let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 let g:vimtex_view_general_options_latexmk = '--unique'
+&quot; let g:vimtex_echo_ignore_wait = 1
+&quot; let g:vimtex_quickfix_latexlog = {'default' : 0}
+let g:vimtex_quickfix_open_on_warning = 0
 
 Plugin 'ajh17/VimCompletesMe'
 augroup VimCompletesMeTex
@@ -210,12 +219,66 @@ either add the root line in all subfiles</p>
 <h3 id="color-scheme-and-font">Color scheme and font</h3>
 
 <pre><code>if has('gui_running')
-colorscheme ir_black
-set guifont=Courier\ New\ 16
+ colorscheme ir_black
+ set guifont=Courier\ New\ 16
+ set scrolloff=3
 else
-color desert
+ color desert
 endif
+
+&quot; OSX:
+&quot; set gfn=Courier\ New:h24.00
+&quot; set gfn=Menlo:h24.00
 </code></pre>
+
+<h3 id="and">And ...</h3>
+
+<p>To use gvim without GNOME in linuxmint/ubuntu:</p>
+
+<pre><code>sudo apt-get remove vim-gnome
+sudo apt-get install vim-gtk
+</code></pre>
+
+<p>with some other configuration options:</p>
+
+<pre><code>set hlsearch
+set incsearch
+set matchtime=5
+set showmatch
+set smartindent
+set noshiftround
+</code></pre>
+
+<h3 id="how-to-silence-unwanted-latex-warnings">How to silence unwanted LaTeX warnings?</h3>
+
+<p>Use the package <a href="https://www.ctan.org/pkg/silence?lang=en" target="_blank">silence</a>.</p>
+
+<pre><code>\RequirePackage{silence} % before documentclass
+\WarningFilter{latex}{Marginpar}
+</code></pre>
+
+<p>But I cannot silence overfull hboxes.</p>
+
+<h3 id="bibliography-bibtex-references">Bibliography, BibTeX references</h3>
+
+<p>Unfortunately  <a href="http://bibdesk.sourceforge.net/" target="_blank">bibdesk</a> only exists
+for OSX. Pity.</p>
+
+<p>Alternatives:
+<a href="http://www.jabref.org" target="_blank">JabRef</a>  (are there other options?)</p>
+
+<p>Put filename.bib into a directory, where all PDF files will go, and use
+the import-bibtex-from-pdf functionality.
+But the DOI automatic import does not work, and getting metadata from PDF
+really does not work.
+Chrome plugin does not exist. Firefox plugin seems not woking.</p>
+
+<p>What else?</p>
+
+<p>Trying <a href="http://www.zotero.org" target="_blank">zotero</a>...
+kind of it does not really work with syncing without their thing,
+but at least DOI and PDF-to-bibtex seem working. It needs some
+understanding and adapting, maybe. Next time.</p>
 
 </div>
 
@@ -226,7 +289,7 @@ endif
 <footer class="site-footer">
     <div class="container">
         <p class="powered-by">
-            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+            Copyright © 2016 - 3016, DL Ferrario &middot; 
 	    <a href="http://blog.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>

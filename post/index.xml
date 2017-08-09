@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/post/</link>
+    <link>http://blog.dlfer.xyz/post/index.xml</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2017</rights>
@@ -39,8 +39,16 @@ Plugin &#39;VundleVim/Vundle.vim&#39;
 
 Plugin &#39;lervag/vimtex&#39;
 let g:vimtex_view_general_viewer=&#39;okular&#39;
+&amp;quot; &#39;skim&#39; for Mac OSX instead.
+&amp;quot; let g:Tex_ViewRule_pdf = &#39;Skim&#39;
+&amp;quot; also: forward search
+&amp;quot; map ,p :w&amp;lt;CR&amp;gt;:silent !/Applications/Skim.app/Contents/SharedSupport/displayline
+&amp;quot; on Windows Linux (WSL) &#39;zathura&#39;
 let g:vimtex_view_general_options = &#39;--unique file:@pdf\#src:@line@tex&#39;
 let g:vimtex_view_general_options_latexmk = &#39;--unique&#39;
+&amp;quot; let g:vimtex_echo_ignore_wait = 1
+&amp;quot; let g:vimtex_quickfix_latexlog = {&#39;default&#39; : 0}
+let g:vimtex_quickfix_open_on_warning = 0
 
 Plugin &#39;ajh17/VimCompletesMe&#39;
 augroup VimCompletesMeTex
@@ -101,12 +109,66 @@ either add the root line in all subfiles&lt;/p&gt;
 &lt;h3 id=&#34;color-scheme-and-font&#34;&gt;Color scheme and font&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;if has(&#39;gui_running&#39;)
-colorscheme ir_black
-set guifont=Courier\ New\ 16
+ colorscheme ir_black
+ set guifont=Courier\ New\ 16
+ set scrolloff=3
 else
-color desert
+ color desert
 endif
+
+&amp;quot; OSX:
+&amp;quot; set gfn=Courier\ New:h24.00
+&amp;quot; set gfn=Menlo:h24.00
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;and&#34;&gt;And ...&lt;/h3&gt;
+
+&lt;p&gt;To use gvim without GNOME in linuxmint/ubuntu:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get remove vim-gnome
+sudo apt-get install vim-gtk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with some other configuration options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set hlsearch
+set incsearch
+set matchtime=5
+set showmatch
+set smartindent
+set noshiftround
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;how-to-silence-unwanted-latex-warnings&#34;&gt;How to silence unwanted LaTeX warnings?&lt;/h3&gt;
+
+&lt;p&gt;Use the package &lt;a href=&#34;https://www.ctan.org/pkg/silence?lang=en&#34; target=&#34;_blank&#34;&gt;silence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\RequirePackage{silence} % before documentclass
+\WarningFilter{latex}{Marginpar}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I cannot silence overfull hboxes.&lt;/p&gt;
+
+&lt;h3 id=&#34;bibliography-bibtex-references&#34;&gt;Bibliography, BibTeX references&lt;/h3&gt;
+
+&lt;p&gt;Unfortunately  &lt;a href=&#34;http://bibdesk.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;bibdesk&lt;/a&gt; only exists
+for OSX. Pity.&lt;/p&gt;
+
+&lt;p&gt;Alternatives:
+&lt;a href=&#34;http://www.jabref.org&#34; target=&#34;_blank&#34;&gt;JabRef&lt;/a&gt;  (are there other options?)&lt;/p&gt;
+
+&lt;p&gt;Put filename.bib into a directory, where all PDF files will go, and use
+the import-bibtex-from-pdf functionality.
+But the DOI automatic import does not work, and getting metadata from PDF
+really does not work.
+Chrome plugin does not exist. Firefox plugin seems not woking.&lt;/p&gt;
+
+&lt;p&gt;What else?&lt;/p&gt;
+
+&lt;p&gt;Trying &lt;a href=&#34;http://www.zotero.org&#34; target=&#34;_blank&#34;&gt;zotero&lt;/a&gt;...
+kind of it does not really work with syncing without their thing,
+but at least DOI and PDF-to-bibtex seem working. It needs some
+understanding and adapting, maybe. Next time.&lt;/p&gt;
 </description>
         </item>
       
