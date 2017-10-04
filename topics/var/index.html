@@ -139,7 +139,7 @@
     <p>
   
   
-    After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion. Now, with the vundle plugin. Things to do: I had vundle installed already. I needed to add lervag's vimtex and ajh17's VimCompletesMe. Hence, in .vimrc: &quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &quot; let Vundle manage Vundle, required Plugin 'VundleVim/Vundle.vim' Plugin 'lervag/vimtex' let g:vimtex_view_general_viewer='okular' let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex' let g:vimtex_view_general_options_latexmk = '--unique' &quot; let g:vimtex_echo_ignore_wait = 1 &quot; let g:vimtex_quickfix_latexlog = {'default' : 0} let g:vimtex_quickfix_open_on_warning = 0 Plugin 'ajh17/VimCompletesMe' augroup VimCompletesMeTex autocmd!
+    After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion. Now, with the vundle plugin. Things to do: I had vundle installed already. I needed to add lervag's vimtex and ajh17's VimCompletesMe. Hence, in .vimrc: &quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &quot; let Vundle manage Vundle, required Plugin 'VundleVim/Vundle.vim' Plugin 'lervag/vimtex' let g:vimtex_view_general_viewer='okular' &quot; 'skim' for Mac OSX instead.
   
 
 

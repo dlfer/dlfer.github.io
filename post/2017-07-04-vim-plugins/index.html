@@ -124,7 +124,8 @@
 
 <div class="post">
   <h1 class="post-title">Updating my (Xe)LaTeX vim plugin</h1>
-  <span class="post-date">2017-07-04</span>
+  <span class="post-date">2017-07-04 
+  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2017-08-08) </span>
   
 
 <h3 id="after-some-years-it-was-time-to-update-my-latex-vim-plugins">After some years, it was time to update my LaTeX vim plugins.</h3>
@@ -148,6 +149,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'lervag/vimtex'
 let g:vimtex_view_general_viewer='okular'
+&quot; 'skim' for Mac OSX instead.
+&quot; let g:Tex_ViewRule_pdf = 'Skim'
+&quot; also: forward search
+&quot; map ,p :w&lt;CR&gt;:silent !/Applications/Skim.app/Contents/SharedSupport/displayline
+&quot; on Windows Linux (WSL) 'zathura'
 let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 let g:vimtex_view_general_options_latexmk = '--unique'
 &quot; let g:vimtex_echo_ignore_wait = 1
@@ -219,6 +225,10 @@ either add the root line in all subfiles</p>
 else
  color desert
 endif
+
+&quot; OSX:
+&quot; set gfn=Courier\ New:h24.00
+&quot; set gfn=Menlo:h24.00
 </code></pre>
 
 <h3 id="and">And ...</h3>
@@ -248,6 +258,27 @@ set noshiftround
 </code></pre>
 
 <p>But I cannot silence overfull hboxes.</p>
+
+<h3 id="bibliography-bibtex-references">Bibliography, BibTeX references</h3>
+
+<p>Unfortunately  <a href="http://bibdesk.sourceforge.net/" target="_blank">bibdesk</a> only exists
+for OSX. Pity.</p>
+
+<p>Alternatives:
+<a href="http://www.jabref.org" target="_blank">JabRef</a>  (are there other options?)</p>
+
+<p>Put filename.bib into a directory, where all PDF files will go, and use
+the import-bibtex-from-pdf functionality.
+But the DOI automatic import does not work, and getting metadata from PDF
+really does not work.
+Chrome plugin does not exist. Firefox plugin seems not woking.</p>
+
+<p>What else?</p>
+
+<p>Trying <a href="http://www.zotero.org" target="_blank">zotero</a>...
+kind of it does not really work with syncing without their thing,
+but at least DOI and PDF-to-bibtex seem working. It needs some
+understanding and adapting, maybe. Next time.</p>
 
 </div>
 
