@@ -150,6 +150,9 @@ Plugin 'lervag/vimtex'
 let g:vimtex_view_general_viewer='okular'
 let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 let g:vimtex_view_general_options_latexmk = '--unique'
+&quot; let g:vimtex_echo_ignore_wait = 1
+&quot; let g:vimtex_quickfix_latexlog = {'default' : 0}
+let g:vimtex_quickfix_open_on_warning = 0
 
 Plugin 'ajh17/VimCompletesMe'
 augroup VimCompletesMeTex
@@ -210,12 +213,41 @@ either add the root line in all subfiles</p>
 <h3 id="color-scheme-and-font">Color scheme and font</h3>
 
 <pre><code>if has('gui_running')
-colorscheme ir_black
-set guifont=Courier\ New\ 16
+ colorscheme ir_black
+ set guifont=Courier\ New\ 16
+ set scrolloff=3
 else
-color desert
+ color desert
 endif
 </code></pre>
+
+<h3 id="and">And ...</h3>
+
+<p>To use gvim without GNOME in linuxmint/ubuntu:</p>
+
+<pre><code>sudo apt-get remove vim-gnome
+sudo apt-get install vim-gtk
+</code></pre>
+
+<p>with some other configuration options:</p>
+
+<pre><code>set hlsearch
+set incsearch
+set matchtime=5
+set showmatch
+set smartindent
+set noshiftround
+</code></pre>
+
+<h3 id="how-to-silence-unwanted-latex-warnings">How to silence unwanted LaTeX warnings?</h3>
+
+<p>Use the package <a href="https://www.ctan.org/pkg/silence?lang=en" target="_blank">silence</a>.</p>
+
+<pre><code>\RequirePackage{silence} % before documentclass
+\WarningFilter{latex}{Marginpar}
+</code></pre>
+
+<p>But I cannot silence overfull hboxes.</p>
 
 </div>
 
