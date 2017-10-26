@@ -6,8 +6,61 @@
     <language>en-us</language>
     <author></author>
     <rights>(C) 2017</rights>
-    <updated>2017-07-04 11:31:30 &#43;0200 CEST</updated>
+    <updated>2017-10-26 16:14:02 &#43;0200 CEST</updated>
 
+    
+      
+        <item>
+          <title>Winding Around and Mountains</title>
+          <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
+          <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
+          <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;
+
+&lt;p&gt;...reading &lt;a href=&#34;http://sites.psu.edu/johnroe/&#34;&gt;John Roe&#39;s&lt;/a&gt; book &lt;a href=&#34;http://bookstore.ams.org/stml-76&#34;&gt;&lt;strong&gt;Winding Around&lt;/strong&gt;&lt;/a&gt;.
+Here: &lt;em&gt;For an extended riff on the idea of mathematics as mountaineering  see  &lt;a href=&#34;https://link.springer.com/content/pdf/10.1007%2FBF03024443.pdf&#34;&gt;&amp;quot;Into Thin Air&amp;quot; by Colin Adams&lt;/a&gt;, on Mathematical Intelligencer.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How much about &amp;quot;mathematics as mountaineering&amp;quot;?&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Fixing MarkDown LaTeX underscore problem</title>
+          <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
+          <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
+          <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
+
+&lt;p&gt;Test of a displaystyle formula
+&lt;span  class=&#34;math&#34;&gt;\(
+A_k^n = 
+\dfrac{n!}{k!(n-k)!} =
+\dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k }  =
+\dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j }
+\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;And the same for an inline sum: $\sum_j j^2$.&lt;/p&gt;
+
+&lt;p&gt;The answer is: in the preamble&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;markup = &amp;quot;mmark&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then just use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$$ .. $$ 
+or 
+$ ..  $
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;apparently.&lt;/p&gt;
+</description>
+        </item>
+      
     
       
         <item>
