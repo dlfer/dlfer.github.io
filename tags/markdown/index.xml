@@ -6,14 +6,14 @@
     <language>en-us</language>
     <author></author>
     <rights>(C) 2017</rights>
-    <updated>2017-10-04 15:16:15 &#43;0200 CEST</updated>
+    <updated>2017-10-04 15:16:15 &#43;0200 DST</updated>
 
     
       
         <item>
           <title>Fixing MarkDown LaTeX underscore problem</title>
           <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
-          <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
+          <pubDate>Wed, 04 Oct 2017 15:16:15 DST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
           <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
