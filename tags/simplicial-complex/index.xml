@@ -5,20 +5,25 @@
     <link>http://blog.dlfer.xyz/tags/simplicial-complex/</link>
     <language>en-us</language>
     <author></author>
+<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2016-11-18 13:53:47 &#43;0100 CET</updated>
+=======
+    <rights>(C) 2017</rights>
+    <updated>2016-11-18 13:53:47 &#43;0100 STD</updated>
+>>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
           <link>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</link>
-          <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
+          <pubDate>Fri, 18 Nov 2016 13:53:47 STD</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</guid>
           <description>
 
-&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
+&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
 
 &lt;p&gt;Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract
 simplicial complex, where the set of vertices actually is a set of points in $\RR^k$,
@@ -48,14 +53,14 @@ with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
 Hence
 $$
 \begin{aligned}
-x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\&lt;br /&gt;
+x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
 &amp;amp;=&lt;br /&gt;
 \sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
-\\&lt;br /&gt;
+\\\
 &amp;amp;=&lt;br /&gt;
-\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\&lt;br /&gt;
-&amp;amp; \implies \\&lt;br /&gt;
-|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\&lt;br /&gt;
+\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
+&amp;amp; \implies \\\
+|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
 &amp;amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
 \end{aligned}
 $$
@@ -66,7 +71,7 @@ $\newcommand{\supp}{\operatorname{supp}}$&lt;/p&gt;
 
 &lt;p&gt;Now, define the &lt;strong&gt;mesh&lt;/strong&gt; of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.&lt;/p&gt;
 
-&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
+&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ be as above, and $K&#39;$ the euclidean simplicial complex with as vertices the simplices of $K$,
 with coordinates the barycenter of the simplex
@@ -97,8 +102,8 @@ Hence
 $$
 \begin{aligned}
 b(\sigma_ 0 ) - b ( \sigma_ 1) &amp;amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\&lt;br /&gt;
-&amp;amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\&lt;br /&gt;
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\\
+&amp;amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
 &amp;amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
 \end{aligned}
 $$
@@ -124,7 +129,7 @@ $$
 $$
 &lt;em&gt;/qed&lt;/em&gt;/&lt;/p&gt;
 
-&lt;h2 id=&#34;simplicial-approximation-theorem&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;simplicial-approximation-theorem:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
 
 &lt;p&gt;Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
 the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
@@ -198,7 +203,7 @@ map $\varphi \from K&#39; \to L$ such that $\varphi$ is a simplicial approximati
 $|\varphi|\from |K&#39;|=|K| \to |L|$ is homotopic to $f$.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
+&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ and $L$ be two simplicial complexes.&lt;/p&gt;
 
@@ -250,12 +255,12 @@ manifolds without combinatorial triangulations.&lt;/p&gt;
         <item>
           <title>Joins and Products of polyhedra</title>
           <link>http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
-          <pubDate>Mon, 14 Nov 2016 11:07:25 CET</pubDate>
+          <pubDate>Mon, 14 Nov 2016 11:07:25 STD</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
           <description>
 
-&lt;h2 id=&#34;join-k-l-of-two-simplicial-complexes&#34;&gt;Join $K*L$ of two simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;join-k-l-of-two-simplicial-complexes:6f13411f54adff566170e2e379f4ce41&#34;&gt;Join $K*L$ of two simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes
 ($X_ K$ denotes the set of vertices of $K$ and
@@ -338,7 +343,7 @@ Hence $J$ is an euclidean (geometric) simplicial complex, isomorphic as simplici
 &lt;p&gt;&lt;strong&gt;Remark:&lt;/strong&gt; it follows from $P=px+qy$ that $J$ is the union of all unit segments joining points of $|K|$ to point
 of $|L|$ (from here the name &amp;quot;&lt;em&gt;join&lt;/em&gt;&amp;quot;).&lt;/p&gt;
 
-&lt;h2 id=&#34;cartesian-product-k-times-l-of-two-simplicial-complexes&#34;&gt;Cartesian product $K\times L$ of two simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;cartesian-product-k-times-l-of-two-simplicial-complexes:6f13411f54adff566170e2e379f4ce41&#34;&gt;Cartesian product $K\times L$ of two simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;Consider now $|K| \subset \RR^k$ and $|L|\subset \RR^l$ euclidean simplicial complexes.
 Then, the product $|K|\times |L| \subset \RR^k \times \RR^l = \RR^{k+l}$ can be easily defined.
@@ -385,7 +390,7 @@ $(x_ 0,y_ 0) &amp;lt; (x_ 1, y_ 1) &amp;lt; \ldots (x_ n, y_ n)$ is an ascending
 for each pair of consecutive terms $(x,y) &amp;lt; (x&#39;,y&#39;)$ either $x=x&#39;$ (and therefore $y&amp;lt;y&#39;$,
 and hence (x,y) precedes $(x&#39;,y&#39;)$ in the lexycographical order),
 or $x&amp;lt;x&#39;$ (and hence $(x,y)$ precedes (x&#39;,y&#39;)$ in the lexycographical order).
-In Ferrario-Piccinini&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, page 99, in the proof it is omitted to mention the simplices $p_ 1$ and $p_ 2$ need to be ordered, as above.
+In Ferrario-Piccinini&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, page 99, in the proof it is omitted to mention the simplices $p_ 1$ and $p_ 2$ need to be ordered, as above.
 Otherwise, more chains would appear ordered as ascending with the lexycographical order, than those ascending with the product order.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
@@ -398,7 +403,7 @@ $$
 Ascending chains are the following two:
 $$
 \begin{aligned}
-A &amp;lt;  B &amp;lt;  B&#39; \\&lt;br /&gt;
+A &amp;lt;  B &amp;lt;  B&#39; \\\
 A &amp;lt; A&#39; &amp;lt;  B&#39;
 \end{aligned}
 $$&lt;/p&gt;
@@ -413,8 +418,8 @@ $$
 Ascending chains are the following three:
 $$
 \begin{aligned}
-A &amp;lt; B &amp;lt; C &amp;lt; C&#39; \\&lt;br /&gt;
-A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; \\&lt;br /&gt;
+A &amp;lt; B &amp;lt; C &amp;lt; C&#39; \\\
+A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; \\\
 A &amp;lt; A&#39; &amp;lt; B&#39; &amp;lt; C&#39;
 \end{aligned}
 $$&lt;/p&gt;
@@ -425,9 +430,9 @@ with vertices  $A,B,C,D,A&#39;,B&#39;,C&#39;,D&#39;$
 are the following:
 $$
 \begin{aligned}
-A &amp;lt; B &amp;lt; C &amp;lt; D &amp;lt; D&#39; \\&lt;br /&gt;
-A &amp;lt; B &amp;lt; C &amp;lt; C&#39; &amp;lt; D&#39; \\&lt;br /&gt;
-A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; &amp;lt; D&#39; \\&lt;br /&gt;
+A &amp;lt; B &amp;lt; C &amp;lt; D &amp;lt; D&#39; \\\
+A &amp;lt; B &amp;lt; C &amp;lt; C&#39; &amp;lt; D&#39; \\\
+A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; &amp;lt; D&#39; \\\
 A &amp;lt; A&#39; &amp;lt; B&#39; &amp;lt; C&#39; &amp;lt; D&#39;
 \end{aligned}
 $$&lt;/p&gt;
@@ -629,7 +634,7 @@ $$\begin{aligned}
 \sum_ {r=0} ^s \lambda_ r P_ {j_ r},
 \sum_ {r=0} ^s \lambda_ r Q_ {i_ r}
 \right)
-\\&lt;br /&gt;
+\\\
 &amp;amp; = \left(
 \sum_ {\alpha=0}^n
 \left(
@@ -643,7 +648,7 @@ P_ \alpha ,
 \lambda_ r
 \right)
 Q_ \beta
-\right) \\&lt;br /&gt;
+\right) \\\
 &amp;amp;= \left(
 \sum_ {j=0}^n x_ j P_ j,
 \sum_ {i=0}^m y_ j Q_ j
@@ -654,7 +659,7 @@ $$&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;chain-homotopy-and-cylinders&#34;&gt;Chain homotopy and cylinders&lt;/h2&gt;
+&lt;h2 id=&#34;chain-homotopy-and-cylinders:6f13411f54adff566170e2e379f4ce41&#34;&gt;Chain homotopy and cylinders&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ be a simplicial complex, $I\cong \Delta^1$ the standard $1$-simplex, and $K\times I$ the product of $K$ and $I$,
 i.e. the &lt;strong&gt;cylinder&lt;/strong&gt; on $K$.
@@ -669,7 +674,7 @@ so that $P \equiv (P,0)$ and $P&#39;=(P,1)$.
 Let now $s_ n \from C_ n(K) \to C_ {n+1}(K\times I)$ be the chain complex morphism defined as
 $$
 \begin{aligned}
-s_ n([P_ 0,\ldots, P_ n]) &amp;amp; =  \sum_ {j=0} ^n (-1)^j [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\&lt;br /&gt;
+s_ n([P_ 0,\ldots, P_ n]) &amp;amp; =  \sum_ {j=0} ^n (-1)^j [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\\
 &amp;amp;= [P_ 0,P&#39;_ 0, \ldots, P_ n] - [P_ 0,P_ 1, P&#39;_ 1, \ldots, P&#39;_ n] + \ldots + (-1)^n [P_ 0,\ldots, P_ n, P&#39;_ n]~.
 \end{aligned}
 $$
@@ -677,8 +682,8 @@ Note that
 $$\begin{aligned}
  \partial_ {n+1} [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P_ n] &amp;amp; =
  \sum_ {i=0}^{j-1} (-1)^i [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\\
-&amp;amp; + (-1)^j [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P_ n] \\&lt;br /&gt;
-&amp;amp; - (-1)^j [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P_ n] \\&lt;br /&gt;
+&amp;amp; + (-1)^j [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P_ n] \\\
+&amp;amp; - (-1)^j [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P_ n] \\\
 &amp;amp; - \sum_ {i=j-1}^n (-1)^i [P_ 0, \ldots,  P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n]
 \end{aligned}
 $$
@@ -695,12 +700,12 @@ $$
 \implies
 \partial_ {n+1} s_ n [P_ 0,\ldots, P_ n]
 &amp;amp; =&lt;br /&gt;
-\sum_ {j=0} ^n (-1)^j \partial_ {n+1} [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\&lt;br /&gt;
+\sum_ {j=0} ^n (-1)^j \partial_ {n+1} [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\\
 &amp;amp; =&lt;br /&gt;
 \sum_ {j=0} ^n   \sum_ {i=0}^{j-1} j (-1)^{i+j} [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P&#39;_ j, \ldots, P&#39;_ n]   \\\
-&amp;amp; + \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P_ n] \\&lt;br /&gt;
-&amp;amp; - \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P_ n] \\&lt;br /&gt;
-&amp;amp;  - \sum_ {j=0} ^n \sum_ {i=j}^n (-1)^{i+j} [P_ 0, \ldots,  P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n] \\&lt;br /&gt;
+&amp;amp; + \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P_ n] \\\
+&amp;amp; - \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P_ n] \\\
+&amp;amp;  - \sum_ {j=0} ^n \sum_ {i=j}^n (-1)^{i+j} [P_ 0, \ldots,  P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n] \\\
 s_ {n-1} \partial_ n [P_ 0,\ldots, P_ n] &amp;amp;=
 \sum_ {i=0}^ {n}
 \sum_ {j=0}^ {i-1} (-1)^{i+j} [P_ 0, \ldots, P_ j, P&#39;_ j, \ldots, \hat P_ i, \ldots, P_ n] \\\ &amp;amp; -
@@ -712,8 +717,8 @@ $$ \begin{aligned} \implies
 ( \partial_ {n+1} s_ n +
 s_ {n-1} \partial_ n ) [P_ 0,\ldots, P_ n] &amp;amp;=
 \sum_ {j=0}^ n \left( [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P_ n] - \sum_ {j=0}^ n [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P_ n]
-\right) \\&lt;br /&gt;
-&amp;amp;= [P&#39;_ 0, \ldots, P&#39;_ n] - [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] + [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] - \ldots - [P_ 0, \ldots, P_ n] \\&lt;br /&gt;
+\right) \\\
+&amp;amp;= [P&#39;_ 0, \ldots, P&#39;_ n] - [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] + [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] - \ldots - [P_ 0, \ldots, P_ n] \\\
 &amp;amp;=  [P_ 0&#39;, \ldots, P&#39;_ n] - [P_ 0, \ldots, P_ n]
 \end{aligned}
 $$
@@ -726,8 +731,8 @@ $$&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;Ferrario, Davide L.; Piccinini, Renzo A. &lt;em&gt;Simplicial structures in topology.&lt;/em&gt; CMS Books in Mathematics/Ouvrages de Mathématiques de la SMC. Springer, New York, 2011. xvi+243 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-7236-1&#34; target=&#34;_blank&#34;&gt;978-1-4419-7235-4&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;Ferrario, Davide L.; Piccinini, Renzo A. &lt;em&gt;Simplicial structures in topology.&lt;/em&gt; CMS Books in Mathematics/Ouvrages de Mathématiques de la SMC. Springer, New York, 2011. xvi+243 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-7236-1&#34; target=&#34;_blank&#34;&gt;978-1-4419-7235-4&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -738,12 +743,12 @@ $$&lt;/p&gt;
         <item>
           <title>Graphs, trees and simplicial complexes</title>
           <link>http://blog.dlfer.xyz/post/2016-11-04-graphs/</link>
-          <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
+          <pubDate>Fri, 04 Nov 2016 13:08:54 STD</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-04-graphs/</guid>
           <description>
 
-&lt;h2 id=&#34;graphs-and-simplicial-complexes&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;graphs-and-simplicial-complexes:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;A one-dimensional simplicial complex is a &lt;em&gt;graph&lt;/em&gt;.
 That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices
@@ -844,7 +849,7 @@ $P_ 1, \ldots, P_ n$ such that $[P_ j, P_ {j+1}] \in S$ for each $j$.
 Since $S$ is finite, the iteration has to stop at most in $l$ steps.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;trees&#34;&gt;Trees&lt;/h2&gt;
+&lt;h2 id=&#34;trees:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Trees&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; A &lt;em&gt;tree&lt;/em&gt; $T$ is a connected acyclic graph.&lt;/p&gt;
 
@@ -911,7 +916,7 @@ Thus, $T&#39;$ is acyclic. It is easy to show that $T&#39;$ is connected,
 and hence that it is a tree, and that $T$ is not maximal.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;homology-of-a-graph&#34;&gt;Homology of a graph&lt;/h2&gt;
+&lt;h2 id=&#34;homology-of-a-graph:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Homology of a graph&lt;/h2&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;(4)&lt;/dt&gt;
@@ -944,7 +949,7 @@ denote the projection, defined as
 $$
 \pi(\sigma) =
 \begin{cases}
-\sigma &amp;amp; \text{if $\sigma \in Y$} \\&lt;br /&gt;
+\sigma &amp;amp; \text{if $\sigma \in Y$} \\\
 0 &amp;amp; \text{otherwise}
 \end{cases}
 $$
@@ -1016,12 +1021,12 @@ $$
 which implies
 $$\begin{aligned}
 \sum_ {j} (-1)^j \rk C_ j &amp;amp; =
-\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\&lt;br /&gt;
-&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\&lt;br /&gt;
+\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\\
+&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\\
 &amp;amp;=
 \sum_ {j} (-1)^j \rk B_ j  +
 \sum_ {j} (-1)^{j+1} \rk B_ j +
-\sum_ {j} (-1)^j \rk H_ j  \\&lt;br /&gt;
+\sum_ {j} (-1)^j \rk H_ j  \\\
 &amp;amp;=
 \sum_ {j} (-1)^j \rk H_ j
 \end{aligned}
@@ -1035,12 +1040,12 @@ which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.&lt;/p&gt;
         <item>
           <title>Császár torus, python and sagemath</title>
           <link>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
-          <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
+          <pubDate>Wed, 19 Oct 2016 13:55:55 DST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
-&lt;h2 id=&#34;the-simplicial-complex&#34;&gt;The simplicial complex&lt;/h2&gt;
+&lt;h2 id=&#34;the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9&#34;&gt;The simplicial complex&lt;/h2&gt;
 
 &lt;p&gt;Consider the (abstract) simplicial  $T$ defined as follows:
 vertices are
@@ -1054,15 +1059,15 @@ $$
 H_ x &amp;amp;=
 \{ \{j,j+1\}  : j =0 \ldots 6 \}
 = \{ \{j,j-1\}  : j =0 \ldots 6 \}
-\\&lt;br /&gt;
+\\\
 V_ x &amp;amp;=
 \{ \{ j,j+x \}  : j =0 \ldots 6 \}
 = \{ \{ j,j-x \}  : j =0 \ldots 6 \}
-\\&lt;br /&gt;
+\\\
 D_ x &amp;amp;=
 \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \}
  = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \}
-\\&lt;br /&gt;
+\\\
 \Phi_ x &amp;amp; =
 H_ x
 \cup
@@ -1107,15 +1112,15 @@ of $\Phi_ x$ for each $x$...&lt;/p&gt;
 &lt;p&gt;Now, for $2$-simplexes we can proceed in a similar way. For each $x$,
 let
 $$ \begin{aligned}
-L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\\
 U_ x  &amp;amp; = \{ \{ j, j+x, j+x+1 \} : j = 0 \ldots 6 \}.
 \end{aligned}
 $$
 Hence
 $$ \begin{aligned}
-L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
-U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
-L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\&lt;br /&gt;
+L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\\
+U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\\
+L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\\
 U_ 4  &amp;amp; = \{ \{ j, j+4, j+5 \} : j = 0 \ldots 6 \} \implies U_ 4 = L_ 2.
 \end{aligned}
 $$&lt;/p&gt;
@@ -1160,7 +1165,7 @@ The $21$ elements of $\Phi_ 2$ are all the edges (up to identification).&lt;br /
 one can find an embedding;
 more details a the &lt;a href=&#34;http://www.eg-models.de/models/Classical_Models/2001.02.069/_preview.html&#34; target=&#34;_blank&#34;&gt;page in the Archive of Electronic Geometry Models&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;sagemath&#34;&gt;SageMath&lt;/h2&gt;
+&lt;h2 id=&#34;sagemath:a0f7ea7056058d387334b524d50c28b9&#34;&gt;SageMath&lt;/h2&gt;
 
 &lt;p&gt;Here is a plain sage session. According to &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html&#34; target=&#34;_blank&#34;&gt;the documentation&lt;/a&gt;, the function &lt;code&gt;Torus&lt;/code&gt; returns Csaszar&#39;s Torus.&lt;/p&gt;
 
@@ -1254,8 +1259,7 @@ sage: len(G)
 
 &lt;dl&gt;
 &lt;dt&gt;(3)&lt;/dt&gt;
-&lt;dd&gt;The two simplicial complexes are equivalent.
-&lt;br /&gt;&lt;/dd&gt;
+&lt;dd&gt;The two simplicial complexes are equivalent.&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;A little bit of &lt;a href=&#34;http://www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sagemath&lt;/a&gt; help in finding such permutations:&lt;/p&gt;
@@ -1347,11 +1351,11 @@ sage: T.is_isomorphic(K)
 True
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
+&lt;h2 id=&#34;embedding-the-complex-in-rr-3:a0f7ea7056058d387334b524d50c28b9&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
 
 &lt;p&gt;The problem of embedding is not trivial. But ...&lt;/p&gt;
 
-&lt;h2 id=&#34;poincaré-homology-3-sphere&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
+&lt;h2 id=&#34;poincaré-homology-3-sphere:a0f7ea7056058d387334b524d50c28b9&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
 
 &lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on...&lt;/p&gt;
 

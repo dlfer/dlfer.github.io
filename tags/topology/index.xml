@@ -5,15 +5,20 @@
     <link>http://blog.dlfer.xyz/tags/topology/</link>
     <language>en-us</language>
     <author></author>
+<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2017-10-26 16:14:02 &#43;0200 CEST</updated>
+=======
+    <rights>(C) 2017</rights>
+    <updated>2017-10-26 16:14:02 &#43;0200 DST</updated>
+>>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Winding Around and Mountains</title>
           <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
-          <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
+          <pubDate>Thu, 26 Oct 2017 16:14:02 DST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
           <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;
@@ -30,12 +35,12 @@ Here: &lt;em&gt;For an extended riff on the idea of mathematics as mountaineerin
         <item>
           <title>Császár torus, python and sagemath</title>
           <link>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
-          <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
+          <pubDate>Wed, 19 Oct 2016 13:55:55 DST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
-&lt;h2 id=&#34;the-simplicial-complex&#34;&gt;The simplicial complex&lt;/h2&gt;
+&lt;h2 id=&#34;the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9&#34;&gt;The simplicial complex&lt;/h2&gt;
 
 &lt;p&gt;Consider the (abstract) simplicial  $T$ defined as follows:
 vertices are
@@ -49,15 +54,15 @@ $$
 H_ x &amp;amp;=
 \{ \{j,j+1\}  : j =0 \ldots 6 \}
 = \{ \{j,j-1\}  : j =0 \ldots 6 \}
-\\&lt;br /&gt;
+\\\
 V_ x &amp;amp;=
 \{ \{ j,j+x \}  : j =0 \ldots 6 \}
 = \{ \{ j,j-x \}  : j =0 \ldots 6 \}
-\\&lt;br /&gt;
+\\\
 D_ x &amp;amp;=
 \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \}
  = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \}
-\\&lt;br /&gt;
+\\\
 \Phi_ x &amp;amp; =
 H_ x
 \cup
@@ -102,15 +107,15 @@ of $\Phi_ x$ for each $x$...&lt;/p&gt;
 &lt;p&gt;Now, for $2$-simplexes we can proceed in a similar way. For each $x$,
 let
 $$ \begin{aligned}
-L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\\
 U_ x  &amp;amp; = \{ \{ j, j+x, j+x+1 \} : j = 0 \ldots 6 \}.
 \end{aligned}
 $$
 Hence
 $$ \begin{aligned}
-L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
-U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
-L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\&lt;br /&gt;
+L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\\
+U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\\
+L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\\
 U_ 4  &amp;amp; = \{ \{ j, j+4, j+5 \} : j = 0 \ldots 6 \} \implies U_ 4 = L_ 2.
 \end{aligned}
 $$&lt;/p&gt;
@@ -155,7 +160,7 @@ The $21$ elements of $\Phi_ 2$ are all the edges (up to identification).&lt;br /
 one can find an embedding;
 more details a the &lt;a href=&#34;http://www.eg-models.de/models/Classical_Models/2001.02.069/_preview.html&#34; target=&#34;_blank&#34;&gt;page in the Archive of Electronic Geometry Models&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;sagemath&#34;&gt;SageMath&lt;/h2&gt;
+&lt;h2 id=&#34;sagemath:a0f7ea7056058d387334b524d50c28b9&#34;&gt;SageMath&lt;/h2&gt;
 
 &lt;p&gt;Here is a plain sage session. According to &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html&#34; target=&#34;_blank&#34;&gt;the documentation&lt;/a&gt;, the function &lt;code&gt;Torus&lt;/code&gt; returns Csaszar&#39;s Torus.&lt;/p&gt;
 
@@ -249,8 +254,7 @@ sage: len(G)
 
 &lt;dl&gt;
 &lt;dt&gt;(3)&lt;/dt&gt;
-&lt;dd&gt;The two simplicial complexes are equivalent.
-&lt;br /&gt;&lt;/dd&gt;
+&lt;dd&gt;The two simplicial complexes are equivalent.&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;A little bit of &lt;a href=&#34;http://www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sagemath&lt;/a&gt; help in finding such permutations:&lt;/p&gt;
@@ -342,11 +346,11 @@ sage: T.is_isomorphic(K)
 True
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
+&lt;h2 id=&#34;embedding-the-complex-in-rr-3:a0f7ea7056058d387334b524d50c28b9&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
 
 &lt;p&gt;The problem of embedding is not trivial. But ...&lt;/p&gt;
 
-&lt;h2 id=&#34;poincaré-homology-3-sphere&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
+&lt;h2 id=&#34;poincaré-homology-3-sphere:a0f7ea7056058d387334b524d50c28b9&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
 
 &lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on...&lt;/p&gt;
 
@@ -365,12 +369,12 @@ sage: [len(Sigma3.faces()[x]) for x in range(4)]
         <item>
           <title>A counter-example for the exponentiation / adjoint of a function</title>
           <link>http://blog.dlfer.xyz/post/counterexample-to-adjoint/</link>
-          <pubDate>Wed, 05 Oct 2016 14:24:49 CEST</pubDate>
+          <pubDate>Wed, 05 Oct 2016 14:24:49 DST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/counterexample-to-adjoint/</guid>
           <description>
 
-&lt;h2 id=&#34;the-problem&#34;&gt;The problem:&lt;/h2&gt;
+&lt;h2 id=&#34;the-problem:cc5f1248a683bd633705733673dc5009&#34;&gt;The problem:&lt;/h2&gt;
 
 &lt;p&gt;Let $X$, $Y$, and $Z$ be topological spaces. Let $Y^X$ denote the space
 of all &lt;em&gt;continuous&lt;/em&gt; functions $X\to Y$, with the compact-open topology
@@ -404,7 +408,7 @@ if and only if its adjoint $\hat f \from Z \to Y^X$ is continuous.&lt;br /&gt;&l
 
 &lt;p&gt;We give here a counter-example to proposition &lt;a href=&#34;#propo&#34;&gt;(1)&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-rationals-qq&#34;&gt;The  rationals $\QQ$:&lt;/h2&gt;
+&lt;h2 id=&#34;the-rationals-qq:cc5f1248a683bd633705733673dc5009&#34;&gt;The  rationals $\QQ$:&lt;/h2&gt;
 
 &lt;p&gt;Let $\QQ$ be the space rationals, with the standard euclidean metric topology. Then
 the following proposition holds&lt;/p&gt;
@@ -425,7 +429,7 @@ hence there exists $a \in A$ such that $a\not\in K$.
 But then, it is easy to define an open subset $V$ containing $K$ but
 not containing $a$. &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-sierpinski-space-mathbf-2&#34;&gt;The Sierpinski Space $\mathbf{2}$:&lt;/h2&gt;
+&lt;h2 id=&#34;the-sierpinski-space-mathbf-2:cc5f1248a683bd633705733673dc5009&#34;&gt;The Sierpinski Space $\mathbf{2}$:&lt;/h2&gt;
 
 &lt;p&gt;Let $\mathbf{2}$ be the Sierpinski space.
 That is, $\mathbf{2} = \{0,1\}$ with topology given by its (open) subsets $\{ \emptyset, \{1\}, \{0,1\} \}$.
@@ -453,7 +457,7 @@ hence the elements of $W_{K,\{1\}}$ are
 all the characteristic functions of those open subsets of
 $\QQ$ which contain $K$.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-example&#34;&gt;The example:&lt;/h2&gt;
+&lt;h2 id=&#34;the-example:cc5f1248a683bd633705733673dc5009&#34;&gt;The example:&lt;/h2&gt;
 
 &lt;p&gt;Let $X=\QQ$, $Y=\mathbf{2}$, and $Z=\mathbf{2}^\QQ$.
 Then adjoint of the evaluation function

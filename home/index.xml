@@ -5,8 +5,13 @@
     <link>http://blog.dlfer.xyz/home/</link>
     <language>en-us</language>
     <author></author>
+<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2016-09-22 16:42:38 &#43;0200 CEST</updated>
+=======
+    <rights>(C) 2017</rights>
+    <updated>2016-09-22 16:42:38 &#43;0200 DST</updated>
+>>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       

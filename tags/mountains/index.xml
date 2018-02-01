@@ -5,15 +5,20 @@
     <link>http://blog.dlfer.xyz/tags/mountains/</link>
     <language>en-us</language>
     <author></author>
+<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2017-10-26 16:14:02 &#43;0200 CEST</updated>
+=======
+    <rights>(C) 2017</rights>
+    <updated>2017-10-26 16:14:02 &#43;0200 DST</updated>
+>>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Winding Around and Mountains</title>
           <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
-          <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
+          <pubDate>Thu, 26 Oct 2017 16:14:02 DST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
           <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;

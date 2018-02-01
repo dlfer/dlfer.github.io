@@ -3,12 +3,17 @@
   
   <url>
     <loc>http://blog.dlfer.xyz/</loc>
+<<<<<<< HEAD
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://blog.dlfer.xyz/post/2018-02-01-engita/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+=======
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+>>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
   </url>
   
   <url>
