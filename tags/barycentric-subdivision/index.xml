@@ -5,25 +5,20 @@
     <link>http://blog.dlfer.xyz/tags/barycentric-subdivision/</link>
     <language>en-us</language>
     <author></author>
-<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2016-11-18 13:53:47 &#43;0100 CET</updated>
-=======
-    <rights>(C) 2017</rights>
-    <updated>2016-11-18 13:53:47 &#43;0100 STD</updated>
->>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
           <link>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</link>
-          <pubDate>Fri, 18 Nov 2016 13:53:47 STD</pubDate>
+          <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</guid>
           <description>
 
-&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
+&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
 
 &lt;p&gt;Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract
 simplicial complex, where the set of vertices actually is a set of points in $\RR^k$,
@@ -53,14 +48,14 @@ with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
 Hence
 $$
 \begin{aligned}
-x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
+x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\&lt;br /&gt;
 &amp;amp;=&lt;br /&gt;
 \sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
-\\\
+\\&lt;br /&gt;
 &amp;amp;=&lt;br /&gt;
-\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
-&amp;amp; \implies \\\
-|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
+\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\&lt;br /&gt;
+&amp;amp; \implies \\&lt;br /&gt;
+|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\&lt;br /&gt;
 &amp;amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
 \end{aligned}
 $$
@@ -71,7 +66,7 @@ $\newcommand{\supp}{\operatorname{supp}}$&lt;/p&gt;
 
 &lt;p&gt;Now, define the &lt;strong&gt;mesh&lt;/strong&gt; of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.&lt;/p&gt;
 
-&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
+&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ be as above, and $K&#39;$ the euclidean simplicial complex with as vertices the simplices of $K$,
 with coordinates the barycenter of the simplex
@@ -102,8 +97,8 @@ Hence
 $$
 \begin{aligned}
 b(\sigma_ 0 ) - b ( \sigma_ 1) &amp;amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\\
-&amp;amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\&lt;br /&gt;
+&amp;amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\&lt;br /&gt;
 &amp;amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
 \end{aligned}
 $$
@@ -129,7 +124,7 @@ $$
 $$
 &lt;em&gt;/qed&lt;/em&gt;/&lt;/p&gt;
 
-&lt;h2 id=&#34;simplicial-approximation-theorem:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;simplicial-approximation-theorem&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
 
 &lt;p&gt;Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
 the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
@@ -203,7 +198,7 @@ map $\varphi \from K&#39; \to L$ such that $\varphi$ is a simplicial approximati
 $|\varphi|\from |K&#39;|=|K| \to |L|$ is homotopic to $f$.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
+&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ and $L$ be two simplicial complexes.&lt;/p&gt;
 

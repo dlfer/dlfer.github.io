@@ -5,25 +5,20 @@
     <link>http://blog.dlfer.xyz/tags/so3/</link>
     <language>en-us</language>
     <author></author>
-<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2016-11-25 13:12:28 &#43;0100 CET</updated>
-=======
-    <rights>(C) 2017</rights>
-    <updated>2016-11-25 13:12:28 &#43;0100 STD</updated>
->>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
           <link>http://blog.dlfer.xyz/post/2016-11-25-diracscissors/</link>
-          <pubDate>Fri, 25 Nov 2016 13:12:28 STD</pubDate>
+          <pubDate>Fri, 25 Nov 2016 13:12:28 CET</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
           <description>
 
-&lt;h2 id=&#34;topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2:22ecd94166e5e4cd225ba8aae1463736&#34;&gt;Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.&lt;/h2&gt;
+&lt;h2 id=&#34;topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2&#34;&gt;Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.&lt;/h2&gt;
 
 &lt;p&gt;Consider the space $X\subset S^2\times S^2$ of all pairs $(A,B)$ of points
 such that $|A-B|=\sqrt 3$, where the distance is the euclidean distance of
@@ -152,7 +147,7 @@ $$&lt;/p&gt;
 $3$ points on a $2$-sphere $\FF_ 3(S^2)$. Hence $\pi_ 1(\FF_ 3(S^2)) = \pi_ 1(SO(3)) = \ZZ_ 2$.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;h2 id=&#34;pure-braids-in-ff-3-s-2-and-the-fundamental-group-of-so-3:22ecd94166e5e4cd225ba8aae1463736&#34;&gt;Pure braids in $\FF_3 (S^2)$ and the fundamental group of $SO(3)$.&lt;/h2&gt;
+&lt;h2 id=&#34;pure-braids-in-ff-3-s-2-and-the-fundamental-group-of-so-3&#34;&gt;Pure braids in $\FF_3 (S^2)$ and the fundamental group of $SO(3)$.&lt;/h2&gt;
 
 &lt;p&gt;As we have seen, $X \approx SO(3)$ is a deformation retract of $\FF_ 3 (S^2)$. Its fundamental group can be
 therefore computed as the fundamental group of $\FF_ 3(S^3)$, i.e. the group of pure $3$-stranded

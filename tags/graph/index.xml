@@ -5,25 +5,20 @@
     <link>http://blog.dlfer.xyz/tags/graph/</link>
     <language>en-us</language>
     <author></author>
-<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2016-11-04 13:08:54 &#43;0100 CET</updated>
-=======
-    <rights>(C) 2017</rights>
-    <updated>2016-11-04 13:08:54 &#43;0100 STD</updated>
->>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Graphs, trees and simplicial complexes</title>
           <link>http://blog.dlfer.xyz/post/2016-11-04-graphs/</link>
-          <pubDate>Fri, 04 Nov 2016 13:08:54 STD</pubDate>
+          <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-04-graphs/</guid>
           <description>
 
-&lt;h2 id=&#34;graphs-and-simplicial-complexes:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;graphs-and-simplicial-complexes&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;A one-dimensional simplicial complex is a &lt;em&gt;graph&lt;/em&gt;.
 That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices
@@ -124,7 +119,7 @@ $P_ 1, \ldots, P_ n$ such that $[P_ j, P_ {j+1}] \in S$ for each $j$.
 Since $S$ is finite, the iteration has to stop at most in $l$ steps.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;trees:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Trees&lt;/h2&gt;
+&lt;h2 id=&#34;trees&#34;&gt;Trees&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; A &lt;em&gt;tree&lt;/em&gt; $T$ is a connected acyclic graph.&lt;/p&gt;
 
@@ -191,7 +186,7 @@ Thus, $T&#39;$ is acyclic. It is easy to show that $T&#39;$ is connected,
 and hence that it is a tree, and that $T$ is not maximal.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;homology-of-a-graph:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Homology of a graph&lt;/h2&gt;
+&lt;h2 id=&#34;homology-of-a-graph&#34;&gt;Homology of a graph&lt;/h2&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;(4)&lt;/dt&gt;
@@ -224,7 +219,7 @@ denote the projection, defined as
 $$
 \pi(\sigma) =
 \begin{cases}
-\sigma &amp;amp; \text{if $\sigma \in Y$} \\\
+\sigma &amp;amp; \text{if $\sigma \in Y$} \\&lt;br /&gt;
 0 &amp;amp; \text{otherwise}
 \end{cases}
 $$
@@ -296,12 +291,12 @@ $$
 which implies
 $$\begin{aligned}
 \sum_ {j} (-1)^j \rk C_ j &amp;amp; =
-\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\\
-&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\\
+\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\&lt;br /&gt;
+&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\&lt;br /&gt;
 &amp;amp;=
 \sum_ {j} (-1)^j \rk B_ j  +
 \sum_ {j} (-1)^{j+1} \rk B_ j +
-\sum_ {j} (-1)^j \rk H_ j  \\\
+\sum_ {j} (-1)^j \rk H_ j  \\&lt;br /&gt;
 &amp;amp;=
 \sum_ {j} (-1)^j \rk H_ j
 \end{aligned}

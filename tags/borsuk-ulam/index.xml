@@ -5,25 +5,20 @@
     <link>http://blog.dlfer.xyz/tags/borsuk-ulam/</link>
     <language>en-us</language>
     <author></author>
-<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2016-11-21 15:47:19 &#43;0100 CET</updated>
-=======
-    <rights>(C) 2017</rights>
-    <updated>2016-11-21 15:47:19 &#43;0100 STD</updated>
->>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Homology of (simplicial) spheres and applications</title>
           <link>http://blog.dlfer.xyz/post/2016-11-21-topappl/</link>
-          <pubDate>Mon, 21 Nov 2016 15:47:19 STD</pubDate>
+          <pubDate>Mon, 21 Nov 2016 15:47:19 CET</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2016-11-21-topappl/</guid>
           <description>
 
-&lt;h2 id=&#34;nullhomotopic-odd-maps-borsuk-lusternik-and-schnirelmann:197d895c9b475366af895afe1535e0e6&#34;&gt;Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann&lt;/h2&gt;
+&lt;h2 id=&#34;nullhomotopic-odd-maps-borsuk-lusternik-and-schnirelmann&#34;&gt;Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann&lt;/h2&gt;
 
 &lt;p&gt;Let $\Delta^n$ the standard simplex of dimension $n$ in $\RR^{n+1}$, which is homeomorphic to a
 $n$-dimensional disk, and
@@ -118,7 +113,7 @@ and $-x\not\in M_ j$ for $j=1,\ldots, n$.&lt;br /&gt;
 It must therefore be true that  $\pm x\in M_ 0 $, and therefore $M_ 0$ contains the two antipodal points $\pm x$.&lt;br /&gt;
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lusternik-schnirelmann-category:197d895c9b475366af895afe1535e0e6&#34;&gt;Lusternik-Schnirelmann category&lt;/h2&gt;
+&lt;h2 id=&#34;lusternik-schnirelmann-category&#34;&gt;Lusternik-Schnirelmann category&lt;/h2&gt;
 
 &lt;p&gt;$\newcommand{\Cat}{\operatorname{Cat}}$&lt;/p&gt;
 
@@ -217,7 +212,7 @@ that proposition &lt;em&gt;(1)&lt;/em&gt; of &lt;strong&gt;(2)&lt;/strong&gt; is
 to $\Cat \PP^n = n$.
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lefschetz-number-brouwer-and-fixed-points:197d895c9b475366af895afe1535e0e6&#34;&gt;Lefschetz number, Brouwer and Fixed Points&lt;/h2&gt;
+&lt;h2 id=&#34;lefschetz-number-brouwer-and-fixed-points&#34;&gt;Lefschetz number, Brouwer and Fixed Points&lt;/h2&gt;
 
 &lt;p&gt;$\newcommand{\Tr}{\operatorname{Tr}}$&lt;/p&gt;
 
@@ -310,7 +305,7 @@ if $X$ has genus $\gamma(X) \geq n$ and $f\from X \to \RR^k$ is any map,
 then the set $A_ f = \{  x\in X : f(x) = f(-x) \}$ is closed and antipode-invariant,
 $\gamma (A_ f) \geq n-k$, and $\dim (A_ f)\geq n-k$.&lt;/p&gt;
 
-&lt;h3 id=&#34;references:197d895c9b475366af895afe1535e0e6&#34;&gt;References&lt;/h3&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Borsuk, K. &lt;a href=&#34;http://matwbn.icm.edu.pl/ksiazki/fm/fm26/fm26111.pdf&#34; target=&#34;_blank&#34;&gt;Über den Lusternik-Schnirelmannschen Begriff der Kategorie, Fund. Math 26 (1936) p. 123-136&lt;/a&gt;&lt;/li&gt;

@@ -5,25 +5,20 @@
     <link>http://blog.dlfer.xyz/topics/algebra/</link>
     <language>en-us</language>
     <author></author>
-<<<<<<< HEAD
     <rights>(C) 2018</rights>
     <updated>2017-04-28 15:11:07 &#43;0200 CEST</updated>
-=======
-    <rights>(C) 2017</rights>
-    <updated>2017-04-28 15:11:07 &#43;0200 DST</updated>
->>>>>>> e1370da0d7c7eab2a963125e2fb307b933e42801
 
     
       
         <item>
           <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
           <link>http://blog.dlfer.xyz/post/2017-04-28-sylow/</link>
-          <pubDate>Fri, 28 Apr 2017 15:11:07 DST</pubDate>
+          <pubDate>Fri, 28 Apr 2017 15:11:07 CEST</pubDate>
           <author></author>
           <guid>http://blog.dlfer.xyz/post/2017-04-28-sylow/</guid>
           <description>
 
-&lt;h2 id=&#34;wieldandt-s-proof-of-sylow-s-theorem:5fffa9d98b47559a5dc53a5d693cde69&#34;&gt;Wieldandt&#39;s proof of Sylow&#39;s Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;wieldandt-s-proof-of-sylow-s-theorem&#34;&gt;Wieldandt&#39;s proof of Sylow&#39;s Theorem&lt;/h2&gt;
 
 &lt;p&gt;A brief preparatory combinatorial discussion:&lt;/p&gt;
 
