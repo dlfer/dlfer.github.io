@@ -5,7 +5,7 @@
     <link>http://blog.dlfer.xyz/tags/vim/</link>
     <language>en-us</language>
     <author></author>
-    <rights>(C) 2017</rights>
+    <rights>(C) 2018</rights>
     <updated>2017-07-04 11:31:30 &#43;0200 CEST</updated>
 
     
@@ -169,6 +169,14 @@ Chrome plugin does not exist. Firefox plugin seems not woking.&lt;/p&gt;
 kind of it does not really work with syncing without their thing,
 but at least DOI and PDF-to-bibtex seem working. It needs some
 understanding and adapting, maybe. Next time.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Update on Zotero: it works quite well, with the sync &amp;amp; WebDAV. Unfortunately,
+I need a WebDAV provider or to understand how do I subscribe to the paid service
+on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p&gt;
+
+&lt;p&gt;Another couple of old pieces to check if they still exist: synergy and x2x.&lt;/p&gt;
 </description>
         </item>
       
