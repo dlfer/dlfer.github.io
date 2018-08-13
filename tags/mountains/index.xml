@@ -3,11 +3,19 @@
   <channel>
     <title>Mountains on DL Ferrario&#39;s Test Web Page</title>
     <link>http://blog.dlfer.xyz/tags/mountains/</link>
+<<<<<<< HEAD
     <description>Recent content in Mountains on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Thu, 26 Oct 2017 16:14:02 +0200</lastBuildDate>
+=======
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2018</rights>
+    <updated>2017-10-26 16:14:02 &#43;0200 CEST</updated>
+
+>>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
     
 	<atom:link href="http://blog.dlfer.xyz/tags/mountains/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,10 +25,28 @@
       <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
       <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
       
+<<<<<<< HEAD
       <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
       <description>Just ... ...reading John Roe&#39;s book Winding Around. Here: For an extended riff on the idea of mathematics as mountaineering see &amp;quot;Into Thin Air&amp;quot; by Colin Adams, on Mathematical Intelligencer.
 How much about &amp;quot;mathematics as mountaineering&amp;quot;?</description>
     </item>
+=======
+        <item>
+          <title>Winding Around and Mountains</title>
+          <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
+          <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
+          <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;
+
+&lt;p&gt;...reading &lt;a href=&#34;http://sites.psu.edu/johnroe/&#34;&gt;John Roe&#39;s&lt;/a&gt; book &lt;a href=&#34;http://bookstore.ams.org/stml-76&#34;&gt;&lt;strong&gt;Winding Around&lt;/strong&gt;&lt;/a&gt;.
+Here: &lt;em&gt;For an extended riff on the idea of mathematics as mountaineering  see  &lt;a href=&#34;https://link.springer.com/content/pdf/10.1007%2FBF03024443.pdf&#34;&gt;&amp;quot;Into Thin Air&amp;quot; by Colin Adams&lt;/a&gt;, on Mathematical Intelligencer.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;How much about &amp;quot;mathematics as mountaineering&amp;quot;?&lt;/p&gt;
+</description>
+        </item>
+      
+>>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
     
   </channel>
 </rss>
