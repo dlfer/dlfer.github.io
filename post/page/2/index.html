@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.46" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -54,57 +54,179 @@
     
     
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
       
     
       
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About/now</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
       
     
   </nav>
@@ -138,6 +260,60 @@
    
   <div class="post"> 
     <h1>
+	<a href="http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/">Computing the Smith Normal Form of a matrix, and homology groups?</a> 
+</h1>
+	<span class="post-date">(2016-10-27)</span>
+
+    <p>
+  
+  
+    A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$ The proof and the algorithm are the same.
+First, a few auxiliary functions. Given a matrix $M$, the follow two functions are self-explanatory.
+def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] !
+  
+
+
+</p>
+
+
+    <a class="read-more" href="http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/">[<i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i>]</a>
+
+  </div>
+</div>
+
+
+    
+  <div class="row">
+   
+  <div class="post"> 
+    <h1>
+	<a href="http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/">Császár torus, python and sagemath</a> 
+</h1>
+	<span class="post-date">(2016-10-19)</span>
+
+    <p>
+  
+  
+    The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$
+Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\
+V_ x &amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\
+  
+
+
+</p>
+
+
+    <a class="read-more" href="http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/">[<i class="fa fa-arrow-right fa-fw" aria-hidden="true"></i>]</a>
+
+  </div>
+</div>
+
+
+    
+  <div class="row">
+   
+  <div class="post"> 
+    <h1>
 	<a href="http://blog.dlfer.xyz/post/2016-10-12-coproducts/">Categorical products and coproducts </a> 
 </h1>
 	<span class="post-date">(2016-10-12)</span>
@@ -145,7 +321,8 @@
     <p>
   
   
-    Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic): $\require{AMScd}$ \begin{CD} X_1 @&gt;{j_1}&gt;&gt; X_1 \coprod X_2 @&lt;{j_2}&lt;&lt; X_2 \\\ @| @VVhV @| \\\ X_1 @&gt;{h_1}&gt;&gt; Z @&lt;{h_2}&lt;&lt; X_2 \\\ \end{CD} Given a set $S$ of indices, the coproduct of a family $X _ {s}$, $s\in S$, of objects is (if it exists) the space $\coprod _ {s \in S} X _ s $, together with morphisms $j _ \alpha \from X _ \alpha \to \coprod _ {s \in S} X_ s$, such that for each $Z$ and each family of morphisms $h_ \alpha \from X_ \alpha \to Z$ there exists a unique $h\from \coprod_ {s \in S} X_ s \to Z$ such that for each $\alpha \in S$ on has $hj_ \alpha = h_ \alpha$, i.e.
+    Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
+$\require{AMScd}$ \begin{CD} X_1 @&gt;{j_1}&gt;&gt; X_1 \coprod X_2 @&lt;{j_2}&lt;&lt; X_2 \\
   
 
 
@@ -170,7 +347,7 @@
     <p>
   
   
-    The problem: Let $X$, $Y$, and $Z$ be topological spaces. Let $Y^X$ denote the space of all continuous functions $X\to Y$, with the compact-open topology generated by the elements of the sub-basis $W_{K,U} = \{\varphi \in Y^X : \varphi K \subset U\}$, where $K$ ranges over all compact subsets of $X$ and $U$ ranges over over all open subsets of $Y$. Finite intersections of $W_{K,U}$ are a basis for the C.O.
+    The problem: Let $X$, $Y$, and $Z$ be topological spaces. Let $Y^X$ denote the space of all continuous functions $X\to Y$, with the compact-open topology generated by the elements of the sub-basis $W_{K,U} = \{\varphi \in Y^X : \varphi K \subset U\}$, where $K$ ranges over all compact subsets of $X$ and $U$ ranges over over all open subsets of $Y$. Finite intersections of $W_{K,U}$ are a basis for the C.
   
 
 

@@ -1,251 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DL Ferrario&#39;s Test Web Page </title>
+    <title>Simplex on DL Ferrario&#39;s Test Web Page</title>
     <link>http://blog.dlfer.xyz/tags/simplex/</link>
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2017</rights>
-    <updated>2016-11-18 13:53:47 &#43;0100 STD</updated>
-
+    <description>Recent content in Simplex on DL Ferrario&#39;s Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Fri, 18 Nov 2016 13:53:47 +0100</lastBuildDate>
     
-      
-        <item>
-          <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</link>
-          <pubDate>Fri, 18 Nov 2016 13:53:47 STD</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</guid>
-          <description>
-
-&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
-
-&lt;p&gt;Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract
-simplicial complex, where the set of vertices actually is a set of points in $\RR^k$,
-such that $|K|$ is the disjoint union of the interiors of the convex hulls of the sets of
-vertices ranging over the set of simplices).&lt;/p&gt;
-
-&lt;p&gt;A vertex $P$ of $K$ is therefore a point of $\RR^k$.&lt;/p&gt;
-
-&lt;p&gt;For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ more precisely)
-is the maximum distance $|x-y|$ as $x,y$ vary  in $|\sigma|$.&lt;/p&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;(1)&lt;/dt&gt;
-&lt;dd&gt;The diameter of $|\sigma| = [P_ 0, \ldots, P_ n]$ is the maximum of the distances $|P_ i  - P_ j|$
-for $i,j=0,\ldots, n$.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;&lt;em&gt;Proof:&lt;/em&gt;
-If $x,y \in \sigma$, then in barycentric coordinates
-$$
-x = \sum_ {j=0} ^n x_ j P_ j,
-$$
-$$
-y = \sum_ {i=0} ^n y_ i P_ i,
-$$
-with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
-Hence
-$$
-\begin{aligned}
-x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
-&amp;amp;=&lt;br /&gt;
-\sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
-\\\
-&amp;amp;=&lt;br /&gt;
-\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
-&amp;amp; \implies \\\
-|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
-&amp;amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
-\end{aligned}
-$$
-&lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;$\newcommand{\mesh}{\operatorname{mesh}}$
-$\newcommand{\supp}{\operatorname{supp}}$&lt;/p&gt;
-
-&lt;p&gt;Now, define the &lt;strong&gt;mesh&lt;/strong&gt; of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.&lt;/p&gt;
-
-&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
-
-&lt;p&gt;Let $K$ be as above, and $K&#39;$ the euclidean simplicial complex with as vertices the simplices of $K$,
-with coordinates the barycenter of the simplex
-$$
-b([P_ 0, \ldots, P_ n]) = \dfrac{1}{n+1} \sum_ {j=0}^n P_ j.
-$$
-A simplex in $K&#39;$ is an (strictly) ascending chain of simplices of $K$,
-$\sigma_ 0 &amp;lt; \sigma_ 1 \ldots, \sigma_ n$.&lt;/p&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;(2)&lt;/dt&gt;
-&lt;dd&gt;&lt;strong&gt;(Mesh Lemma)&lt;/strong&gt; The following inequality holds:
-$$
-\mesh K&#39; \leq \dfrac{\dim K}{\dim K + 1} \mesh K.
-$$&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;&lt;em&gt;Proof:&lt;/em&gt;
-Let $\sigma_ 0$ and $\sigma_ 1$ be two vertices of a simplex in $K&#39;$ $\implies$ $\sigma_ 0 \subset \sigma_ 1$,
-and therefore
-$$
-\sigma_ 0 = [P_ 0, \ldots, P_ n]
-$$
-$$
-\sigma_ 1 = [P_ 0, \ldots, P_ n, Q_ 0,\ldots, Q_ m ].
-$$
-Hence
-$$
-\begin{aligned}
-b(\sigma_ 0 ) - b ( \sigma_ 1) &amp;amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\\
-&amp;amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
-&amp;amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
-\end{aligned}
-$$
-Now,
-note that if $0 &amp;lt; k &amp;lt; k&#39;$, then $\dfrac{1}{k&#39;} &amp;gt; \dfrac{1}{k}$,
-$\implies$
-$1 + \dfrac{1}{k&#39;} &amp;gt; 1+ \dfrac{1}{k} $
-$\implies$
-$\dfrac{k&#39;+1}{k} &amp;gt; \dfrac{k+1}{k} $
-$\implies$
-$\dfrac{k}{k+1} &amp;lt; \dfrac{k&#39;}{k&#39;+1}$.
-Hence  from $n+m+1 \leq \dim K$ the following inequality follows
-$$
-\dfrac{m+1}{n+m+2} \leq \dfrac{\dim K}{\dim K + 1},
-$$
-and since
-$$
-\left| b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right| \leq \mesh K
-$$
-one deduces that
-$$
-\mesh K&#39; \leq \dfrac{\dim K}{\dim K + 1} \mesh K .
-$$
-&lt;em&gt;/qed&lt;/em&gt;/&lt;/p&gt;
-
-&lt;h2 id=&#34;simplicial-approximation-theorem:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
-
-&lt;p&gt;Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
-the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
-i.e. if $x\in |K|$,
-then
-$$
-x = \sum_ {j=0} ^n x_ j P_ j
-$$
-with $x_ j &amp;gt;0$, $\sum_ j  x_ j = 1$, and
-$\supp x = \{ P_ 0, \ldots, P_ n \}$. The support of $P$
-is a simplex of $K$. Let $|x|$ denote its geometric realization $|x|\subset |K|$.&lt;/p&gt;
-
-&lt;p&gt;For each vertex $v$ of $K$, let
-$A(v)$ denote the set of all points $P\in |K|$ such that $v \in \supp P $. It is an open subset of $|K|$,
-such that :&lt;/p&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;(3)&lt;/dt&gt;
-&lt;dd&gt;$[P_ 0, \ldots, P_ n]$ is a simplex of $K$ if and only if
-$\bigcap_ {j=0} ^n A(P_ j)  \neq \emptyset $.
-Moreover, the diameter of $A(P)$ is less than or equal to $\mesh K$.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;Let $f \from |K| \to |L|$ be a continuous map.
-Let $\delta$ be the Lebesgue number of the open covering
-$$
-\{ f^{-1} A ( Q)  \}_ {Q}
-$$
-where $Q$ ranges over all vertices of $L$  and $A(Q) \subset |L|$ is defined as above.
-There is an iterated barycentric subdivision $K&#39;$ such that
-$\mesh K&#39; \leq \epsilon/2$.
-Hence for each vertex $P&#39;$ of $K&#39;$, the diameter of $A(P&#39;)$ is at most $2 \mesh K&#39; \leq \epsilon$.
-Define the map $\varphi \from K&#39; \to L$ as follows:
-for each $P&#39;$ vertex of $K&#39;$, $A(P&#39;)$ is an open subset of $|K&#39;| \equiv |K| $ of diameter $\leq \epsilon$,
-and hence it is contained in at least one of the $f^{-1} A(Q)$. Choose one of the $Q$ with such property, and set
-$\varphi (P&#39;) = Q$.&lt;/p&gt;
-
-&lt;p&gt;It happens that $\varphi \from K&#39; \to K$ is a simplicial function:
-If $[P&#39;_ 0, \ldots, P&#39;_ n]$ is a simplex in $K&#39;$, then by &lt;strong&gt;(3)&lt;/strong&gt;
-$\bigcap_ {j=0} ^n A(P&#39;_ j)  \neq \emptyset$,
-and hence
-$\bigcap_ {j=0} ^n f ( A(P&#39;_ j) )   \neq \emptyset$,
-$\implies$
-$\bigcap_ {j=0} ^n  A(\varphi (P&#39;_ j) )    \neq \emptyset$,
-which implies that $[\varphi P&#39;_ 0, \ldots, \varphi P&#39;_ n]$
-is an $n$-simplex in $L$.&lt;/p&gt;
-
-&lt;p&gt;Moreover, for any $x \in |K&#39;|$,
-the geometric realization of $\varphi$ sends
-$$
-x = \sum_ {j=0} ^n x_ j P&#39;_ j
-\mapsto
-|\varphi|(x) =
-\sum_ {j=0} ^n x_ j \varphi(P&#39;_ j) =
-\sum_ {j=0} ^n x_ j Q_ j \in |L|
-$$
-with the property that
-$f( A(P&#39;_ j) ) \subset A(Q_ j) $ (assume all $x_j &amp;gt;0$).
-This implies that
-for any $x\in |K&#39;|$,
-$|\varphi|(x) \in | \supp f(x)|$.&lt;/p&gt;
-
-&lt;p&gt;A simplicial function $\varphi \from K&#39; \to L$ such that for each $x\in |K&#39;|=|K|$ the equality
-$$|\varphi|(x) \in | \supp f(x) | $$
-holds is termed a &lt;strong&gt;simplicial approximation&lt;/strong&gt; function of $f$.&lt;/p&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;(4)&lt;/dt&gt;
-&lt;dd&gt;Given a continuous map $f\from |K| \to |L|$, there exists a suitable iterated barycentric subdivision $K&#39; = K^{(r)}$ and a simplicial
-map $\varphi \from K&#39; \to L$ such that $\varphi$ is a simplicial approximation of $f$. Furthermore
-$|\varphi|\from |K&#39;|=|K| \to |L|$ is homotopic to $f$.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
-
-&lt;p&gt;Let $K$ and $L$ be two simplicial complexes.&lt;/p&gt;
-
-&lt;dl&gt;
-&lt;dt&gt;(H)&lt;/dt&gt;
-&lt;dd&gt;(Question)
-If $|K| \approx  |L|$, then is it true that
-there are subdivisions $K&#39;$ and $L&#39;$ (of $K$ and $L$ respectively)
-such that $K&#39;=L&#39;$?&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;&lt;em&gt;Radó (1920s)&lt;/em&gt;: Yes, in dimension 2.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Moise (1950s)&lt;/em&gt;: Yes, in dimension 3.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Milnor (1961, &lt;a href=&#34;https://it.wikipedia.org/wiki/Medaglia_Fields&#34; target=&#34;_blank&#34;&gt;Fields Medal&lt;/a&gt; 1962, &lt;a href=&#34;https://en.wikipedia.org/wiki/Wolf_Prize_in_Mathematics&#34; target=&#34;_blank&#34;&gt;Wolf Prize&lt;/a&gt; 1989, &lt;a href=&#34;http://www.abelprize.no/c53720/seksjon/vis.html?tid=53721&#34; target=&#34;_blank&#34;&gt;Abel Prize&lt;/a&gt; 2011)&lt;/em&gt;: Answer is &amp;quot;No&amp;quot;. Counterexample in dimension $\geq 6$.
-{&lt;a href=&#34;http://www.abelprize.no/c53720/binfil/download.php?tid=53744&#34; target=&#34;_blank&#34;&gt;LINK&lt;/a&gt;}&lt;/p&gt;
-
-&lt;dl&gt;
-&lt;dd&gt;(Question)
-If $M$ is a $C^k$ manifold, is it true that there is a simplicial complex
-$K$ such that  $M\approx  |K|$? In other words, is a $C^k$ manifold
-triangulable?&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;&lt;em&gt;Radó (1925)&lt;/em&gt;:  Any $C^0$ $2$-manifold is combinatorially triangulable.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Moise (1952)&lt;/em&gt;: Any $C^0$ $3$-manifold is combinatorially triangulable.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Cairns (1935); Whitehead (1940)&lt;/em&gt;: Every smooth manifold
-is (combinatorially) triangulable.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Kirby-Siebenmann (1969)&lt;/em&gt;: No, for topological manifolds of dimension $\geq 5$.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Freedman (1982)&lt;/em&gt;: No, there is a $4$-dimensional $C^0$-manifold which has
-no combinatorial triangulation, the $E_ 8$ manifold.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Casson (1990)&lt;/em&gt;: Freedman&#39;s $E_ 8$  manifold is not triangulable.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Manolescu (2013)&lt;/em&gt;: No, for any dimension $\geq 5$ there are $C^0$
-manifolds without combinatorial triangulations.&lt;/p&gt;
-
-&lt;p&gt;{&lt;a href=&#34;http://www.math.ucla.edu/~cm/tm.pdf&#34; target=&#34;_blank&#34;&gt;LINK (PDF)&lt;/a&gt;} from CIPRIAN MANOLESCU webpage.&lt;/p&gt;
-</description>
-        </item>
-      
+	<atom:link href="http://blog.dlfer.xyz/tags/simplex/index.xml" rel="self" type="application/rss+xml" />
     
-
+    
+    <item>
+      <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
+      <link>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</link>
+      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
+      
+      <guid>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+      <description>Mesh of a euclidean simplicial complex. Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract simplicial complex, where the set of vertices actually is a set of points in $\RR^k$, such that $|K|$ is the disjoint union of the interiors of the convex hulls of the sets of vertices ranging over the set of simplices).
+A vertex $P$ of $K$ is therefore a point of $\RR^k$.
+For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ more precisely) is the maximum distance $|x-y|$ as $x,y$ vary in $|\sigma|$.</description>
+    </item>
+    
   </channel>
 </rss>

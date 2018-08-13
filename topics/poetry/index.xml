@@ -1,20 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DL Ferrario&#39;s Test Web Page </title>
+    <title>Poetry on DL Ferrario&#39;s Test Web Page</title>
     <link>http://blog.dlfer.xyz/topics/poetry/</link>
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2017</rights>
-    <updated>2017-04-09 22:15:27 &#43;0200 DST</updated>
-
+    <description>Recent content in Poetry on DL Ferrario&#39;s Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Sun, 09 Apr 2017 22:15:27 +0200</lastBuildDate>
     
+	<atom:link href="http://blog.dlfer.xyz/topics/poetry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rescritto imperiale sull&#39;educazione (1890)</title>
+      <link>http://blog.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/</link>
+      <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
       
+      <guid>http://blog.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/</guid>
+      <description>Il 30 ottobre 1890 il Ministro dell&#39;Educazione Giapponese pubblicò il Rescritto Imperiale sull&#39;educazione, che descriveva i principi del sistema formativo giapponese dell&#39;epoca Meiji. L&#39;obiettivo era una veloce modernizzazione e parziale occidentalizzazione del Giappone, che era rimasto isolato durante il periodo Edo (lo shogunato Tokugawa), e che veniva cambiato radicalmente con le riforme dell&#39;oligarchia dell&#39; era Meiji.
+Nel 1907, una sua traduzione inglese fu divulgata in Inghilterra ed analizzata durante una serie di lezioni del matematico Kikuchi Dairoku all&#39;Università di Londra.</description>
+    </item>
     
+    <item>
+      <title>Dei sepolcri (Ugo Foscolo)</title>
+      <link>http://blog.dlfer.xyz/poem/deisepolcri/</link>
+      <pubDate>Thu, 24 Nov 2016 13:45:37 +0100</pubDate>
       
+      <guid>http://blog.dlfer.xyz/poem/deisepolcri/</guid>
+      <description>Ugo Foscolo nacque a Zante/Zacinto (allora parte della Repubblica di Venezia) il 1778-02-08 e morì a 49 anni a Londra il 1827-09-10. Fu più o meno contemporaneo di Ruffini (1765-1822), Fourier (1768-1830), Gauss (1777-1855), Poisson (1781-1840), Hamilton (1788-1856), Cauchy (1789-1857). 
+Dei sepolcri (Ugo Foscolo, 1807)     All’ombra de’ cipressi e dentro l’urne  Confortate di pianto è forse il sonno  Della morte men duro? Ove più il Sole  Per me alla terra non fecondi questa  Bella d’erbe famiglia e d’animali,  E quando vaghe di lusinghe innanzi  A me non danzeran l’ore future,  Nè da te, dolce amico, udrò più il verso  E la mesta armonia che lo governa,  Nè più nel cor mi parlerà lo spirto  Delle vergini Muse e dell’Amore,  Unico spirto a mia vita raminga,  Qual fia ristoro a’ dì perduti un sasso  Che distingua le mie dalle infinite  Ossa che in terra e in mar semina morte?</description>
+    </item>
     
+    <item>
+      <title>Vida de perros (Nicanor Parra)</title>
+      <link>http://blog.dlfer.xyz/poem/vidadeperros/</link>
+      <pubDate>Sun, 09 Oct 2016 20:39:07 +0200</pubDate>
       
+      <guid>http://blog.dlfer.xyz/poem/vidadeperros/</guid>
+      <description>Nicanor Segundo Parra Sandoval (nato il 1914-09-05 in Cile) è un importante poeta e anti-poeta sudamericano, con una formazione fisica e matematica (è stato per anni professore di fisica teorica all&#39;università del Cile di Santiago). 
+Vida de perros (Nicanor Parra - Versos de salón 25, 1962)    El profesor y su vida de perros.  La frustraci6n en diferentes planos.  La sensación de molestia a los dientes  gue produce el sonido de la tiza.</description>
+    </item>
     
-
   </channel>
 </rss>
