@@ -4,15 +4,9 @@
     <title>DL Ferrario&#39;s Test Web Page </title>
     <link>http://blog.dlfer.xyz/</link>
     <language>en-us</language>
-<<<<<<< HEAD
     <author>Mark Otto</author>
     <rights>(C) 2018</rights>
     <updated>2016-01-22 00:00:00 &#43;0000 UTC</updated>
-=======
-    <author></author>
-    <rights>(C) 2018</rights>
-    <updated>2018-08-13 10:47:19 &#43;0200 CEST</updated>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
 
     
       
@@ -193,189 +187,11 @@ e si sono laureati?&lt;/p&gt;
     
       
         <item>
-          <title>Password manager and sync without clouds</title>
-          <link>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</link>
-          <pubDate>Mon, 13 Aug 2018 10:47:19 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</guid>
-          <description>&lt;h2 id=&#34;first-install-the-password-manager&#34;&gt;First, install the password manager.&lt;/h2&gt;
-
-&lt;p&gt;On windows 10, it is
-&lt;a href=&#34;https://keepass.info&#34;&gt;keepass&lt;/a&gt;.
-On linux, the debian package for keepass2 is available in the standard repository.&lt;/p&gt;
-
-&lt;p&gt;Since &lt;a href=&#34;https://anarc.at/blog/2017-02-18-passwords-entropy/&#34;&gt;strong passwords are needed&lt;/a&gt;,
-either use the keepass password internal generator,
-or (maybe for the master password), install and use  e.g. &lt;a href=&#34;https://github.com/ulif/diceware&#34;&gt;diceware&lt;/a&gt;
-or
-&lt;a href=&#34;https://pypi.org/project/xkcdpass/&#34;&gt;xkcdpass&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ sudo pip install xkcdpass
-$ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It is not difficult to add more words lists, e.g. &lt;a href=&#34;https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases&#34;&gt;EFF wordlists&lt;/a&gt; or &lt;a href=&#34;https://www.taringamberini.com/it/diceware_it_IT/lista-di-parole-diceware-in-italiano/&#34;&gt;Diceware in italian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After finishing the &lt;strong&gt;keepass&lt;/strong&gt; installation, and creating a database,&lt;br&gt;
-install the &lt;a href=&#34;https://github.com/JanisEst/KeePassBrowserImporter&#34;&gt;KeePassBrowserImporter plugin&lt;/a&gt; plugin.&lt;/p&gt;
-
-&lt;p&gt;Then, import all passwords saved in (possibly) all &lt;strong&gt;google chrome&lt;/strong&gt;/&lt;strong&gt;chromium&lt;/strong&gt; profiles.&lt;/p&gt;
-
-&lt;p&gt;The next step is to&lt;/p&gt;
-
-&lt;h2 id=&#34;sync-the-database-between-devices&#34;&gt;sync the database between devices.&lt;/h2&gt;
-
-&lt;p&gt;According to the &lt;a href=&#34;https://keepass.info/help/kb/trigger_examples.html#dbsync&#34;&gt;documentation&lt;/a&gt;, each node
-should have a local DB and a shared Dropbox DB.&lt;/p&gt;
-
-&lt;p&gt;To simplify, without extra plugins, just use Dropbox local daemon, syncing the database in the
-&lt;code&gt;Apps/KeePass&lt;/code&gt; subfolder of the shared Dropbox folder.
-The istructions are not exactly one-line to follow, but require a few minutes for each
-computer to sync.&lt;/p&gt;
-
-&lt;h2 id=&#34;finally&#34;&gt;Finally,&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;print&lt;/strong&gt; a KeePass Emergency Sheet. Also, just in case, a few backup copies and a few PassPhrases
-written in safe pieces of paper?&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
-          <title>Dell&#39;uso dell&#39;inglese nelle aule universitarie</title>
-          <link>http://blog.dlfer.xyz/post/2018-02-01-engita/</link>
-          <pubDate>Thu, 01 Feb 2018 13:38:19 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-02-01-engita/</guid>
-          <description>
-
-&lt;h1 id=&#34;a-proposito-di-lingua-inglese-per-le-lezioni-esami-e-internalizzazione:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;A proposito di lingua inglese per le lezioni/esami (e internalizzazione)&lt;/h1&gt;
-
-&lt;h2 id=&#34;è-di-qualche-giorno-fa:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;È di qualche giorno fa&lt;/h2&gt;
-
-&lt;p&gt;la &lt;a href=&#34;https://www.giustizia-amministrativa.it/cdsintra/cdsintra/AmministrazionePortale/DocumentViewer/index.html?ddocname=6RRRYBGTYVS7DABC5SMNSYVZUQ&amp;amp;q=inglese%20or%20politecnico&#34; target=&#34;_blank&#34;&gt;sentenza del Consiglio di Stato&lt;/a&gt; N. 00617/2018REG.PROV.COLL. --  N. 05151/2013 REG.RIC,
-«sul ricorso numero di registro generale 5151 del 2013, proposto da: Ministero
-dell&#39;Istruzione dell&#39;Università e della Ricerca, in persona del Ministro pro
-tempore, Politecnico di Milano, in persona del legale rappresentante pro
-tempore, rappresentati e difesi per legge dall’Avvocatura generale dello Stato.
-&lt;code&gt;[..omissis..]&lt;/code&gt;
-per la riforma della sentenza 23 maggio 2013, n. 1348, del Tribunale
-amministrativo regionale per la Lombardia, sede di Milano.»&lt;/p&gt;
-
-&lt;p&gt;Alcuni passi della sentenza sono interessanti, anche perché sollevano alcune questioni
-di costituzionalità non banali.&lt;/p&gt;
-
-&lt;p&gt;Storia: Il Senato accademico del Politecnico di Milano, con delibera del 21
-maggio 2012, ha attivato, a partire dall’anno 2014, corsi di laurea magistrale
-e di dottorato di ricerca esclusivamente in lingua inglese.
-Alcuni docenti dell’Ateneo milanese hanno impugnato la suddetta delibera
-innanzi al TAR Lombardia.
-Il TAR, con sentenza 23 maggio 2013, n. 1348, ha accolto
-il ricorso, annullando l’atto impugnato.
-Il Ministero dell’Istruzione dell’Università e della Ricerca e il Politecnico
-di Milano hanno proposto appello avverso la predetta sentenza, riproponendo le
-eccezioni di irricevibilità e di inammissibilità del ricorso
-per &lt;strong&gt;carenza di interesse&lt;/strong&gt;.
-Si sono costituiti in giudizio i ricorrenti di primo grado, chiedendo il &lt;strong&gt;rigetto dell’appello&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;La Sezione del Consiglio di Stato ha ritenuto che l&#39;art. 2, comma 2, lettera l), legge n. 240 del 2010
-&lt;em&gt;(legge Gelmini)&lt;/em&gt;
-contrasti:
-&lt;strong&gt;i) con l&#39;art. 3 Cost.&lt;/strong&gt;, perché non tiene conto delle diversità
-esistenti tra gli insegnamenti e in quanto non si può in ogni caso giustificare
-l&#39;abolizione integrale della lingua italiana per i corsi considerati;
-&lt;strong&gt;ii) con l&#39;art. 6 Cost.&lt;/strong&gt;, dal quale si ricava il principio di ufficialità della lingua
-italiana;
-&lt;strong&gt;iii) con l&#39;art. 33 Cost.&lt;/strong&gt;, in quanto la possibilità riservata agli
-atenei di imporre l&#39;uso esclusivo di una lingua diversa dall&#39;italiano
-nell&#39;attività didattica non sarebbe congruente con il principio della libertà
-di insegnamento, compromettendo la ivi compresa libera espressione della
-comunicazione con gli studenti attraverso l&#39;eliminazione di qualsiasi diversa
-scelta eventualmente ritenuta più proficua da parte dei professori.&lt;/p&gt;
-
-&lt;p&gt;La suddetta questione è stata decisa dalla &lt;strong&gt;Corte costituzionale&lt;/strong&gt;, con
-sentenza interpretativa di rigetto 24 febbraio 2017 n. 42:
-la Corte, con sentenza n. 42 del 2017, ha rigettato tale questione, ritenendo
-che possa essere fornita una interpretazione della norma censurata idonea ad
-&lt;strong&gt;escluderne la illegittimità&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Inoltre, in relazione alla valenza delle lingue straniere, la Corte ha
-affermato che: «&lt;i&gt;La progressiva integrazione sovranazionale degli ordinamenti e
-l&#39;erosione dei confini nazionali determinati dalla globalizzazione possono
-insidiare senz&#39;altro, sotto molteplici profili, tale funzione della lingua
-italiana: il plurilinguismo della società contemporanea, l&#39;uso d&#39;una specifica
-lingua in determinatiambiti del sapere umano, la diffusione a livello globale
-d&#39;una o più lingue sono tutti fenomeni che, ormai penetrati nella vita
-dell&#39;ordinamento costituzionale, affiancano la lingua nazionale nei più diversi
-campi&lt;/i&gt;».&lt;/p&gt;
-
-&lt;p&gt;Tale principî costituzionali, «&lt;i&gt;se sono incompatibili con la possibilità che
-intieri corsi di studio siano erogati esclusivamente in una lingua diversa
-dall&#39;italiano, nei termini dianzi esposti, non precludono certo la facoltà, per
-gli atenei che lo ritengano opportuno, di affiancare all&#39;erogazione di corsi
-universitari in lingua italiana corsi in lingua straniera, anche in
-considerazione della specificità di determinati settori
-scientifico-disciplinari&lt;/i&gt;».&lt;/p&gt;
-
-&lt;p&gt;Ciò vale solo, conclude la Corte, con riferimento «&lt;i&gt;all&#39;ipotesi di intieri corsi
-di studio universitari». La disposizione qui scrutinata, «a dimostrazione di
-come l&#39;internazionalizzazione sia obiettivo in vario modo perseguibile e,
-comunque sia, da perseguire» consente invece «l&#39;erogazione di singoli
-insegnamenti in lingua straniera&lt;/i&gt;».&lt;/p&gt;
-
-&lt;p&gt;A seguito della predetta sentenze le parti del giudizio hanno depositato
-memorie, ciascuno ritenendo che la sentenza deve essere letta in conformità
-alle deduzioni da esse, rispettivamente, prospettate.&lt;/p&gt;
-
-&lt;p&gt;La causa è stata decisa all’esito dell’udienza pubblica del &lt;strong&gt;23 novembre 2017&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;[..omissis..]&lt;/code&gt; ne consegue l’infondatezza dell’appello e
-l’illegittimità delibera del 21 maggio 2012 del Senato accademico del
-Politecnico di Milano, nella parte in cui ha previsto che «&lt;i&gt;intieri corsi di
-studio siano erogati esclusivamente in una lingua diversa dall&#39;italiano&lt;/i&gt;».&lt;/p&gt;
-
-&lt;p&gt;In altre parole, in funzione della &lt;strong&gt;specificità&lt;/strong&gt; di determinati SSD si &lt;strong&gt;possono&lt;/strong&gt; erogare
-insegnamenti esclusivamente in lingua inglese. Non int(i)eri  corsi di laurea,
-ma questo mi pare possibile a patto che non sia &lt;strong&gt;vincolante&lt;/strong&gt; l&#39;uso dell&#39;inglese,
-e che i docenti siano d&#39;accordo (per la libertà di insegnamento).&lt;/p&gt;
-
-&lt;p&gt;Infatti, per il principio costituzionale della libertà dell&#39;insegnamento.
-la libertà è
- «garantita ai docenti dall&#39;art. 33, primo comma, Cost., la quale, se è
- suscettibile di atteggiarsi secondo le più varie modalità, “rappresenta pur
- sempre (...) una prosecuzione ed una espansione” (…)della libertà della
- scienza e dell&#39;arte»;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;L&#39;arte e la scienza sono libere e libero ne è l&#39;insegnamento. La Repubblica detta le norme generali sull&#39;istruzione ed istituisce scuole statali per tutti gli ordini e gradi. Enti e privati hanno il diritto di istituire scuole ed istituti di educazione, senza oneri per lo Stato.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;quindi:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;Quindi  ...&lt;/h2&gt;
-
-&lt;p&gt;...tecnicamente un corso di studi interamente in inglese non deve essere accreditato?
-Il titolo di studio non vale? L&#39;atto del Senato del Politecnico è stato annullato. Supponendo
-che ne approvino un altro equivalente, cosa succederebbe dei corsi di laurea in inglese?
-Cosa ne è degli studenti che nel frattempo hanno seguito i corsi di studio in inglese
-e si sono laureati?&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
           <title>Gli Esami Non Finiscono Mai</title>
-<<<<<<< HEAD
           <link>http://blog.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</link>
           <pubDate>Fri, 03 Nov 2017 13:50:17 STD</pubDate>
           <author>Mark Otto</author>
           <guid>http://blog.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</guid>
-=======
-          <link>http://blog.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</link>
-          <pubDate>Fri, 03 Nov 2017 13:50:17 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</guid>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <description>
 
 &lt;h1 id=&#34;norme-di-riferimento&#34;&gt;Norme di Riferimento&lt;/h1&gt;
@@ -892,13 +708,8 @@ studenti di Ateneo.&lt;/p&gt;&lt;/li&gt;
         <item>
           <title>Winding Around and Mountains</title>
           <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
-<<<<<<< HEAD
           <pubDate>Thu, 26 Oct 2017 16:14:02 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
           <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;
 
@@ -914,13 +725,8 @@ Here: &lt;em&gt;For an extended riff on the idea of mathematics as mountaineerin
         <item>
           <title>Fixing MarkDown LaTeX underscore problem</title>
           <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
-<<<<<<< HEAD
           <pubDate>Wed, 04 Oct 2017 15:16:15 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
           <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
 
@@ -955,13 +761,8 @@ $ ..  $
         <item>
           <title>Updating my (Xe)LaTeX vim plugin</title>
           <link>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
-<<<<<<< HEAD
           <pubDate>Tue, 04 Jul 2017 11:31:30 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
@@ -1132,13 +933,8 @@ on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p
         <item>
           <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
           <link>http://blog.dlfer.xyz/post/2017-04-28-sylow/</link>
-<<<<<<< HEAD
           <pubDate>Fri, 28 Apr 2017 15:11:07 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Fri, 28 Apr 2017 15:11:07 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2017-04-28-sylow/</guid>
           <description>
 
@@ -1228,13 +1024,8 @@ then there exists a subgroup $H\subset G$ of order $p^\alpha$.&lt;/dd&gt;
         <item>
           <title>Lettera sulla Polonia (1574-09-25)</title>
           <link>http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
-<<<<<<< HEAD
           <pubDate>Tue, 27 Dec 2016 10:26:32 STD</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Tue, 27 Dec 2016 10:26:32 CET</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
           <description>&lt;p&gt;Lettera del Cavalier &lt;a href=&#34;https://it.wikipedia.org/wiki/Battista_Guarini&#34; target=&#34;_blank&#34;&gt;Battista Guarini&lt;/a&gt;
 (1538-1612)
@@ -1378,13 +1169,8 @@ da me singolarmente riverito, e stimato .&lt;/p&gt;
         <item>
           <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
           <link>http://blog.dlfer.xyz/post/2016-11-25-diracscissors/</link>
-<<<<<<< HEAD
           <pubDate>Fri, 25 Nov 2016 13:12:28 STD</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Fri, 25 Nov 2016 13:12:28 CET</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
           <description>
 
@@ -1547,13 +1333,8 @@ no success.&lt;/p&gt;
         <item>
           <title>Homology of (simplicial) spheres and applications</title>
           <link>http://blog.dlfer.xyz/post/2016-11-21-topappl/</link>
-<<<<<<< HEAD
           <pubDate>Mon, 21 Nov 2016 15:47:19 STD</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Mon, 21 Nov 2016 15:47:19 CET</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-11-21-topappl/</guid>
           <description>
 
@@ -1861,13 +1642,8 @@ $\gamma (A_ f) \geq n-k$, and $\dim (A_ f)\geq n-k$.&lt;/p&gt;
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
           <link>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</link>
-<<<<<<< HEAD
           <pubDate>Fri, 18 Nov 2016 13:53:47 STD</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</guid>
           <description>
 
@@ -2103,13 +1879,8 @@ manifolds without combinatorial triangulations.&lt;/p&gt;
         <item>
           <title>Joins and Products of polyhedra</title>
           <link>http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
-<<<<<<< HEAD
           <pubDate>Mon, 14 Nov 2016 11:07:25 STD</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Mon, 14 Nov 2016 11:07:25 CET</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
           <description>
 
@@ -2595,17 +2366,10 @@ $$&lt;/p&gt;
       
         <item>
           <title>Ranks, Tensors and Abelian Groups</title>
-<<<<<<< HEAD
           <link>http://blog.dlfer.xyz/post/2016-11-09-tensors/</link>
           <pubDate>Wed, 09 Nov 2016 13:21:33 STD</pubDate>
           <author>Mark Otto</author>
           <guid>http://blog.dlfer.xyz/post/2016-11-09-tensors/</guid>
-=======
-          <link>http://blog.dlfer.xyz/post/2016-11-09-Tensors/</link>
-          <pubDate>Wed, 09 Nov 2016 13:21:33 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-09-Tensors/</guid>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <description>
 
 &lt;h2 id=&#34;abelian-groups&#34;&gt;Abelian Groups&lt;/h2&gt;
@@ -2988,13 +2752,8 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
         <item>
           <title>Graphs, trees and simplicial complexes</title>
           <link>http://blog.dlfer.xyz/post/2016-11-04-graphs/</link>
-<<<<<<< HEAD
           <pubDate>Fri, 04 Nov 2016 13:08:54 STD</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-11-04-graphs/</guid>
           <description>
 
@@ -3290,13 +3049,8 @@ which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.&lt;/p&gt;
         <item>
           <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
           <link>http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
-<<<<<<< HEAD
           <pubDate>Thu, 27 Oct 2016 11:45:52 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Thu, 27 Oct 2016 11:45:52 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
           <description>
 
@@ -3886,13 +3640,8 @@ by &lt;em&gt;Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek&lt;/em&gt;, 
         <item>
           <title>Császár torus, python and sagemath</title>
           <link>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
-<<<<<<< HEAD
           <pubDate>Wed, 19 Oct 2016 13:55:55 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
@@ -4226,13 +3975,8 @@ sage: [len(Sigma3.faces()[x]) for x in range(4)]
         <item>
           <title>Categorical products and coproducts </title>
           <link>http://blog.dlfer.xyz/post/2016-10-12-coproducts/</link>
-<<<<<<< HEAD
           <pubDate>Wed, 12 Oct 2016 13:57:52 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Wed, 12 Oct 2016 13:57:52 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/2016-10-12-coproducts/</guid>
           <description>
 
@@ -4508,13 +4252,8 @@ is equal to $h$.
         <item>
           <title>A counter-example for the exponentiation / adjoint of a function</title>
           <link>http://blog.dlfer.xyz/post/counterexample-to-adjoint/</link>
-<<<<<<< HEAD
           <pubDate>Wed, 05 Oct 2016 14:24:49 DST</pubDate>
           <author>Mark Otto</author>
-=======
-          <pubDate>Wed, 05 Oct 2016 14:24:49 CEST</pubDate>
-          <author></author>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
           <guid>http://blog.dlfer.xyz/post/counterexample-to-adjoint/</guid>
           <description>
 

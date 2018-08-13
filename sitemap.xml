@@ -3,7 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
     <loc>http://blog.dlfer.xyz/p/papers/</loc>
     <lastmod>2016-01-22T00:00:00+00:00</lastmod>
   </url>
@@ -11,11 +10,6 @@
   <url>
     <loc>http://blog.dlfer.xyz/p/now/</loc>
     <lastmod>2016-11-18T00:00:00+00:00</lastmod>
-=======
-    <loc>http://blog.dlfer.xyz/</loc>
-    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
   </url>
   
   <url>
@@ -29,11 +23,7 @@
   </url>
   
   <url>
-<<<<<<< HEAD
     <loc>http://blog.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</loc>
-=======
-    <loc>http://blog.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</loc>
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -442,13 +432,13 @@
   </url>
   
   <url>
-    <loc>http://blog.dlfer.xyz/tags/topology/</loc>
+    <loc>http://blog.dlfer.xyz/topics/topology/</loc>
     <lastmod>2017-10-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.dlfer.xyz/topics/topology/</loc>
+    <loc>http://blog.dlfer.xyz/tags/topology/</loc>
     <lastmod>2017-10-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

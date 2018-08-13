@@ -3,19 +3,11 @@
   <channel>
     <title>Homes on DL Ferrario&#39;s Test Web Page</title>
     <link>http://blog.dlfer.xyz/home/</link>
-<<<<<<< HEAD
     <description>Recent content in Homes on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Thu, 22 Sep 2016 16:42:38 +0200</lastBuildDate>
-=======
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2018</rights>
-    <updated>2016-09-22 16:42:38 &#43;0200 CEST</updated>
-
->>>>>>> 5f0ce8ede4374f6bfb0cffbe05fac52b36468fae
     
 	<atom:link href="http://blog.dlfer.xyz/home/index.xml" rel="self" type="application/rss+xml" />
     
