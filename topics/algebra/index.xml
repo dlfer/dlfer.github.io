@@ -1,27 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algebra on DL Ferrario&#39;s Test Web Page</title>
+    <title>DL Ferrario&#39;s Test Web Page </title>
     <link>http://blog.dlfer.xyz/topics/algebra/</link>
-    <description>Recent content in Algebra on DL Ferrario&#39;s Test Web Page</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 28 Apr 2017 15:11:07 +0200</lastBuildDate>
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2018</rights>
+    <updated>2017-04-28 15:11:07 &#43;0200 CEST</updated>
+
     
-	<atom:link href="http://blog.dlfer.xyz/topics/algebra/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
-      <link>http://blog.dlfer.xyz/post/2017-04-28-sylow/</link>
-      <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
       
-      <guid>http://blog.dlfer.xyz/post/2017-04-28-sylow/</guid>
-      <description>Wieldandt&#39;s proof of Sylow&#39;s Theorem A brief preparatory combinatorial discussion:
-[ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } ] and therefore [ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} ]
-Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then $n=p^\alpha m$.</description>
-    </item>
+        <item>
+          <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
+          <link>http://blog.dlfer.xyz/post/2017-04-28-sylow/</link>
+          <pubDate>Fri, 28 Apr 2017 15:11:07 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2017-04-28-sylow/</guid>
+          <description>
+
+&lt;h2 id=&#34;wieldandt-s-proof-of-sylow-s-theorem:5fffa9d98b47559a5dc53a5d693cde69&#34;&gt;Wieldandt&#39;s proof of Sylow&#39;s Theorem&lt;/h2&gt;
+
+&lt;p&gt;A brief preparatory combinatorial discussion:&lt;/p&gt;
+
+&lt;p&gt;[
+\binom{n}{k} =
+\dfrac{n!}{k!(n-k)!} =
+\dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k }  =
+\dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j }
+]
+and therefore
+[
+\binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} =
+\dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j}
+]&lt;/p&gt;
+
+&lt;p&gt;Let $p$ be a prime number.
+Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then
+$n=p^\alpha m$. Let $k=p^\alpha$. Then
+by the previous equation
+[
+\binom{n}{k} = \binom{p^\alpha m}{p^\alpha} =
+\dfrac{p^\alpha m}{p^\alpha } \cdot \dfrac{p^\alpha m-1}{1} \ldots \dfrac{p^\alpha m-j}{j} \ldots \dfrac{p^\alpha m -(p^\alpha-1)}{p^\alpha-1}
+]&lt;/p&gt;
+
+&lt;p&gt;Consider all the fractions $\dfrac{p^\alpha -j}{j}$, for $j=1\ldots p^\alpha -1$: if a power $p^r$ divides $j$,
+then $p^r \leq j &amp;lt; p^\alpha$ and so $p^r$ divides $p^\alpha$ and therefore
+$p^r$ divides $p^\alpha m - j$.
+On the other hand, if a power $p^r$ divides $p^\alpha  m - j$, then it cannot be $p^r&amp;gt;p^\alpha$, since $j&amp;lt;p^\alpha$
+(exercise?), and hence $p^r\leq p^\alpha$, whence the fact that $p^r|j$ follows.
+Hence, all powers of $p$ in all fractions cancel out, and the only place where they can appear is in $m$,
+therefore the following lemma holds.&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;(1)&lt;/dt&gt;
+&lt;dd&gt;If $p$ is a prime, $m$ a positive integer, then
+[
+p^r | m \iff p^r | \binom{p^\alpha m}{p^\alpha}.
+]&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Now, as the proof of Sylow&#39;s theorem.
+Let $G$ be a group of order $n$, and $p^\alpha$ divides $n$ for a prime $p$.
+Let $R_ 1$, $R_ 2$, $\ldots$, $R_ N$ be all the subsets of $G$ of cardinality $p^\alpha$.
+There are $N=\binom{n}{p^\alpha} = \binom{p^\alpha m}{p^ \alpha}$ such subsets.
+Let $\rho$ denotes the maximum power of $p$ dividing $m$, and hence the maximum power of $p$
+dividing $N$: $p^\rho | N$, $p^{\rho+1}\not| N$  because of &lt;strong&gt;(1)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let $G$ act on the set $X$ of all $R_ j$&#39;s by left multiplication: there must be at least one $G$-orbit
+in $X$ such that the number $\mu$ of its elements is not divisible by $p^{\rho +1}$,
+since otherwise $N$ would be divisible by $p^{\rho +1}$.
+Let $R\in X$ be one of the elements in such orbit.&lt;/p&gt;
+
+&lt;p&gt;The stabilizer of $R$ is the subgroup $H$ of all elements in $G$ such that $gR=R$.&lt;/p&gt;
+
+&lt;p&gt;First, note that for each $h\in H$, $h\neq 1$ induces a fixed-point-free bijection $h\from R\to R$
+(which sends $g\in R$ to $hg\in R$). Hence $H$ acts freely on $R$: it follows that $R$ must
+have at least $|H|$ elements, or equivalently that $|H| \leq p^\alpha$ since $R$ has $p^\alpha$
+elements by definition.&lt;/p&gt;
+
+&lt;p&gt;Moreover, $H$ is a subgroup of $G$ of index equal the length of the orbit of $R$, that is $\mu$,
+and hence $|H| = \frac{n}{\mu} = \dfrac{p^\alpha m}{\mu}$.
+By construction
+[
+p^r | m \implies p^{\alpha + \rho} | p^\alpha m = \mu |H|.
+]
+Since $p^{\rho+1} \not| \mu$ by definition, it must be that $p^\alpha$ divides $|H|$,
+and hence that $p^\alpha \leq |H|$.&lt;/p&gt;
+
+&lt;p&gt;This implies that $|H|=p^\alpha$, and therefore the following theorem holds (it is a version of Sylow&#39;s Theorem).&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;(S)&lt;/dt&gt;
+&lt;dd&gt;If $p$ is a prime number and $p^\alpha$ divides the order of a finite group $G$,
+then there exists a subgroup $H\subset G$ of order $p^\alpha$.&lt;/dd&gt;
+&lt;/dl&gt;
+</description>
+        </item>
+      
     
+
   </channel>
 </rss>

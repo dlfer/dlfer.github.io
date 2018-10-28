@@ -1,42 +1,222 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latex on DL Ferrario&#39;s Test Web Page</title>
+    <title>DL Ferrario&#39;s Test Web Page </title>
     <link>http://blog.dlfer.xyz/tags/latex/</link>
-    <description>Recent content in Latex on DL Ferrario&#39;s Test Web Page</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 04 Oct 2017 15:16:15 +0200</lastBuildDate>
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2018</rights>
+    <updated>2017-10-04 15:16:15 &#43;0200 CEST</updated>
+
     
-	<atom:link href="http://blog.dlfer.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Fixing MarkDown LaTeX underscore problem</title>
-      <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
-      <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
       
-      <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
-      <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
-And the same for an inline sum: $\sum_j j^2$.
-The answer is: in the preamble
-markup = &amp;quot;mmark&amp;quot;  and then just use
-$$ .. $$ or $ .</description>
-    </item>
-    
-    <item>
-      <title>Updating my (Xe)LaTeX vim plugin</title>
-      <link>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
-      <pubDate>Tue, 04 Jul 2017 11:31:30 +0200</pubDate>
+        <item>
+          <title>Fixing MarkDown LaTeX underscore problem</title>
+          <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
+          <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
+          <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
+
+&lt;p&gt;Test of a displaystyle formula
+&lt;span  class=&#34;math&#34;&gt;\(
+A_k^n = 
+\dfrac{n!}{k!(n-k)!} =
+\dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k }  =
+\dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j }
+\)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;And the same for an inline sum: $\sum_j j^2$.&lt;/p&gt;
+
+&lt;p&gt;The answer is: in the preamble&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;markup = &amp;quot;mmark&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then just use&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$$ .. $$ 
+or 
+$ ..  $
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;apparently.&lt;/p&gt;
+</description>
+        </item>
       
-      <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
-      <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
-Now, with the vundle plugin.
-Things to do: I had vundle installed already. I needed to add lervag&#39;s vimtex and ajh17&#39;s VimCompletesMe.
-Hence, in .vimrc:
-&amp;quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &amp;quot; let Vundle manage Vundle, required Plugin &#39;VundleVim/Vundle.</description>
-    </item>
     
+      
+        <item>
+          <title>Updating my (Xe)LaTeX vim plugin</title>
+          <link>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+          <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
+          <author></author>
+          <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+          <description>
+
+&lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins:d14b835999900a5ca51bc1b2069332a3&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
+
+&lt;p&gt;My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.&lt;/p&gt;
+
+&lt;p&gt;Now, with the &lt;strong&gt;vundle&lt;/strong&gt; plugin.&lt;/p&gt;
+
+&lt;p&gt;Things to do:
+I had &lt;a href=&#34;https://github.com/VundleVim/Vundle.vim&#34; target=&#34;_blank&#34;&gt;vundle&lt;/a&gt; installed already.
+I needed to add lervag&#39;s &lt;a href=&#34;https://github.com/lervag/vimtex&#34; target=&#34;_blank&#34;&gt;vimtex&lt;/a&gt; and ajh17&#39;s &lt;a href=&#34;https://github.com/ajh17/VimCompletesMe&#34; target=&#34;_blank&#34;&gt;VimCompletesMe&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hence, in &lt;strong&gt;.vimrc&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;quot; set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+&amp;quot; let Vundle manage Vundle, required
+Plugin &#39;VundleVim/Vundle.vim&#39;
+
+Plugin &#39;lervag/vimtex&#39;
+let g:vimtex_view_general_viewer=&#39;okular&#39;
+&amp;quot; &#39;skim&#39; for Mac OSX instead.
+&amp;quot; let g:Tex_ViewRule_pdf = &#39;Skim&#39;
+&amp;quot; also: forward search
+&amp;quot; map ,p :w&amp;lt;CR&amp;gt;:silent !/Applications/Skim.app/Contents/SharedSupport/displayline
+&amp;quot; on Windows Linux (WSL) &#39;zathura&#39;
+let g:vimtex_view_general_options = &#39;--unique file:@pdf\#src:@line@tex&#39;
+let g:vimtex_view_general_options_latexmk = &#39;--unique&#39;
+&amp;quot; let g:vimtex_echo_ignore_wait = 1
+&amp;quot; let g:vimtex_quickfix_latexlog = {&#39;default&#39; : 0}
+let g:vimtex_quickfix_open_on_warning = 0
+
+Plugin &#39;ajh17/VimCompletesMe&#39;
+augroup VimCompletesMeTex
+   autocmd!
+   autocmd FileType tex
+       \ let b:vcm_omni_pattern = g:vimtex#re#neocomplete
+augroup END
+&amp;quot; All of your Plugins must be added before the following line
+call vundle#end()            &amp;quot; required
+filetype plugin indent on    &amp;quot; required
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Remember &lt;strong&gt;:PluginInstall&lt;/strong&gt; after adding these lines.&lt;/p&gt;
+
+&lt;p&gt;Commands to remember:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\ll       =&amp;gt; Start/stop continuous compiling
+\lv       =&amp;gt; Forward search in the PDF
+\le       =&amp;gt; Parse the log file.
+\lc | \lC =&amp;gt; clean .aux files (or also .pdf file)
+[TAB]     =&amp;gt; AutoCompletion
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At the first lines of the master .TEX file the line:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;%! TEX program = xelatex
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then &lt;strong&gt;okular&lt;/strong&gt; shoul have the inverse/backward search enabled with the Custom Text Editor as
+one of the two lines:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gvim --remote-silent +%l &amp;quot;%f&amp;quot;
+gvim --servername GVIM --remote +%l %f
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Further &lt;a href=&#34;https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt&#34; target=&#34;_blank&#34;&gt;Help&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;spell-check:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Spell check&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;map &amp;lt;C-s&amp;gt; : set spl=it spell
+setlocal spell spelllang=it_it
+set spell spelllang=en_us
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;multi-file:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Multi-file&lt;/h3&gt;
+
+&lt;p&gt;As with the documentation in &lt;strong&gt;:h vimtex-multi-file&lt;/strong&gt;,
+either add the root line in all subfiles&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;%! TEX root = /path/to/my-main.tex
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or use the &lt;strong&gt;.latexmain&lt;/strong&gt; specifier:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;touch main.tex.latexmain
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;color-scheme-and-font:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Color scheme and font&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;if has(&#39;gui_running&#39;)
+ colorscheme ir_black
+ set guifont=Courier\ New\ 16
+ set scrolloff=3
+else
+ color desert
+endif
+
+&amp;quot; OSX:
+&amp;quot; set gfn=Courier\ New:h24.00
+&amp;quot; set gfn=Menlo:h24.00
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;and:d14b835999900a5ca51bc1b2069332a3&#34;&gt;And ...&lt;/h3&gt;
+
+&lt;p&gt;To use gvim without GNOME in linuxmint/ubuntu:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get remove vim-gnome
+sudo apt-get install vim-gtk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with some other configuration options:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;set hlsearch
+set incsearch
+set matchtime=5
+set showmatch
+set smartindent
+set noshiftround
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;how-to-silence-unwanted-latex-warnings:d14b835999900a5ca51bc1b2069332a3&#34;&gt;How to silence unwanted LaTeX warnings?&lt;/h3&gt;
+
+&lt;p&gt;Use the package &lt;a href=&#34;https://www.ctan.org/pkg/silence?lang=en&#34; target=&#34;_blank&#34;&gt;silence&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;\RequirePackage{silence} % before documentclass
+\WarningFilter{latex}{Marginpar}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But I cannot silence overfull hboxes.&lt;/p&gt;
+
+&lt;h3 id=&#34;bibliography-bibtex-references:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Bibliography, BibTeX references&lt;/h3&gt;
+
+&lt;p&gt;Unfortunately  &lt;a href=&#34;http://bibdesk.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;bibdesk&lt;/a&gt; only exists
+for OSX. Pity.&lt;/p&gt;
+
+&lt;p&gt;Alternatives:
+&lt;a href=&#34;http://www.jabref.org&#34; target=&#34;_blank&#34;&gt;JabRef&lt;/a&gt;  (are there other options?)&lt;/p&gt;
+
+&lt;p&gt;Put filename.bib into a directory, where all PDF files will go, and use
+the import-bibtex-from-pdf functionality.
+But the DOI automatic import does not work, and getting metadata from PDF
+really does not work.
+Chrome plugin does not exist. Firefox plugin seems not woking.&lt;/p&gt;
+
+&lt;p&gt;What else?&lt;/p&gt;
+
+&lt;p&gt;Trying &lt;a href=&#34;http://www.zotero.org&#34; target=&#34;_blank&#34;&gt;zotero&lt;/a&gt;...
+kind of it does not really work with syncing without their thing,
+but at least DOI and PDF-to-bibtex seem working. It needs some
+understanding and adapting, maybe. Next time.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Update on Zotero: it works quite well, with the sync &amp;amp; WebDAV. Unfortunately,
+I need a WebDAV provider or to understand how do I subscribe to the paid service
+on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p&gt;
+
+&lt;p&gt;Another couple of old pieces to check if they still exist: synergy and x2x.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
   </channel>
 </rss>

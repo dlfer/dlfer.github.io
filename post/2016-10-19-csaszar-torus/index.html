@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.46" />
+  <meta name="generator" content="Hugo 0.16-DEV" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -54,179 +54,61 @@
     
     
       
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
       
     
       
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About/now</a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
       
     
   </nav>
@@ -253,10 +135,10 @@
 <div class="post">
   <h1 class="post-title">Császár torus, python and sagemath</h1>
   <span class="post-date">2016-10-19 
-  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2016-09-22) </span>
+  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;) </span>
   
 
-<h2 id="the-simplicial-complex">The simplicial complex</h2>
+<h2 id="the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9">The simplicial complex</h2>
 
 <p>Consider the (abstract) simplicial  $T$ defined as follows:
 vertices are
@@ -270,15 +152,15 @@ $$
 H_ x &amp;=
 \{ \{j,j+1\}  : j =0 \ldots 6 \}
 = \{ \{j,j-1\}  : j =0 \ldots 6 \}
-\\<br />
+\\\
 V_ x &amp;=
 \{ \{ j,j+x \}  : j =0 \ldots 6 \}
 = \{ \{ j,j-x \}  : j =0 \ldots 6 \}
-\\<br />
+\\\
 D_ x &amp;=
 \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \}
  = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \}
-\\<br />
+\\\
 \Phi_ x &amp; =
 H_ x
 \cup
@@ -323,15 +205,15 @@ of $\Phi_ x$ for each $x$...</p>
 <p>Now, for $2$-simplexes we can proceed in a similar way. For each $x$,
 let
 $$ \begin{aligned}
-L_ x  &amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\<br />
+L_ x  &amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\\
 U_ x  &amp; = \{ \{ j, j+x, j+x+1 \} : j = 0 \ldots 6 \}.
 \end{aligned}
 $$
 Hence
 $$ \begin{aligned}
-L_ 2  &amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\<br />
-U_ 2  &amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\<br />
-L_ 4  &amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\<br />
+L_ 2  &amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\\
+U_ 2  &amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\\
+L_ 4  &amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\\
 U_ 4  &amp; = \{ \{ j, j+4, j+5 \} : j = 0 \ldots 6 \} \implies U_ 4 = L_ 2.
 \end{aligned}
 $$</p>
@@ -376,7 +258,7 @@ The $21$ elements of $\Phi_ 2$ are all the edges (up to identification).<br />
 one can find an embedding;
 more details a the <a href="http://www.eg-models.de/models/Classical_Models/2001.02.069/_preview.html" target="_blank">page in the Archive of Electronic Geometry Models</a>.</p>
 
-<h2 id="sagemath">SageMath</h2>
+<h2 id="sagemath:a0f7ea7056058d387334b524d50c28b9">SageMath</h2>
 
 <p>Here is a plain sage session. According to <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html" target="_blank">the documentation</a>, the function <code>Torus</code> returns Csaszar's Torus.</p>
 
@@ -470,8 +352,7 @@ sage: len(G)
 
 <dl>
 <dt>(3)</dt>
-<dd>The two simplicial complexes are equivalent.
-<br /></dd>
+<dd>The two simplicial complexes are equivalent.</dd>
 </dl>
 
 <p>A little bit of <a href="http://www.sagemath.org" target="_blank">sagemath</a> help in finding such permutations:</p>
@@ -563,11 +444,11 @@ sage: T.is_isomorphic(K)
 True
 </code></pre>
 
-<h2 id="embedding-the-complex-in-rr-3">Embedding the complex in $\RR^3$</h2>
+<h2 id="embedding-the-complex-in-rr-3:a0f7ea7056058d387334b524d50c28b9">Embedding the complex in $\RR^3$</h2>
 
 <p>The problem of embedding is not trivial. But ...</p>
 
-<h2 id="poincaré-homology-3-sphere">Poincaré Homology 3-sphere</h2>
+<h2 id="poincaré-homology-3-sphere:a0f7ea7056058d387334b524d50c28b9">Poincaré Homology 3-sphere</h2>
 
 <p>From <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere" target="_blank">sagemath documentation</a>, and adding on...</p>
 

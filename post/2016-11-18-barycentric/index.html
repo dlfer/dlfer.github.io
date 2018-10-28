@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.46" />
+  <meta name="generator" content="Hugo 0.16-DEV" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -54,179 +54,61 @@
     
     
       
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/papers/">Publications</a>
       
     
       
         <a class="sidebar-nav-item " href="http://blog.dlfer.xyz/p/now/">About/now</a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
       
     
   </nav>
@@ -253,10 +135,10 @@
 <div class="post">
   <h1 class="post-title">Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</h1>
   <span class="post-date">2016-11-18 
-  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2016-11-18) </span>
+  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;) </span>
   
 
-<h2 id="mesh-of-a-euclidean-simplicial-complex">Mesh of a euclidean simplicial complex.</h2>
+<h2 id="mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160">Mesh of a euclidean simplicial complex.</h2>
 
 <p>Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract
 simplicial complex, where the set of vertices actually is a set of points in $\RR^k$,
@@ -286,14 +168,14 @@ with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
 Hence
 $$
 \begin{aligned}
-x-y &amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\<br />
+x-y &amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
 &amp;=<br />
 \sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
-\\<br />
+\\\
 &amp;=<br />
-\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\<br />
-&amp; \implies \\<br />
-|x-y| &amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\<br />
+\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
+&amp; \implies \\\
+|x-y| &amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
 &amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
 \end{aligned}
 $$
@@ -304,7 +186,7 @@ $\newcommand{\supp}{\operatorname{supp}}$</p>
 
 <p>Now, define the <strong>mesh</strong> of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.</p>
 
-<h2 id="barycentric-subdivision-of-a-euclidean-simplicial-complex">Barycentric subdivision of a euclidean simplicial complex.</h2>
+<h2 id="barycentric-subdivision-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160">Barycentric subdivision of a euclidean simplicial complex.</h2>
 
 <p>Let $K$ be as above, and $K'$ the euclidean simplicial complex with as vertices the simplices of $K$,
 with coordinates the barycenter of the simplex
@@ -335,8 +217,8 @@ Hence
 $$
 \begin{aligned}
 b(\sigma_ 0 ) - b ( \sigma_ 1) &amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\<br />
-&amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\<br />
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\\
+&amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
 &amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
 \end{aligned}
 $$
@@ -362,7 +244,7 @@ $$
 $$
 <em>/qed</em>/</p>
 
-<h2 id="simplicial-approximation-theorem">Simplicial Approximation Theorem</h2>
+<h2 id="simplicial-approximation-theorem:fdaaa6449d5638a700bdf2e99eba7160">Simplicial Approximation Theorem</h2>
 
 <p>Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
 the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
@@ -436,7 +318,7 @@ map $\varphi \from K' \to L$ such that $\varphi$ is a simplicial approximation o
 $|\varphi|\from |K'|=|K| \to |L|$ is homotopic to $f$.</dd>
 </dl>
 
-<h2 id="hauptvermutung-and-homeomorphisms"><em>Hauptvermutung</em> and homeomorphisms</h2>
+<h2 id="hauptvermutung-and-homeomorphisms:fdaaa6449d5638a700bdf2e99eba7160"><em>Hauptvermutung</em> and homeomorphisms</h2>
 
 <p>Let $K$ and $L$ be two simplicial complexes.</p>
 
