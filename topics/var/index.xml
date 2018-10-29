@@ -105,7 +105,7 @@ $ ..  $
           <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
-&lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins:d14b835999900a5ca51bc1b2069332a3&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
+&lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
 
 &lt;p&gt;My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.&lt;/p&gt;
 
@@ -173,14 +173,14 @@ gvim --servername GVIM --remote +%l %f
 
 &lt;p&gt;Further &lt;a href=&#34;https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt&#34; target=&#34;_blank&#34;&gt;Help&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;spell-check:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Spell check&lt;/h3&gt;
+&lt;h3 id=&#34;spell-check&#34;&gt;Spell check&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;map &amp;lt;C-s&amp;gt; : set spl=it spell
 setlocal spell spelllang=it_it
 set spell spelllang=en_us
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;multi-file:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Multi-file&lt;/h3&gt;
+&lt;h3 id=&#34;multi-file&#34;&gt;Multi-file&lt;/h3&gt;
 
 &lt;p&gt;As with the documentation in &lt;strong&gt;:h vimtex-multi-file&lt;/strong&gt;,
 either add the root line in all subfiles&lt;/p&gt;
@@ -193,7 +193,7 @@ either add the root line in all subfiles&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;touch main.tex.latexmain
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;color-scheme-and-font:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Color scheme and font&lt;/h3&gt;
+&lt;h3 id=&#34;color-scheme-and-font&#34;&gt;Color scheme and font&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;if has(&#39;gui_running&#39;)
  colorscheme ir_black
@@ -208,7 +208,7 @@ endif
 &amp;quot; set gfn=Menlo:h24.00
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;and:d14b835999900a5ca51bc1b2069332a3&#34;&gt;And ...&lt;/h3&gt;
+&lt;h3 id=&#34;and&#34;&gt;And ...&lt;/h3&gt;
 
 &lt;p&gt;To use gvim without GNOME in linuxmint/ubuntu:&lt;/p&gt;
 
@@ -226,7 +226,7 @@ set smartindent
 set noshiftround
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;how-to-silence-unwanted-latex-warnings:d14b835999900a5ca51bc1b2069332a3&#34;&gt;How to silence unwanted LaTeX warnings?&lt;/h3&gt;
+&lt;h3 id=&#34;how-to-silence-unwanted-latex-warnings&#34;&gt;How to silence unwanted LaTeX warnings?&lt;/h3&gt;
 
 &lt;p&gt;Use the package &lt;a href=&#34;https://www.ctan.org/pkg/silence?lang=en&#34; target=&#34;_blank&#34;&gt;silence&lt;/a&gt;.&lt;/p&gt;
 
@@ -236,7 +236,7 @@ set noshiftround
 
 &lt;p&gt;But I cannot silence overfull hboxes.&lt;/p&gt;
 
-&lt;h3 id=&#34;bibliography-bibtex-references:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Bibliography, BibTeX references&lt;/h3&gt;
+&lt;h3 id=&#34;bibliography-bibtex-references&#34;&gt;Bibliography, BibTeX references&lt;/h3&gt;
 
 &lt;p&gt;Unfortunately  &lt;a href=&#34;http://bibdesk.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;bibdesk&lt;/a&gt; only exists
 for OSX. Pity.&lt;/p&gt;
@@ -278,14 +278,14 @@ on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p
           <description>&lt;p&gt;Lettera del Cavalier &lt;a href=&#34;https://it.wikipedia.org/wiki/Battista_Guarini&#34; target=&#34;_blank&#34;&gt;Battista Guarini&lt;/a&gt;
 (1538-1612)
 al Segretario del &lt;a href=&#34;https://it.wikipedia.org/wiki/Luigi_d&#39;Este&#34; target=&#34;_blank&#34;&gt;Cardinal Luigi d&#39;Este&lt;/a&gt; (1538-1586),
-Monsignor &lt;a href=&#34;http://www.treccani.it/enciclopedia/benedetto-manzoli_(Dizionario-Biografico&#34; target=&#34;_blank&#34;&gt;Benedetto Manzuoli&lt;/a&gt;/) (1530-1585).&lt;/p&gt;
+Monsignor &lt;a href=&#34;http://www.treccani.it/enciclopedia/benedetto-manzoli_(Dizionario-Biografico)/&#34; target=&#34;_blank&#34;&gt;Benedetto Manzuoli&lt;/a&gt; (1530-1585).&lt;/p&gt;
 
 &lt;p&gt;Testo preso dalla raccolta di lettere
 &lt;em&gt;L&#39;idea del segretario dal signore Bartolomeo Zucchi gentil&#39;huomo di Monza, academico insensato di Perugia. Parte seconda.&lt;/em&gt;
  pubblicato nel 1606 da &lt;a href=&#34;https://it.wikipedia.org/wiki/Bartolomeo_Zucchi&#34; target=&#34;_blank&#34;&gt;Bartolomeo Zucchi&lt;/a&gt; (1570-1630) a Venezia, presso la &lt;em&gt;Compagnia Minima&lt;/em&gt;. &lt;a href=&#34;https://archive.org/details/bub_gb_7vzlXM_xyOUC&#34; target=&#34;_blank&#34;&gt;ARCHIVE LINK&lt;/a&gt;
 L&#39;ortografia è stata parzialmente adattata a quella moderna.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.treccani.it/enciclopedia/battista-guarini_(Dizionario-Biografico&#34; target=&#34;_blank&#34;&gt;Guarini&lt;/a&gt;/) fu Segretario di &lt;a href=&#34;https://it.wikipedia.org/wiki/Alfonso_II_d%27Este&#34; target=&#34;_blank&#34;&gt;Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597)&lt;/a&gt; tra il 1573 e il 1583,
+&lt;p&gt;&lt;a href=&#34;http://www.treccani.it/enciclopedia/battista-guarini_(Dizionario-Biografico)/&#34; target=&#34;_blank&#34;&gt;Guarini&lt;/a&gt; fu Segretario di &lt;a href=&#34;https://it.wikipedia.org/wiki/Alfonso_II_d%27Este&#34; target=&#34;_blank&#34;&gt;Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597)&lt;/a&gt; tra il 1573 e il 1583,
 e scrive al segretario
 del Cardinal Luigi d&#39;Este, fratello di Alfonso Secondo d&#39;Este.&lt;br /&gt;
 Nel 1573 il posto di Re di Polonia fu messo a concorso, per elezione,
@@ -392,7 +392,7 @@ Io, che son andato in Polonia,
 à cui già Roma solea parer un gran salto, comincio à credere, ch&#39;ogn&#39;un sia
 atto à peregrinare, ancorache questo sia detto impropriamente per lei,
 allaquale sì ben conviene quel
-nobilissimo titolo di πολύτροπος&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; .
+nobilissimo titolo di πολύτροπος&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; .
 Et con questo io me le raccomando con tutto&#39;l cuore,
 pregandola a tenermi in buona gratia del Signor Cardinale Sirleti
 dopo l&#39;Estense, ch&#39;è Signore naturale d&#39;amendue noi,
@@ -405,8 +405,8 @@ da me singolarmente riverito, e stimato .&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;Uomo dal multiforme ingegno, sagace. Dall&#39;odissea, «ἦ σύ γ᾽ Ὀδυσσεύς ἐσσι πολύτροπος, ὅν τέ μοι αἰεὶ φάσκεν ἐλεύσεσθαι χρυσόρραπις ἀργεϊφόντης, ἐκ Τροίης ἀνιόντα θοῇ σὺν νηὶ μελαίνῃ.» Traduzione di Ippolito Pindemonte: «Saresti forse quel sagace Ulisse, / Che Mercurio a me sempre iva dicendo / Dover d’Ilio venir su negra nave?» &lt;a href=&#34;http://www.perseus.tufts.edu/hopper/searchresults?q=polu%2Ftropos&amp;amp;target=greek&#34; target=&#34;_blank&#34;&gt;PERSEUS LINK&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Uomo dal multiforme ingegno, sagace. Dall&#39;odissea, «ἦ σύ γ᾽ Ὀδυσσεύς ἐσσι πολύτροπος, ὅν τέ μοι αἰεὶ φάσκεν ἐλεύσεσθαι χρυσόρραπις ἀργεϊφόντης, ἐκ Τροίης ἀνιόντα θοῇ σὺν νηὶ μελαίνῃ.» Traduzione di Ippolito Pindemonte: «Saresti forse quel sagace Ulisse, / Che Mercurio a me sempre iva dicendo / Dover d’Ilio venir su negra nave?» &lt;a href=&#34;http://www.perseus.tufts.edu/hopper/searchresults?q=polu%2Ftropos&amp;amp;target=greek&#34; target=&#34;_blank&#34;&gt;PERSEUS LINK&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
