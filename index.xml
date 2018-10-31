@@ -1961,8 +1961,8 @@ Hence
 $$
 \begin{aligned}
 b(\sigma_ 0 ) - b ( \sigma_ 1) &amp;amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  - \sum_ {i=0} ^ m Q_ i \right) \\&lt;br /&gt;
-&amp;amp;= \left( \dfrac{1}{n+1} - \sum \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\&lt;br /&gt;
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  + \sum_ {i=0} ^ m Q_ i \right) \\&lt;br /&gt;
+&amp;amp;= \left( \dfrac{1}{n+1} - \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\&lt;br /&gt;
 &amp;amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
 \end{aligned}
 $$
@@ -2013,7 +2013,7 @@ Moreover, the diameter of $A(P)$ is less than or equal to $\mesh K$.&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;Let $f \from |K| \to |L|$ be a continuous map.
-Let $\delta$ be the Lebesgue number of the open covering
+Let $\epsilon$ be the Lebesgue number of the open covering
 $$
 \{ f^{-1} A ( Q)  \}_ {Q}
 $$
