@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fundamental Group on DL Ferrario&#39;s Test Web Page</title>
-    <link>www.dlfer.xyz/tags/fundamental-group/</link>
+    <link>http://www.dlfer.xyz/tags/fundamental-group/</link>
     <description>Recent content in Fundamental Group on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Fri, 25 Nov 2016 13:12:28 +0100</lastBuildDate>
     
-	<atom:link href="www.dlfer.xyz/tags/fundamental-group/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.dlfer.xyz/tags/fundamental-group/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
-      <link>www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
+      <link>http://www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
       <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
       <description>Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$. Consider the space $X\subset S^2\times S^2$ of all pairs $(A,B)$ of points such that $|A-B|=\sqrt 3$, where the distance is the euclidean distance of $S^2\subset \RR^3$, and $S^2$ is the unit sphere in $\RR^3$.
  (1) $X\approx SO(3) \approx \PP^3(\RR)$.  Proof: The fact that $SO(3) \approx \PP^3(\RR)$ is a not-so-easy elementary exercise (cf. exercise (11.27) and exercise (7.30) of my Geometry Notes, protected by a single-character password: the number of non-zero digits appearing in the password itself; the problem might be ill-posed).</description>
     </item>

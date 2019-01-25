@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ulam on DL Ferrario&#39;s Test Web Page</title>
-    <link>www.dlfer.xyz/tags/ulam/</link>
+    <link>http://www.dlfer.xyz/tags/ulam/</link>
     <description>Recent content in Ulam on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Mon, 21 Nov 2016 15:47:19 +0100</lastBuildDate>
     
-	<atom:link href="www.dlfer.xyz/tags/ulam/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.dlfer.xyz/tags/ulam/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Homology of (simplicial) spheres and applications</title>
-      <link>www.dlfer.xyz/post/2016-11-21-topappl/</link>
+      <link>http://www.dlfer.xyz/post/2016-11-21-topappl/</link>
       <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-11-21-topappl/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-11-21-topappl/</guid>
       <description>Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann Let $\Delta^n$ the standard simplex of dimension $n$ in $\RR^{n+1}$, which is homeomorphic to a $n$-dimensional disk, and $\Sigma^{n}\subset \Delta^{n+1}$ the simplicial $n$-sphere, i.e. the boundary of $\Delta^{n+1}$ (the union of its $n+2$ $n$-dimensional faces), which is homeomorphic to an $n$-dimensional sphere.
 The homeomorphisms can be more explicit: let $B\in \Delta^{n+1}$ be its barycenter, and $\varphi\from \Sigma^n\subset \Delta^{n+1} \to \RR^{n+2}$ the map defined as $\varphi(x) = \dfrac{x-B}{|x-B|}$.</description>
     </item>

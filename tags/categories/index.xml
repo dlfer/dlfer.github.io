@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DL Ferrario&#39;s Test Web Page</title>
-    <link>www.dlfer.xyz/tags/categories/</link>
+    <link>http://www.dlfer.xyz/tags/categories/</link>
     <description>Recent content in Categories on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Wed, 12 Oct 2016 13:57:52 +0200</lastBuildDate>
     
-	<atom:link href="www.dlfer.xyz/tags/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.dlfer.xyz/tags/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Categorical products and coproducts </title>
-      <link>www.dlfer.xyz/post/2016-10-12-coproducts/</link>
+      <link>http://www.dlfer.xyz/post/2016-10-12-coproducts/</link>
       <pubDate>Wed, 12 Oct 2016 13:57:52 +0200</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
       <description>Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
 $\require{AMScd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;gt;&amp;gt; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;lt;&amp;lt; X_2 \\</description>
     </item>

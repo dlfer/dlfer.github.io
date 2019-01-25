@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simplicial Complex on DL Ferrario&#39;s Test Web Page</title>
-    <link>www.dlfer.xyz/tags/simplicial-complex/</link>
+    <link>http://www.dlfer.xyz/tags/simplicial-complex/</link>
     <description>Recent content in Simplicial Complex on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Fri, 18 Nov 2016 13:53:47 +0100</lastBuildDate>
     
-	<atom:link href="www.dlfer.xyz/tags/simplicial-complex/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.dlfer.xyz/tags/simplicial-complex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-      <link>www.dlfer.xyz/post/2016-11-18-barycentric/</link>
+      <link>http://www.dlfer.xyz/post/2016-11-18-barycentric/</link>
       <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
       <description>Mesh of a euclidean simplicial complex. Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract simplicial complex, where the set of vertices actually is a set of points in $\RR^k$, such that $|K|$ is the disjoint union of the interiors of the convex hulls of the sets of vertices ranging over the set of simplices).
 A vertex $P$ of $K$ is therefore a point of $\RR^k$.
 For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ more precisely) is the maximum distance $|x-y|$ as $x,y$ vary in $|\sigma|$.</description>
@@ -25,28 +25,28 @@ For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ mor
     
     <item>
       <title>Joins and Products of polyhedra</title>
-      <link>www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
+      <link>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
       <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
       <description>Join $K*L$ of two simplicial complexes Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes ($X_ K$ denotes the set of vertices of $K$ and $\Phi_ K$ the set of simplices). Then the join $K*L$ is the simplicial complex defined as follows. Its set of vertices $X=X_ K \cup X_ L$ is the union of the sets of vertices of $K$ and of $L$, and a non-empty subset of $X$ is a simplex of $K*L$ if and only if it is of type $\sigma \cup \tau$, where $\sigma \in \Phi_ K \cup \{ \emptyset \}$ and $\tau \in \Phi_ L \cup \{\emptyset \}$.</description>
     </item>
     
     <item>
       <title>Graphs, trees and simplicial complexes</title>
-      <link>www.dlfer.xyz/post/2016-11-04-graphs/</link>
+      <link>http://www.dlfer.xyz/post/2016-11-04-graphs/</link>
       <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-11-04-graphs/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-11-04-graphs/</guid>
       <description>Graphs and simplicial complexes A one-dimensional simplicial complex is a graph. That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices and $\Phi_ K$ is the set of simplexes, with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where $E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed edges of $K$) and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes termed again vertices of $K$).</description>
     </item>
     
     <item>
       <title>Császár torus, python and sagemath</title>
-      <link>www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
+      <link>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
       <pubDate>Wed, 19 Oct 2016 13:55:55 +0200</pubDate>
       
-      <guid>www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
+      <guid>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
       <description>The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$
 Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\
 V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\</description>
