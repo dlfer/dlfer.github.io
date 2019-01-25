@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+
+  <head>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
+  <meta name="author" content="DL Ferrario">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title> 
+      Mesh, Barycentric Subdivision and Simplicial Approximation Theorem &middot; DL Ferrario&#39;s Test  Web Page
+     </title>
+
+  
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/highlight.min.css">  
+  <script src="http://www.dlfer.xyz//js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/academicons.min.css">
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/otherstyle.css">
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/poole.css">
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/syntax.css">
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/lanyon.css">
+  
+  <link rel="stylesheet" href="http://www.dlfer.xyz//css/fonts.css">
+  
+   
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="http://www.dlfer.xyz/assets/favicon.ico">
+</head>
+
+  <body class="theme-base-0x">
+    
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<div class="sidebar" id="sidebar">
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/">Home</a>
+    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/post">All Posts</a>
+    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/topics/">Topics</a>
+    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/tags/">Tags</a>
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/papers/">Publications</a>
+      
+    
+      
+        <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/now/">About/now</a>
+      
+    
+  </nav>
+</div>
+
+<title>
+    
+      Mesh, Barycentric Subdivision and Simplicial Approximation Theorem &middot; DL Ferrario&#39;s Test  Web Page
+    
+  </title>
+    
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="http://www.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
+     
+          </h3>
+        </div>
+      </div>
+      <div class="container content">
+
+
+<div class="post">
+  <h1 class="post-title">Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</h1>
+  <span class="post-date">2016-11-18 
+	  
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2018-10-31) 
+	  
+  </span>
+  
+
+<h2 id="mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160">Mesh of a euclidean simplicial complex.</h2>
+
+<p>Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract
+simplicial complex, where the set of vertices actually is a set of points in $\RR^k$,
+such that $|K|$ is the disjoint union of the interiors of the convex hulls of the sets of
+vertices ranging over the set of simplices).</p>
+
+<p>A vertex $P$ of $K$ is therefore a point of $\RR^k$.</p>
+
+<p>For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ more precisely)
+is the maximum distance $|x-y|$ as $x,y$ vary  in $|\sigma|$.</p>
+
+<dl>
+<dt>(1)</dt>
+<dd>The diameter of $|\sigma| = [P_ 0, \ldots, P_ n]$ is the maximum of the distances $|P_ i  - P_ j|$
+for $i,j=0,\ldots, n$.</dd>
+</dl>
+
+<p><em>Proof:</em>
+If $x,y \in \sigma$, then in barycentric coordinates
+$$
+x = \sum_ {j=0} ^n x_ j P_ j,
+$$
+$$
+y = \sum_ {i=0} ^n y_ i P_ i,
+$$
+with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
+Hence
+$$
+\begin{aligned}
+x-y &amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
+&amp;=<br />
+\sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
+\\\
+&amp;=<br />
+\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
+&amp; \implies \\\
+|x-y| &amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
+&amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
+\end{aligned}
+$$
+<em>/qed/</em></p>
+
+<p>$\newcommand{\mesh}{\operatorname{mesh}}$
+$\newcommand{\supp}{\operatorname{supp}}$</p>
+
+<p>Now, define the <strong>mesh</strong> of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.</p>
+
+<h2 id="barycentric-subdivision-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160">Barycentric subdivision of a euclidean simplicial complex.</h2>
+
+<p>Let $K$ be as above, and $K'$ the euclidean simplicial complex with as vertices the simplices of $K$,
+with coordinates the barycenter of the simplex
+$$
+b([P_ 0, \ldots, P_ n]) = \dfrac{1}{n+1} \sum_ {j=0}^n P_ j.
+$$
+A simplex in $K'$ is an (strictly) ascending chain of simplices of $K$,
+$\sigma_ 0 &lt; \sigma_ 1 \ldots, \sigma_ n$.</p>
+
+<dl>
+<dt>(2)</dt>
+<dd><strong>(Mesh Lemma)</strong> The following inequality holds:
+$$
+\mesh K' \leq \dfrac{\dim K}{\dim K + 1} \mesh K.
+$$</dd>
+</dl>
+
+<p><em>Proof:</em>
+Let $\sigma_ 0$ and $\sigma_ 1$ be two vertices of a simplex in $K'$ $\implies$ $\sigma_ 0 \subset \sigma_ 1$,
+and therefore
+$$
+\sigma_ 0 = [P_ 0, \ldots, P_ n]
+$$
+$$
+\sigma_ 1 = [P_ 0, \ldots, P_ n, Q_ 0,\ldots, Q_ m ].
+$$
+Hence
+$$
+\begin{aligned}
+b(\sigma_ 0 ) - b ( \sigma_ 1) &amp; =
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  + \sum_ {i=0} ^ m Q_ i \right) \\\
+&amp;= \left( \dfrac{1}{n+1} - \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
+&amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
+\end{aligned}
+$$
+Now,
+note that if $0 &lt; k &lt; k'$, then $\dfrac{1}{k'} &gt; \dfrac{1}{k}$,
+$\implies$
+$1 + \dfrac{1}{k'} &gt; 1+ \dfrac{1}{k} $
+$\implies$
+$\dfrac{k'+1}{k} &gt; \dfrac{k+1}{k} $
+$\implies$
+$\dfrac{k}{k+1} &lt; \dfrac{k'}{k'+1}$.
+Hence  from $n+m+1 \leq \dim K$ the following inequality follows
+$$
+\dfrac{m+1}{n+m+2} \leq \dfrac{\dim K}{\dim K + 1},
+$$
+and since
+$$
+\left| b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right| \leq \mesh K
+$$
+one deduces that
+$$
+\mesh K' \leq \dfrac{\dim K}{\dim K + 1} \mesh K .
+$$
+<em>/qed</em>/</p>
+
+<h2 id="simplicial-approximation-theorem:fdaaa6449d5638a700bdf2e99eba7160">Simplicial Approximation Theorem</h2>
+
+<p>Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
+the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
+i.e. if $x\in |K|$,
+then
+$$
+x = \sum_ {j=0} ^n x_ j P_ j
+$$
+with $x_ j &gt;0$, $\sum_ j  x_ j = 1$, and
+$\supp x = \{ P_ 0, \ldots, P_ n \}$. The support of $P$
+is a simplex of $K$. Let $|x|$ denote its geometric realization $|x|\subset |K|$.</p>
+
+<p>For each vertex $v$ of $K$, let
+$A(v)$ denote the set of all points $P\in |K|$ such that $v \in \supp P $. It is an open subset of $|K|$,
+such that :</p>
+
+<dl>
+<dt>(3)</dt>
+<dd>$[P_ 0, \ldots, P_ n]$ is a simplex of $K$ if and only if
+$\bigcap_ {j=0} ^n A(P_ j)  \neq \emptyset $.
+Moreover, the diameter of $A(P)$ is less than or equal to $\mesh K$.</dd>
+</dl>
+
+<p>Let $f \from |K| \to |L|$ be a continuous map.
+Let $\epsilon$ be the Lebesgue number of the open covering
+$$
+\{ f^{-1} A ( Q)  \}_ {Q}
+$$
+where $Q$ ranges over all vertices of $L$  and $A(Q) \subset |L|$ is defined as above.
+There is an iterated barycentric subdivision $K'$ such that
+$\mesh K' \leq \epsilon/2$.
+Hence for each vertex $P'$ of $K'$, the diameter of $A(P')$ is at most $2 \mesh K' \leq \epsilon$.
+Define the map $\varphi \from K' \to L$ as follows:
+for each $P'$ vertex of $K'$, $A(P')$ is an open subset of $|K'| \equiv |K| $ of diameter $\leq \epsilon$,
+and hence it is contained in at least one of the $f^{-1} A(Q)$. Choose one of the $Q$ with such property, and set
+$\varphi (P') = Q$.</p>
+
+<p>It happens that $\varphi \from K' \to K$ is a simplicial function:
+If $[P'_ 0, \ldots, P'_ n]$ is a simplex in $K'$, then by <strong>(3)</strong>
+$\bigcap_ {j=0} ^n A(P'_ j)  \neq \emptyset$,
+and hence
+$\bigcap_ {j=0} ^n f ( A(P'_ j) )   \neq \emptyset$,
+$\implies$
+$\bigcap_ {j=0} ^n  A(\varphi (P'_ j) )    \neq \emptyset$,
+which implies that $[\varphi P'_ 0, \ldots, \varphi P'_ n]$
+is an $n$-simplex in $L$.</p>
+
+<p>Moreover, for any $x \in |K'|$,
+the geometric realization of $\varphi$ sends
+$$
+x = \sum_ {j=0} ^n x_ j P'_ j
+\mapsto
+|\varphi|(x) =
+\sum_ {j=0} ^n x_ j \varphi(P'_ j) =
+\sum_ {j=0} ^n x_ j Q_ j \in |L|
+$$
+with the property that
+$f( A(P'_ j) ) \subset A(Q_ j) $ (assume all $x_j &gt;0$).
+This implies that
+for any $x\in |K'|$,
+$|\varphi|(x) \in | \supp f(x)|$.</p>
+
+<p>A simplicial function $\varphi \from K' \to L$ such that for each $x\in |K'|=|K|$ the equality
+$$|\varphi|(x) \in | \supp f(x) | $$
+holds is termed a <strong>simplicial approximation</strong> function of $f$.</p>
+
+<dl>
+<dt>(4)</dt>
+<dd>Given a continuous map $f\from |K| \to |L|$, there exists a suitable iterated barycentric subdivision $K' = K^{(r)}$ and a simplicial
+map $\varphi \from K' \to L$ such that $\varphi$ is a simplicial approximation of $f$. Furthermore
+$|\varphi|\from |K'|=|K| \to |L|$ is homotopic to $f$.</dd>
+</dl>
+
+<h2 id="hauptvermutung-and-homeomorphisms:fdaaa6449d5638a700bdf2e99eba7160"><em>Hauptvermutung</em> and homeomorphisms</h2>
+
+<p>Let $K$ and $L$ be two simplicial complexes.</p>
+
+<dl>
+<dt>(H)</dt>
+<dd>(Question)
+If $|K| \approx  |L|$, then is it true that
+there are subdivisions $K'$ and $L'$ (of $K$ and $L$ respectively)
+such that $K'=L'$?</dd>
+</dl>
+
+<p><em>Radó (1920s)</em>: Yes, in dimension 2.</p>
+
+<p><em>Moise (1950s)</em>: Yes, in dimension 3.</p>
+
+<p><em>Milnor (1961, <a href="https://it.wikipedia.org/wiki/Medaglia_Fields" target="_blank">Fields Medal</a> 1962, <a href="https://en.wikipedia.org/wiki/Wolf_Prize_in_Mathematics" target="_blank">Wolf Prize</a> 1989, <a href="http://www.abelprize.no/c53720/seksjon/vis.html?tid=53721" target="_blank">Abel Prize</a> 2011)</em>: Answer is &quot;No&quot;. Counterexample in dimension $\geq 6$.
+{<a href="http://www.abelprize.no/c53720/binfil/download.php?tid=53744" target="_blank">LINK</a>}</p>
+
+<dl>
+<dd>(Question)
+If $M$ is a $C^k$ manifold, is it true that there is a simplicial complex
+$K$ such that  $M\approx  |K|$? In other words, is a $C^k$ manifold
+triangulable?</dd>
+</dl>
+
+<p><em>Radó (1925)</em>:  Any $C^0$ $2$-manifold is combinatorially triangulable.</p>
+
+<p><em>Moise (1952)</em>: Any $C^0$ $3$-manifold is combinatorially triangulable.</p>
+
+<p><em>Cairns (1935); Whitehead (1940)</em>: Every smooth manifold
+is (combinatorially) triangulable.</p>
+
+<p><em>Kirby-Siebenmann (1969)</em>: No, for topological manifolds of dimension $\geq 5$.</p>
+
+<p><em>Freedman (1982)</em>: No, there is a $4$-dimensional $C^0$-manifold which has
+no combinatorial triangulation, the $E_ 8$ manifold.</p>
+
+<p><em>Casson (1990)</em>: Freedman's $E_ 8$  manifold is not triangulable.</p>
+
+<p><em>Manolescu (2013)</em>: No, for any dimension $\geq 5$ there are $C^0$
+manifolds without combinatorial triangulations.</p>
+
+<p>{<a href="http://www.math.ucla.edu/~cm/tm.pdf" target="_blank">LINK (PDF)</a>} from CIPRIAN MANOLESCU webpage.</p>
+
+</div>
+
+     </div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+	    <a href="http://www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
+            Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+        </p>
+    </div>
+</footer>
+    
+  
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { 
+                                          inlineMath: [['$','$'], ['\\(','\\)']], 
+				          displayMath: [['$$','$$'], ['\[','\]']],
+				          processEscapes: true,
+				          processEnvironments: true,
+				          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				          TeX: { equationNumbers: { autoNumber: "AMS" },
+				          extensions: ["AMSmath.js", "AMSsymbols.js","AMScd.js"] }
+                                           } 
+                                });
+        </script>
+        <script async src="http://www.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
+        
+  
+ 
+</body>
+</html>
+

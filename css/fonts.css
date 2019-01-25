@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya'), local('Alegreya-Regular'), src:url(/fonts/Alegreya-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Alegreya Bold'), local('Alegreya-Bold'), src:url(/fonts/Alegreya-Bold.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Alegreya Black'), local('Alegreya-Black'), src:url(/fonts/Alegreya-Black.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Alegreya Italic'), local('Alegreya-Italic'), src:url(/fonts/Alegreya-Italic.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Alegreya Bold Italic'), local('Alegreya-BoldItalic'), src:url(/fonts/Alegreya-BoldItalic.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Alegreya Black Italic'), local('Alegreya-BlackItalic'), src:url(/fonts/Alegreya-BlackItalic.ttf) format('truetype');
+}
+
