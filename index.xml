@@ -2,20 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/</link>
+    <link>www.dlfer.xyz/</link>
     <language>en-us</language>
-    <author></author>
+    <author>Mark Otto</author>
     <rights>(C) 2018</rights>
-    <updated>2018-10-29 10:53:07 &#43;0100 CET</updated>
+    <updated>2016-01-22 00:00:00 &#43;0000 UTC</updated>
 
+    
+      
+    
+      
     
       
         <item>
           <title>Un esempio di Discrete Cosine Transform</title>
-          <link>http://blog.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</link>
-          <pubDate>Mon, 29 Oct 2018 10:53:07 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</guid>
+          <link>www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</link>
+          <pubDate>Mon, 29 Oct 2018 10:53:07 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</guid>
           <description>&lt;h2 id=&#34;esercizio-di-analisi-di-fourier-su-insiemi-finiti&#34;&gt;Esercizio di Analisi di Fourier su insiemi finiti:&lt;/h2&gt;
 
 &lt;p&gt;Consideriamo,
@@ -251,10 +255,10 @@ $&lt;/p&gt;
       
         <item>
           <title>Password manager and sync without clouds</title>
-          <link>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</link>
-          <pubDate>Mon, 13 Aug 2018 10:47:19 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</guid>
+          <link>www.dlfer.xyz/post/2018-08-13-password-manager/</link>
+          <pubDate>Mon, 13 Aug 2018 10:47:19 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
           <description>&lt;h2 id=&#34;first-install-the-password-manager&#34;&gt;First, install the password manager.&lt;/h2&gt;
 
 &lt;p&gt;On windows 10, it is
@@ -302,15 +306,15 @@ written in safe pieces of paper?
       
         <item>
           <title>Dell&#39;uso dell&#39;inglese nelle aule universitarie</title>
-          <link>http://blog.dlfer.xyz/post/2018-02-01-engita/</link>
-          <pubDate>Thu, 01 Feb 2018 13:38:19 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-02-01-engita/</guid>
+          <link>www.dlfer.xyz/post/2018-02-01-engita/</link>
+          <pubDate>Thu, 01 Feb 2018 13:38:19 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2018-02-01-engita/</guid>
           <description>
 
-&lt;h1 id=&#34;a-proposito-di-lingua-inglese-per-le-lezioni-esami-e-internalizzazione:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;A proposito di lingua inglese per le lezioni/esami (e internalizzazione)&lt;/h1&gt;
+&lt;h1 id=&#34;a-proposito-di-lingua-inglese-per-le-lezioni-esami-e-internalizzazione&#34;&gt;A proposito di lingua inglese per le lezioni/esami (e internalizzazione)&lt;/h1&gt;
 
-&lt;h2 id=&#34;è-di-qualche-giorno-fa:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;È di qualche giorno fa&lt;/h2&gt;
+&lt;h2 id=&#34;è-di-qualche-giorno-fa&#34;&gt;È di qualche giorno fa&lt;/h2&gt;
 
 &lt;p&gt;la &lt;a href=&#34;https://www.giustizia-amministrativa.it/cdsintra/cdsintra/AmministrazionePortale/DocumentViewer/index.html?ddocname=6RRRYBGTYVS7DABC5SMNSYVZUQ&amp;amp;q=inglese%20or%20politecnico&#34; target=&#34;_blank&#34;&gt;sentenza del Consiglio di Stato&lt;/a&gt; N. 00617/2018REG.PROV.COLL. --  N. 05151/2013 REG.RIC,
 «sul ricorso numero di registro generale 5151 del 2013, proposto da: Ministero
@@ -409,7 +413,7 @@ la libertà è
 &lt;p&gt;L&#39;arte e la scienza sono libere e libero ne è l&#39;insegnamento. La Repubblica detta le norme generali sull&#39;istruzione ed istituisce scuole statali per tutti gli ordini e gradi. Enti e privati hanno il diritto di istituire scuole ed istituti di educazione, senza oneri per lo Stato.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;quindi:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;Quindi  ...&lt;/h2&gt;
+&lt;h2 id=&#34;quindi&#34;&gt;Quindi  ...&lt;/h2&gt;
 
 &lt;p&gt;...tecnicamente un corso di studi interamente in inglese non deve essere accreditato?
 Il titolo di studio non vale? L&#39;atto del Senato del Politecnico è stato annullato. Supponendo
@@ -423,15 +427,15 @@ e si sono laureati?&lt;/p&gt;
       
         <item>
           <title>Gli Esami Non Finiscono Mai</title>
-          <link>http://blog.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</link>
-          <pubDate>Fri, 03 Nov 2017 13:50:17 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</guid>
+          <link>www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</link>
+          <pubDate>Fri, 03 Nov 2017 13:50:17 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</guid>
           <description>
 
-&lt;h1 id=&#34;norme-di-riferimento:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;Norme di Riferimento&lt;/h1&gt;
+&lt;h1 id=&#34;norme-di-riferimento&#34;&gt;Norme di Riferimento&lt;/h1&gt;
 
-&lt;h3 id=&#34;regio-decreto-31-agosto-1933-n-1592:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;REGIO DECRETO 31 agosto 1933, n. 1592&lt;/h3&gt;
+&lt;h3 id=&#34;regio-decreto-31-agosto-1933-n-1592&#34;&gt;REGIO DECRETO 31 agosto 1933, n. 1592&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-08-31;1592!vig=&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;&lt;/p&gt;
 
@@ -490,7 +494,7 @@ mese innanzi il principio del nuovo anno accademico.&lt;/p&gt;
 
 &lt;p&gt;Non e&#39; consentita alcun&#39;altra sessione di esami.&lt;/p&gt;
 
-&lt;h3 id=&#34;regio-decreto-4-giugno-1938-n-1269:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;REGIO DECRETO 4 giugno 1938, n. 1269&lt;/h3&gt;
+&lt;h3 id=&#34;regio-decreto-4-giugno-1938-n-1269&#34;&gt;REGIO DECRETO 4 giugno 1938, n. 1269&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1938-06-04;1269!vig=&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;&lt;/p&gt;
 
@@ -598,7 +602,7 @@ riprovato.&lt;/p&gt;
 &lt;p&gt;Lo studente riprovato non  puo&#39;  ripetere  l&#39;esame  nella  medesima
 sessione.&lt;/p&gt;
 
-&lt;h3 id=&#34;legge-19-novembre-1990-n-341-cossiga-andreotti:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;LEGGE 19 novembre 1990, n. 341 (Cossiga, Andreotti)&lt;/h3&gt;
+&lt;h3 id=&#34;legge-19-novembre-1990-n-341-cossiga-andreotti&#34;&gt;LEGGE 19 novembre 1990, n. 341 (Cossiga, Andreotti)&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-11-19;341&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;
 Riforma degli ordinamenti didattici universitari. (GU n.274 del 23-11-1990 )&lt;/p&gt;
@@ -606,7 +610,7 @@ Riforma degli ordinamenti didattici universitari. (GU n.274 del 23-11-1990 )&lt;
 &lt;p&gt;note:
 Entrata in vigore della legge: 8/12/1990&lt;/p&gt;
 
-&lt;h3 id=&#34;decreto-3-novembre-1999-n-509-riforma-berlinguer-sostituita-in-toto-dalla-successiva-270-2004:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;DECRETO 3 novembre 1999, n. 509 (Riforma Berlinguer, sostituita in toto dalla successiva 270/2004)&lt;/h3&gt;
+&lt;h3 id=&#34;decreto-3-novembre-1999-n-509-riforma-berlinguer-sostituita-in-toto-dalla-successiva-270-2004&#34;&gt;DECRETO 3 novembre 1999, n. 509 (Riforma Berlinguer, sostituita in toto dalla successiva 270/2004)&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.universita.e.ricerca.scientifica.e.tecnologica:decreto:1999-11-03;509!vig=&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;&lt;/p&gt;
 
@@ -698,7 +702,7 @@ didattici  dei corsi di studio, in particolare per quanto riguarda il
 numero  dei  crediti assegnati ad ogni insegnamento o altra attivita&#39;
 formativa.&lt;/p&gt;
 
-&lt;h3 id=&#34;decreto-22-ottobre-2004-n-270-riforma-moratti:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;DECRETO 22 ottobre 2004, n. 270 (Riforma Moratti)&lt;/h3&gt;
+&lt;h3 id=&#34;decreto-22-ottobre-2004-n-270-riforma-moratti&#34;&gt;DECRETO 22 ottobre 2004, n. 270 (Riforma Moratti)&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.istruzione.universita.e.ricerca:decreto:2004-10-22;270!vig=&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;&lt;/p&gt;
 
@@ -804,7 +808,7 @@ didattici  dei corsi di studio, in particolare per quanto riguarda il
 numero  dei  crediti assegnati ad ogni insegnamento o altra attivita&#39;
 formativa.&lt;/p&gt;
 
-&lt;h3 id=&#34;prima-sezione-penale-corte-di-cassazione-sentenza-n-3134-98:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;Prima Sezione Penale Corte di Cassazione Sentenza n. 3134/98&lt;/h3&gt;
+&lt;h3 id=&#34;prima-sezione-penale-corte-di-cassazione-sentenza-n-3134-98&#34;&gt;Prima Sezione Penale Corte di Cassazione Sentenza n. 3134/98&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.edscuola.it/archivio/norme/varie/esuniv.html&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;&lt;/p&gt;
 
@@ -820,7 +824,7 @@ formativa.&lt;/p&gt;
 
 &lt;p&gt;Depositata in cancelleria il 12 marzo 1998.&lt;/p&gt;
 
-&lt;h2 id=&#34;regolamento-didattico-di-ateneo-milano-bicocca-3-luglio-2017:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;Regolamento Didattico di Ateneo (Milano-Bicocca - 3 Luglio 2017)&lt;/h2&gt;
+&lt;h2 id=&#34;regolamento-didattico-di-ateneo-milano-bicocca-3-luglio-2017&#34;&gt;Regolamento Didattico di Ateneo (Milano-Bicocca - 3 Luglio 2017)&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://www.unimib.it/upload/pag/267975982/de/decretorad3lug17.pdf&#34; target=&#34;_blank&#34;&gt;FONTE&lt;/a&gt;&lt;/p&gt;
 
@@ -942,10 +946,10 @@ studenti di Ateneo.&lt;/p&gt;&lt;/li&gt;
       
         <item>
           <title>Winding Around and Mountains</title>
-          <link>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</link>
-          <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-10-25-windingaround/</guid>
+          <link>www.dlfer.xyz/post/2017-10-25-windingaround/</link>
+          <pubDate>Thu, 26 Oct 2017 16:14:02 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2017-10-25-windingaround/</guid>
           <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;
 
 &lt;p&gt;...reading &lt;a href=&#34;http://sites.psu.edu/johnroe/&#34;&gt;John Roe&#39;s&lt;/a&gt; book &lt;a href=&#34;http://bookstore.ams.org/stml-76&#34;&gt;&lt;strong&gt;Winding Around&lt;/strong&gt;&lt;/a&gt;.
@@ -959,10 +963,10 @@ Here: &lt;em&gt;For an extended riff on the idea of mathematics as mountaineerin
       
         <item>
           <title>Fixing MarkDown LaTeX underscore problem</title>
-          <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
-          <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
+          <link>www.dlfer.xyz/post/2017-10-03-mmark/</link>
+          <pubDate>Wed, 04 Oct 2017 15:16:15 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2017-10-03-mmark/</guid>
           <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
 
 &lt;p&gt;Test of a displaystyle formula
@@ -995,13 +999,13 @@ $ ..  $
       
         <item>
           <title>Updating my (Xe)LaTeX vim plugin</title>
-          <link>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
-          <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+          <link>www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+          <pubDate>Tue, 04 Jul 2017 11:31:30 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
-&lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins:d14b835999900a5ca51bc1b2069332a3&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
+&lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
 
 &lt;p&gt;My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.&lt;/p&gt;
 
@@ -1069,14 +1073,14 @@ gvim --servername GVIM --remote +%l %f
 
 &lt;p&gt;Further &lt;a href=&#34;https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt&#34; target=&#34;_blank&#34;&gt;Help&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;spell-check:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Spell check&lt;/h3&gt;
+&lt;h3 id=&#34;spell-check&#34;&gt;Spell check&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;map &amp;lt;C-s&amp;gt; : set spl=it spell
 setlocal spell spelllang=it_it
 set spell spelllang=en_us
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;multi-file:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Multi-file&lt;/h3&gt;
+&lt;h3 id=&#34;multi-file&#34;&gt;Multi-file&lt;/h3&gt;
 
 &lt;p&gt;As with the documentation in &lt;strong&gt;:h vimtex-multi-file&lt;/strong&gt;,
 either add the root line in all subfiles&lt;/p&gt;
@@ -1089,7 +1093,7 @@ either add the root line in all subfiles&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;touch main.tex.latexmain
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;color-scheme-and-font:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Color scheme and font&lt;/h3&gt;
+&lt;h3 id=&#34;color-scheme-and-font&#34;&gt;Color scheme and font&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;if has(&#39;gui_running&#39;)
  colorscheme ir_black
@@ -1104,7 +1108,7 @@ endif
 &amp;quot; set gfn=Menlo:h24.00
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;and:d14b835999900a5ca51bc1b2069332a3&#34;&gt;And ...&lt;/h3&gt;
+&lt;h3 id=&#34;and&#34;&gt;And ...&lt;/h3&gt;
 
 &lt;p&gt;To use gvim without GNOME in linuxmint/ubuntu:&lt;/p&gt;
 
@@ -1122,7 +1126,7 @@ set smartindent
 set noshiftround
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;how-to-silence-unwanted-latex-warnings:d14b835999900a5ca51bc1b2069332a3&#34;&gt;How to silence unwanted LaTeX warnings?&lt;/h3&gt;
+&lt;h3 id=&#34;how-to-silence-unwanted-latex-warnings&#34;&gt;How to silence unwanted LaTeX warnings?&lt;/h3&gt;
 
 &lt;p&gt;Use the package &lt;a href=&#34;https://www.ctan.org/pkg/silence?lang=en&#34; target=&#34;_blank&#34;&gt;silence&lt;/a&gt;.&lt;/p&gt;
 
@@ -1132,7 +1136,7 @@ set noshiftround
 
 &lt;p&gt;But I cannot silence overfull hboxes.&lt;/p&gt;
 
-&lt;h3 id=&#34;bibliography-bibtex-references:d14b835999900a5ca51bc1b2069332a3&#34;&gt;Bibliography, BibTeX references&lt;/h3&gt;
+&lt;h3 id=&#34;bibliography-bibtex-references&#34;&gt;Bibliography, BibTeX references&lt;/h3&gt;
 
 &lt;p&gt;Unfortunately  &lt;a href=&#34;http://bibdesk.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;bibdesk&lt;/a&gt; only exists
 for OSX. Pity.&lt;/p&gt;
@@ -1167,13 +1171,13 @@ on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p
       
         <item>
           <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
-          <link>http://blog.dlfer.xyz/post/2017-04-28-sylow/</link>
-          <pubDate>Fri, 28 Apr 2017 15:11:07 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-04-28-sylow/</guid>
+          <link>www.dlfer.xyz/post/2017-04-28-sylow/</link>
+          <pubDate>Fri, 28 Apr 2017 15:11:07 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2017-04-28-sylow/</guid>
           <description>
 
-&lt;h2 id=&#34;wieldandt-s-proof-of-sylow-s-theorem:5fffa9d98b47559a5dc53a5d693cde69&#34;&gt;Wieldandt&#39;s proof of Sylow&#39;s Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;wieldandt-s-proof-of-sylow-s-theorem&#34;&gt;Wieldandt&#39;s proof of Sylow&#39;s Theorem&lt;/h2&gt;
 
 &lt;p&gt;A brief preparatory combinatorial discussion:&lt;/p&gt;
 
@@ -1258,21 +1262,21 @@ then there exists a subgroup $H\subset G$ of order $p^\alpha$.&lt;/dd&gt;
       
         <item>
           <title>Lettera sulla Polonia (1574-09-25)</title>
-          <link>http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
-          <pubDate>Tue, 27 Dec 2016 10:26:32 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
+          <link>www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
+          <pubDate>Tue, 27 Dec 2016 10:26:32 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
           <description>&lt;p&gt;Lettera del Cavalier &lt;a href=&#34;https://it.wikipedia.org/wiki/Battista_Guarini&#34; target=&#34;_blank&#34;&gt;Battista Guarini&lt;/a&gt;
 (1538-1612)
 al Segretario del &lt;a href=&#34;https://it.wikipedia.org/wiki/Luigi_d&#39;Este&#34; target=&#34;_blank&#34;&gt;Cardinal Luigi d&#39;Este&lt;/a&gt; (1538-1586),
-Monsignor &lt;a href=&#34;http://www.treccani.it/enciclopedia/benedetto-manzoli_(Dizionario-Biografico&#34; target=&#34;_blank&#34;&gt;Benedetto Manzuoli&lt;/a&gt;/) (1530-1585).&lt;/p&gt;
+Monsignor &lt;a href=&#34;http://www.treccani.it/enciclopedia/benedetto-manzoli_(Dizionario-Biografico)/&#34; target=&#34;_blank&#34;&gt;Benedetto Manzuoli&lt;/a&gt; (1530-1585).&lt;/p&gt;
 
 &lt;p&gt;Testo preso dalla raccolta di lettere
 &lt;em&gt;L&#39;idea del segretario dal signore Bartolomeo Zucchi gentil&#39;huomo di Monza, academico insensato di Perugia. Parte seconda.&lt;/em&gt;
  pubblicato nel 1606 da &lt;a href=&#34;https://it.wikipedia.org/wiki/Bartolomeo_Zucchi&#34; target=&#34;_blank&#34;&gt;Bartolomeo Zucchi&lt;/a&gt; (1570-1630) a Venezia, presso la &lt;em&gt;Compagnia Minima&lt;/em&gt;. &lt;a href=&#34;https://archive.org/details/bub_gb_7vzlXM_xyOUC&#34; target=&#34;_blank&#34;&gt;ARCHIVE LINK&lt;/a&gt;
 L&#39;ortografia è stata parzialmente adattata a quella moderna.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.treccani.it/enciclopedia/battista-guarini_(Dizionario-Biografico&#34; target=&#34;_blank&#34;&gt;Guarini&lt;/a&gt;/) fu Segretario di &lt;a href=&#34;https://it.wikipedia.org/wiki/Alfonso_II_d%27Este&#34; target=&#34;_blank&#34;&gt;Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597)&lt;/a&gt; tra il 1573 e il 1583,
+&lt;p&gt;&lt;a href=&#34;http://www.treccani.it/enciclopedia/battista-guarini_(Dizionario-Biografico)/&#34; target=&#34;_blank&#34;&gt;Guarini&lt;/a&gt; fu Segretario di &lt;a href=&#34;https://it.wikipedia.org/wiki/Alfonso_II_d%27Este&#34; target=&#34;_blank&#34;&gt;Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597)&lt;/a&gt; tra il 1573 e il 1583,
 e scrive al segretario
 del Cardinal Luigi d&#39;Este, fratello di Alfonso Secondo d&#39;Este.&lt;br /&gt;
 Nel 1573 il posto di Re di Polonia fu messo a concorso, per elezione,
@@ -1379,7 +1383,7 @@ Io, che son andato in Polonia,
 à cui già Roma solea parer un gran salto, comincio à credere, ch&#39;ogn&#39;un sia
 atto à peregrinare, ancorache questo sia detto impropriamente per lei,
 allaquale sì ben conviene quel
-nobilissimo titolo di πολύτροπος&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; .
+nobilissimo titolo di πολύτροπος&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; .
 Et con questo io me le raccomando con tutto&#39;l cuore,
 pregandola a tenermi in buona gratia del Signor Cardinale Sirleti
 dopo l&#39;Estense, ch&#39;è Signore naturale d&#39;amendue noi,
@@ -1392,8 +1396,8 @@ da me singolarmente riverito, e stimato .&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;Uomo dal multiforme ingegno, sagace. Dall&#39;odissea, «ἦ σύ γ᾽ Ὀδυσσεύς ἐσσι πολύτροπος, ὅν τέ μοι αἰεὶ φάσκεν ἐλεύσεσθαι χρυσόρραπις ἀργεϊφόντης, ἐκ Τροίης ἀνιόντα θοῇ σὺν νηὶ μελαίνῃ.» Traduzione di Ippolito Pindemonte: «Saresti forse quel sagace Ulisse, / Che Mercurio a me sempre iva dicendo / Dover d’Ilio venir su negra nave?» &lt;a href=&#34;http://www.perseus.tufts.edu/hopper/searchresults?q=polu%2Ftropos&amp;amp;target=greek&#34; target=&#34;_blank&#34;&gt;PERSEUS LINK&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:6f74e10643de4b242db1b8295d808c19:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Uomo dal multiforme ingegno, sagace. Dall&#39;odissea, «ἦ σύ γ᾽ Ὀδυσσεύς ἐσσι πολύτροπος, ὅν τέ μοι αἰεὶ φάσκεν ἐλεύσεσθαι χρυσόρραπις ἀργεϊφόντης, ἐκ Τροίης ἀνιόντα θοῇ σὺν νηὶ μελαίνῃ.» Traduzione di Ippolito Pindemonte: «Saresti forse quel sagace Ulisse, / Che Mercurio a me sempre iva dicendo / Dover d’Ilio venir su negra nave?» &lt;a href=&#34;http://www.perseus.tufts.edu/hopper/searchresults?q=polu%2Ftropos&amp;amp;target=greek&#34; target=&#34;_blank&#34;&gt;PERSEUS LINK&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -1403,13 +1407,13 @@ da me singolarmente riverito, e stimato .&lt;/p&gt;
       
         <item>
           <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-25-diracscissors/</link>
-          <pubDate>Fri, 25 Nov 2016 13:12:28 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
+          <link>www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
+          <pubDate>Fri, 25 Nov 2016 13:12:28 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
           <description>
 
-&lt;h2 id=&#34;topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2:22ecd94166e5e4cd225ba8aae1463736&#34;&gt;Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.&lt;/h2&gt;
+&lt;h2 id=&#34;topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2&#34;&gt;Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.&lt;/h2&gt;
 
 &lt;p&gt;Consider the space $X\subset S^2\times S^2$ of all pairs $(A,B)$ of points
 such that $|A-B|=\sqrt 3$, where the distance is the euclidean distance of
@@ -1538,7 +1542,7 @@ $$&lt;/p&gt;
 $3$ points on a $2$-sphere $\FF_ 3(S^2)$. Hence $\pi_ 1(\FF_ 3(S^2)) = \pi_ 1(SO(3)) = \ZZ_ 2$.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;h2 id=&#34;pure-braids-in-ff-3-s-2-and-the-fundamental-group-of-so-3:22ecd94166e5e4cd225ba8aae1463736&#34;&gt;Pure braids in $\FF_3 (S^2)$ and the fundamental group of $SO(3)$.&lt;/h2&gt;
+&lt;h2 id=&#34;pure-braids-in-ff-3-s-2-and-the-fundamental-group-of-so-3&#34;&gt;Pure braids in $\FF_3 (S^2)$ and the fundamental group of $SO(3)$.&lt;/h2&gt;
 
 &lt;p&gt;As we have seen, $X \approx SO(3)$ is a deformation retract of $\FF_ 3 (S^2)$. Its fundamental group can be
 therefore computed as the fundamental group of $\FF_ 3(S^3)$, i.e. the group of pure $3$-stranded
@@ -1551,13 +1555,13 @@ no success.&lt;/p&gt;
 
 &lt;p&gt;Further reading: &lt;a href=&#34;http://web.math.rochester.edu/people/faculty/jonpak/newbraid.pdf&#34; target=&#34;_blank&#34;&gt;Fred Cohen and Jonathan Pakianathan notes on &lt;em&gt;Configuration spaces and braid groups&lt;/em&gt;&lt;/a&gt;, where they give a homotopy equivalence between $\FF_ 3(S^2)$ and $SO(3)$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;www.dlfer.xyz/img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1567,13 +1571,13 @@ no success.&lt;/p&gt;
       
         <item>
           <title>Homology of (simplicial) spheres and applications</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-21-topappl/</link>
-          <pubDate>Mon, 21 Nov 2016 15:47:19 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-21-topappl/</guid>
+          <link>www.dlfer.xyz/post/2016-11-21-topappl/</link>
+          <pubDate>Mon, 21 Nov 2016 15:47:19 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-11-21-topappl/</guid>
           <description>
 
-&lt;h2 id=&#34;nullhomotopic-odd-maps-borsuk-lusternik-and-schnirelmann:197d895c9b475366af895afe1535e0e6&#34;&gt;Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann&lt;/h2&gt;
+&lt;h2 id=&#34;nullhomotopic-odd-maps-borsuk-lusternik-and-schnirelmann&#34;&gt;Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann&lt;/h2&gt;
 
 &lt;p&gt;Let $\Delta^n$ the standard simplex of dimension $n$ in $\RR^{n+1}$, which is homeomorphic to a
 $n$-dimensional disk, and
@@ -1668,7 +1672,7 @@ and $-x\not\in M_ j$ for $j=1,\ldots, n$.&lt;br /&gt;
 It must therefore be true that  $\pm x\in M_ 0 $, and therefore $M_ 0$ contains the two antipodal points $\pm x$.&lt;br /&gt;
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lusternik-schnirelmann-category:197d895c9b475366af895afe1535e0e6&#34;&gt;Lusternik-Schnirelmann category&lt;/h2&gt;
+&lt;h2 id=&#34;lusternik-schnirelmann-category&#34;&gt;Lusternik-Schnirelmann category&lt;/h2&gt;
 
 &lt;p&gt;$\newcommand{\Cat}{\operatorname{Cat}}$&lt;/p&gt;
 
@@ -1717,7 +1721,7 @@ and hence $\iota F$ does not contain a pair of antipodal points.
 For any such closed $F$, there exists $U$ open contractible containing $F$,
 and $W$ open such that $F\subset W \subset \overline W \subset U$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://blog.dlfer.xyz/img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;www.dlfer.xyz/img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if $\PP^n$ is the union of  $l$ closed subsets
 $F_ 1, \ldots , F_ l$, all of which are contractible
@@ -1767,7 +1771,7 @@ that proposition &lt;em&gt;(1)&lt;/em&gt; of &lt;strong&gt;(2)&lt;/strong&gt; is
 to $\Cat \PP^n = n$.
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;lefschetz-number-brouwer-and-fixed-points:197d895c9b475366af895afe1535e0e6&#34;&gt;Lefschetz number, Brouwer and Fixed Points&lt;/h2&gt;
+&lt;h2 id=&#34;lefschetz-number-brouwer-and-fixed-points&#34;&gt;Lefschetz number, Brouwer and Fixed Points&lt;/h2&gt;
 
 &lt;p&gt;$\newcommand{\Tr}{\operatorname{Tr}}$&lt;/p&gt;
 
@@ -1860,7 +1864,7 @@ if $X$ has genus $\gamma(X) \geq n$ and $f\from X \to \RR^k$ is any map,
 then the set $A_ f = \{  x\in X : f(x) = f(-x) \}$ is closed and antipode-invariant,
 $\gamma (A_ f) \geq n-k$, and $\dim (A_ f)\geq n-k$.&lt;/p&gt;
 
-&lt;h3 id=&#34;references:197d895c9b475366af895afe1535e0e6&#34;&gt;References&lt;/h3&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Borsuk, K. &lt;a href=&#34;http://matwbn.icm.edu.pl/ksiazki/fm/fm26/fm26111.pdf&#34; target=&#34;_blank&#34;&gt;Über den Lusternik-Schnirelmannschen Begriff der Kategorie, Fund. Math 26 (1936) p. 123-136&lt;/a&gt;&lt;/li&gt;
@@ -1876,13 +1880,13 @@ $\gamma (A_ f) \geq n-k$, and $\dim (A_ f)\geq n-k$.&lt;/p&gt;
       
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</link>
-          <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+          <link>www.dlfer.xyz/post/2016-11-18-barycentric/</link>
+          <pubDate>Fri, 18 Nov 2016 13:53:47 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
           <description>
 
-&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
+&lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
 
 &lt;p&gt;Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract
 simplicial complex, where the set of vertices actually is a set of points in $\RR^k$,
@@ -1912,14 +1916,14 @@ with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
 Hence
 $$
 \begin{aligned}
-x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
+x-y &amp;amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\&lt;br /&gt;
 &amp;amp;=&lt;br /&gt;
 \sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
-\\\
+\\&lt;br /&gt;
 &amp;amp;=&lt;br /&gt;
-\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
-&amp;amp; \implies \\\
-|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
+\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\&lt;br /&gt;
+&amp;amp; \implies \\&lt;br /&gt;
+|x-y| &amp;amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\&lt;br /&gt;
 &amp;amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
 \end{aligned}
 $$
@@ -1930,7 +1934,7 @@ $\newcommand{\supp}{\operatorname{supp}}$&lt;/p&gt;
 
 &lt;p&gt;Now, define the &lt;strong&gt;mesh&lt;/strong&gt; of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.&lt;/p&gt;
 
-&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
+&lt;h2 id=&#34;barycentric-subdivision-of-a-euclidean-simplicial-complex&#34;&gt;Barycentric subdivision of a euclidean simplicial complex.&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ be as above, and $K&#39;$ the euclidean simplicial complex with as vertices the simplices of $K$,
 with coordinates the barycenter of the simplex
@@ -1961,8 +1965,8 @@ Hence
 $$
 \begin{aligned}
 b(\sigma_ 0 ) - b ( \sigma_ 1) &amp;amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  + \sum_ {i=0} ^ m Q_ i \right) \\\
-&amp;amp;= \left( \dfrac{1}{n+1} - \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  + \sum_ {i=0} ^ m Q_ i \right) \\&lt;br /&gt;
+&amp;amp;= \left( \dfrac{1}{n+1} - \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\&lt;br /&gt;
 &amp;amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
 \end{aligned}
 $$
@@ -1988,7 +1992,7 @@ $$
 $$
 &lt;em&gt;/qed&lt;/em&gt;/&lt;/p&gt;
 
-&lt;h2 id=&#34;simplicial-approximation-theorem:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
+&lt;h2 id=&#34;simplicial-approximation-theorem&#34;&gt;Simplicial Approximation Theorem&lt;/h2&gt;
 
 &lt;p&gt;Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
 the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
@@ -2062,7 +2066,7 @@ map $\varphi \from K&#39; \to L$ such that $\varphi$ is a simplicial approximati
 $|\varphi|\from |K&#39;|=|K| \to |L|$ is homotopic to $f$.&lt;/dd&gt;
 &lt;/dl&gt;
 
-&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
+&lt;h2 id=&#34;hauptvermutung-and-homeomorphisms&#34;&gt;&lt;em&gt;Hauptvermutung&lt;/em&gt; and homeomorphisms&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ and $L$ be two simplicial complexes.&lt;/p&gt;
 
@@ -2113,13 +2117,13 @@ manifolds without combinatorial triangulations.&lt;/p&gt;
       
         <item>
           <title>Joins and Products of polyhedra</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
-          <pubDate>Mon, 14 Nov 2016 11:07:25 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
+          <link>www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
+          <pubDate>Mon, 14 Nov 2016 11:07:25 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
           <description>
 
-&lt;h2 id=&#34;join-k-l-of-two-simplicial-complexes:6f13411f54adff566170e2e379f4ce41&#34;&gt;Join $K*L$ of two simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;join-k-l-of-two-simplicial-complexes&#34;&gt;Join $K*L$ of two simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes
 ($X_ K$ denotes the set of vertices of $K$ and
@@ -2202,7 +2206,7 @@ Hence $J$ is an euclidean (geometric) simplicial complex, isomorphic as simplici
 &lt;p&gt;&lt;strong&gt;Remark:&lt;/strong&gt; it follows from $P=px+qy$ that $J$ is the union of all unit segments joining points of $|K|$ to point
 of $|L|$ (from here the name &amp;quot;&lt;em&gt;join&lt;/em&gt;&amp;quot;).&lt;/p&gt;
 
-&lt;h2 id=&#34;cartesian-product-k-times-l-of-two-simplicial-complexes:6f13411f54adff566170e2e379f4ce41&#34;&gt;Cartesian product $K\times L$ of two simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;cartesian-product-k-times-l-of-two-simplicial-complexes&#34;&gt;Cartesian product $K\times L$ of two simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;Consider now $|K| \subset \RR^k$ and $|L|\subset \RR^l$ euclidean simplicial complexes.
 Then, the product $|K|\times |L| \subset \RR^k \times \RR^l = \RR^{k+l}$ can be easily defined.
@@ -2249,7 +2253,7 @@ $(x_ 0,y_ 0) &amp;lt; (x_ 1, y_ 1) &amp;lt; \ldots (x_ n, y_ n)$ is an ascending
 for each pair of consecutive terms $(x,y) &amp;lt; (x&#39;,y&#39;)$ either $x=x&#39;$ (and therefore $y&amp;lt;y&#39;$,
 and hence (x,y) precedes $(x&#39;,y&#39;)$ in the lexycographical order),
 or $x&amp;lt;x&#39;$ (and hence $(x,y)$ precedes (x&#39;,y&#39;)$ in the lexycographical order).
-In Ferrario-Piccinini&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, page 99, in the proof it is omitted to mention the simplices $p_ 1$ and $p_ 2$ need to be ordered, as above.
+In Ferrario-Piccinini&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, page 99, in the proof it is omitted to mention the simplices $p_ 1$ and $p_ 2$ need to be ordered, as above.
 Otherwise, more chains would appear ordered as ascending with the lexycographical order, than those ascending with the product order.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
@@ -2262,7 +2266,7 @@ $$
 Ascending chains are the following two:
 $$
 \begin{aligned}
-A &amp;lt;  B &amp;lt;  B&#39; \\\
+A &amp;lt;  B &amp;lt;  B&#39; \\&lt;br /&gt;
 A &amp;lt; A&#39; &amp;lt;  B&#39;
 \end{aligned}
 $$&lt;/p&gt;
@@ -2277,8 +2281,8 @@ $$
 Ascending chains are the following three:
 $$
 \begin{aligned}
-A &amp;lt; B &amp;lt; C &amp;lt; C&#39; \\\
-A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; \\\
+A &amp;lt; B &amp;lt; C &amp;lt; C&#39; \\&lt;br /&gt;
+A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; \\&lt;br /&gt;
 A &amp;lt; A&#39; &amp;lt; B&#39; &amp;lt; C&#39;
 \end{aligned}
 $$&lt;/p&gt;
@@ -2289,9 +2293,9 @@ with vertices  $A,B,C,D,A&#39;,B&#39;,C&#39;,D&#39;$
 are the following:
 $$
 \begin{aligned}
-A &amp;lt; B &amp;lt; C &amp;lt; D &amp;lt; D&#39; \\\
-A &amp;lt; B &amp;lt; C &amp;lt; C&#39; &amp;lt; D&#39; \\\
-A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; &amp;lt; D&#39; \\\
+A &amp;lt; B &amp;lt; C &amp;lt; D &amp;lt; D&#39; \\&lt;br /&gt;
+A &amp;lt; B &amp;lt; C &amp;lt; C&#39; &amp;lt; D&#39; \\&lt;br /&gt;
+A &amp;lt; B &amp;lt; B&#39; &amp;lt; C&#39; &amp;lt; D&#39; \\&lt;br /&gt;
 A &amp;lt; A&#39; &amp;lt; B&#39; &amp;lt; C&#39; &amp;lt; D&#39;
 \end{aligned}
 $$&lt;/p&gt;
@@ -2493,7 +2497,7 @@ $$\begin{aligned}
 \sum_ {r=0} ^s \lambda_ r P_ {j_ r},
 \sum_ {r=0} ^s \lambda_ r Q_ {i_ r}
 \right)
-\\\
+\\&lt;br /&gt;
 &amp;amp; = \left(
 \sum_ {\alpha=0}^n
 \left(
@@ -2507,7 +2511,7 @@ P_ \alpha ,
 \lambda_ r
 \right)
 Q_ \beta
-\right) \\\
+\right) \\&lt;br /&gt;
 &amp;amp;= \left(
 \sum_ {j=0}^n x_ j P_ j,
 \sum_ {i=0}^m y_ j Q_ j
@@ -2518,7 +2522,7 @@ $$&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;chain-homotopy-and-cylinders:6f13411f54adff566170e2e379f4ce41&#34;&gt;Chain homotopy and cylinders&lt;/h2&gt;
+&lt;h2 id=&#34;chain-homotopy-and-cylinders&#34;&gt;Chain homotopy and cylinders&lt;/h2&gt;
 
 &lt;p&gt;Let $K$ be a simplicial complex, $I\cong \Delta^1$ the standard $1$-simplex, and $K\times I$ the product of $K$ and $I$,
 i.e. the &lt;strong&gt;cylinder&lt;/strong&gt; on $K$.
@@ -2533,7 +2537,7 @@ so that $P \equiv (P,0)$ and $P&#39;=(P,1)$.
 Let now $s_ n \from C_ n(K) \to C_ {n+1}(K\times I)$ be the chain complex morphism defined as
 $$
 \begin{aligned}
-s_ n([P_ 0,\ldots, P_ n]) &amp;amp; =  \sum_ {j=0} ^n (-1)^j [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\\
+s_ n([P_ 0,\ldots, P_ n]) &amp;amp; =  \sum_ {j=0} ^n (-1)^j [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\&lt;br /&gt;
 &amp;amp;= [P_ 0,P&#39;_ 0, \ldots, P_ n] - [P_ 0,P_ 1, P&#39;_ 1, \ldots, P&#39;_ n] + \ldots + (-1)^n [P_ 0,\ldots, P_ n, P&#39;_ n]~.
 \end{aligned}
 $$
@@ -2541,8 +2545,8 @@ Note that
 $$\begin{aligned}
  \partial_ {n+1} [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] &amp;amp; =
  \sum_ {i=0}^{j-1} (-1)^i [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\\
-&amp;amp; + (-1)^j [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P&#39;_ n] \\\
-&amp;amp; - (-1)^j [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P&#39;_ n] \\\
+&amp;amp; + (-1)^j [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P&#39;_ n] \\&lt;br /&gt;
+&amp;amp; - (-1)^j [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P&#39;_ n] \\&lt;br /&gt;
 &amp;amp; - \sum_ {i=j-1}^n (-1)^i [P_ 0, \ldots,  P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n]
 \end{aligned}
 $$
@@ -2559,12 +2563,12 @@ $$
 \implies
 \partial_ {n+1} s_ n [P_ 0,\ldots, P_ n]
 &amp;amp; =&lt;br /&gt;
-\sum_ {j=0} ^n (-1)^j \partial_ {n+1} [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\\
+\sum_ {j=0} ^n (-1)^j \partial_ {n+1} [P_ 0,\ldots, P_ j, P&#39;_ j, \ldots, P&#39;_ n] \\&lt;br /&gt;
 &amp;amp; =&lt;br /&gt;
 \sum_ {j=0} ^n   \sum_ {i=0}^{j-1} j (-1)^{i+j} [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P&#39;_ j, \ldots, P&#39;_ n]   \\\
-&amp;amp; + \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P&#39;_ n] \\\
-&amp;amp; - \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P&#39;_ n] \\\
-&amp;amp;  - \sum_ {j=0} ^n \sum_ {i=j}^n (-1)^{i+j} [P_ 0, \ldots,  P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n] \\\
+&amp;amp; + \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P&#39;_ n] \\&lt;br /&gt;
+&amp;amp; - \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P&#39;_ n] \\&lt;br /&gt;
+&amp;amp;  - \sum_ {j=0} ^n \sum_ {i=j}^n (-1)^{i+j} [P_ 0, \ldots,  P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n] \\&lt;br /&gt;
 s_ {n-1} \partial_ n [P_ 0,\ldots, P_ n] &amp;amp;=
 \sum_ {i=0}^ {n}
 \sum_ {j=0}^ {i-1} (-1)^{i+j} [P_ 0, \ldots, P_ j, P&#39;_ j, \ldots, \hat P&#39;_ i, \ldots, P&#39;_ n] \\\ &amp;amp; -
@@ -2576,8 +2580,8 @@ $$ \begin{aligned} \implies
 ( \partial_ {n+1} s_ n +
 s_ {n-1} \partial_ n ) [P_ 0,\ldots, P_ n] &amp;amp;=
 \sum_ {j=0}^ n \left( [P_ 0, \ldots, \hat P_ j, P&#39;_ j , \ldots, P&#39;_ n] - \sum_ {j=0}^ n [P_ 0, \ldots, P_ j, \hat P&#39; _ j, \ldots, P&#39;_ n]
-\right) \\\
-&amp;amp;= [P&#39;_ 0, \ldots, P&#39;_ n] - [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] + [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] - \ldots - [P_ 0, \ldots, P_ n] \\\
+\right) \\&lt;br /&gt;
+&amp;amp;= [P&#39;_ 0, \ldots, P&#39;_ n] - [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] + [P_ 0,P&#39;_ 1, \ldots, P&#39;_ n] - \ldots - [P_ 0, \ldots, P_ n] \\&lt;br /&gt;
 &amp;amp;=  [P_ 0&#39;, \ldots, P&#39;_ n] - [P_ 0, \ldots, P_ n]
 \end{aligned}
 $$
@@ -2671,7 +2675,7 @@ s_ {n-1} \partial_ n ) x  &amp;amp;=
    F_ 0 \gamma_ 0 x  - F_ {n+1} \gamma_ n x  -
  \sum_ {j=0}^{n-1}
   \sum_ {i=0}^{n} (-1)^{i+j}  \gamma_ {j} F_ i x
-  + \sum_ {j=0}^{n-1} (-i)^j \sum_ {i=0}^n (-1)^i \gamma_ j F_ i x \\\
+  + \sum_ {j=0}^{n-1} (-i)^j \sum_ {i=0}^n (-1)^i \gamma_ j F_ i x \\&lt;br /&gt;
 &amp;amp;=  [P_ 0&#39;, \ldots, P&#39;_ n] - [P_ 0, \ldots, P_ n] .
 \end{aligned}
 $$&lt;/p&gt;
@@ -2680,8 +2684,8 @@ $$&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;Ferrario, Davide L.; Piccinini, Renzo A. &lt;em&gt;Simplicial structures in topology.&lt;/em&gt; CMS Books in Mathematics/Ouvrages de Mathématiques de la SMC. Springer, New York, 2011. xvi+243 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-7236-1&#34; target=&#34;_blank&#34;&gt;978-1-4419-7235-4&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:6f13411f54adff566170e2e379f4ce41:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Ferrario, Davide L.; Piccinini, Renzo A. &lt;em&gt;Simplicial structures in topology.&lt;/em&gt; CMS Books in Mathematics/Ouvrages de Mathématiques de la SMC. Springer, New York, 2011. xvi+243 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-7236-1&#34; target=&#34;_blank&#34;&gt;978-1-4419-7235-4&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -2691,13 +2695,13 @@ $$&lt;/p&gt;
       
         <item>
           <title>Ranks, Tensors and Abelian Groups</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-09-Tensors/</link>
-          <pubDate>Wed, 09 Nov 2016 13:21:33 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-09-Tensors/</guid>
+          <link>www.dlfer.xyz/post/2016-11-09-tensors/</link>
+          <pubDate>Wed, 09 Nov 2016 13:21:33 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-11-09-tensors/</guid>
           <description>
 
-&lt;h2 id=&#34;abelian-groups:14b3ea3d56d29e06946da383c7331a95&#34;&gt;Abelian Groups&lt;/h2&gt;
+&lt;h2 id=&#34;abelian-groups&#34;&gt;Abelian Groups&lt;/h2&gt;
 
 &lt;p&gt;Given $a\in A$, the homomirphism
 $i_ a \from \ZZ \to A$ defined by
@@ -2717,7 +2721,7 @@ $$\bigoplus_ {s\in S} i_ s\from \bigoplus_ {s \in S} \ZZ \to A$$
 is an isomorphism,
 then $A$ is a &lt;strong&gt;free&lt;/strong&gt; group generated by the elements
 in $S$ (its &lt;strong&gt;basis&lt;/strong&gt;).
-More on abelian groups in the monograph of Fuchs (2015)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:14b3ea3d56d29e06946da383c7331a95:F&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:14b3ea3d56d29e06946da383c7331a95:F&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+More on abelian groups in the monograph of Fuchs (2015)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:F&#34;&gt;&lt;a href=&#34;#fn:F&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Universal property:&lt;/strong&gt;
 If $S\subset A$ is a basis, $B$ is any Abelian group,
@@ -2735,9 +2739,9 @@ arbitrarily determined by their values on the elements of a basis.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Proof:&lt;/em&gt;
 This theorem is credited to &lt;a href=&#34;http://www-history.mcs.st-and.ac.uk/Biographies/Dedekind.html&#34; target=&#34;_blank&#34;&gt;Richard Dedekind&lt;/a&gt; in Johnson  - 1980 (&lt;a href=&#34;http://search.ebscohost.com/login.aspx?direct=true&amp;amp;db=nlebk&amp;amp;AN=552427&amp;amp;site=ehost-live&amp;amp;scope=site&#34; target=&#34;_blank&#34;&gt;EBSCO LINK&lt;/a&gt;), page 8.
 For a nice introduction to Abelian groups, and the proof of &lt;strong&gt;(a)&lt;/strong&gt; which I took as source,
-see Kurosh&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:14b3ea3d56d29e06946da383c7331a95:K&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:14b3ea3d56d29e06946da383c7331a95:K&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, §19.
+see Kurosh&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:K&#34;&gt;&lt;a href=&#34;#fn:K&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, §19.
 A more general approach:
-Lang&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:14b3ea3d56d29e06946da383c7331a95:3&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:14b3ea3d56d29e06946da383c7331a95:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, Chapter 1, §7 and page 41.
+Lang&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, Chapter 1, §7 and page 41.
 We give here a proof for a countable basis.
 Let $a_ 1, a_ 2, \ldots, a_ n, \ldots$ be elements of a basis $S$ of a free group $F$.
 Hence $F$ is isomorphic to the group  of all functions $S\to \ZZ$ with finite support.
@@ -2810,7 +2814,7 @@ last index, and therefore $a\in A_ j$).
 See Kurosh, §20, or Fuchs Theorem 2.5 pag. 82, or Theorem 2.6 pag. 83 (Stacked Basis Theorem).
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;From the previous propositions and the &lt;a href=&#34;http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
+&lt;p&gt;From the previous propositions and the &lt;a href=&#34;www.dlfer.xyz/post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
 one can (constructively) prove that&lt;/p&gt;
 
 &lt;dl&gt;
@@ -2831,7 +2835,7 @@ alternative definitions of the rank (for example, if $A$ is not finitely generat
 
 &lt;p&gt;$\require{AMScd}$&lt;/p&gt;
 
-&lt;h2 id=&#34;tensor-product-of-zz-modules-aka-abelian-groups:14b3ea3d56d29e06946da383c7331a95&#34;&gt;Tensor product of $\ZZ$-modules (AKA Abelian Groups)&lt;/h2&gt;
+&lt;h2 id=&#34;tensor-product-of-zz-modules-aka-abelian-groups&#34;&gt;Tensor product of $\ZZ$-modules (AKA Abelian Groups)&lt;/h2&gt;
 
 &lt;p&gt;Let $A$, $B$ be two Abelian groups.
 The &lt;strong&gt;tensor&lt;/strong&gt; product $A\otimes_ \ZZ B = A \otimes B $ is defined as follows:
@@ -2842,8 +2846,8 @@ Elements of $A\times B$ will be written as $a\times b$ instead of $(a,b)$.
 Then, consider in $\ZZ[A\times B]$ the subgroup $R$ generated by
 $$
 \begin{aligned}
-(a_ 1 + a_ 2) \otimes b - (a_ 1 \otimes b + a_ 2 \otimes b) &amp;amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\\
-a \otimes (b_ 1 + b_ 2) - (a \otimes b_ 1 + a \otimes b_ 2) &amp;amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\\
+(a_ 1 + a_ 2) \otimes b - (a_ 1 \otimes b + a_ 2 \otimes b) &amp;amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\&lt;br /&gt;
+a \otimes (b_ 1 + b_ 2) - (a \otimes b_ 1 + a \otimes b_ 2) &amp;amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\&lt;br /&gt;
 a k \otimes b  - a \otimes k b &amp;amp; \text{ with } a\in A,  b\in B, k \in \ZZ&lt;br /&gt;
 \end{aligned}
 $$
@@ -2860,8 +2864,8 @@ It is an Abelian Group (a $\ZZ$-module), as quotient of a free abelian group and
 a function $f \from A \times B \to G$ is &lt;em&gt;bilinear&lt;/em&gt; if
 $$
 \begin{aligned}
-f (a_ 1 + a_ 2,  b ) =f (a_ 1, b) + f(a_ 2, b) &amp;amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\\
-f( a , b_ 1 + b_ 2) =  f( a , b_ 1)  + f ( a , b_ 2) &amp;amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\\
+f (a_ 1 + a_ 2,  b ) =f (a_ 1, b) + f(a_ 2, b) &amp;amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\&lt;br /&gt;
+f( a , b_ 1 + b_ 2) =  f( a , b_ 1)  + f ( a , b_ 2) &amp;amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\&lt;br /&gt;
 f( a k ,  b)   =  f( a , k b)  &amp;amp; \text{ with } a\in A,  b\in B, k \in \ZZ&lt;br /&gt;
 \end{aligned}
 $$
@@ -2914,7 +2918,7 @@ $$&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;&lt;em&gt;Proof:&lt;/em&gt;
-Cfr. Proposition 7.3, page 110 of Hilton-Stammbach (1997)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:14b3ea3d56d29e06946da383c7331a95:1&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:14b3ea3d56d29e06946da383c7331a95:1&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+Cfr. Proposition 7.3, page 110 of Hilton-Stammbach (1997)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
 &lt;dl&gt;
@@ -2953,7 +2957,7 @@ Exercise 8.7 of Hilton-Stammbach, page 115.
 Note that torsion-free $\neq$ free (e.g. $\QQ$).
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;rank-of-an-abelian-group:14b3ea3d56d29e06946da383c7331a95&#34;&gt;Rank of an abelian group&lt;/h2&gt;
+&lt;h2 id=&#34;rank-of-an-abelian-group&#34;&gt;Rank of an abelian group&lt;/h2&gt;
 
 &lt;p&gt;Let $A$ be an abelian group. Its &lt;strong&gt;rank&lt;/strong&gt; is the maximal number of
 $\ZZ$-&lt;em&gt;linearly independent&lt;/em&gt; elements in $A$.
@@ -2969,7 +2973,7 @@ A group $A$ is &lt;strong&gt;free&lt;/strong&gt; if it is generated by a set of 
 (i.e., a &lt;strong&gt;basis&lt;/strong&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Remark:&lt;/strong&gt; This definition is actually the definition of $0$-rank,
-or torsion-free rank, for some authors (Robinson&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:14b3ea3d56d29e06946da383c7331a95:2&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:14b3ea3d56d29e06946da383c7331a95:2&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;, page 96).&lt;/p&gt;
+or torsion-free rank, for some authors (Robinson&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;, page 96).&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;
 $\QQ$ has rank $1$, and it is not finitely generated.&lt;/p&gt;
@@ -2999,7 +3003,7 @@ $g\from B \to C$ an epimorphism (surjective homomophism)
 such that $\operatorname{Im} f = \ker g$. In other words, the following
 sequence is exact.
 \begin{CD}
-0 @&amp;gt;{}&amp;gt;&amp;gt; A  @&amp;gt;{f}&amp;gt;&amp;gt; B  @&amp;gt;{g}&amp;gt;&amp;gt; C @&amp;gt;{}&amp;gt;&amp;gt; 0  \\\
+0 @&amp;gt;{}&amp;gt;&amp;gt; A  @&amp;gt;{f}&amp;gt;&amp;gt; B  @&amp;gt;{g}&amp;gt;&amp;gt; C @&amp;gt;{}&amp;gt;&amp;gt; 0  \\&lt;br /&gt;
 \end{CD}&lt;/p&gt;
 
 &lt;dl&gt;
@@ -3011,7 +3015,7 @@ sequence is exact.
 Since the functor $\QQ \otimes -$ is exact, as $\QQ$ is flat (torsion-free),
 the sequence
 \begin{CD}
-0 @&amp;gt;{}&amp;gt;&amp;gt; \QQ \otimes A  @&amp;gt;{f_ *}&amp;gt;&amp;gt; \QQ \otimes B  @&amp;gt;{g_ *}&amp;gt;&amp;gt; \QQ \otimes  C @&amp;gt;{}&amp;gt;&amp;gt; 0  \\\
+0 @&amp;gt;{}&amp;gt;&amp;gt; \QQ \otimes A  @&amp;gt;{f_ *}&amp;gt;&amp;gt; \QQ \otimes B  @&amp;gt;{g_ *}&amp;gt;&amp;gt; \QQ \otimes  C @&amp;gt;{}&amp;gt;&amp;gt; 0  \\&lt;br /&gt;
 \end{CD}
 is exact (and it is a sequence of $\QQ$-vector spaces).
 Therefore
@@ -3057,16 +3061,16 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:14b3ea3d56d29e06946da383c7331a95:F&#34;&gt;Fuchs, László &lt;em&gt;Abelian groups.&lt;/em&gt;  Springer Monographs in Mathematics. Springer, Cham, 2015. xxi+747 pp. ISBN: 978-3-319-19421-9; 978-3-319-19422-6 20Kxx (20-02)(&lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-3-319-19422-6&#34; target=&#34;_blank&#34;&gt;http://link.springer.com/book/10.1007%2F978-3-319-19422-6&lt;/a&gt;)
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:14b3ea3d56d29e06946da383c7331a95:F&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:14b3ea3d56d29e06946da383c7331a95:K&#34;&gt;Kurosh, A. G.  &lt;em&gt;The theory of groups. Vol. I.&lt;/em&gt; Translated and edited by K. A. Hirsch. Chelsea Publishing Co., New York, N.Y., 1955. 272 pp.  20.0X  &lt;a href=&#34;http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf&#34; target=&#34;_blank&#34;&gt;LINK&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:14b3ea3d56d29e06946da383c7331a95:K&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:14b3ea3d56d29e06946da383c7331a95:3&#34;&gt;Lang, Serge &lt;em&gt;Algebra.&lt;/em&gt; Revised third edition. Graduate Texts in Mathematics, 211. Springer-Verlag, New York, 2002. xvi+914 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4613-0041-0&#34; target=&#34;_blank&#34;&gt;0-387-95385-X&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:14b3ea3d56d29e06946da383c7331a95:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:14b3ea3d56d29e06946da383c7331a95:1&#34;&gt;Hilton, P. J.; Stammbach, U.  &lt;em&gt;A course in homological algebra.&lt;/em&gt; Second edition. Graduate Texts in Mathematics, 4. Springer-Verlag, New York, 1997. xii+364 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-8566-8&#34; target=&#34;_blank&#34;&gt;0-387-94823-6&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:14b3ea3d56d29e06946da383c7331a95:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:14b3ea3d56d29e06946da383c7331a95:2&#34;&gt;Robinson, Derek J. S.  &lt;em&gt;A course in the theory of groups.&lt;/em&gt; Second edition. Graduate Texts in Mathematics, 80. Springer-Verlag, New York, 1996. xviii+499 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-8594-1&#34; target=&#34;_blank&#34;&gt;0-387-94461-3&lt;/a&gt;
- &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:14b3ea3d56d29e06946da383c7331a95:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:F&#34;&gt;Fuchs, László &lt;em&gt;Abelian groups.&lt;/em&gt;  Springer Monographs in Mathematics. Springer, Cham, 2015. xxi+747 pp. ISBN: 978-3-319-19421-9; 978-3-319-19422-6 20Kxx (20-02)(&lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-3-319-19422-6&#34; target=&#34;_blank&#34;&gt;http://link.springer.com/book/10.1007%2F978-3-319-19422-6&lt;/a&gt;)
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:F&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:K&#34;&gt;Kurosh, A. G.  &lt;em&gt;The theory of groups. Vol. I.&lt;/em&gt; Translated and edited by K. A. Hirsch. Chelsea Publishing Co., New York, N.Y., 1955. 272 pp.  20.0X  &lt;a href=&#34;http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf&#34; target=&#34;_blank&#34;&gt;LINK&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:K&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;Lang, Serge &lt;em&gt;Algebra.&lt;/em&gt; Revised third edition. Graduate Texts in Mathematics, 211. Springer-Verlag, New York, 2002. xvi+914 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4613-0041-0&#34; target=&#34;_blank&#34;&gt;0-387-95385-X&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Hilton, P. J.; Stammbach, U.  &lt;em&gt;A course in homological algebra.&lt;/em&gt; Second edition. Graduate Texts in Mathematics, 4. Springer-Verlag, New York, 1997. xii+364 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-8566-8&#34; target=&#34;_blank&#34;&gt;0-387-94823-6&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Robinson, Derek J. S.  &lt;em&gt;A course in the theory of groups.&lt;/em&gt; Second edition. Graduate Texts in Mathematics, 80. Springer-Verlag, New York, 1996. xviii+499 pp. ISBN: &lt;a href=&#34;http://link.springer.com/book/10.1007%2F978-1-4419-8594-1&#34; target=&#34;_blank&#34;&gt;0-387-94461-3&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
@@ -3076,13 +3080,13 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
       
         <item>
           <title>Graphs, trees and simplicial complexes</title>
-          <link>http://blog.dlfer.xyz/post/2016-11-04-graphs/</link>
-          <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-11-04-graphs/</guid>
+          <link>www.dlfer.xyz/post/2016-11-04-graphs/</link>
+          <pubDate>Fri, 04 Nov 2016 13:08:54 STD</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-11-04-graphs/</guid>
           <description>
 
-&lt;h2 id=&#34;graphs-and-simplicial-complexes:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
+&lt;h2 id=&#34;graphs-and-simplicial-complexes&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
 
 &lt;p&gt;A one-dimensional simplicial complex is a &lt;em&gt;graph&lt;/em&gt;.
 That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices
@@ -3183,7 +3187,7 @@ $P_ 1, \ldots, P_ n$ such that $[P_ j, P_ {j+1}] \in S$ for each $j$.
 Since $S$ is finite, the iteration has to stop at most in $l$ steps.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;trees:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Trees&lt;/h2&gt;
+&lt;h2 id=&#34;trees&#34;&gt;Trees&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt; A &lt;em&gt;tree&lt;/em&gt; $T$ is a connected acyclic graph.&lt;/p&gt;
 
@@ -3250,7 +3254,7 @@ Thus, $T&#39;$ is acyclic. It is easy to show that $T&#39;$ is connected,
 and hence that it is a tree, and that $T$ is not maximal.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;homology-of-a-graph:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Homology of a graph&lt;/h2&gt;
+&lt;h2 id=&#34;homology-of-a-graph&#34;&gt;Homology of a graph&lt;/h2&gt;
 
 &lt;dl&gt;
 &lt;dt&gt;(4)&lt;/dt&gt;
@@ -3283,7 +3287,7 @@ denote the projection, defined as
 $$
 \pi(\sigma) =
 \begin{cases}
-\sigma &amp;amp; \text{if $\sigma \in Y$} \\\
+\sigma &amp;amp; \text{if $\sigma \in Y$} \\&lt;br /&gt;
 0 &amp;amp; \text{otherwise}
 \end{cases}
 $$
@@ -3355,12 +3359,12 @@ $$
 which implies
 $$\begin{aligned}
 \sum_ {j} (-1)^j \rk C_ j &amp;amp; =
-\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\\
-&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\\
+\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\&lt;br /&gt;
+&amp;amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\&lt;br /&gt;
 &amp;amp;=
 \sum_ {j} (-1)^j \rk B_ j  +
 \sum_ {j} (-1)^{j+1} \rk B_ j +
-\sum_ {j} (-1)^j \rk H_ j  \\\
+\sum_ {j} (-1)^j \rk H_ j  \\&lt;br /&gt;
 &amp;amp;=
 \sum_ {j} (-1)^j \rk H_ j
 \end{aligned}
@@ -3373,13 +3377,13 @@ which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.&lt;/p&gt;
       
         <item>
           <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
-          <link>http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
-          <pubDate>Thu, 27 Oct 2016 11:45:52 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
+          <link>www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
+          <pubDate>Thu, 27 Oct 2016 11:45:52 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
           <description>
 
-&lt;h2 id=&#34;a-simple-algorithm-for-computing-the-smith-normal-form-of-a-matrix-in-zz:86e251d64fab5ccb414132090cd54af7&#34;&gt;A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$&lt;/h2&gt;
+&lt;h2 id=&#34;a-simple-algorithm-for-computing-the-smith-normal-form-of-a-matrix-in-zz&#34;&gt;A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$&lt;/h2&gt;
 
 &lt;p&gt;The proof and the algorithm are the same.&lt;/p&gt;
 
@@ -3514,12 +3518,12 @@ Assume $a$ does not divide $b$ (and hence $a\neq b$),
 both positive. First, add the second row to the first.
 $$
 \begin{bmatrix}
-a &amp;amp; 0 \\\
+a &amp;amp; 0 \\&lt;br /&gt;
 0 &amp;amp; b
 \end{bmatrix}
 \mapsto
 \begin{bmatrix}
-a &amp;amp; b \\\
+a &amp;amp; b \\&lt;br /&gt;
 0 &amp;amp; b
 \end{bmatrix}
 $$
@@ -3529,13 +3533,13 @@ $$
 \mapsto
 \begin{cases}
 \begin{bmatrix}
-a &amp;amp; b \\\
+a &amp;amp; b \\&lt;br /&gt;
 0 &amp;amp; b
 \end{bmatrix}
 &amp;amp; \text{if $a&amp;lt;b$}
-\\\
+\\&lt;br /&gt;
 \begin{bmatrix}
-b &amp;amp; a \\\
+b &amp;amp; a \\&lt;br /&gt;
 b &amp;amp; 0
 \end{bmatrix}
 &amp;amp; \text{if $b &amp;lt; a$}
@@ -3547,13 +3551,13 @@ $$
 \mapsto
 \begin{cases}
 \begin{bmatrix}
-a &amp;amp; b-qa \\\
+a &amp;amp; b-qa \\&lt;br /&gt;
 0 &amp;amp; b
 \end{bmatrix}
 &amp;amp; \text{if $a&amp;lt;b$}
-\\\
+\\&lt;br /&gt;
 \begin{bmatrix}
-b &amp;amp; a-qb \\\
+b &amp;amp; a-qb \\&lt;br /&gt;
 0 &amp;amp; -a
 \end{bmatrix}
 &amp;amp; \text{if $b &amp;lt; a$}
@@ -3607,7 +3611,7 @@ number of steps $M_ {0,0}$ will divide all the remaining entries in $M$.&lt;/p&g
 and the routine will return the two unimodular matrices $L$ and $R$ resulting from the row/columns operations respectively.
 They are obtained by applying the same row/column operations on two identity matrices.&lt;/p&gt;
 
-&lt;h2 id=&#34;example-the-triangulated-sphere:86e251d64fab5ccb414132090cd54af7&#34;&gt;Example: the triangulated sphere.&lt;/h2&gt;
+&lt;h2 id=&#34;example-the-triangulated-sphere&#34;&gt;Example: the triangulated sphere.&lt;/h2&gt;
 
 &lt;p&gt;As an example, here we compute the Smith Normal Forms of the differentials of che chain complex of the triangulate $2$-sphere,
 from &lt;a href=&#34;http://www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sage&lt;/a&gt;. First, the differential $\partial_ 1 \from C_ 1 \cong \ZZ^6 \to C_ 0 \cong \ZZ^4 $.&lt;/p&gt;
@@ -3669,27 +3673,27 @@ $LMR = S$.
 Since $\ker S$ is generated by the three vectors
 $$
 \begin{bmatrix}
-0\\\
-0\\\
-0\\\
-1\\\
-0\\\
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+1\\&lt;br /&gt;
+0\\&lt;br /&gt;
 0
 \end{bmatrix}
 \begin{bmatrix}
-0\\\
-0\\\
-0\\\
-0\\\
-1\\\
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+1\\&lt;br /&gt;
 0
 \end{bmatrix}
 \begin{bmatrix}
-0\\\
-0\\\
-0\\\
-0\\\
-0\\\
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
 1
 \end{bmatrix},
 $$
@@ -3697,27 +3701,27 @@ then $\ker LM = \ker M$ is generated by their images by $R$, i.e.
 the last three columns of $R$:
 $$
 \begin{bmatrix}
-1\\\
--1\\\
-0\\\
-1\\\
-0\\\
+1\\&lt;br /&gt;
+-1\\&lt;br /&gt;
+0\\&lt;br /&gt;
+1\\&lt;br /&gt;
+0\\&lt;br /&gt;
 0
 \end{bmatrix}
 \begin{bmatrix}
-1\\\
--1\\\
-0\\\
-0\\\
-1\\\
+1\\&lt;br /&gt;
+-1\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
+1\\&lt;br /&gt;
 -1
 \end{bmatrix}
 \begin{bmatrix}
-0\\\
--1\\\
-1\\\
-0\\\
-0\\\
+0\\&lt;br /&gt;
+-1\\&lt;br /&gt;
+1\\&lt;br /&gt;
+0\\&lt;br /&gt;
+0\\&lt;br /&gt;
 -1
 \end{bmatrix},
 $$
@@ -3796,10 +3800,10 @@ The generator of $\ker \partial_ 2$ is, as above, the last column of $R$,
 which is
 $$
 \begin{bmatrix}
-1\\\
--1\\\
-1\\\
--1\\\
+1\\&lt;br /&gt;
+-1\\&lt;br /&gt;
+1\\&lt;br /&gt;
+-1\\&lt;br /&gt;
 \end{bmatrix}
 $$
 which corresponds to the cycle
@@ -3813,7 +3817,7 @@ $$&lt;/p&gt;
 
 &lt;p&gt;Is it possible to compute the homology with these data?&lt;/p&gt;
 
-&lt;h2 id=&#34;computing-homology-groups:86e251d64fab5ccb414132090cd54af7&#34;&gt;Computing homology groups&lt;/h2&gt;
+&lt;h2 id=&#34;computing-homology-groups&#34;&gt;Computing homology groups&lt;/h2&gt;
 
 &lt;p&gt;Now, consider just $H_ 1(K) = \ker \partial_ 1 / \operatorname{Im} \partial_ 2$.
 Let $Z_ 1 = \ker \partial_ 1$ and $B_ 1 = \operatorname{Im} \partial_ 2$.
@@ -3823,7 +3827,7 @@ Then $L_ 1 \partial_ 1 R_ 1 = S_ 1$ and $L_ 2 \partial_ 2 R_ 2 = S_ 2$,
 as in the following diagram.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Let $\alpha_ 1$, $\alpha_ 2$, $\ldots$, $\alpha_ q$
@@ -3910,7 +3914,7 @@ $q=3$.&lt;/p&gt;
 $$
 \begin{aligned}
 H_ 0 &amp;amp;  \cong \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ^{4-0-3} = \ZZ \\\
-H_ 1 &amp;amp; \cong \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ^{6-3-3} = 0 \\\
+H_ 1 &amp;amp; \cong \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ^{6-3-3} = 0 \\&lt;br /&gt;
 H_ 2 &amp;amp; \cong \ZZ^{4-0-3} = \ZZ .
 \end{aligned}
 $$&lt;/p&gt;
@@ -3964,13 +3968,13 @@ by &lt;em&gt;Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek&lt;/em&gt;, 
       
         <item>
           <title>Császár torus, python and sagemath</title>
-          <link>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
-          <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
+          <link>www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
+          <pubDate>Wed, 19 Oct 2016 13:55:55 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
-&lt;h2 id=&#34;the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9&#34;&gt;The simplicial complex&lt;/h2&gt;
+&lt;h2 id=&#34;the-simplicial-complex&#34;&gt;The simplicial complex&lt;/h2&gt;
 
 &lt;p&gt;Consider the (abstract) simplicial  $T$ defined as follows:
 vertices are
@@ -3984,15 +3988,15 @@ $$
 H_ x &amp;amp;=
 \{ \{j,j+1\}  : j =0 \ldots 6 \}
 = \{ \{j,j-1\}  : j =0 \ldots 6 \}
-\\\
+\\&lt;br /&gt;
 V_ x &amp;amp;=
 \{ \{ j,j+x \}  : j =0 \ldots 6 \}
 = \{ \{ j,j-x \}  : j =0 \ldots 6 \}
-\\\
+\\&lt;br /&gt;
 D_ x &amp;amp;=
 \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \}
  = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \}
-\\\
+\\&lt;br /&gt;
 \Phi_ x &amp;amp; =
 H_ x
 \cup
@@ -4037,15 +4041,15 @@ of $\Phi_ x$ for each $x$...&lt;/p&gt;
 &lt;p&gt;Now, for $2$-simplexes we can proceed in a similar way. For each $x$,
 let
 $$ \begin{aligned}
-L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\\
+L_ x  &amp;amp; = \{ \{ j,j+1,j+x+1 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
 U_ x  &amp;amp; = \{ \{ j, j+x, j+x+1 \} : j = 0 \ldots 6 \}.
 \end{aligned}
 $$
 Hence
 $$ \begin{aligned}
-L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\\
-U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\\
-L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\\
+L_ 2  &amp;amp; = \{ \{ j,j+1,j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+U_ 2  &amp;amp; = \{ \{ j, j+2, j+3 \} : j = 0 \ldots 6 \} \\&lt;br /&gt;
+L_ 4  &amp;amp; = \{ \{ j,j+1,j+5 \} : j = 0 \ldots 6 \} \implies L_ 4 = U_ 2\\&lt;br /&gt;
 U_ 4  &amp;amp; = \{ \{ j, j+4, j+5 \} : j = 0 \ldots 6 \} \implies U_ 4 = L_ 2.
 \end{aligned}
 $$&lt;/p&gt;
@@ -4069,7 +4073,7 @@ $$
 where the dots stand for all possible $1$-dimensional (i.e. 21) and $0$-dimensional (i.e. 7) simplexes.
 The complex can be represented as in the following badly drawn diagram:
 &lt;center&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;
@@ -4090,7 +4094,7 @@ The $21$ elements of $\Phi_ 2$ are all the edges (up to identification).&lt;br /
 one can find an embedding;
 more details a the &lt;a href=&#34;http://www.eg-models.de/models/Classical_Models/2001.02.069/_preview.html&#34; target=&#34;_blank&#34;&gt;page in the Archive of Electronic Geometry Models&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;sagemath:a0f7ea7056058d387334b524d50c28b9&#34;&gt;SageMath&lt;/h2&gt;
+&lt;h2 id=&#34;sagemath&#34;&gt;SageMath&lt;/h2&gt;
 
 &lt;p&gt;Here is a plain sage session. According to &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html&#34; target=&#34;_blank&#34;&gt;the documentation&lt;/a&gt;, the function &lt;code&gt;Torus&lt;/code&gt; returns Csaszar&#39;s Torus.&lt;/p&gt;
 
@@ -4184,7 +4188,8 @@ sage: len(G)
 
 &lt;dl&gt;
 &lt;dt&gt;(3)&lt;/dt&gt;
-&lt;dd&gt;The two simplicial complexes are equivalent.&lt;/dd&gt;
+&lt;dd&gt;The two simplicial complexes are equivalent.
+&lt;br /&gt;&lt;/dd&gt;
 &lt;/dl&gt;
 
 &lt;p&gt;A little bit of &lt;a href=&#34;http://www.sagemath.org&#34; target=&#34;_blank&#34;&gt;sagemath&lt;/a&gt; help in finding such permutations:&lt;/p&gt;
@@ -4276,11 +4281,11 @@ sage: T.is_isomorphic(K)
 True
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;embedding-the-complex-in-rr-3:a0f7ea7056058d387334b524d50c28b9&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
+&lt;h2 id=&#34;embedding-the-complex-in-rr-3&#34;&gt;Embedding the complex in $\RR^3$&lt;/h2&gt;
 
 &lt;p&gt;The problem of embedding is not trivial. But ...&lt;/p&gt;
 
-&lt;h2 id=&#34;poincaré-homology-3-sphere:a0f7ea7056058d387334b524d50c28b9&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
+&lt;h2 id=&#34;poincaré-homology-3-sphere&#34;&gt;Poincaré Homology 3-sphere&lt;/h2&gt;
 
 &lt;p&gt;From &lt;a href=&#34;http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere&#34; target=&#34;_blank&#34;&gt;sagemath documentation&lt;/a&gt;, and adding on...&lt;/p&gt;
 
@@ -4298,13 +4303,13 @@ sage: [len(Sigma3.faces()[x]) for x in range(4)]
       
         <item>
           <title>Categorical products and coproducts </title>
-          <link>http://blog.dlfer.xyz/post/2016-10-12-coproducts/</link>
-          <pubDate>Wed, 12 Oct 2016 13:57:52 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-10-12-coproducts/</guid>
+          <link>www.dlfer.xyz/post/2016-10-12-coproducts/</link>
+          <pubDate>Wed, 12 Oct 2016 13:57:52 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
           <description>
 
-&lt;h2 id=&#34;universal-property-of-coproducts:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Universal property of coproducts&lt;/h2&gt;
+&lt;h2 id=&#34;universal-property-of-coproducts&#34;&gt;Universal property of coproducts&lt;/h2&gt;
 
 &lt;p&gt;Let $X_1, X_2$ be objects of the category $\vC$. The &lt;strong&gt;coproduct&lt;/strong&gt; of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms
 $j_1 \from X_1 \to X_1 \coprod X_2$,
@@ -4313,13 +4318,13 @@ commutes &lt;em&gt;(the first is with MathJax AMScd, the second is an embedded S
 
 &lt;p&gt;$\require{AMScd}$
 \begin{CD}
-X_1 @&amp;gt;{j_1}&amp;gt;&amp;gt; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;lt;&amp;lt; X_2  \\\
-@|  @VVhV  @|  \\\
-X_1 @&amp;gt;{h_1}&amp;gt;&amp;gt; Z  @&amp;lt;{h_2}&amp;lt;&amp;lt; X_2  \\\
+X_1 @&amp;gt;{j_1}&amp;gt;&amp;gt; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;lt;&amp;lt; X_2  \\&lt;br /&gt;
+@|  @VVhV  @|  \\&lt;br /&gt;
+X_1 @&amp;gt;{h_1}&amp;gt;&amp;gt; Z  @&amp;lt;{h_2}&amp;lt;&amp;lt; X_2  \\&lt;br /&gt;
 \end{CD}&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Given a set $S$ of indices, the &lt;strong&gt;coproduct&lt;/strong&gt; of a family
@@ -4333,7 +4338,7 @@ $h_ \alpha \from X_ \alpha \to Z$
 there exists a unique $h\from \coprod_ {s \in S} X_ s \to Z$
 such that for each $\alpha \in S$ on has $hj_ \alpha = h_ \alpha$, i.e. the following diagram commutes:
 &lt;center&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;dl&gt;
@@ -4356,7 +4361,7 @@ induces a (continuous) map on the quotient
 $h \from \bigvee_ {s \in S} X_ s \to Z$.
 &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;products:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Products&lt;/h2&gt;
+&lt;h2 id=&#34;products&#34;&gt;Products&lt;/h2&gt;
 
 &lt;p&gt;Reversing arrows, one define the &lt;strong&gt;product&lt;/strong&gt;, denoted by
 $\prod_ {s \in S} X_ s$,
@@ -4365,7 +4370,7 @@ $p_ \alpha \from \prod_ {s \in S} X_ s \to X_ \alpha$,
 in any category
 $\mathbf{C}$, with the same universal property.
 &lt;center&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;By definition, the product topology in $\mathbf{Top}$ is the
@@ -4424,7 +4429,7 @@ $p_ \alpha(x_ n)$ converges, which means
 that $x_ n(\alpha)$ converges for each $\alpha$,
 or that $x_n$ converges pointwise.&lt;/p&gt;
 
-&lt;h2 id=&#34;free-abelian-groups:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Free abelian groups&lt;/h2&gt;
+&lt;h2 id=&#34;free-abelian-groups&#34;&gt;Free abelian groups&lt;/h2&gt;
 
 &lt;p&gt;The free abelian group (i.e., $\ZZ$-module)
  generated by the set $S$ is
@@ -4441,7 +4446,7 @@ $$
 where the coproduct is taken in the category of groups
 $\mathbf{Grp}$, and hence it is the free product $*$.&lt;/p&gt;
 
-&lt;h2 id=&#34;posets:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Posets&lt;/h2&gt;
+&lt;h2 id=&#34;posets&#34;&gt;Posets&lt;/h2&gt;
 
 &lt;p&gt;A &lt;em&gt;poset&lt;/em&gt; (Partially Ordered Set) is a category $\mathbf{P}$ in which
 hom-sets have either 0 or 1 element,
@@ -4511,7 +4516,7 @@ $$
 \prod_ {\alpha} X_ \alpha = \bigcap_ \alpha X_ \alpha
 $$&lt;/p&gt;
 
-&lt;h2 id=&#34;coproducts-for-the-working-mathematician:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Coproducts for the Working Mathematician&lt;/h2&gt;
+&lt;h2 id=&#34;coproducts-for-the-working-mathematician&#34;&gt;Coproducts for the Working Mathematician&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://link.springer.com/book/10.1007/978-1-4757-4721-8/page/1&#34; target=&#34;_blank&#34;&gt;Categories for the Working Mathematician&lt;/a&gt; is the go-to reference for anything categorical.
 Let $\bC, \bD$ be  categories, and $F\from \bC \to \bD$ a functor.
@@ -4523,7 +4528,7 @@ and as morphisms (arrows) $h \from (f,Y) \to (f&#39;,Y&#39;)$
 all morhpisms $h\from Y \to Y&#39;$ su h that $f&#39;=F(h) f$
 as in the following diagram.
 &lt;center&gt;
-&lt;img src=&#34;http://blog.dlfer.xyz/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
 &lt;/center&gt;
 Given $X\in \bD$ and $F\from \bC \to \bD$,
 the comma category $X \downarrow F$ is uniquely defined.
@@ -4575,13 +4580,13 @@ is equal to $h$.
       
         <item>
           <title>A counter-example for the exponentiation / adjoint of a function</title>
-          <link>http://blog.dlfer.xyz/post/counterexample-to-adjoint/</link>
-          <pubDate>Wed, 05 Oct 2016 14:24:49 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/counterexample-to-adjoint/</guid>
+          <link>www.dlfer.xyz/post/counterexample-to-adjoint/</link>
+          <pubDate>Wed, 05 Oct 2016 14:24:49 DST</pubDate>
+          <author>Mark Otto</author>
+          <guid>www.dlfer.xyz/post/counterexample-to-adjoint/</guid>
           <description>
 
-&lt;h2 id=&#34;the-problem:cc5f1248a683bd633705733673dc5009&#34;&gt;The problem:&lt;/h2&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The problem:&lt;/h2&gt;
 
 &lt;p&gt;Let $X$, $Y$, and $Z$ be topological spaces. Let $Y^X$ denote the space
 of all &lt;em&gt;continuous&lt;/em&gt; functions $X\to Y$, with the compact-open topology
@@ -4615,7 +4620,7 @@ if and only if its adjoint $\hat f \from Z \to Y^X$ is continuous.&lt;br /&gt;&l
 
 &lt;p&gt;We give here a counter-example to proposition &lt;a href=&#34;#propo&#34;&gt;(1)&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-rationals-qq:cc5f1248a683bd633705733673dc5009&#34;&gt;The  rationals $\QQ$:&lt;/h2&gt;
+&lt;h2 id=&#34;the-rationals-qq&#34;&gt;The  rationals $\QQ$:&lt;/h2&gt;
 
 &lt;p&gt;Let $\QQ$ be the space rationals, with the standard euclidean metric topology. Then
 the following proposition holds&lt;/p&gt;
@@ -4636,7 +4641,7 @@ hence there exists $a \in A$ such that $a\not\in K$.
 But then, it is easy to define an open subset $V$ containing $K$ but
 not containing $a$. &lt;em&gt;(/Proof)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;the-sierpinski-space-mathbf-2:cc5f1248a683bd633705733673dc5009&#34;&gt;The Sierpinski Space $\mathbf{2}$:&lt;/h2&gt;
+&lt;h2 id=&#34;the-sierpinski-space-mathbf-2&#34;&gt;The Sierpinski Space $\mathbf{2}$:&lt;/h2&gt;
 
 &lt;p&gt;Let $\mathbf{2}$ be the Sierpinski space.
 That is, $\mathbf{2} = \{0,1\}$ with topology given by its (open) subsets $\{ \emptyset, \{1\}, \{0,1\} \}$.
@@ -4664,7 +4669,7 @@ hence the elements of $W_{K,\{1\}}$ are
 all the characteristic functions of those open subsets of
 $\QQ$ which contain $K$.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-example:cc5f1248a683bd633705733673dc5009&#34;&gt;The example:&lt;/h2&gt;
+&lt;h2 id=&#34;the-example&#34;&gt;The example:&lt;/h2&gt;
 
 &lt;p&gt;Let $X=\QQ$, $Y=\mathbf{2}$, and $Z=\mathbf{2}^\QQ$.
 Then adjoint of the evaluation function
@@ -4732,10 +4737,6 @@ By proposition &lt;a href=&#34;#propo*&#34;&gt;(*)&lt;/a&gt;, the conclusion fol
 &lt;/dl&gt;
 </description>
         </item>
-      
-    
-      
-    
       
     
       

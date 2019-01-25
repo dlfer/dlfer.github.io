@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/home/</link>
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2018</rights>
-    <updated>2016-09-22 16:42:38 &#43;0200 CEST</updated>
-
+    <title>Homes on DL Ferrario&#39;s Test Web Page</title>
+    <link>www.dlfer.xyz/home/</link>
+    <description>Recent content in Homes on DL Ferrario&#39;s Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Thu, 22 Sep 2016 16:42:38 +0200</lastBuildDate>
     
+	<atom:link href="www.dlfer.xyz/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>homepage</title>
+      <link>www.dlfer.xyz/home/main/</link>
+      <pubDate>Thu, 22 Sep 2016 16:42:38 +0200</pubDate>
       
+      <guid>www.dlfer.xyz/home/main/</guid>
+      <description> Res Research interests: Equivariant, computational, algebraic and applied topology; Celestial mechanics, dynamical systems and the $n$-body problem; Mathematics and Teaching.
+ Publications  Did  Argomenti di Geometria e Topologia (2016-17) Geometria I (2015-16.2S) Anni scorsi (corsi fino al 2014-15).  Var  Pagina personale di matapp.unimib.it Varie cose vecchie MCQ-XelaTeX: Multiple Choice Questions for mathematics and (Xe)LaTeX XHTMLATEX a latex-to-XHTML-MathJax conversion tool.  </description>
+    </item>
     
+    <item>
+      <title>about</title>
+      <link>www.dlfer.xyz/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
+      <guid>www.dlfer.xyz/home/about/</guid>
+      <description> Info  D.L. Ferrario Professor of Mathematical Analysis Department of Mathematics and Applications University of Milano-Bicocca Via R. Cozzi 53?55 I-20125 Milano Office: U5-3040 Tel: (+39) 02 6448 5730 Fax: (+39) 02 6448 5705 E-mail: eval(unescape(&#34;%69%69%6a%72%62%39%30%3d%5b%27%25%36%34%25%36%31%25%37%36%25%36%39%25%36%34%25%36%35%25%32%65%25%36%36%25%36%35%25%37%32%25%37%32%25%36%31%25%37%32%25%36%39%25%36%66%27%2c%5b%27%25%36%39%25%37%34%27%2c%27%25%37%35%25%36%65%25%36%39%25%36%64%25%36%39%25%36%32%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%63%78%73%6e%62%33%38%3d%75%6e%65%73%63%61%70%65%28%69%69%6a%72%62%39%30%29%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%63%78%73%6e%62%33%38%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%69%69%6a%72%62%39%30%29%29%3b&#34;)); (PGP Public Key)  </description>
+    </item>
     
-
   </channel>
 </rss>

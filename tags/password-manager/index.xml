@@ -1,65 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/tags/password-manager/</link>
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2018</rights>
-    <updated>2018-08-13 10:47:19 &#43;0200 CEST</updated>
-
+    <title>Password Manager on DL Ferrario&#39;s Test Web Page</title>
+    <link>www.dlfer.xyz/tags/password-manager/</link>
+    <description>Recent content in Password Manager on DL Ferrario&#39;s Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Mon, 13 Aug 2018 10:47:19 +0200</lastBuildDate>
     
-      
-        <item>
-          <title>Password manager and sync without clouds</title>
-          <link>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</link>
-          <pubDate>Mon, 13 Aug 2018 10:47:19 CEST</pubDate>
-          <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</guid>
-          <description>&lt;h2 id=&#34;first-install-the-password-manager&#34;&gt;First, install the password manager.&lt;/h2&gt;
-
-&lt;p&gt;On windows 10, it is
-&lt;a href=&#34;https://keepass.info&#34;&gt;keepass&lt;/a&gt;.
-On linux, the debian package for keepass2 is available in the standard repository.&lt;/p&gt;
-
-&lt;p&gt;Since &lt;a href=&#34;https://anarc.at/blog/2017-02-18-passwords-entropy/&#34;&gt;strong passwords are needed&lt;/a&gt;,
-either use the keepass password internal generator,
-or (maybe for the master password), install and use  e.g. &lt;a href=&#34;https://github.com/ulif/diceware&#34;&gt;diceware&lt;/a&gt;
-or
-&lt;a href=&#34;https://pypi.org/project/xkcdpass/&#34;&gt;xkcdpass&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ sudo pip install xkcdpass
-$ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;It is not difficult to add more words lists, e.g. &lt;a href=&#34;https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases&#34;&gt;EFF wordlists&lt;/a&gt; or &lt;a href=&#34;https://www.taringamberini.com/it/diceware_it_IT/lista-di-parole-diceware-in-italiano/&#34;&gt;Diceware in italian&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;After finishing the &lt;strong&gt;keepass&lt;/strong&gt; installation, and creating a database,&lt;br&gt;
-install the &lt;a href=&#34;https://github.com/JanisEst/KeePassBrowserImporter&#34;&gt;KeePassBrowserImporter plugin&lt;/a&gt; plugin.&lt;/p&gt;
-
-&lt;p&gt;Then, import all passwords saved in (possibly) all &lt;strong&gt;google chrome&lt;/strong&gt;/&lt;strong&gt;chromium&lt;/strong&gt; profiles.&lt;/p&gt;
-
-&lt;p&gt;The next step is to&lt;/p&gt;
-
-&lt;h2 id=&#34;sync-the-database-between-devices&#34;&gt;sync the database between devices.&lt;/h2&gt;
-
-&lt;p&gt;According to the &lt;a href=&#34;https://keepass.info/help/kb/trigger_examples.html#dbsync&#34;&gt;documentation&lt;/a&gt;, each node
-should have a local DB and a shared Dropbox DB.&lt;/p&gt;
-
-&lt;p&gt;To simplify, without extra plugins, just use Dropbox local daemon, syncing the database in the
-&lt;code&gt;Apps/KeePass&lt;/code&gt; subfolder of the shared Dropbox folder.
-The istructions are not exactly one-line to follow, but require a few minutes for each
-computer to sync.&lt;/p&gt;
-
-&lt;h2 id=&#34;finally&#34;&gt;Finally,&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;print&lt;/strong&gt; a KeePass Emergency Sheet. Also, just in case, a few backup copies and a few PassPhrases
-written in safe pieces of paper?
-&lt;strong&gt;Problem&lt;/strong&gt;: in linux, due to some .NET issues, it is not possible  to print the DB.&lt;/p&gt;
-</description>
-        </item>
-      
+	<atom:link href="www.dlfer.xyz/tags/password-manager/index.xml" rel="self" type="application/rss+xml" />
     
-
+    
+    <item>
+      <title>Password manager and sync without clouds</title>
+      <link>www.dlfer.xyz/post/2018-08-13-password-manager/</link>
+      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
+      
+      <guid>www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
+      <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
+Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
+$ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot;  It is not difficult to add more words lists, e.</description>
+    </item>
+    
   </channel>
 </rss>
