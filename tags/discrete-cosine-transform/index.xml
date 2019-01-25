@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/tags/discrete-cosine-transform/</link>
+    <link>http://www.dlfer.xyz/tags/discrete-cosine-transform/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2018</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Un esempio di Discrete Cosine Transform</title>
-          <link>http://blog.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</link>
+          <link>http://www.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</link>
           <pubDate>Mon, 29 Oct 2018 10:53:07 CET</pubDate>
           <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</guid>
+          <guid>http://www.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</guid>
           <description>&lt;h2 id=&#34;esercizio-di-analisi-di-fourier-su-insiemi-finiti&#34;&gt;Esercizio di Analisi di Fourier su insiemi finiti:&lt;/h2&gt;
 
 &lt;p&gt;Consideriamo,

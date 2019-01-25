@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://blog.dlfer.xyz/topics/var/</link>
+    <link>http://www.dlfer.xyz/topics/var/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2018</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Password manager and sync without clouds</title>
-          <link>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</link>
+          <link>http://www.dlfer.xyz/post/2018-08-13-password-manager/</link>
           <pubDate>Mon, 13 Aug 2018 10:47:19 CEST</pubDate>
           <author></author>
-          <guid>http://blog.dlfer.xyz/post/2018-08-13-password-manager/</guid>
+          <guid>http://www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
           <description>&lt;h2 id=&#34;first-install-the-password-manager&#34;&gt;First, install the password manager.&lt;/h2&gt;
 
 &lt;p&gt;On windows 10, it is
@@ -63,10 +63,10 @@ written in safe pieces of paper?
       
         <item>
           <title>Fixing MarkDown LaTeX underscore problem</title>
-          <link>http://blog.dlfer.xyz/post/2017-10-03-mmark/</link>
+          <link>http://www.dlfer.xyz/post/2017-10-03-mmark/</link>
           <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
           <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-10-03-mmark/</guid>
+          <guid>http://www.dlfer.xyz/post/2017-10-03-mmark/</guid>
           <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
 
 &lt;p&gt;Test of a displaystyle formula
@@ -99,10 +99,10 @@ $ ..  $
       
         <item>
           <title>Updating my (Xe)LaTeX vim plugin</title>
-          <link>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+          <link>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
           <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
           <author></author>
-          <guid>http://blog.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+          <guid>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
 &lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins:d14b835999900a5ca51bc1b2069332a3&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
@@ -271,10 +271,10 @@ on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p
       
         <item>
           <title>Lettera sulla Polonia (1574-09-25)</title>
-          <link>http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
+          <link>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
           <pubDate>Tue, 27 Dec 2016 10:26:32 CET</pubDate>
           <author></author>
-          <guid>http://blog.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
+          <guid>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
           <description>&lt;p&gt;Lettera del Cavalier &lt;a href=&#34;https://it.wikipedia.org/wiki/Battista_Guarini&#34; target=&#34;_blank&#34;&gt;Battista Guarini&lt;/a&gt;
 (1538-1612)
 al Segretario del &lt;a href=&#34;https://it.wikipedia.org/wiki/Luigi_d&#39;Este&#34; target=&#34;_blank&#34;&gt;Cardinal Luigi d&#39;Este&lt;/a&gt; (1538-1586),
