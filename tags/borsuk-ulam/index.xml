@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>/tags/borsuk-ulam/</link>
+    <link>www.dlfer.xyz/tags/borsuk-ulam/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Homology of (simplicial) spheres and applications</title>
-          <link>/post/2016-11-21-topappl/</link>
+          <link>/www.dlfer.xyz/post/2016-11-21-topappl/</link>
           <pubDate>Mon, 21 Nov 2016 15:47:19 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-21-topappl/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-21-topappl/</guid>
           <description>
 
 &lt;h2 id=&#34;nullhomotopic-odd-maps-borsuk-lusternik-and-schnirelmann:197d895c9b475366af895afe1535e0e6&#34;&gt;Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann&lt;/h2&gt;
@@ -162,7 +162,7 @@ and hence $\iota F$ does not contain a pair of antipodal points.
 For any such closed $F$, there exists $U$ open contractible containing $F$,
 and $W$ open such that $F\subset W \subset \overline W \subset U$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;www.dlfer.xyz/img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if $\PP^n$ is the union of  $l$ closed subsets
 $F_ 1, \ldots , F_ l$, all of which are contractible

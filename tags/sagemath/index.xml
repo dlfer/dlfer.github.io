@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>/tags/sagemath/</link>
+    <link>www.dlfer.xyz/tags/sagemath/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
-          <link>/post/2016-10-27-smith-normal-form/</link>
+          <link>/www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
           <pubDate>Thu, 27 Oct 2016 11:45:52 CEST</pubDate>
           <author></author>
-          <guid>/post/2016-10-27-smith-normal-form/</guid>
+          <guid>/www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
           <description>
 
 &lt;h2 id=&#34;a-simple-algorithm-for-computing-the-smith-normal-form-of-a-matrix-in-zz:86e251d64fab5ccb414132090cd54af7&#34;&gt;A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$&lt;/h2&gt;
@@ -462,7 +462,7 @@ Then $L_ 1 \partial_ 1 R_ 1 = S_ 1$ and $L_ 2 \partial_ 2 R_ 2 = S_ 2$,
 as in the following diagram.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;../../img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Let $\alpha_ 1$, $\alpha_ 2$, $\ldots$, $\alpha_ q$
@@ -603,10 +603,10 @@ by &lt;em&gt;Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek&lt;/em&gt;, 
       
         <item>
           <title>Császár torus, python and sagemath</title>
-          <link>/post/2016-10-19-csaszar-torus/</link>
+          <link>/www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
           <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
           <author></author>
-          <guid>/post/2016-10-19-csaszar-torus/</guid>
+          <guid>/www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
 &lt;h2 id=&#34;the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9&#34;&gt;The simplicial complex&lt;/h2&gt;
@@ -708,7 +708,7 @@ $$
 where the dots stand for all possible $1$-dimensional (i.e. 21) and $0$-dimensional (i.e. 7) simplexes.
 The complex can be represented as in the following badly drawn diagram:
 &lt;center&gt;
-&lt;img src=&#34;../../img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;

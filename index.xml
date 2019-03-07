@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>/</link>
+    <link>www.dlfer.xyz/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -14,10 +14,10 @@
       
         <item>
           <title>Un esempio di Discrete Cosine Transform</title>
-          <link>/post/2018-11-29-DiscreteCosineTransform/</link>
+          <link>/www.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</link>
           <pubDate>Mon, 29 Oct 2018 10:53:07 CET</pubDate>
           <author></author>
-          <guid>/post/2018-11-29-DiscreteCosineTransform/</guid>
+          <guid>/www.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</guid>
           <description>&lt;h2 id=&#34;esercizio-di-analisi-di-fourier-su-insiemi-finiti&#34;&gt;Esercizio di Analisi di Fourier su insiemi finiti:&lt;/h2&gt;
 
 &lt;p&gt;Consideriamo,
@@ -253,10 +253,10 @@ $&lt;/p&gt;
       
         <item>
           <title>Password manager and sync without clouds</title>
-          <link>/post/2018-08-13-password-manager/</link>
+          <link>/www.dlfer.xyz/post/2018-08-13-password-manager/</link>
           <pubDate>Mon, 13 Aug 2018 10:47:19 CEST</pubDate>
           <author></author>
-          <guid>/post/2018-08-13-password-manager/</guid>
+          <guid>/www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
           <description>&lt;h2 id=&#34;first-install-the-password-manager&#34;&gt;First, install the password manager.&lt;/h2&gt;
 
 &lt;p&gt;On windows 10, it is
@@ -304,10 +304,10 @@ written in safe pieces of paper?
       
         <item>
           <title>Dell&#39;uso dell&#39;inglese nelle aule universitarie</title>
-          <link>/post/2018-02-01-engita/</link>
+          <link>/www.dlfer.xyz/post/2018-02-01-engita/</link>
           <pubDate>Thu, 01 Feb 2018 13:38:19 CET</pubDate>
           <author></author>
-          <guid>/post/2018-02-01-engita/</guid>
+          <guid>/www.dlfer.xyz/post/2018-02-01-engita/</guid>
           <description>
 
 &lt;h1 id=&#34;a-proposito-di-lingua-inglese-per-le-lezioni-esami-e-internalizzazione:88e78d7dd3d70d8d91579c3cfa8e3fa8&#34;&gt;A proposito di lingua inglese per le lezioni/esami (e internalizzazione)&lt;/h1&gt;
@@ -425,10 +425,10 @@ e si sono laureati?&lt;/p&gt;
       
         <item>
           <title>Gli Esami Non Finiscono Mai</title>
-          <link>/post/2017-11-03-GliEsamiNonFinisconoMai/</link>
+          <link>/www.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</link>
           <pubDate>Fri, 03 Nov 2017 13:50:17 CET</pubDate>
           <author></author>
-          <guid>/post/2017-11-03-GliEsamiNonFinisconoMai/</guid>
+          <guid>/www.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</guid>
           <description>
 
 &lt;h1 id=&#34;norme-di-riferimento:aabf5d23d3fc9acacf7a7ebbf7cd9d78&#34;&gt;Norme di Riferimento&lt;/h1&gt;
@@ -944,10 +944,10 @@ studenti di Ateneo.&lt;/p&gt;&lt;/li&gt;
       
         <item>
           <title>Winding Around and Mountains</title>
-          <link>/post/2017-10-25-windingaround/</link>
+          <link>/www.dlfer.xyz/post/2017-10-25-windingaround/</link>
           <pubDate>Thu, 26 Oct 2017 16:14:02 CEST</pubDate>
           <author></author>
-          <guid>/post/2017-10-25-windingaround/</guid>
+          <guid>/www.dlfer.xyz/post/2017-10-25-windingaround/</guid>
           <description>&lt;h3 id=&#34;just-&#34;&gt;Just ...&lt;/h3&gt;
 
 &lt;p&gt;...reading &lt;a href=&#34;http://sites.psu.edu/johnroe/&#34;&gt;John Roe&#39;s&lt;/a&gt; book &lt;a href=&#34;http://bookstore.ams.org/stml-76&#34;&gt;&lt;strong&gt;Winding Around&lt;/strong&gt;&lt;/a&gt;.
@@ -961,10 +961,10 @@ Here: &lt;em&gt;For an extended riff on the idea of mathematics as mountaineerin
       
         <item>
           <title>Fixing MarkDown LaTeX underscore problem</title>
-          <link>/post/2017-10-03-mmark/</link>
+          <link>/www.dlfer.xyz/post/2017-10-03-mmark/</link>
           <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
           <author></author>
-          <guid>/post/2017-10-03-mmark/</guid>
+          <guid>/www.dlfer.xyz/post/2017-10-03-mmark/</guid>
           <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
 
 &lt;p&gt;Test of a displaystyle formula
@@ -997,10 +997,10 @@ $ ..  $
       
         <item>
           <title>Updating my (Xe)LaTeX vim plugin</title>
-          <link>/post/2017-07-04-vim-plugins/</link>
+          <link>/www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
           <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
           <author></author>
-          <guid>/post/2017-07-04-vim-plugins/</guid>
+          <guid>/www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
 &lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins:d14b835999900a5ca51bc1b2069332a3&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
@@ -1169,10 +1169,10 @@ on Zotero. Interesting plugins, also: ZotFile &amp;amp; Better Bib(La)TeX.&lt;/p
       
         <item>
           <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
-          <link>/post/2017-04-28-sylow/</link>
+          <link>/www.dlfer.xyz/post/2017-04-28-sylow/</link>
           <pubDate>Fri, 28 Apr 2017 15:11:07 CEST</pubDate>
           <author></author>
-          <guid>/post/2017-04-28-sylow/</guid>
+          <guid>/www.dlfer.xyz/post/2017-04-28-sylow/</guid>
           <description>
 
 &lt;h2 id=&#34;wieldandt-s-proof-of-sylow-s-theorem:5fffa9d98b47559a5dc53a5d693cde69&#34;&gt;Wieldandt&#39;s proof of Sylow&#39;s Theorem&lt;/h2&gt;
@@ -1260,10 +1260,10 @@ then there exists a subgroup $H\subset G$ of order $p^\alpha$.&lt;/dd&gt;
       
         <item>
           <title>Lettera sulla Polonia (1574-09-25)</title>
-          <link>/post/2016-12-27-paese-di-polonia/</link>
+          <link>/www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
           <pubDate>Tue, 27 Dec 2016 10:26:32 CET</pubDate>
           <author></author>
-          <guid>/post/2016-12-27-paese-di-polonia/</guid>
+          <guid>/www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
           <description>&lt;p&gt;Lettera del Cavalier &lt;a href=&#34;https://it.wikipedia.org/wiki/Battista_Guarini&#34; target=&#34;_blank&#34;&gt;Battista Guarini&lt;/a&gt;
 (1538-1612)
 al Segretario del &lt;a href=&#34;https://it.wikipedia.org/wiki/Luigi_d&#39;Este&#34; target=&#34;_blank&#34;&gt;Cardinal Luigi d&#39;Este&lt;/a&gt; (1538-1586),
@@ -1405,10 +1405,10 @@ da me singolarmente riverito, e stimato .&lt;/p&gt;
       
         <item>
           <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
-          <link>/post/2016-11-25-diracscissors/</link>
+          <link>/www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
           <pubDate>Fri, 25 Nov 2016 13:12:28 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-25-diracscissors/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
           <description>
 
 &lt;h2 id=&#34;topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2:22ecd94166e5e4cd225ba8aae1463736&#34;&gt;Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.&lt;/h2&gt;
@@ -1553,13 +1553,13 @@ no success.&lt;/p&gt;
 
 &lt;p&gt;Further reading: &lt;a href=&#34;http://web.math.rochester.edu/people/faculty/jonpak/newbraid.pdf&#34; target=&#34;_blank&#34;&gt;Fred Cohen and Jonathan Pakianathan notes on &lt;em&gt;Configuration spaces and braid groups&lt;/em&gt;&lt;/a&gt;, where they give a homotopy equivalence between $\FF_ 3(S^2)$ and $SO(3)$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
-&lt;img src=&#34;./img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
-&lt;img src=&#34;./img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
-&lt;img src=&#34;./img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
-&lt;img src=&#34;./img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
-&lt;img src=&#34;./img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
-&lt;img src=&#34;./img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;www.dlfer.xyz/img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -1569,10 +1569,10 @@ no success.&lt;/p&gt;
       
         <item>
           <title>Homology of (simplicial) spheres and applications</title>
-          <link>/post/2016-11-21-topappl/</link>
+          <link>/www.dlfer.xyz/post/2016-11-21-topappl/</link>
           <pubDate>Mon, 21 Nov 2016 15:47:19 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-21-topappl/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-21-topappl/</guid>
           <description>
 
 &lt;h2 id=&#34;nullhomotopic-odd-maps-borsuk-lusternik-and-schnirelmann:197d895c9b475366af895afe1535e0e6&#34;&gt;Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann&lt;/h2&gt;
@@ -1719,7 +1719,7 @@ and hence $\iota F$ does not contain a pair of antipodal points.
 For any such closed $F$, there exists $U$ open contractible containing $F$,
 and $W$ open such that $F\subset W \subset \overline W \subset U$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;www.dlfer.xyz/img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if $\PP^n$ is the union of  $l$ closed subsets
 $F_ 1, \ldots , F_ l$, all of which are contractible
@@ -1878,10 +1878,10 @@ $\gamma (A_ f) \geq n-k$, and $\dim (A_ f)\geq n-k$.&lt;/p&gt;
       
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-          <link>/post/2016-11-18-barycentric/</link>
+          <link>/www.dlfer.xyz/post/2016-11-18-barycentric/</link>
           <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-18-barycentric/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
           <description>
 
 &lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
@@ -2115,10 +2115,10 @@ manifolds without combinatorial triangulations.&lt;/p&gt;
       
         <item>
           <title>Joins and Products of polyhedra</title>
-          <link>/post/2016-11-14-joinsandproducts/</link>
+          <link>/www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
           <pubDate>Mon, 14 Nov 2016 11:07:25 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-14-joinsandproducts/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
           <description>
 
 &lt;h2 id=&#34;join-k-l-of-two-simplicial-complexes:6f13411f54adff566170e2e379f4ce41&#34;&gt;Join $K*L$ of two simplicial complexes&lt;/h2&gt;
@@ -2693,10 +2693,10 @@ $$&lt;/p&gt;
       
         <item>
           <title>Ranks, Tensors and Abelian Groups</title>
-          <link>/post/2016-11-09-Tensors/</link>
+          <link>/www.dlfer.xyz/post/2016-11-09-Tensors/</link>
           <pubDate>Wed, 09 Nov 2016 13:21:33 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-09-Tensors/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-09-Tensors/</guid>
           <description>
 
 &lt;h2 id=&#34;abelian-groups:14b3ea3d56d29e06946da383c7331a95&#34;&gt;Abelian Groups&lt;/h2&gt;
@@ -2812,7 +2812,7 @@ last index, and therefore $a\in A_ j$).
 See Kurosh, §20, or Fuchs Theorem 2.5 pag. 82, or Theorem 2.6 pag. 83 (Stacked Basis Theorem).
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;From the previous propositions and the &lt;a href=&#34;./post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
+&lt;p&gt;From the previous propositions and the &lt;a href=&#34;www.dlfer.xyz/post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
 one can (constructively) prove that&lt;/p&gt;
 
 &lt;dl&gt;
@@ -3078,10 +3078,10 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
       
         <item>
           <title>Graphs, trees and simplicial complexes</title>
-          <link>/post/2016-11-04-graphs/</link>
+          <link>/www.dlfer.xyz/post/2016-11-04-graphs/</link>
           <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-04-graphs/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-04-graphs/</guid>
           <description>
 
 &lt;h2 id=&#34;graphs-and-simplicial-complexes:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
@@ -3375,10 +3375,10 @@ which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.&lt;/p&gt;
       
         <item>
           <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
-          <link>/post/2016-10-27-smith-normal-form/</link>
+          <link>/www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
           <pubDate>Thu, 27 Oct 2016 11:45:52 CEST</pubDate>
           <author></author>
-          <guid>/post/2016-10-27-smith-normal-form/</guid>
+          <guid>/www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
           <description>
 
 &lt;h2 id=&#34;a-simple-algorithm-for-computing-the-smith-normal-form-of-a-matrix-in-zz:86e251d64fab5ccb414132090cd54af7&#34;&gt;A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$&lt;/h2&gt;
@@ -3825,7 +3825,7 @@ Then $L_ 1 \partial_ 1 R_ 1 = S_ 1$ and $L_ 2 \partial_ 2 R_ 2 = S_ 2$,
 as in the following diagram.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;./img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Let $\alpha_ 1$, $\alpha_ 2$, $\ldots$, $\alpha_ q$
@@ -3966,10 +3966,10 @@ by &lt;em&gt;Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek&lt;/em&gt;, 
       
         <item>
           <title>Császár torus, python and sagemath</title>
-          <link>/post/2016-10-19-csaszar-torus/</link>
+          <link>/www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
           <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
           <author></author>
-          <guid>/post/2016-10-19-csaszar-torus/</guid>
+          <guid>/www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
 &lt;h2 id=&#34;the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9&#34;&gt;The simplicial complex&lt;/h2&gt;
@@ -4071,7 +4071,7 @@ $$
 where the dots stand for all possible $1$-dimensional (i.e. 21) and $0$-dimensional (i.e. 7) simplexes.
 The complex can be represented as in the following badly drawn diagram:
 &lt;center&gt;
-&lt;img src=&#34;./img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;
@@ -4300,10 +4300,10 @@ sage: [len(Sigma3.faces()[x]) for x in range(4)]
       
         <item>
           <title>Categorical products and coproducts </title>
-          <link>/post/2016-10-12-coproducts/</link>
+          <link>/www.dlfer.xyz/post/2016-10-12-coproducts/</link>
           <pubDate>Wed, 12 Oct 2016 13:57:52 CEST</pubDate>
           <author></author>
-          <guid>/post/2016-10-12-coproducts/</guid>
+          <guid>/www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
           <description>
 
 &lt;h2 id=&#34;universal-property-of-coproducts:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Universal property of coproducts&lt;/h2&gt;
@@ -4321,7 +4321,7 @@ X_1 @&amp;gt;{h_1}&amp;gt;&amp;gt; Z  @&amp;lt;{h_2}&amp;lt;&amp;lt; X_2  \\\
 \end{CD}&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;./img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Given a set $S$ of indices, the &lt;strong&gt;coproduct&lt;/strong&gt; of a family
@@ -4335,7 +4335,7 @@ $h_ \alpha \from X_ \alpha \to Z$
 there exists a unique $h\from \coprod_ {s \in S} X_ s \to Z$
 such that for each $\alpha \in S$ on has $hj_ \alpha = h_ \alpha$, i.e. the following diagram commutes:
 &lt;center&gt;
-&lt;img src=&#34;./img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;dl&gt;
@@ -4367,7 +4367,7 @@ $p_ \alpha \from \prod_ {s \in S} X_ s \to X_ \alpha$,
 in any category
 $\mathbf{C}$, with the same universal property.
 &lt;center&gt;
-&lt;img src=&#34;./img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;By definition, the product topology in $\mathbf{Top}$ is the
@@ -4525,7 +4525,7 @@ and as morphisms (arrows) $h \from (f,Y) \to (f&#39;,Y&#39;)$
 all morhpisms $h\from Y \to Y&#39;$ su h that $f&#39;=F(h) f$
 as in the following diagram.
 &lt;center&gt;
-&lt;img src=&#34;./img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
 &lt;/center&gt;
 Given $X\in \bD$ and $F\from \bC \to \bD$,
 the comma category $X \downarrow F$ is uniquely defined.
@@ -4577,10 +4577,10 @@ is equal to $h$.
       
         <item>
           <title>A counter-example for the exponentiation / adjoint of a function</title>
-          <link>/post/counterexample-to-adjoint/</link>
+          <link>/www.dlfer.xyz/post/counterexample-to-adjoint/</link>
           <pubDate>Wed, 05 Oct 2016 14:24:49 CEST</pubDate>
           <author></author>
-          <guid>/post/counterexample-to-adjoint/</guid>
+          <guid>/www.dlfer.xyz/post/counterexample-to-adjoint/</guid>
           <description>
 
 &lt;h2 id=&#34;the-problem:cc5f1248a683bd633705733673dc5009&#34;&gt;The problem:&lt;/h2&gt;

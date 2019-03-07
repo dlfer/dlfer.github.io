@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>/tags/diracts-scissors/</link>
+    <link>www.dlfer.xyz/tags/diracts-scissors/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
-          <link>/post/2016-11-25-diracscissors/</link>
+          <link>/www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
           <pubDate>Fri, 25 Nov 2016 13:12:28 CET</pubDate>
           <author></author>
-          <guid>/post/2016-11-25-diracscissors/</guid>
+          <guid>/www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
           <description>
 
 &lt;h2 id=&#34;topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2:22ecd94166e5e4cd225ba8aae1463736&#34;&gt;Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.&lt;/h2&gt;
@@ -160,13 +160,13 @@ no success.&lt;/p&gt;
 
 &lt;p&gt;Further reading: &lt;a href=&#34;http://web.math.rochester.edu/people/faculty/jonpak/newbraid.pdf&#34; target=&#34;_blank&#34;&gt;Fred Cohen and Jonathan Pakianathan notes on &lt;em&gt;Configuration spaces and braid groups&lt;/em&gt;&lt;/a&gt;, where they give a homotopy equivalence between $\FF_ 3(S^2)$ and $SO(3)$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;../../img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
-&lt;img src=&#34;../../img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
-&lt;img src=&#34;../../img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
-&lt;img src=&#34;../../img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
-&lt;img src=&#34;../../img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
-&lt;img src=&#34;../../img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
-&lt;img src=&#34;../../img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;www.dlfer.xyz/img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
+&lt;img src=&#34;www.dlfer.xyz/img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
 </description>
         </item>
       
