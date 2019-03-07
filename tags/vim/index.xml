@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>www.dlfer.xyz/tags/vim/</link>
+    <link>http://www.dlfer.xyz/tags/vim/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Updating my (Xe)LaTeX vim plugin</title>
-          <link>/www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+          <link>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
           <pubDate>Tue, 04 Jul 2017 11:31:30 CEST</pubDate>
           <author></author>
-          <guid>/www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+          <guid>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
           <description>
 
 &lt;h3 id=&#34;after-some-years-it-was-time-to-update-my-latex-vim-plugins:d14b835999900a5ca51bc1b2069332a3&#34;&gt;After some years, it was time to update my LaTeX vim plugins.&lt;/h3&gt;
