@@ -131,7 +131,7 @@ last index, and therefore $a\in A_ j$).
 See Kurosh, §20, or Fuchs Theorem 2.5 pag. 82, or Theorem 2.6 pag. 83 (Stacked Basis Theorem).
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;From the previous propositions and the &lt;a href=&#34;/post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
+&lt;p&gt;From the previous propositions and the &lt;a href=&#34;../../post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
 one can (constructively) prove that&lt;/p&gt;
 
 &lt;dl&gt;

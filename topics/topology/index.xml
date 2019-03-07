@@ -177,13 +177,13 @@ no success.&lt;/p&gt;
 
 &lt;p&gt;Further reading: &lt;a href=&#34;http://web.math.rochester.edu/people/faculty/jonpak/newbraid.pdf&#34; target=&#34;_blank&#34;&gt;Fred Cohen and Jonathan Pakianathan notes on &lt;em&gt;Configuration spaces and braid groups&lt;/em&gt;&lt;/a&gt;, where they give a homotopy equivalence between $\FF_ 3(S^2)$ and $SO(3)$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
-&lt;img src=&#34;/img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
-&lt;img src=&#34;/img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
-&lt;img src=&#34;/img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
-&lt;img src=&#34;/img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
-&lt;img src=&#34;/img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
-&lt;img src=&#34;/img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/p/p1.png&#34; alt=&#34;Dirac Scissors (1)&#34; /&gt;
+&lt;img src=&#34;../../img/p/p2.png&#34; alt=&#34;Dirac Scissors (2)&#34; /&gt;
+&lt;img src=&#34;../../img/p/p3.png&#34; alt=&#34;Dirac Scissors (3)&#34; /&gt;
+&lt;img src=&#34;../../img/p/p4.png&#34; alt=&#34;Dirac Scissors (4)&#34; /&gt;
+&lt;img src=&#34;../../img/p/p5.png&#34; alt=&#34;Dirac Scissors (5)&#34; /&gt;
+&lt;img src=&#34;../../img/p/p6.png&#34; alt=&#34;Dirac Scissors (6)&#34; /&gt;
+&lt;img src=&#34;../../img/p/p7.png&#34; alt=&#34;Dirac Scissors (7)&#34; /&gt;&lt;/p&gt;
 </description>
         </item>
       
@@ -341,7 +341,7 @@ and hence $\iota F$ does not contain a pair of antipodal points.
 For any such closed $F$, there exists $U$ open contractible containing $F$,
 and $W$ open such that $F\subset W \subset \overline W \subset U$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/d/diag1.png&#34; alt=&#34;Diagram of the projection $p\from S^1 \to \PP^1(\RR)$&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now, if $\PP^n$ is the union of  $l$ closed subsets
 $F_ 1, \ldots , F_ l$, all of which are contractible
@@ -1434,7 +1434,7 @@ last index, and therefore $a\in A_ j$).
 See Kurosh, §20, or Fuchs Theorem 2.5 pag. 82, or Theorem 2.6 pag. 83 (Stacked Basis Theorem).
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;From the previous propositions and the &lt;a href=&#34;/post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
+&lt;p&gt;From the previous propositions and the &lt;a href=&#34;../../post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
 one can (constructively) prove that&lt;/p&gt;
 
 &lt;dl&gt;
@@ -2447,7 +2447,7 @@ Then $L_ 1 \partial_ 1 R_ 1 = S_ 1$ and $L_ 2 \partial_ 2 R_ 2 = S_ 2$,
 as in the following diagram.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;/img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
+&lt;img src=&#34;../../img/c2c1.svg&#34; alt=&#34;Chain complex diagram&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Let $\alpha_ 1$, $\alpha_ 2$, $\ldots$, $\alpha_ q$
@@ -2693,7 +2693,7 @@ $$
 where the dots stand for all possible $1$-dimensional (i.e. 21) and $0$-dimensional (i.e. 7) simplexes.
 The complex can be represented as in the following badly drawn diagram:
 &lt;center&gt;
-&lt;img src=&#34;/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
+&lt;img src=&#34;../../img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;
@@ -2943,7 +2943,7 @@ X_1 @&amp;gt;{h_1}&amp;gt;&amp;gt; Z  @&amp;lt;{h_2}&amp;lt;&amp;lt; X_2  \\\
 \end{CD}&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;/img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
+&lt;img src=&#34;../../img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Given a set $S$ of indices, the &lt;strong&gt;coproduct&lt;/strong&gt; of a family
@@ -2957,7 +2957,7 @@ $h_ \alpha \from X_ \alpha \to Z$
 there exists a unique $h\from \coprod_ {s \in S} X_ s \to Z$
 such that for each $\alpha \in S$ on has $hj_ \alpha = h_ \alpha$, i.e. the following diagram commutes:
 &lt;center&gt;
-&lt;img src=&#34;/img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;../../img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;dl&gt;
@@ -2989,7 +2989,7 @@ $p_ \alpha \from \prod_ {s \in S} X_ s \to X_ \alpha$,
 in any category
 $\mathbf{C}$, with the same universal property.
 &lt;center&gt;
-&lt;img src=&#34;/img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;../../img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;By definition, the product topology in $\mathbf{Top}$ is the
@@ -3147,7 +3147,7 @@ and as morphisms (arrows) $h \from (f,Y) \to (f&#39;,Y&#39;)$
 all morhpisms $h\from Y \to Y&#39;$ su h that $f&#39;=F(h) f$
 as in the following diagram.
 &lt;center&gt;
-&lt;img src=&#34;/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
+&lt;img src=&#34;../../img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
 &lt;/center&gt;
 Given $X\in \bD$ and $F\from \bC \to \bD$,
 the comma category $X \downarrow F$ is uniquely defined.
