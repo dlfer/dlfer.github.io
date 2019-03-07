@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/markdown/</link>
+    <link>//www.dlfer.xyz/tags/markdown/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Fixing MarkDown LaTeX underscore problem</title>
-          <link>http://www.dlfer.xyz/post/2017-10-03-mmark/</link>
+          <link>//www.dlfer.xyz/post/2017-10-03-mmark/</link>
           <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2017-10-03-mmark/</guid>
+          <guid>//www.dlfer.xyz/post/2017-10-03-mmark/</guid>
           <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
 
 &lt;p&gt;Test of a displaystyle formula

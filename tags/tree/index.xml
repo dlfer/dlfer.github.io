@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/tree/</link>
+    <link>//www.dlfer.xyz/tags/tree/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Graphs, trees and simplicial complexes</title>
-          <link>http://www.dlfer.xyz/post/2016-11-04-graphs/</link>
+          <link>//www.dlfer.xyz/post/2016-11-04-graphs/</link>
           <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-11-04-graphs/</guid>
+          <guid>//www.dlfer.xyz/post/2016-11-04-graphs/</guid>
           <description>
 
 &lt;h2 id=&#34;graphs-and-simplicial-complexes:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/abelian-groups/</link>
+    <link>//www.dlfer.xyz/tags/abelian-groups/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Ranks, Tensors and Abelian Groups</title>
-          <link>http://www.dlfer.xyz/post/2016-11-09-Tensors/</link>
+          <link>//www.dlfer.xyz/post/2016-11-09-Tensors/</link>
           <pubDate>Wed, 09 Nov 2016 13:21:33 CET</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-11-09-Tensors/</guid>
+          <guid>//www.dlfer.xyz/post/2016-11-09-Tensors/</guid>
           <description>
 
 &lt;h2 id=&#34;abelian-groups:14b3ea3d56d29e06946da383c7331a95&#34;&gt;Abelian Groups&lt;/h2&gt;
@@ -131,7 +131,7 @@ last index, and therefore $a\in A_ j$).
 See Kurosh, §20, or Fuchs Theorem 2.5 pag. 82, or Theorem 2.6 pag. 83 (Stacked Basis Theorem).
 &lt;em&gt;/qed/&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;From the previous propositions and the &lt;a href=&#34;../../post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
+&lt;p&gt;From the previous propositions and the &lt;a href=&#34;//www.dlfer.xyz/post/2016-10-27-smith-normal-form/&#34;&gt;Smith Normal Form&lt;/a&gt; of a $\ZZ$-matrix,
 one can (constructively) prove that&lt;/p&gt;
 
 &lt;dl&gt;

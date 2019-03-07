@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/software/</link>
+    <link>//www.dlfer.xyz/tags/software/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Password manager and sync without clouds</title>
-          <link>http://www.dlfer.xyz/post/2018-08-13-password-manager/</link>
+          <link>//www.dlfer.xyz/post/2018-08-13-password-manager/</link>
           <pubDate>Mon, 13 Aug 2018 10:47:19 CEST</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
+          <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
           <description>&lt;h2 id=&#34;first-install-the-password-manager&#34;&gt;First, install the password manager.&lt;/h2&gt;
 
 &lt;p&gt;On windows 10, it is
