@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.46" />
+  <meta name="generator" content="Hugo 0.16-DEV" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -54,187 +54,63 @@
     
     
       
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
         <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/papers/">Publications</a>
       
     
       
         <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/now/">About/now</a>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
       
     
   </nav>
@@ -275,9 +151,7 @@
     <p>
   
   
-    First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
-Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
-$ sudo pip install xkcdpass $ xkcdpass -w &quot;ita-wiki&quot; -w &quot;ger-anlx&quot; -d &quot;;&quot;  It is not difficult to add more words lists, e.
+    First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository. Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass: $ sudo pip install xkcdpass $ xkcdpass -w &quot;ita-wiki&quot; -w &quot;ger-anlx&quot; -d &quot;;&quot; It is not difficult to add more words lists, e.g.
   
 
 
@@ -301,11 +175,7 @@ $ sudo pip install xkcdpass $ xkcdpass -w &quot;ita-wiki&quot; -w &quot;ger-anlx
     <p>
   
   
-    How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
-And the same for an inline sum: $\sum_j j^2$.
-The answer is: in the preamble
-markup = &quot;mmark&quot;  and then just use
-$$ .. $$ or $ .
+    How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \) And the same for an inline sum: $\sum_j j^2$. The answer is: in the preamble markup = &quot;mmark&quot; and then just use $$ .. $$ or $ .. $ apparently.
   
 
 
@@ -329,11 +199,7 @@ $$ .. $$ or $ .
     <p>
   
   
-    After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
-Now, with the vundle plugin.
-Things to do: I had vundle installed already. I needed to add lervag's vimtex and ajh17's VimCompletesMe.
-Hence, in .vimrc:
-&quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &quot; let Vundle manage Vundle, required Plugin 'VundleVim/Vundle.
+    After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion. Now, with the vundle plugin. Things to do: I had vundle installed already. I needed to add lervag's vimtex and ajh17's VimCompletesMe. Hence, in .vimrc: &quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &quot; let Vundle manage Vundle, required Plugin 'VundleVim/Vundle.vim' Plugin 'lervag/vimtex' let g:vimtex_view_general_viewer='okular' &quot; 'skim' for Mac OSX instead.
   
 
 
@@ -357,9 +223,7 @@ Hence, in .vimrc:
     <p>
   
   
-    Lettera del Cavalier Battista Guarini (1538-1612) al Segretario del Cardinal Luigi d'Este (1538-1586), Monsignor Benedetto Manzuoli (1530-1585).
-Testo preso dalla raccolta di lettere L'idea del segretario dal signore Bartolomeo Zucchi gentil'huomo di Monza, academico insensato di Perugia. Parte seconda. pubblicato nel 1606 da Bartolomeo Zucchi (1570-1630) a Venezia, presso la Compagnia Minima. ARCHIVE LINK L'ortografia è stata parzialmente adattata a quella moderna.
-Guarini fu Segretario di Alfonso Secondo d'Este, duca di Ferrara (1533-1597) tra il 1573 e il 1583, e scrive al segretario del Cardinal Luigi d'Este, fratello di Alfonso Secondo d'Este.
+    Lettera del Cavalier Battista Guarini (1538-1612) al Segretario del Cardinal Luigi d'Este (1538-1586), Monsignor Benedetto Manzuoli/) (1530-1585). Testo preso dalla raccolta di lettere L'idea del segretario dal signore Bartolomeo Zucchi gentil'huomo di Monza, academico insensato di Perugia. Parte seconda. pubblicato nel 1606 da Bartolomeo Zucchi (1570-1630) a Venezia, presso la Compagnia Minima. ARCHIVE LINK L'ortografia è stata parzialmente adattata a quella moderna. Guarini/) fu Segretario di Alfonso Secondo d'Este, duca di Ferrara (1533-1597) tra il 1573 e il 1583, e scrive al segretario del Cardinal Luigi d'Este, fratello di Alfonso Secondo d'Este.
   
 
 
