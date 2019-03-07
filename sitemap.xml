@@ -2,148 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.dlfer.xyz/</loc>
+    <loc>/</loc>
     <lastmod>2019-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/home/main/</loc>
+    <loc>/home/main/</loc>
     <lastmod>2019-03-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</loc>
+    <loc>/post/2018-11-29-DiscreteCosineTransform/</loc>
     <lastmod>2018-10-29T10:53:07+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2018-08-13-password-manager/</loc>
+    <loc>/post/2018-08-13-password-manager/</loc>
     <lastmod>2018-08-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2018-02-01-engita/</loc>
+    <loc>/post/2018-02-01-engita/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</loc>
+    <loc>/post/2017-11-03-GliEsamiNonFinisconoMai/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2017-10-25-windingaround/</loc>
+    <loc>/post/2017-10-25-windingaround/</loc>
     <lastmod>2017-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2017-10-03-mmark/</loc>
+    <loc>/post/2017-10-03-mmark/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</loc>
+    <loc>/post/2017-07-04-vim-plugins/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2017-04-28-sylow/</loc>
+    <loc>/post/2017-04-28-sylow/</loc>
     <lastmod>2017-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/</loc>
+    <loc>/poem/2017-04-09-rescritto-imperiale/</loc>
     <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</loc>
+    <loc>/post/2016-12-27-paese-di-polonia/</loc>
     <lastmod>2016-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-11-25-diracscissors/</loc>
+    <loc>/post/2016-11-25-diracscissors/</loc>
     <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/poem/deisepolcri/</loc>
+    <loc>/poem/deisepolcri/</loc>
     <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-11-21-topappl/</loc>
+    <loc>/post/2016-11-21-topappl/</loc>
     <lastmod>2016-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-11-18-barycentric/</loc>
+    <loc>/post/2016-11-18-barycentric/</loc>
     <lastmod>2018-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</loc>
+    <loc>/post/2016-11-14-joinsandproducts/</loc>
     <lastmod>2016-11-14T11:07:25+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-11-09-Tensors/</loc>
+    <loc>/post/2016-11-09-Tensors/</loc>
     <lastmod>2016-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-11-04-graphs/</loc>
+    <loc>/post/2016-11-04-graphs/</loc>
     <lastmod>2016-11-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-10-27-smith-normal-form/</loc>
+    <loc>/post/2016-10-27-smith-normal-form/</loc>
     <lastmod>2016-10-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</loc>
+    <loc>/post/2016-10-19-csaszar-torus/</loc>
     <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/2016-10-12-coproducts/</loc>
+    <loc>/post/2016-10-12-coproducts/</loc>
     <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/poem/vidadeperros/</loc>
+    <loc>/poem/vidadeperros/</loc>
     <lastmod>2016-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/post/counterexample-to-adjoint/</loc>
+    <loc>/post/counterexample-to-adjoint/</loc>
     <lastmod>2016-09-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/p/privacy/</loc>
+    <loc>/p/privacy/</loc>
     <lastmod>2016-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/p/agt-2016-17/</loc>
+    <loc>/p/agt-2016-17/</loc>
     <lastmod>2016-09-23T18:51:48+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/home/about/</loc>
+    <loc>/home/about/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/p/papers/</loc>
+    <loc>/p/papers/</loc>
     <lastmod>2016-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dlfer.xyz/p/now/</loc>
+    <loc>/p/now/</loc>
     <lastmod>2016-11-18T00:00:00+00:00</lastmod>
   </url>
   

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/coproducts/</link>
+    <link>/tags/coproducts/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Categorical products and coproducts </title>
-          <link>http://www.dlfer.xyz/post/2016-10-12-coproducts/</link>
+          <link>/post/2016-10-12-coproducts/</link>
           <pubDate>Wed, 12 Oct 2016 13:57:52 CEST</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
+          <guid>/post/2016-10-12-coproducts/</guid>
           <description>
 
 &lt;h2 id=&#34;universal-property-of-coproducts:adcfe44bdf33bd0cef6f5507c5201d81&#34;&gt;Universal property of coproducts&lt;/h2&gt;
@@ -33,7 +33,7 @@ X_1 @&amp;gt;{h_1}&amp;gt;&amp;gt; Z  @&amp;lt;{h_2}&amp;lt;&amp;lt; X_2  \\\
 \end{CD}&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;http://www.dlfer.xyz/img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
+&lt;img src=&#34;/img/coprod1.svg&#34; alt=&#34;Diagram for coproduct of two objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Given a set $S$ of indices, the &lt;strong&gt;coproduct&lt;/strong&gt; of a family
@@ -47,7 +47,7 @@ $h_ \alpha \from X_ \alpha \to Z$
 there exists a unique $h\from \coprod_ {s \in S} X_ s \to Z$
 such that for each $\alpha \in S$ on has $hj_ \alpha = h_ \alpha$, i.e. the following diagram commutes:
 &lt;center&gt;
-&lt;img src=&#34;http://www.dlfer.xyz/img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;/img/coprod2.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;dl&gt;
@@ -79,7 +79,7 @@ $p_ \alpha \from \prod_ {s \in S} X_ s \to X_ \alpha$,
 in any category
 $\mathbf{C}$, with the same universal property.
 &lt;center&gt;
-&lt;img src=&#34;http://www.dlfer.xyz/img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
+&lt;img src=&#34;/img/prod1.svg&#34; alt=&#34;Diagram of coproduct of a family of objects&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;By definition, the product topology in $\mathbf{Top}$ is the
@@ -237,7 +237,7 @@ and as morphisms (arrows) $h \from (f,Y) \to (f&#39;,Y&#39;)$
 all morhpisms $h\from Y \to Y&#39;$ su h that $f&#39;=F(h) f$
 as in the following diagram.
 &lt;center&gt;
-&lt;img src=&#34;http://www.dlfer.xyz/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
+&lt;img src=&#34;/img/comma1.svg&#34; alt=&#34;Comma category diagram&#34; /&gt;
 &lt;/center&gt;
 Given $X\in \bD$ and $F\from \bC \to \bD$,
 the comma category $X \downarrow F$ is uniquely defined.

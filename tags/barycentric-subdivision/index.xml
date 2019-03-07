@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/barycentric-subdivision/</link>
+    <link>/tags/barycentric-subdivision/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-          <link>http://www.dlfer.xyz/post/2016-11-18-barycentric/</link>
+          <link>/post/2016-11-18-barycentric/</link>
           <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+          <guid>/post/2016-11-18-barycentric/</guid>
           <description>
 
 &lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;

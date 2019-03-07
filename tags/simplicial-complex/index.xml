@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DL Ferrario&#39;s Test Web Page </title>
-    <link>http://www.dlfer.xyz/tags/simplicial-complex/</link>
+    <link>/tags/simplicial-complex/</link>
     <language>en-us</language>
     <author></author>
     <rights>(C) 2019</rights>
@@ -12,10 +12,10 @@
       
         <item>
           <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-          <link>http://www.dlfer.xyz/post/2016-11-18-barycentric/</link>
+          <link>/post/2016-11-18-barycentric/</link>
           <pubDate>Fri, 18 Nov 2016 13:53:47 CET</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+          <guid>/post/2016-11-18-barycentric/</guid>
           <description>
 
 &lt;h2 id=&#34;mesh-of-a-euclidean-simplicial-complex:fdaaa6449d5638a700bdf2e99eba7160&#34;&gt;Mesh of a euclidean simplicial complex.&lt;/h2&gt;
@@ -249,10 +249,10 @@ manifolds without combinatorial triangulations.&lt;/p&gt;
       
         <item>
           <title>Joins and Products of polyhedra</title>
-          <link>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
+          <link>/post/2016-11-14-joinsandproducts/</link>
           <pubDate>Mon, 14 Nov 2016 11:07:25 CET</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
+          <guid>/post/2016-11-14-joinsandproducts/</guid>
           <description>
 
 &lt;h2 id=&#34;join-k-l-of-two-simplicial-complexes:6f13411f54adff566170e2e379f4ce41&#34;&gt;Join $K*L$ of two simplicial complexes&lt;/h2&gt;
@@ -827,10 +827,10 @@ $$&lt;/p&gt;
       
         <item>
           <title>Graphs, trees and simplicial complexes</title>
-          <link>http://www.dlfer.xyz/post/2016-11-04-graphs/</link>
+          <link>/post/2016-11-04-graphs/</link>
           <pubDate>Fri, 04 Nov 2016 13:08:54 CET</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-11-04-graphs/</guid>
+          <guid>/post/2016-11-04-graphs/</guid>
           <description>
 
 &lt;h2 id=&#34;graphs-and-simplicial-complexes:203a0445d8e5f936faf43fb7ed99cddb&#34;&gt;Graphs and simplicial complexes&lt;/h2&gt;
@@ -1124,10 +1124,10 @@ which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.&lt;/p&gt;
       
         <item>
           <title>Császár torus, python and sagemath</title>
-          <link>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
+          <link>/post/2016-10-19-csaszar-torus/</link>
           <pubDate>Wed, 19 Oct 2016 13:55:55 CEST</pubDate>
           <author></author>
-          <guid>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
+          <guid>/post/2016-10-19-csaszar-torus/</guid>
           <description>
 
 &lt;h2 id=&#34;the-simplicial-complex:a0f7ea7056058d387334b524d50c28b9&#34;&gt;The simplicial complex&lt;/h2&gt;
@@ -1229,7 +1229,7 @@ $$
 where the dots stand for all possible $1$-dimensional (i.e. 21) and $0$-dimensional (i.e. 7) simplexes.
 The complex can be represented as in the following badly drawn diagram:
 &lt;center&gt;
-&lt;img src=&#34;http://www.dlfer.xyz/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
+&lt;img src=&#34;/img/toro.svg&#34; alt=&#34;Csaszar Torus&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;With a little bit of imagination and glueing, it is possible to &amp;quot;prove&amp;quot; the following proposition.&lt;/p&gt;
