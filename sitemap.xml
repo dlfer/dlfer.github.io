@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//www.dlfer.xyz/</loc>
-    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>//www.dlfer.xyz/p/papers/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/p/now/</loc>
+    <lastmod>2016-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/post/suppakayak/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,7 +23,7 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/post/2018-11-29-DiscreteCosineTransform/</loc>
+    <loc>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</loc>
     <lastmod>2018-10-29T10:53:07+01:00</lastmod>
   </url>
   
@@ -28,7 +38,7 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/post/2017-11-03-GliEsamiNonFinisconoMai/</loc>
+    <loc>//www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,7 +98,7 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/post/2016-11-09-Tensors/</loc>
+    <loc>//www.dlfer.xyz/post/2016-11-09-tensors/</loc>
     <lastmod>2016-11-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,13 +148,393 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/p/papers/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/tags/abelian-groups/</loc>
+    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/p/now/</loc>
-    <lastmod>2016-11-18T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/topics/algebra/</loc>
+    <lastmod>2017-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/algorithm/</loc>
+    <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/analysis/</loc>
+    <lastmod>2018-10-29T10:53:07+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/barycentric-subdivision/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/borsuk/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/borsuk-ulam/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/brouwer/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/categories/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/coproducts/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/diracts-scissors/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/discrete-cosine-transform/</loc>
+    <lastmod>2018-10-29T10:53:07+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/english/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/examples/</loc>
+    <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/fixed-point/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/fourier/</loc>
+    <lastmod>2018-10-29T10:53:07+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/function-spaces/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/fundamental-group/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/graph/</loc>
+    <lastmod>2016-11-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/home/</loc>
+    <lastmod>2019-03-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/homology/</loc>
+    <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/inglese/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/join/</loc>
+    <lastmod>2016-11-14T11:07:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/kayak/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/latex/</loc>
+    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/lettera/</loc>
+    <lastmod>2016-12-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/lusternik-schnirelmann/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/markdown/</loc>
+    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/mountains/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/norme/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/paddle/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/password-manager/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/poem/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/poetry/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/polonia/</loc>
+    <lastmod>2016-12-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/post/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/product/</loc>
+    <lastmod>2016-11-14T11:07:25+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/p/</loc>
+    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/python/</loc>
+    <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/rank/</loc>
+    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/sagemath/</loc>
+    <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/security/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/simplex/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/simplicial-approximation/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/simplicial-complex/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/smith-normal-form/</loc>
+    <lastmod>2016-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/so3/</loc>
+    <lastmod>2016-09-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/software/</loc>
+    <lastmod>2018-08-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/sup/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/sylow-theorem/</loc>
+    <lastmod>2017-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/</loc>
+    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/tensor-product/</loc>
+    <lastmod>2016-11-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/</loc>
+    <lastmod>2017-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/topology/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/topology/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/tree/</loc>
+    <lastmod>2016-11-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/ulam/</loc>
+    <lastmod>2016-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/university/</loc>
+    <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/universit%C3%A0/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/valutazione/</loc>
+    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/var/</loc>
+    <lastmod>2019-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/vim/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/winding-number/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

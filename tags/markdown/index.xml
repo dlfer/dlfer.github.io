@@ -1,50 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DL Ferrario&#39;s Test Web Page </title>
+    <title>Markdown on DL Ferrario&#39;s Test Web Page</title>
     <link>//www.dlfer.xyz/tags/markdown/</link>
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2019</rights>
-    <updated>2017-10-04 15:16:15 &#43;0200 CEST</updated>
-
+    <description>Recent content in Markdown on DL Ferrario&#39;s Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Wed, 04 Oct 2017 15:16:15 +0200</lastBuildDate>
     
-      
-        <item>
-          <title>Fixing MarkDown LaTeX underscore problem</title>
-          <link>//www.dlfer.xyz/post/2017-10-03-mmark/</link>
-          <pubDate>Wed, 04 Oct 2017 15:16:15 CEST</pubDate>
-          <author></author>
-          <guid>//www.dlfer.xyz/post/2017-10-03-mmark/</guid>
-          <description>&lt;h2 id=&#34;how-to-fix-markdown-underscore-with-latex-problem&#34;&gt;How to fix Markdown underscore with LaTeX problem?&lt;/h2&gt;
-
-&lt;p&gt;Test of a displaystyle formula
-&lt;span  class=&#34;math&#34;&gt;\(
-A_k^n = 
-\dfrac{n!}{k!(n-k)!} =
-\dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k }  =
-\dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j }
-\)&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;And the same for an inline sum: $\sum_j j^2$.&lt;/p&gt;
-
-&lt;p&gt;The answer is: in the preamble&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;markup = &amp;quot;mmark&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;and then just use&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$$ .. $$ 
-or 
-$ ..  $
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;apparently.&lt;/p&gt;
-</description>
-        </item>
-      
+	<atom:link href="//www.dlfer.xyz/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
-
+    
+    <item>
+      <title>Fixing MarkDown LaTeX underscore problem</title>
+      <link>//www.dlfer.xyz/post/2017-10-03-mmark/</link>
+      <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/2017-10-03-mmark/</guid>
+      <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
+And the same for an inline sum: $\sum_j j^2$.
+The answer is: in the preamble
+markup = &amp;quot;mmark&amp;quot;  and then just use
+$$ .. $$ or $ .</description>
+    </item>
+    
   </channel>
 </rss>

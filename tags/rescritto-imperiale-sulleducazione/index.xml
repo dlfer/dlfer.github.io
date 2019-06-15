@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DL Ferrario&#39;s Test Web Page </title>
+    <title>Rescritto Imperiale Sulleducazione on DL Ferrario&#39;s Test Web Page</title>
     <link>//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/</link>
-    <language>en-us</language>
-    <author></author>
-    <rights>(C) 2019</rights>
-    <updated>2017-04-09 22:15:27 &#43;0200 CEST</updated>
-
+    <description>Recent content in Rescritto Imperiale Sulleducazione on DL Ferrario&#39;s Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Sun, 09 Apr 2017 22:15:27 +0200</lastBuildDate>
     
+	<atom:link href="//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rescritto imperiale sull&#39;educazione (1890)</title>
+      <link>//www.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/</link>
+      <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
       
+      <guid>//www.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/</guid>
+      <description>Il 30 ottobre 1890 il Ministro dell&#39;Educazione Giapponese pubblicò il Rescritto Imperiale sull&#39;educazione, che descriveva i principi del sistema formativo giapponese dell&#39;epoca Meiji. L&#39;obiettivo era una veloce modernizzazione e parziale occidentalizzazione del Giappone, che era rimasto isolato durante il periodo Edo (lo shogunato Tokugawa), e che veniva cambiato radicalmente con le riforme dell&#39;oligarchia dell&#39; era Meiji.
+Nel 1907, una sua traduzione inglese fu divulgata in Inghilterra ed analizzata durante una serie di lezioni del matematico Kikuchi Dairoku all&#39;Università di Londra.</description>
+    </item>
     
-
   </channel>
 </rss>
