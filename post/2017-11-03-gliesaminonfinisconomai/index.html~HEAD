@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.40.1" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -18,27 +18,27 @@
      </title>
 
   
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/highlight.min.css">  
-  <script src="http://www.dlfer.xyz//js/highlight.pack.js"></script>
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/highlight.min.css">  
+  <script src="//www.dlfer.xyz//js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
 
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/academicons.min.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/otherstyle.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/poole.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/syntax.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/lanyon.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/bootstrap.min.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/font-awesome.min.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/academicons.min.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/otherstyle.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/poole.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/syntax.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/lanyon.css">
   
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/fonts.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/fonts.css">
   
    
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="http://www.dlfer.xyz/assets/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="//www.dlfer.xyz/assets/favicon-gears.ico">
 </head>
 
   <body class="theme-base-0x">
@@ -47,11 +47,71 @@
 
 <div class="sidebar" id="sidebar">
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/">Home</a>
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/post">All Posts</a>
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/topics/">Topics</a>
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/tags/">Tags</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/">Home</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/post">All Posts</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/topics/">Topics</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/tags/">Tags</a>
     
+    
+      
+        <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/papers/">Publications</a>
+      
+    
+      
+        <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/now/">About/now</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
       
     
@@ -106,11 +166,85 @@
       
     
       
-        <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/papers/">Publications</a>
+    
       
     
       
-        <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/now/">About/now</a>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
       
     
   </nav>
@@ -126,7 +260,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="http://www.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
+            <a href="//www.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
      
           </h3>
         </div>
@@ -143,9 +277,9 @@
   </span>
   
 
-<h1 id="norme-di-riferimento:aabf5d23d3fc9acacf7a7ebbf7cd9d78">Norme di Riferimento</h1>
+<h1 id="norme-di-riferimento">Norme di Riferimento</h1>
 
-<h3 id="regio-decreto-31-agosto-1933-n-1592:aabf5d23d3fc9acacf7a7ebbf7cd9d78">REGIO DECRETO 31 agosto 1933, n. 1592</h3>
+<h3 id="regio-decreto-31-agosto-1933-n-1592">REGIO DECRETO 31 agosto 1933, n. 1592</h3>
 
 <p><a href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1933-08-31;1592!vig=" target="_blank">FONTE</a></p>
 
@@ -204,7 +338,7 @@ mese innanzi il principio del nuovo anno accademico.</p>
 
 <p>Non e' consentita alcun'altra sessione di esami.</p>
 
-<h3 id="regio-decreto-4-giugno-1938-n-1269:aabf5d23d3fc9acacf7a7ebbf7cd9d78">REGIO DECRETO 4 giugno 1938, n. 1269</h3>
+<h3 id="regio-decreto-4-giugno-1938-n-1269">REGIO DECRETO 4 giugno 1938, n. 1269</h3>
 
 <p><a href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1938-06-04;1269!vig=" target="_blank">FONTE</a></p>
 
@@ -312,7 +446,7 @@ riprovato.</p>
 <p>Lo studente riprovato non  puo'  ripetere  l'esame  nella  medesima
 sessione.</p>
 
-<h3 id="legge-19-novembre-1990-n-341-cossiga-andreotti:aabf5d23d3fc9acacf7a7ebbf7cd9d78">LEGGE 19 novembre 1990, n. 341 (Cossiga, Andreotti)</h3>
+<h3 id="legge-19-novembre-1990-n-341-cossiga-andreotti">LEGGE 19 novembre 1990, n. 341 (Cossiga, Andreotti)</h3>
 
 <p><a href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990-11-19;341" target="_blank">FONTE</a>
 Riforma degli ordinamenti didattici universitari. (GU n.274 del 23-11-1990 )</p>
@@ -320,7 +454,7 @@ Riforma degli ordinamenti didattici universitari. (GU n.274 del 23-11-1990 )</p>
 <p>note:
 Entrata in vigore della legge: 8/12/1990</p>
 
-<h3 id="decreto-3-novembre-1999-n-509-riforma-berlinguer-sostituita-in-toto-dalla-successiva-270-2004:aabf5d23d3fc9acacf7a7ebbf7cd9d78">DECRETO 3 novembre 1999, n. 509 (Riforma Berlinguer, sostituita in toto dalla successiva 270/2004)</h3>
+<h3 id="decreto-3-novembre-1999-n-509-riforma-berlinguer-sostituita-in-toto-dalla-successiva-270-2004">DECRETO 3 novembre 1999, n. 509 (Riforma Berlinguer, sostituita in toto dalla successiva 270/2004)</h3>
 
 <p><a href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.universita.e.ricerca.scientifica.e.tecnologica:decreto:1999-11-03;509!vig=" target="_blank">FONTE</a></p>
 
@@ -412,7 +546,7 @@ didattici  dei corsi di studio, in particolare per quanto riguarda il
 numero  dei  crediti assegnati ad ogni insegnamento o altra attivita'
 formativa.</p>
 
-<h3 id="decreto-22-ottobre-2004-n-270-riforma-moratti:aabf5d23d3fc9acacf7a7ebbf7cd9d78">DECRETO 22 ottobre 2004, n. 270 (Riforma Moratti)</h3>
+<h3 id="decreto-22-ottobre-2004-n-270-riforma-moratti">DECRETO 22 ottobre 2004, n. 270 (Riforma Moratti)</h3>
 
 <p><a href="http://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.istruzione.universita.e.ricerca:decreto:2004-10-22;270!vig=" target="_blank">FONTE</a></p>
 
@@ -518,7 +652,7 @@ didattici  dei corsi di studio, in particolare per quanto riguarda il
 numero  dei  crediti assegnati ad ogni insegnamento o altra attivita'
 formativa.</p>
 
-<h3 id="prima-sezione-penale-corte-di-cassazione-sentenza-n-3134-98:aabf5d23d3fc9acacf7a7ebbf7cd9d78">Prima Sezione Penale Corte di Cassazione Sentenza n. 3134/98</h3>
+<h3 id="prima-sezione-penale-corte-di-cassazione-sentenza-n-3134-98">Prima Sezione Penale Corte di Cassazione Sentenza n. 3134/98</h3>
 
 <p><a href="http://www.edscuola.it/archivio/norme/varie/esuniv.html" target="_blank">FONTE</a></p>
 
@@ -534,7 +668,7 @@ formativa.</p>
 
 <p>Depositata in cancelleria il 12 marzo 1998.</p>
 
-<h2 id="regolamento-didattico-di-ateneo-milano-bicocca-3-luglio-2017:aabf5d23d3fc9acacf7a7ebbf7cd9d78">Regolamento Didattico di Ateneo (Milano-Bicocca - 3 Luglio 2017)</h2>
+<h2 id="regolamento-didattico-di-ateneo-milano-bicocca-3-luglio-2017">Regolamento Didattico di Ateneo (Milano-Bicocca - 3 Luglio 2017)</h2>
 
 <p><a href="http://www.unimib.it/upload/pag/267975982/de/decretorad3lug17.pdf" target="_blank">FONTE</a></p>
 
@@ -660,7 +794,7 @@ studenti di Ateneo.</p></li>
     <div class="container">
         <p class="powered-by">
             Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
-	    <a href="http://www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
+	    <a href="//www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
         </p>
@@ -682,7 +816,7 @@ studenti di Ateneo.</p></li>
                                            } 
                                 });
         </script>
-        <script async src="http://www.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
+        <script async src="//www.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
         
   
  

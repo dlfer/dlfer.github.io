@@ -6,7 +6,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.16-DEV" />
+  <meta name="generator" content="Hugo 0.40.1" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -18,27 +18,27 @@
      </title>
 
   
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/highlight.min.css">  
-  <script src="http://www.dlfer.xyz//js/highlight.pack.js"></script>
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/highlight.min.css">  
+  <script src="//www.dlfer.xyz//js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
 
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/font-awesome.min.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/academicons.min.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/otherstyle.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/poole.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/syntax.css">
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/lanyon.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/bootstrap.min.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/font-awesome.min.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/academicons.min.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/otherstyle.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/poole.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/syntax.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/lanyon.css">
   
-  <link rel="stylesheet" href="http://www.dlfer.xyz//css/fonts.css">
+  <link rel="stylesheet" href="//www.dlfer.xyz//css/fonts.css">
   
    
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300|Merriweather|Roboto+Mono" rel="stylesheet">
 
   
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="http://www.dlfer.xyz/assets/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.dlfer.xyz/assets/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="//www.dlfer.xyz/assets/favicon-gears.ico">
 </head>
 
   <body class="theme-base-0x">
@@ -47,11 +47,71 @@
 
 <div class="sidebar" id="sidebar">
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/">Home</a>
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/post">All Posts</a>
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/topics/">Topics</a>
-    <a class="sidebar-nav-item " href="http://www.dlfer.xyz/tags/">Tags</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/">Home</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/post">All Posts</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/topics/">Topics</a>
+    <a class="sidebar-nav-item " href="//www.dlfer.xyz/tags/">Tags</a>
     
+    
+      
+        <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/papers/">Publications</a>
+      
+    
+      
+        <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/now/">About/now</a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
     
       
     
@@ -106,11 +166,85 @@
       
     
       
-        <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/papers/">Publications</a>
+    
       
     
       
-        <a class="sidebar-nav-item " href="http://www.dlfer.xyz/p/now/">About/now</a>
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
       
     
   </nav>
@@ -126,7 +260,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="http://www.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
+            <a href="//www.dlfer.xyz/" title="Home">DL Ferrario&#39;s Test  Web Page</a>
      
           </h3>
         </div>
@@ -143,7 +277,7 @@
   </span>
   
 
-<h2 id="abelian-groups:14b3ea3d56d29e06946da383c7331a95">Abelian Groups</h2>
+<h2 id="abelian-groups">Abelian Groups</h2>
 
 <p>Given $a\in A$, the homomirphism
 $i_ a \from \ZZ \to A$ defined by
@@ -163,7 +297,7 @@ $$\bigoplus_ {s\in S} i_ s\from \bigoplus_ {s \in S} \ZZ \to A$$
 is an isomorphism,
 then $A$ is a <strong>free</strong> group generated by the elements
 in $S$ (its <strong>basis</strong>).
-More on abelian groups in the monograph of Fuchs (2015)<sup class="footnote-ref" id="fnref:14b3ea3d56d29e06946da383c7331a95:F"><a rel="footnote" href="#fn:14b3ea3d56d29e06946da383c7331a95:F">1</a></sup>.</p>
+More on abelian groups in the monograph of Fuchs (2015)<sup class="footnote-ref" id="fnref:F"><a href="#fn:F">1</a></sup>.</p>
 
 <p><strong>Universal property:</strong>
 If $S\subset A$ is a basis, $B$ is any Abelian group,
@@ -181,9 +315,9 @@ arbitrarily determined by their values on the elements of a basis.</p>
 <p><em>Proof:</em>
 This theorem is credited to <a href="http://www-history.mcs.st-and.ac.uk/Biographies/Dedekind.html" target="_blank">Richard Dedekind</a> in Johnson  - 1980 (<a href="http://search.ebscohost.com/login.aspx?direct=true&amp;db=nlebk&amp;AN=552427&amp;site=ehost-live&amp;scope=site" target="_blank">EBSCO LINK</a>), page 8.
 For a nice introduction to Abelian groups, and the proof of <strong>(a)</strong> which I took as source,
-see Kurosh<sup class="footnote-ref" id="fnref:14b3ea3d56d29e06946da383c7331a95:K"><a rel="footnote" href="#fn:14b3ea3d56d29e06946da383c7331a95:K">2</a></sup>, §19.
+see Kurosh<sup class="footnote-ref" id="fnref:K"><a href="#fn:K">2</a></sup>, §19.
 A more general approach:
-Lang<sup class="footnote-ref" id="fnref:14b3ea3d56d29e06946da383c7331a95:3"><a rel="footnote" href="#fn:14b3ea3d56d29e06946da383c7331a95:3">3</a></sup>, Chapter 1, §7 and page 41.
+Lang<sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>, Chapter 1, §7 and page 41.
 We give here a proof for a countable basis.
 Let $a_ 1, a_ 2, \ldots, a_ n, \ldots$ be elements of a basis $S$ of a free group $F$.
 Hence $F$ is isomorphic to the group  of all functions $S\to \ZZ$ with finite support.
@@ -256,7 +390,7 @@ last index, and therefore $a\in A_ j$).
 See Kurosh, §20, or Fuchs Theorem 2.5 pag. 82, or Theorem 2.6 pag. 83 (Stacked Basis Theorem).
 <em>/qed/</em></p>
 
-<p>From the previous propositions and the <a href="http://www.dlfer.xyz/post/2016-10-27-smith-normal-form/">Smith Normal Form</a> of a $\ZZ$-matrix,
+<p>From the previous propositions and the <a href="//www.dlfer.xyz/post/2016-10-27-smith-normal-form/">Smith Normal Form</a> of a $\ZZ$-matrix,
 one can (constructively) prove that</p>
 
 <dl>
@@ -277,7 +411,7 @@ alternative definitions of the rank (for example, if $A$ is not finitely generat
 
 <p>$\require{AMScd}$</p>
 
-<h2 id="tensor-product-of-zz-modules-aka-abelian-groups:14b3ea3d56d29e06946da383c7331a95">Tensor product of $\ZZ$-modules (AKA Abelian Groups)</h2>
+<h2 id="tensor-product-of-zz-modules-aka-abelian-groups">Tensor product of $\ZZ$-modules (AKA Abelian Groups)</h2>
 
 <p>Let $A$, $B$ be two Abelian groups.
 The <strong>tensor</strong> product $A\otimes_ \ZZ B = A \otimes B $ is defined as follows:
@@ -288,8 +422,8 @@ Elements of $A\times B$ will be written as $a\times b$ instead of $(a,b)$.
 Then, consider in $\ZZ[A\times B]$ the subgroup $R$ generated by
 $$
 \begin{aligned}
-(a_ 1 + a_ 2) \otimes b - (a_ 1 \otimes b + a_ 2 \otimes b) &amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\\
-a \otimes (b_ 1 + b_ 2) - (a \otimes b_ 1 + a \otimes b_ 2) &amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\\
+(a_ 1 + a_ 2) \otimes b - (a_ 1 \otimes b + a_ 2 \otimes b) &amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\<br />
+a \otimes (b_ 1 + b_ 2) - (a \otimes b_ 1 + a \otimes b_ 2) &amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\<br />
 a k \otimes b  - a \otimes k b &amp; \text{ with } a\in A,  b\in B, k \in \ZZ<br />
 \end{aligned}
 $$
@@ -306,8 +440,8 @@ It is an Abelian Group (a $\ZZ$-module), as quotient of a free abelian group and
 a function $f \from A \times B \to G$ is <em>bilinear</em> if
 $$
 \begin{aligned}
-f (a_ 1 + a_ 2,  b ) =f (a_ 1, b) + f(a_ 2, b) &amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\\
-f( a , b_ 1 + b_ 2) =  f( a , b_ 1)  + f ( a , b_ 2) &amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\\
+f (a_ 1 + a_ 2,  b ) =f (a_ 1, b) + f(a_ 2, b) &amp; \text{ with } a_ 1, a_ 2\in A, b \in B \\<br />
+f( a , b_ 1 + b_ 2) =  f( a , b_ 1)  + f ( a , b_ 2) &amp; \text{ with } a\in A, b_ 1, b_ 2 \in B \\<br />
 f( a k ,  b)   =  f( a , k b)  &amp; \text{ with } a\in A,  b\in B, k \in \ZZ<br />
 \end{aligned}
 $$
@@ -360,7 +494,7 @@ $$</dd>
 </dl>
 
 <p><em>Proof:</em>
-Cfr. Proposition 7.3, page 110 of Hilton-Stammbach (1997)<sup class="footnote-ref" id="fnref:14b3ea3d56d29e06946da383c7331a95:1"><a rel="footnote" href="#fn:14b3ea3d56d29e06946da383c7331a95:1">4</a></sup>
+Cfr. Proposition 7.3, page 110 of Hilton-Stammbach (1997)<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">4</a></sup>
 <em>/qed/</em></p>
 
 <dl>
@@ -399,7 +533,7 @@ Exercise 8.7 of Hilton-Stammbach, page 115.
 Note that torsion-free $\neq$ free (e.g. $\QQ$).
 <em>/qed/</em></p>
 
-<h2 id="rank-of-an-abelian-group:14b3ea3d56d29e06946da383c7331a95">Rank of an abelian group</h2>
+<h2 id="rank-of-an-abelian-group">Rank of an abelian group</h2>
 
 <p>Let $A$ be an abelian group. Its <strong>rank</strong> is the maximal number of
 $\ZZ$-<em>linearly independent</em> elements in $A$.
@@ -415,7 +549,7 @@ A group $A$ is <strong>free</strong> if it is generated by a set of independent 
 (i.e., a <strong>basis</strong>).</p>
 
 <p><strong>Remark:</strong> This definition is actually the definition of $0$-rank,
-or torsion-free rank, for some authors (Robinson<sup class="footnote-ref" id="fnref:14b3ea3d56d29e06946da383c7331a95:2"><a rel="footnote" href="#fn:14b3ea3d56d29e06946da383c7331a95:2">5</a></sup>, page 96).</p>
+or torsion-free rank, for some authors (Robinson<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">5</a></sup>, page 96).</p>
 
 <p><strong>Example:</strong>
 $\QQ$ has rank $1$, and it is not finitely generated.</p>
@@ -445,7 +579,7 @@ $g\from B \to C$ an epimorphism (surjective homomophism)
 such that $\operatorname{Im} f = \ker g$. In other words, the following
 sequence is exact.
 \begin{CD}
-0 @&gt;{}&gt;&gt; A  @&gt;{f}&gt;&gt; B  @&gt;{g}&gt;&gt; C @&gt;{}&gt;&gt; 0  \\\
+0 @&gt;{}&gt;&gt; A  @&gt;{f}&gt;&gt; B  @&gt;{g}&gt;&gt; C @&gt;{}&gt;&gt; 0  \\<br />
 \end{CD}</p>
 
 <dl>
@@ -457,7 +591,7 @@ sequence is exact.
 Since the functor $\QQ \otimes -$ is exact, as $\QQ$ is flat (torsion-free),
 the sequence
 \begin{CD}
-0 @&gt;{}&gt;&gt; \QQ \otimes A  @&gt;{f_ *}&gt;&gt; \QQ \otimes B  @&gt;{g_ *}&gt;&gt; \QQ \otimes  C @&gt;{}&gt;&gt; 0  \\\
+0 @&gt;{}&gt;&gt; \QQ \otimes A  @&gt;{f_ *}&gt;&gt; \QQ \otimes B  @&gt;{g_ *}&gt;&gt; \QQ \otimes  C @&gt;{}&gt;&gt; 0  \\<br />
 \end{CD}
 is exact (and it is a sequence of $\QQ$-vector spaces).
 Therefore
@@ -503,16 +637,16 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
 <hr />
 
 <ol>
-<li id="fn:14b3ea3d56d29e06946da383c7331a95:F">Fuchs, László <em>Abelian groups.</em>  Springer Monographs in Mathematics. Springer, Cham, 2015. xxi+747 pp. ISBN: 978-3-319-19421-9; 978-3-319-19422-6 20Kxx (20-02)(<a href="http://link.springer.com/book/10.1007%2F978-3-319-19422-6" target="_blank">http://link.springer.com/book/10.1007%2F978-3-319-19422-6</a>)
- <a class="footnote-return" href="#fnref:14b3ea3d56d29e06946da383c7331a95:F"><sup>[return]</sup></a></li>
-<li id="fn:14b3ea3d56d29e06946da383c7331a95:K">Kurosh, A. G.  <em>The theory of groups. Vol. I.</em> Translated and edited by K. A. Hirsch. Chelsea Publishing Co., New York, N.Y., 1955. 272 pp.  20.0X  <a href="http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf" target="_blank">LINK</a>
- <a class="footnote-return" href="#fnref:14b3ea3d56d29e06946da383c7331a95:K"><sup>[return]</sup></a></li>
-<li id="fn:14b3ea3d56d29e06946da383c7331a95:3">Lang, Serge <em>Algebra.</em> Revised third edition. Graduate Texts in Mathematics, 211. Springer-Verlag, New York, 2002. xvi+914 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4613-0041-0" target="_blank">0-387-95385-X</a>
- <a class="footnote-return" href="#fnref:14b3ea3d56d29e06946da383c7331a95:3"><sup>[return]</sup></a></li>
-<li id="fn:14b3ea3d56d29e06946da383c7331a95:1">Hilton, P. J.; Stammbach, U.  <em>A course in homological algebra.</em> Second edition. Graduate Texts in Mathematics, 4. Springer-Verlag, New York, 1997. xii+364 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-8566-8" target="_blank">0-387-94823-6</a>
- <a class="footnote-return" href="#fnref:14b3ea3d56d29e06946da383c7331a95:1"><sup>[return]</sup></a></li>
-<li id="fn:14b3ea3d56d29e06946da383c7331a95:2">Robinson, Derek J. S.  <em>A course in the theory of groups.</em> Second edition. Graduate Texts in Mathematics, 80. Springer-Verlag, New York, 1996. xviii+499 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-8594-1" target="_blank">0-387-94461-3</a>
- <a class="footnote-return" href="#fnref:14b3ea3d56d29e06946da383c7331a95:2"><sup>[return]</sup></a></li>
+<li id="fn:F">Fuchs, László <em>Abelian groups.</em>  Springer Monographs in Mathematics. Springer, Cham, 2015. xxi+747 pp. ISBN: 978-3-319-19421-9; 978-3-319-19422-6 20Kxx (20-02)(<a href="http://link.springer.com/book/10.1007%2F978-3-319-19422-6" target="_blank">http://link.springer.com/book/10.1007%2F978-3-319-19422-6</a>)
+ <a class="footnote-return" href="#fnref:F"><sup>[return]</sup></a></li>
+<li id="fn:K">Kurosh, A. G.  <em>The theory of groups. Vol. I.</em> Translated and edited by K. A. Hirsch. Chelsea Publishing Co., New York, N.Y., 1955. 272 pp.  20.0X  <a href="http://tomlr.free.fr/Math%E9matiques/Th%E9orie%20des%20groupes/Kurosh%201952%20Theory%20of%20Groups.pdf" target="_blank">LINK</a>
+ <a class="footnote-return" href="#fnref:K"><sup>[return]</sup></a></li>
+<li id="fn:3">Lang, Serge <em>Algebra.</em> Revised third edition. Graduate Texts in Mathematics, 211. Springer-Verlag, New York, 2002. xvi+914 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4613-0041-0" target="_blank">0-387-95385-X</a>
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+<li id="fn:1">Hilton, P. J.; Stammbach, U.  <em>A course in homological algebra.</em> Second edition. Graduate Texts in Mathematics, 4. Springer-Verlag, New York, 1997. xii+364 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-8566-8" target="_blank">0-387-94823-6</a>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2">Robinson, Derek J. S.  <em>A course in the theory of groups.</em> Second edition. Graduate Texts in Mathematics, 80. Springer-Verlag, New York, 1996. xviii+499 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-8594-1" target="_blank">0-387-94461-3</a>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
 </ol>
 </div>
 
@@ -526,7 +660,7 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
     <div class="container">
         <p class="powered-by">
             Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
-	    <a href="http://www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
+	    <a href="//www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
         </p>
@@ -548,7 +682,7 @@ Now the result follows by the same fact on the dimension of $\QQ$-vector spaces.
                                            } 
                                 });
         </script>
-        <script async src="http://www.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
+        <script async src="//www.dlfer.xyz//MJ/MathJax.js?config=TeX-AMS_CHTML,local/local.js"></script>
         
   
  
