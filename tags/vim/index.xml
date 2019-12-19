@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on DL Ferrario&#39;s Test Web Page</title>
-    <link>http://www.dlfer.xyz/tags/vim/</link>
+    <link>//www.dlfer.xyz/tags/vim/</link>
     <description>Recent content in Vim on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Tue, 04 Jul 2017 11:31:30 +0200</lastBuildDate>
     
-	<atom:link href="http://www.dlfer.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.dlfer.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Updating my (Xe)LaTeX vim plugin</title>
-      <link>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+      <link>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
       <pubDate>Tue, 04 Jul 2017 11:31:30 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+      <guid>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
       <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
 Now, with the vundle plugin.
 Things to do: I had vundle installed already. I needed to add lervag&#39;s vimtex and ajh17&#39;s VimCompletesMe.

@@ -2,31 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on DL Ferrario&#39;s Test Web Page</title>
-    <link>http://www.dlfer.xyz/post/</link>
+    <link>//www.dlfer.xyz/post/</link>
     <description>Recent content in Posts on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 10:53:07 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.dlfer.xyz/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.dlfer.xyz/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Acqua, freddo e SUP/kayak</title>
+      <link>//www.dlfer.xyz/post/2019-12-19-coldwater/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/2019-12-19-coldwater/</guid>
+      <description>Quali sono gli effetti dell&#39;acqua fredda sul corpo? S e una persona cade in acqua fredda senza protezioni termiche, il rischio primario non è l&#39;ipotermia, che arriva per ultima. Prima di quello, ci sono altri rischi più urgenti. Quando l&#39;acqua è fredda? Quando la sua temperatura è meno di 10-15 °C, nella maggio parte dei casi.
+Molto approssimativamente:
+ Un minuto per far passare lo shock da freddo e riprendere il controllo della respirazione.</description>
+    </item>
+    
+    <item>
+      <title>Suppakayak: SUP e kayak attorno a Milano</title>
+      <link>//www.dlfer.xyz/post/suppakayak/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/suppakayak/</guid>
+      <description>Per muoversi in acqua uno degli strumenti primitivi più facili da usare è la pagaia. La differenza tra remo (oar) e pagaia (paddle) ? Il remo è agganciata alla barca in un fulcro (scalmo (oarlock, rowlock)), mentre la pagaia è impugnata liberamente. Le robe principali che una persona da sola può muovere con una pagaia: Kayak, canoa (canoe), tavola da pagaia in piedi SUP (Stand Up Paddleboard), canotto/gommoncino (packraft).
+Associazioni e siti per SUP canoa e kayak Federazioni e associazioni:  Fedarazione Italiana Canoa e Kayak FICK.</description>
+    </item>
+    
+    <item>
       <title>Un esempio di Discrete Cosine Transform</title>
-      <link>http://www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</link>
+      <link>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</link>
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</guid>
+      <guid>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</guid>
       <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&#39;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme finito di punti equidistribuiti nell&#39;intervallo $[0,2\pi]$: [ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. ] L&#39;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&#39;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
     </item>
     
     <item>
       <title>Password manager and sync without clouds</title>
-      <link>http://www.dlfer.xyz/post/2018-08-13-password-manager/</link>
+      <link>//www.dlfer.xyz/post/2018-08-13-password-manager/</link>
       <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
+      <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
       <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
 Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
 $ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot;  It is not difficult to add more words lists, e.</description>
@@ -34,19 +55,19 @@ $ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;q
     
     <item>
       <title>Dell&#39;uso dell&#39;inglese nelle aule universitarie</title>
-      <link>http://www.dlfer.xyz/post/2018-02-01-engita/</link>
+      <link>//www.dlfer.xyz/post/2018-02-01-engita/</link>
       <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2018-02-01-engita/</guid>
+      <guid>//www.dlfer.xyz/post/2018-02-01-engita/</guid>
       <description>A proposito di lingua inglese per le lezioni/esami (e internalizzazione) È di qualche giorno fa la sentenza del Consiglio di Stato N. 00617/2018REG.PROV.COLL. -- N. 05151/2013 REG.RIC, «sul ricorso numero di registro generale 5151 del 2013, proposto da: Ministero dell&#39;Istruzione dell&#39;Università e della Ricerca, in persona del Ministro pro tempore, Politecnico di Milano, in persona del legale rappresentante pro tempore, rappresentati e difesi per legge dall’Avvocatura generale dello Stato. [.</description>
     </item>
     
     <item>
       <title>Gli Esami Non Finiscono Mai</title>
-      <link>http://www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</link>
+      <link>//www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</link>
       <pubDate>Fri, 03 Nov 2017 13:50:17 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</guid>
+      <guid>//www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</guid>
       <description>Norme di Riferimento REGIO DECRETO 31 agosto 1933, n. 1592 FONTE
 Approvazione del testo unico delle leggi sull&#39;istruzione superiore. (033U1592) (GU n.283 del 7-12-1933 - Suppl. Ordinario n. 283 ) note: Entrata in vigore del provvedimento: 22/12/1933
 VITTORIO EMANUELE III, PER GRAZIA DI DIO E PER VOLONTA&#39; DELLA NAZIONE RE D&#39;ITALIA
@@ -55,20 +76,20 @@ Veduto l&#39;art. 70 del R. decreto-legge 4 settembre 1925, n. 1604, col quale i
     
     <item>
       <title>Winding Around and Mountains</title>
-      <link>http://www.dlfer.xyz/post/2017-10-25-windingaround/</link>
+      <link>//www.dlfer.xyz/post/2017-10-25-windingaround/</link>
       <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-10-25-windingaround/</guid>
+      <guid>//www.dlfer.xyz/post/2017-10-25-windingaround/</guid>
       <description>Just ... ...reading John Roe&#39;s book Winding Around. Here: For an extended riff on the idea of mathematics as mountaineering see &amp;quot;Into Thin Air&amp;quot; by Colin Adams, on Mathematical Intelligencer.
 How much about &amp;quot;mathematics as mountaineering&amp;quot;?</description>
     </item>
     
     <item>
       <title>Fixing MarkDown LaTeX underscore problem</title>
-      <link>http://www.dlfer.xyz/post/2017-10-03-mmark/</link>
+      <link>//www.dlfer.xyz/post/2017-10-03-mmark/</link>
       <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-10-03-mmark/</guid>
+      <guid>//www.dlfer.xyz/post/2017-10-03-mmark/</guid>
       <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
 And the same for an inline sum: $\sum_j j^2$.
 The answer is: in the preamble
@@ -78,10 +99,10 @@ $$ .. $$ or $ .</description>
     
     <item>
       <title>Updating my (Xe)LaTeX vim plugin</title>
-      <link>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+      <link>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
       <pubDate>Tue, 04 Jul 2017 11:31:30 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+      <guid>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
       <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
 Now, with the vundle plugin.
 Things to do: I had vundle installed already. I needed to add lervag&#39;s vimtex and ajh17&#39;s VimCompletesMe.
@@ -91,10 +112,10 @@ Hence, in .vimrc:
     
     <item>
       <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
-      <link>http://www.dlfer.xyz/post/2017-04-28-sylow/</link>
+      <link>//www.dlfer.xyz/post/2017-04-28-sylow/</link>
       <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-04-28-sylow/</guid>
+      <guid>//www.dlfer.xyz/post/2017-04-28-sylow/</guid>
       <description>Wieldandt&#39;s proof of Sylow&#39;s Theorem A brief preparatory combinatorial discussion:
 [ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } ] and therefore [ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} ]
 Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then $n=p^\alpha m$.</description>
@@ -102,10 +123,10 @@ Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$
     
     <item>
       <title>Lettera sulla Polonia (1574-09-25)</title>
-      <link>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
+      <link>//www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
       <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
+      <guid>//www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
       <description>Lettera del Cavalier Battista Guarini (1538-1612) al Segretario del Cardinal Luigi d&#39;Este (1538-1586), Monsignor Benedetto Manzuoli (1530-1585).
 Testo preso dalla raccolta di lettere L&#39;idea del segretario dal signore Bartolomeo Zucchi gentil&#39;huomo di Monza, academico insensato di Perugia. Parte seconda. pubblicato nel 1606 da Bartolomeo Zucchi (1570-1630) a Venezia, presso la Compagnia Minima. ARCHIVE LINK L&#39;ortografia è stata parzialmente adattata a quella moderna.
 Guarini fu Segretario di Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597) tra il 1573 e il 1583, e scrive al segretario del Cardinal Luigi d&#39;Este, fratello di Alfonso Secondo d&#39;Este.</description>
@@ -113,30 +134,30 @@ Guarini fu Segretario di Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597)
     
     <item>
       <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
-      <link>http://www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
+      <link>//www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
       <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-25-diracscissors/</guid>
       <description>Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$. Consider the space $X\subset S^2\times S^2$ of all pairs $(A,B)$ of points such that $|A-B|=\sqrt 3$, where the distance is the euclidean distance of $S^2\subset \RR^3$, and $S^2$ is the unit sphere in $\RR^3$.
  (1) $X\approx SO(3) \approx \PP^3(\RR)$.  Proof: The fact that $SO(3) \approx \PP^3(\RR)$ is a not-so-easy elementary exercise (cf. exercise (11.27) and exercise (7.30) of my Geometry Notes, protected by a single-character password: the number of non-zero digits appearing in the password itself; the problem might be ill-posed).</description>
     </item>
     
     <item>
       <title>Homology of (simplicial) spheres and applications</title>
-      <link>http://www.dlfer.xyz/post/2016-11-21-topappl/</link>
+      <link>//www.dlfer.xyz/post/2016-11-21-topappl/</link>
       <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-21-topappl/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-21-topappl/</guid>
       <description>Nullhomotopic odd maps, Borsuk, Lusternik and Schnirelmann Let $\Delta^n$ the standard simplex of dimension $n$ in $\RR^{n+1}$, which is homeomorphic to a $n$-dimensional disk, and $\Sigma^{n}\subset \Delta^{n+1}$ the simplicial $n$-sphere, i.e. the boundary of $\Delta^{n+1}$ (the union of its $n+2$ $n$-dimensional faces), which is homeomorphic to an $n$-dimensional sphere.
 The homeomorphisms can be more explicit: let $B\in \Delta^{n+1}$ be its barycenter, and $\varphi\from \Sigma^n\subset \Delta^{n+1} \to \RR^{n+2}$ the map defined as $\varphi(x) = \dfrac{x-B}{|x-B|}$.</description>
     </item>
     
     <item>
       <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-      <link>http://www.dlfer.xyz/post/2016-11-18-barycentric/</link>
+      <link>//www.dlfer.xyz/post/2016-11-18-barycentric/</link>
       <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
       <description>Mesh of a euclidean simplicial complex. Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract simplicial complex, where the set of vertices actually is a set of points in $\RR^k$, such that $|K|$ is the disjoint union of the interiors of the convex hulls of the sets of vertices ranging over the set of simplices).
 A vertex $P$ of $K$ is therefore a point of $\RR^k$.
 For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ more precisely) is the maximum distance $|x-y|$ as $x,y$ vary in $|\sigma|$.</description>
@@ -144,37 +165,37 @@ For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ mor
     
     <item>
       <title>Joins and Products of polyhedra</title>
-      <link>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
+      <link>//www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
       <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
       <description>Join $K*L$ of two simplicial complexes Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes ($X_ K$ denotes the set of vertices of $K$ and $\Phi_ K$ the set of simplices). Then the join $K*L$ is the simplicial complex defined as follows. Its set of vertices $X=X_ K \cup X_ L$ is the union of the sets of vertices of $K$ and of $L$, and a non-empty subset of $X$ is a simplex of $K*L$ if and only if it is of type $\sigma \cup \tau$, where $\sigma \in \Phi_ K \cup \{ \emptyset \}$ and $\tau \in \Phi_ L \cup \{\emptyset \}$.</description>
     </item>
     
     <item>
       <title>Ranks, Tensors and Abelian Groups</title>
-      <link>http://www.dlfer.xyz/post/2016-11-09-tensors/</link>
+      <link>//www.dlfer.xyz/post/2016-11-09-tensors/</link>
       <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-09-tensors/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-09-tensors/</guid>
       <description>Abelian Groups Given $a\in A$, the homomirphism $i_ a \from \ZZ \to A$ defined by $i_ a(k) = ka$ is mono (injective) iff $a$ has infinite order. Of $S$ is a set, the free Abelian group generated by $S$ is $$ \ZZ[S] = \ZZ S = \bigoplus_ {s \in S} \ZZ, $$ and it is the group of all finite linear combinations (with integer coefficients) of elements in $S$. The elements of $S$ are a basis (base) of $\ZZ[S]$.</description>
     </item>
     
     <item>
       <title>Graphs, trees and simplicial complexes</title>
-      <link>http://www.dlfer.xyz/post/2016-11-04-graphs/</link>
+      <link>//www.dlfer.xyz/post/2016-11-04-graphs/</link>
       <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-04-graphs/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-04-graphs/</guid>
       <description>Graphs and simplicial complexes A one-dimensional simplicial complex is a graph. That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices and $\Phi_ K$ is the set of simplexes, with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where $E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed edges of $K$) and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes termed again vertices of $K$).</description>
     </item>
     
     <item>
       <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
-      <link>http://www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
+      <link>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
       <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
+      <guid>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
       <description>A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$ The proof and the algorithm are the same.
 First, a few auxiliary functions. Given a matrix $M$, the follow two functions are self-explanatory.
 def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] !</description>
@@ -182,10 +203,10 @@ def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonn
     
     <item>
       <title>Császár torus, python and sagemath</title>
-      <link>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
+      <link>//www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
       <pubDate>Wed, 19 Oct 2016 13:55:55 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
+      <guid>//www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
       <description>The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$
 Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\
 V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\</description>
@@ -193,20 +214,20 @@ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots
     
     <item>
       <title>Categorical products and coproducts </title>
-      <link>http://www.dlfer.xyz/post/2016-10-12-coproducts/</link>
+      <link>//www.dlfer.xyz/post/2016-10-12-coproducts/</link>
       <pubDate>Wed, 12 Oct 2016 13:57:52 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
+      <guid>//www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
       <description>Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
 $\require{AMScd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;gt;&amp;gt; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;lt;&amp;lt; X_2 \\</description>
     </item>
     
     <item>
       <title>A counter-example for the exponentiation / adjoint of a function</title>
-      <link>http://www.dlfer.xyz/post/counterexample-to-adjoint/</link>
+      <link>//www.dlfer.xyz/post/counterexample-to-adjoint/</link>
       <pubDate>Wed, 05 Oct 2016 14:24:49 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/counterexample-to-adjoint/</guid>
+      <guid>//www.dlfer.xyz/post/counterexample-to-adjoint/</guid>
       <description>The problem: Let $X$, $Y$, and $Z$ be topological spaces. Let $Y^X$ denote the space of all continuous functions $X\to Y$, with the compact-open topology generated by the elements of the sub-basis $W_{K,U} = \{\varphi \in Y^X : \varphi K \subset U\}$, where $K$ ranges over all compact subsets of $X$ and $U$ ranges over over all open subsets of $Y$. Finite intersections of $W_{K,U}$ are a basis for the C.</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Barycentric Subdivision on DL Ferrario&#39;s Test Web Page</title>
-    <link>http://www.dlfer.xyz/tags/barycentric-subdivision/</link>
+    <link>//www.dlfer.xyz/tags/barycentric-subdivision/</link>
     <description>Recent content in Barycentric Subdivision on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Fri, 18 Nov 2016 13:53:47 +0100</lastBuildDate>
     
-	<atom:link href="http://www.dlfer.xyz/tags/barycentric-subdivision/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.dlfer.xyz/tags/barycentric-subdivision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mesh, Barycentric Subdivision and Simplicial Approximation Theorem</title>
-      <link>http://www.dlfer.xyz/post/2016-11-18-barycentric/</link>
+      <link>//www.dlfer.xyz/post/2016-11-18-barycentric/</link>
       <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-18-barycentric/</guid>
       <description>Mesh of a euclidean simplicial complex. Let $|K| \subset \RR^k$ an euclidean simplicial complex (i.e., an abstract simplicial complex, where the set of vertices actually is a set of points in $\RR^k$, such that $|K|$ is the disjoint union of the interiors of the convex hulls of the sets of vertices ranging over the set of simplices).
 A vertex $P$ of $K$ is therefore a point of $\RR^k$.
 For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ more precisely) is the maximum distance $|x-y|$ as $x,y$ vary in $|\sigma|$.</description>

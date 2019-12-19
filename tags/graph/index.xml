@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graph on DL Ferrario&#39;s Test Web Page</title>
-    <link>http://www.dlfer.xyz/tags/graph/</link>
+    <link>//www.dlfer.xyz/tags/graph/</link>
     <description>Recent content in Graph on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
     <lastBuildDate>Fri, 04 Nov 2016 13:08:54 +0100</lastBuildDate>
     
-	<atom:link href="http://www.dlfer.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.dlfer.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Graphs, trees and simplicial complexes</title>
-      <link>http://www.dlfer.xyz/post/2016-11-04-graphs/</link>
+      <link>//www.dlfer.xyz/post/2016-11-04-graphs/</link>
       <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-11-04-graphs/</guid>
+      <guid>//www.dlfer.xyz/post/2016-11-04-graphs/</guid>
       <description>Graphs and simplicial complexes A one-dimensional simplicial complex is a graph. That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices and $\Phi_ K$ is the set of simplexes, with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where $E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed edges of $K$) and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes termed again vertices of $K$).</description>
     </item>
     

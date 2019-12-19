@@ -2,22 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Var on DL Ferrario&#39;s Test Web Page</title>
-    <link>http://www.dlfer.xyz/topics/var/</link>
+    <link>//www.dlfer.xyz/topics/var/</link>
     <description>Recent content in Var on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 13 Aug 2018 10:47:19 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.dlfer.xyz/topics/var/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.dlfer.xyz/topics/var/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Acqua, freddo e SUP/kayak</title>
+      <link>//www.dlfer.xyz/post/2019-12-19-coldwater/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/2019-12-19-coldwater/</guid>
+      <description>Quali sono gli effetti dell&#39;acqua fredda sul corpo? S e una persona cade in acqua fredda senza protezioni termiche, il rischio primario non è l&#39;ipotermia, che arriva per ultima. Prima di quello, ci sono altri rischi più urgenti. Quando l&#39;acqua è fredda? Quando la sua temperatura è meno di 10-15 °C, nella maggio parte dei casi.
+Molto approssimativamente:
+ Un minuto per far passare lo shock da freddo e riprendere il controllo della respirazione.</description>
+    </item>
+    
+    <item>
+      <title>Suppakayak: SUP e kayak attorno a Milano</title>
+      <link>//www.dlfer.xyz/post/suppakayak/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/suppakayak/</guid>
+      <description>Per muoversi in acqua uno degli strumenti primitivi più facili da usare è la pagaia. La differenza tra remo (oar) e pagaia (paddle) ? Il remo è agganciata alla barca in un fulcro (scalmo (oarlock, rowlock)), mentre la pagaia è impugnata liberamente. Le robe principali che una persona da sola può muovere con una pagaia: Kayak, canoa (canoe), tavola da pagaia in piedi SUP (Stand Up Paddleboard), canotto/gommoncino (packraft).
+Associazioni e siti per SUP canoa e kayak Federazioni e associazioni:  Fedarazione Italiana Canoa e Kayak FICK.</description>
+    </item>
+    
+    <item>
       <title>Password manager and sync without clouds</title>
-      <link>http://www.dlfer.xyz/post/2018-08-13-password-manager/</link>
+      <link>//www.dlfer.xyz/post/2018-08-13-password-manager/</link>
       <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
+      <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
       <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
 Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
 $ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot;  It is not difficult to add more words lists, e.</description>
@@ -25,10 +46,10 @@ $ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;q
     
     <item>
       <title>Fixing MarkDown LaTeX underscore problem</title>
-      <link>http://www.dlfer.xyz/post/2017-10-03-mmark/</link>
+      <link>//www.dlfer.xyz/post/2017-10-03-mmark/</link>
       <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-10-03-mmark/</guid>
+      <guid>//www.dlfer.xyz/post/2017-10-03-mmark/</guid>
       <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
 And the same for an inline sum: $\sum_j j^2$.
 The answer is: in the preamble
@@ -38,10 +59,10 @@ $$ .. $$ or $ .</description>
     
     <item>
       <title>Updating my (Xe)LaTeX vim plugin</title>
-      <link>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
+      <link>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
       <pubDate>Tue, 04 Jul 2017 11:31:30 +0200</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
+      <guid>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
       <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
 Now, with the vundle plugin.
 Things to do: I had vundle installed already. I needed to add lervag&#39;s vimtex and ajh17&#39;s VimCompletesMe.
@@ -51,10 +72,10 @@ Hence, in .vimrc:
     
     <item>
       <title>Lettera sulla Polonia (1574-09-25)</title>
-      <link>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
+      <link>//www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</link>
       <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
       
-      <guid>http://www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
+      <guid>//www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
       <description>Lettera del Cavalier Battista Guarini (1538-1612) al Segretario del Cardinal Luigi d&#39;Este (1538-1586), Monsignor Benedetto Manzuoli (1530-1585).
 Testo preso dalla raccolta di lettere L&#39;idea del segretario dal signore Bartolomeo Zucchi gentil&#39;huomo di Monza, academico insensato di Perugia. Parte seconda. pubblicato nel 1606 da Bartolomeo Zucchi (1570-1630) a Venezia, presso la Compagnia Minima. ARCHIVE LINK L&#39;ortografia è stata parzialmente adattata a quella moderna.
 Guarini fu Segretario di Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597) tra il 1573 e il 1583, e scrive al segretario del Cardinal Luigi d&#39;Este, fratello di Alfonso Secondo d&#39;Este.</description>
