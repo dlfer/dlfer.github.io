@@ -15,6 +15,171 @@
     
       
         <item>
+          <title>Piccoli dialoghi matematici</title>
+          <link>//www.dlfer.xyz/post/2019-12-23-qmath/</link>
+          <pubDate>Mon, 23 Dec 2019 00:00:00 CET</pubDate>
+          <author>Mark Otto</author>
+          <guid>//www.dlfer.xyz/post/2019-12-23-qmath/</guid>
+          <description>&lt;p&gt;&lt;i&gt;
+La matematica è fatta di domande. Tante domande. E di risposte. Poche risposte giuste e complete,
+molte risposte parziali, moltissime risposte sbagliate.
+&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;qual-è-il-concetto-più-grande-di-infinito&#34;&gt;»Qual è il concetto più grande di infinito?&lt;/h2&gt;
+
+&lt;p&gt;¬ Cosa intendi per infinito?&lt;br&gt;
+» Non so, l&#39;infinito ... una cosa infinitamente grande.&lt;br&gt;
+¬ Ah, ho capito. Una cosa che non è finita, e quindi che se si prova a contarla non si finisce mai di contare. È così?&lt;br&gt;
+» Sì, forse. In realtà non penso di riuscire a finire di contare i granelli di sabbia in una spiaggia,
+ma questo mi sembra comunque sia un numero finito, anche se enorme.&lt;br&gt;
+¬ È vero, i granelli di sabbia sono comunque un insieme finito. Mi fai quindi un esempio di infinito, giusto per capirsi?&lt;br&gt;
+» Ma non ero io a fare domande? Non so, l&#39;&lt;strong&gt;infinito&lt;/strong&gt;  è tutto ciò che non è &lt;strong&gt;finito&lt;/strong&gt;. Ma non mi vengono in mente esempi...&lt;br&gt;
+¬ Se non mi fai un esempio non riesco a capire. Non riesci?&lt;br&gt;
+» Ecco, l&#39;insieme di tutti i numeri. Questo non è finito, perché se si conta si continua a contare per &lt;strong&gt;sempre&lt;/strong&gt;.
+Ecco, una quantità infinita è una quantità che a provare a contarla si va avanti &lt;strong&gt;sempre&lt;/strong&gt;, senza mai finire.&lt;br&gt;
+¬ Quindi per te l&#39;infinito è il &lt;strong&gt;non-finito&lt;/strong&gt;, nel senso che è qualcosa che
+non ha un certo numero di elementi, ho capito bene?&lt;br&gt;
+» Direi di sì, non è questo il significato di &lt;strong&gt;infinito&lt;/strong&gt;?&lt;br&gt;
+¬ Eh, dipende. Tutto è relativo. Contare non è l&#39;unico modo di misurare la grandezza di un insieme. Per esempio,
+un segmento lungo 1 cm è finito o infinito?&lt;br&gt;
+» Mah, mi sembra chiaro che sia finito. Se posso misurarlo allora è finito, e la sua misura è 1 cm.&lt;br&gt;
+¬ Ma prova a contare i punti che stanno in un segmento: se per assurdo fossero finiti, allora dato un punto &lt;em&gt;A&lt;/em&gt; del segmento
+ci sarebbe solo un insieme finito di punti a destra di &lt;em&gt;A&lt;/em&gt; diversi da &lt;em&gt;A&lt;/em&gt;, e quindi tra questi ce ne sarebbe uno,
+chiamiamolo &lt;em&gt;B&lt;/em&gt;, che è il più vicino ad &lt;em&gt;A&lt;/em&gt; tra questi: tra &lt;em&gt;A&lt;/em&gt; e &lt;em&gt;B&lt;/em&gt; non ci possono quindi essere altri punti, ma
+questo è assurdo perché per esempio il punto medio del segmento &lt;em&gt;AB&lt;/em&gt; sta tra &lt;em&gt;A&lt;/em&gt; e &lt;em&gt;B&lt;/em&gt;! Non sei quindi d&#39;accordo
+che sono infiniti i punti di un segmento?&lt;br&gt;
+» Sì, mi sembra abbastanza convincente. Allora ogni segmento è infinito.&lt;br&gt;
+¬ Però come la mettiamo con la lunghezza del segmento? Non è mica infinita...&lt;br&gt;
+» È vero... Quindi un segmento può essere sia finito che infinito...&lt;br&gt;
+¬ Vedi che bisogna precisare bene cosa significa infinito? Tra l&#39;altro,
+a parte il numero di punti, non ti viene in mente un esempio di un segmento infinito?&lt;br&gt;
+» Beh, sì, la retta! Mi sembra evidente che la sua lunghezza non è finita.&lt;br&gt;
+¬ E quale pensi possa essere la sua area?&lt;br&gt;
+» Inizio a capire, forse: la sua area è zero! Ha infiniti punti, ha lunghezza infinita, ma ha area zero.&lt;br&gt;
+¬ Bene. Ora, secondo te è più grande il numero di punti della retta (infinito) oppure la sua lunghezza (infinita)?&lt;br&gt;
+» No, ora sono confuso. Non saprei dare una risposta; mi sembra che non si possano confrontare.&lt;br&gt;
+¬ Giusto. Quando pensi che due quantità possano confrontarsi? Cioè, quando è possibile rispondere alla domanda se una
+è più grande dell&#39;altra?&lt;br&gt;
+» Non saprei rispondere in generale. Di certo se sono entrambi numeri interi
+o non interi, lo si può fare. Due lunghezze, anche. L&#39;infinito mi sembra più
+grande di qualsiasi numero, e quindi si può confrontare l&#39;infinito con un
+numero. Ma confrontare due infiniti... come è possibile che non si possa fare?&lt;br&gt;
+¬ Non ho detto che non si può fare, ho solo detto che occorre capire cosa
+intendi per infinito. Ne abbiamo già visti tre (numero di elementi, lunghezza
+e area), e per ognuno di essi potrebbe esserci una risposta diversa... Rimaniamo al contare,
+cioè alle quantità. Mi hai detto che l&#39;insieme dei numeri interi è infinito. Cosa mi dici dell&#39;insieme
+dei numeri pari?&lt;br&gt;
+» Anche questo è infinito: a contare i numeri pari non si può mai finire!&lt;br&gt;
+¬ E sono di più i numeri interi o i numeri pari?&lt;br&gt;
+» Mi sembra chiaro che sono di più i numeri interi: quelli pari sono la metà degli interi!&lt;br&gt;
+¬ Quindi la metà di &lt;strong&gt;infinito&lt;/strong&gt; è una quantità più piccola di &lt;strong&gt;infinito&lt;/strong&gt;? Giusto?&lt;br&gt;
+» Sì, appunto.&lt;br&gt;
+¬ Però per ogni numero pari, la sua metà è un numero intero, e tutti i numeri interi sono la metà di un numero
+pari: non pensi che quindi i numeri pari e i numeri interi siano esattamente lo stessa quantità?&lt;br&gt;
+» Forse. Quindi anche due infiniti diversi possono essere uguali?&lt;br&gt;
+¬ Sì, è un po&#39; paradossale, ma è così. Adesso riesci a descrivermi in che senso vuoi
+il &lt;em&gt;concetto più grande di infinito&lt;/em&gt;?&lt;br&gt;
+» Intendevo il numero che è più grande di qualsiasi altro infinito, sempre ammesso che sia possibile confrontare
+due infiniti diversi, però...&lt;br&gt;
+¬ Vedi difficoltà ovunque, adesso, vero?&lt;br&gt;
+» Rimpiango di averti fatto la domanda. Invece che chiarirmi le idee ed avere una risposta, ho le idee
+ancora più confuse.&lt;br&gt;
+¬ Ma cosa ti fa pensare che ogni domanda abbia una risposta semplice e comprensibile?&lt;br&gt;
+» Con google e su internet è così! E anche a scuola le risposte sono grosso modo semplici e comprensibili... E gli
+altri hanno sempre cercato di darmi risposte semplici e comprensibili alle mie domande. Anche su youtube...
+Fino ad ora almeno... :-(&lt;br&gt;
+¬ Non pensi che è perché i programmi di scuola sono costruiti apposta per  &lt;strong&gt;dare risposte&lt;/strong&gt; a certe domande,
+e non per &lt;strong&gt;stimolare domande&lt;/strong&gt;
+cui non sarebbe possibile dare risposte? O perché su internet le risposte sono semplici ma parziali, o sbagliate?&lt;br&gt;
+» Non lo so.&lt;br&gt;
+¬ Vuoi davvero trovare il concetto più grande di infinito?&lt;br&gt;
+» Beh, ora non lo so più. Sono quasi sfinito dai tuoi ragionamenti...&lt;br&gt;
+¬ Fai ancora un piccolo sforzo. Vedrai che ne vale la pena. Abbiamo già visto che l&#39;insieme di tutti i numeri
+è un insieme &lt;strong&gt;infinito&lt;/strong&gt;. Ora, per costruire l&#39;insieme con l&#39;infinito più grande di tutti gli infiniti possibili,
+consideriamo l&#39;insieme &lt;em&gt;U&lt;/em&gt;, che è l&#39;unione di &lt;strong&gt;tutti&lt;/strong&gt; gli &lt;strong&gt;insiemi possibili&lt;/strong&gt;. Cioè, &lt;em&gt;U&lt;/em&gt; contiene tutto ciò che esiste,
+e che non esiste, tutto ciò che è stato pensato e anche ciò che non è stato pensato. Insomma, &lt;em&gt;U&lt;/em&gt; è l&#39;insieme
+che è unione di tutti gli insiemi possibili, definibili e no. Ecco, &lt;em&gt;U&lt;/em&gt; è l&#39;infinito più grande possibile, no?&lt;br&gt;
+» Sì, è quasi inimmaginabile quanto sia grande... ma per come è definito è chiaro che è più
+grande di ogni qualsiasi insieme di qualsiasi natura.  Più grande dell&#39;insieme dei numeri,
+ma anche più grande dell&#39;insieme di tutti gli  insiemi finiti di numeri, o dell&#39;insieme di tutti gli insiemi
+infiniti di numeri, o dell&#39;insieme di tutti i granelli di sabbia, ...&lt;br&gt;
+¬ Ma per te &lt;em&gt;U&lt;/em&gt; è un insieme?&lt;br&gt;
+» Certo! Non l&#39;hai definito tu come l&#39;insieme che contiene tutti gli elementi di tutti gli insiemi possibili? Non hai
+usato tu la parola &lt;strong&gt;insieme&lt;/strong&gt;...?&lt;br&gt;
+¬ Sì, è vero. Eh, qui occorrerebbe chiarire un po&#39; cosa intendiamo per insieme. Speriamo che per noi significhi la stessa cosa...
+Ma non è che sia così importante, per adesso. Considera ora il seguente insieme: l&#39;insieme &lt;em&gt;P&lt;/em&gt; formato da tutti
+gli insieme che &lt;strong&gt;non contengono&lt;/strong&gt; sé stessi come elemento. Ti sembra che esista?&lt;br&gt;
+» Sì. Per esempio l&#39;insieme dei numeri pari non contiene sé stesso come elemento. Anzi, ora che mi ci fai pensare,
+mi sembra che non possano esistere insiemi che contengono sé stessi come elemento.&lt;br&gt;
+¬ Davvero? Ma non avevi detto che &lt;em&gt;U&lt;/em&gt; è un insieme?&lt;br&gt;
+» Beh, e allora?&lt;br&gt;
+¬ Se &lt;em&gt;U&lt;/em&gt; contiene ogni insieme, e &lt;em&gt;U&lt;/em&gt; è un insieme, allora &lt;em&gt;U&lt;/em&gt; contiene sé stesso come elemento... Concordi?&lt;br&gt;
+» Sì, sono d&#39;accordo. È giusto, in effetti...&lt;br&gt;
+¬ Ora, &lt;em&gt;U&lt;/em&gt; è un elemento di sé stesso. E &lt;em&gt;P&lt;/em&gt;, lui è un elemento di sé stesso?&lt;br&gt;
+» Fammici pensare... Gli elementi di &lt;em&gt;P&lt;/em&gt; sono gli insiemi che non sono elementi di sé stessi... di fatto...
+quindi se &lt;em&gt;P&lt;/em&gt; fosse elemento di sé stesso allora dovrebbe non essere elemento di sé stesso. Quindi no, la
+risposta è che &lt;em&gt;P&lt;/em&gt; non è elemento di sé stesso, cioè non contiene sé stesso come elemento.&lt;br&gt;
+¬ Ma scusa, mi hai appena detto che &lt;em&gt;P&lt;/em&gt; non contiene sé stesso come elemento, giusto?&lt;br&gt;
+» Sì, e allora?&lt;br&gt;
+¬ Ma questo non vuol dire che &lt;em&gt;P&lt;/em&gt; è un elemento di &lt;em&gt;P&lt;/em&gt;, dato che gli elementi di &lt;em&gt;P&lt;/em&gt; sono gli insiemi che
+&lt;strong&gt;non&lt;/strong&gt; contengono sé stessi?&lt;br&gt;
+» Mmmh, direi di sì.&lt;br&gt;
+¬ Ma allora &lt;em&gt;P&lt;/em&gt; è elemento di sé stesso, ma anche &lt;em&gt;P&lt;/em&gt; non è elemento di sé stesso. Non ti pare una contraddizione?&lt;br&gt;
+» Mi hai fatto venire mal di testa. Mi sono perso.&lt;br&gt;
+¬ Siamo arrivati ad un paradosso, per colpa della tua domanda! Si chiama
+&lt;a href=&#34;https://it.wikipedia.org/wiki/Paradosso_di_Russell&#34;&gt;Paradosso di Russell&lt;/a&gt;, ed è la conseguenza
+di aver provato a dare la risposta alla tua domanda. Capisci perché bisogna scegliere bene le domande?
+Certe domande portano molto lontano...&lt;br&gt;
+» Ma allora qual è il concetto più grande di infinito?&lt;br&gt;
+¬ La risposta è: &lt;strong&gt;non esiste&lt;/strong&gt;, &lt;strong&gt;non c&#39;è&lt;/strong&gt;. Non può esserci, perché se  per assurdo ci fosse,
+sarebbe &lt;em&gt;U&lt;/em&gt;, che però non può esistere.&lt;/p&gt;
+
+&lt;h2 id=&#34;quanto-è-la-radice-quadrata-di-infinito&#34;&gt;»Quanto è la radice quadrata di infinito?&lt;/h2&gt;
+
+&lt;p&gt;¬ Prima mi hai spiegato cosa intendi per infinito, e abbiamo capito che paradossi e incomprensioni
+sono dietro l&#39;angolo. Ora però mi devi spiegare una cosa cosa:
+cosa intendi per &lt;strong&gt;radice quadrata&lt;/strong&gt;?&lt;br&gt;
+» Beh, la radice quadrata di un numero è quel numero che elevato al quadrato dà il primo numero.&lt;br&gt;
+¬ Perfetto. Ma che cosa è il quadrato di infinito, allora? Mi sembra chiaro che nessun numero al quadrato fa infinito,
+quindi solo l&#39;infinito, ammesso che si possa definire la radice quadrata e il quadrato di infinito,
+potrebbe avere quadrato uguale all&#39;infinito. Cosa è quindi il quadrato di infinito?&lt;br&gt;
+» Boh, come per i numeri è il numero moltiplicato per sé stesso.&lt;br&gt;
+¬ E come moltiplichi l&#39;infinito? Per un numero? Per un altro infinito?&lt;br&gt;
+» Non saprei. Tipo prendendo un insieme formato da infinite copie di un insieme infinito: non è questo
+il prodotto di infiniti?&lt;br&gt;
+¬ Bene! Questo è prodotto di infiniti. E quanti elementi ha?&lt;br&gt;
+» Mi sembra infiniti.&lt;br&gt;
+¬ Ok, quindi &lt;strong&gt;infinito&lt;/strong&gt; per &lt;strong&gt;infinito&lt;/strong&gt; è uguale a &lt;strong&gt;infinito&lt;/strong&gt;. Giusto?&lt;br&gt;
+» Sì, mi pare giusto.&lt;br&gt;
+¬ E quindi la radice quadrata di infinito, che è quella quantità che al quadrato
+dà infinito, è &lt;strong&gt;infinito&lt;/strong&gt;, dato che &lt;strong&gt;infinito&lt;/strong&gt; per &lt;strong&gt;infinito&lt;/strong&gt; è uguale a &lt;strong&gt;infinito&lt;/strong&gt;. Giusto?&lt;br&gt;
+» Sì, ma dove è l&#39;inghippo?&lt;br&gt;
+¬ Nessun inghippo. Abbiamo definito la radice quadrata di infinito, e osservato che è uguale a infinito,
+a patto di definire il prodotto di infinito per infinito uguale a infinito. Ma siamo sicuri che
+non emergono altri paradossi?&lt;br&gt;
+» Appunto. Proprio i paradossi temevo...&lt;br&gt;
+¬ Infatti. Il problema è: e se trovassi un altro infinito che al quadrato fa infinito?&lt;br&gt;
+» In che senso?&lt;br&gt;
+¬ Pensa a &lt;strong&gt;-infinito&lt;/strong&gt;, l&#39;infinito negativo. Qual è il suo quadrato?&lt;br&gt;
+» Non capisco cosa sia l&#39;infinito negativo, ma mi adeguo. Meno per meno fa più: il suo quadrato è &lt;strong&gt;infinito&lt;/strong&gt;. Quindi anche
+&lt;strong&gt;-infinito&lt;/strong&gt; è radice quadrata di infinito...&lt;br&gt;
+¬ Ti sembra strano che ce ne siano due, di radici quadrate? Quali sono le radici quadrate di &lt;em&gt;4&lt;/em&gt;?&lt;br&gt;
+» Questa la sanno tutti: più 2 e meno 2.&lt;br&gt;
+¬ E quindi ti sembra strano che ci siano &lt;strong&gt;più infinito&lt;/strong&gt; e &lt;strong&gt;meno infinito&lt;/strong&gt;, ma non che ci siano &lt;strong&gt;più due&lt;/strong&gt; e &lt;strong&gt;meno due&lt;/strong&gt;?&lt;br&gt;
+» Beh, assai. Già un infinito mi dava problemi, ora gli infiniti col segno...&lt;br&gt;
+¬ Purtroppo anche qua, si cammina su ghiaccio sottile. Non sono domande con una risposta semplice.&lt;br&gt;
+» Ma io voglio una risposta facile da capire, breve e sintetica! Non voglio mettermi a dialogare senza fine ogni volta!
+Quanto fa la radice quadrata di infinito?&lt;br&gt;
+¬ Va bene. La risposta breve è: &lt;strong&gt;infinito&lt;/strong&gt;. Tranne quando non è infinito, dato che non abbiamo definito bene le
+operazioni e il segno degli infiniti.&lt;br&gt;
+» Come al solito non mi hai aiutato granché.&lt;br&gt;
+¬ Non c&#39;è di che.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
           <title>Acqua, freddo e SUP/kayak</title>
           <link>//www.dlfer.xyz/post/2019-12-19-coldwater/</link>
           <pubDate>Wed, 18 Dec 2019 00:00:00 UTC</pubDate>
