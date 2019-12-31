@@ -181,7 +181,9 @@ unpredictability of any such project. And leveraging google technology might be 
 &lt;p&gt;If the format will be parsed by a (pythonic) parser, somewhen in the future, it will be possible
 to let &lt;a href=&#34;https://developers.google.com/search/docs/data-types/recipe#assistant-example&#34; target=&#34;_blank&#34;&gt;google assistant&lt;/a&gt;
 read aloud the directions, plan meals according to menus cost and nutrition, optimize
-the time spent in the kitchen and buying groceries, and so on.&lt;/p&gt;
+the time spent in the kitchen and buying groceries, and so on.
+There is already &lt;a href=&#34;https://chowdown.io/&#34; target=&#34;_blank&#34;&gt;ChowDown&lt;/a&gt; which is working well and adding
+microdata. Just: I would like to have a bit of thinking about the textual format first.&lt;/p&gt;
 
 &lt;h1 id=&#34;language-flexible-specification&#34;&gt;Language (flexible) specification&lt;/h1&gt;
 
