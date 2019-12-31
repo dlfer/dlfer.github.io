@@ -139,6 +139,15 @@
     </item>
     
     <item>
+      <title>Food</title>
+      <link>//www.dlfer.xyz/tags/food/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fourier</title>
       <link>//www.dlfer.xyz/tags/fourier/</link>
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
@@ -324,6 +333,15 @@
       <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/rank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recipes</title>
+      <link>//www.dlfer.xyz/tags/recipes/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/recipes/</guid>
       <description></description>
     </item>
     
