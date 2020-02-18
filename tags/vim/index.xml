@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on DL Ferrario&#39;s Test Web Page</title>
@@ -20,7 +20,7 @@
       <guid>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
       <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
 Now, with the vundle plugin.
-Things to do: I had vundle installed already. I needed to add lervag&#39;s vimtex and ajh17&#39;s VimCompletesMe.
+Things to do: I had vundle installed already. I needed to add lervag&amp;rsquo;s vimtex and ajh17&amp;rsquo;s VimCompletesMe.
 Hence, in .vimrc:
 &amp;quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &amp;quot; let Vundle manage Vundle, required Plugin &#39;VundleVim/Vundle.</description>
     </item>

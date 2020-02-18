@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on DL Ferrario&#39;s Test Web Page</title>
@@ -7,17 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 28 Apr 2017 15:11:07 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/topics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Algebra</title>
-      <link>//www.dlfer.xyz/topics/algebra/</link>
-      <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
+      <title>Var</title>
+      <link>//www.dlfer.xyz/topics/var/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
-      <guid>//www.dlfer.xyz/topics/algebra/</guid>
+      <guid>//www.dlfer.xyz/topics/var/</guid>
       <description></description>
     </item>
     
@@ -31,11 +31,11 @@
     </item>
     
     <item>
-      <title>Poetry</title>
-      <link>//www.dlfer.xyz/topics/poetry/</link>
-      <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
+      <title>University</title>
+      <link>//www.dlfer.xyz/topics/university/</link>
+      <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
       
-      <guid>//www.dlfer.xyz/topics/poetry/</guid>
+      <guid>//www.dlfer.xyz/topics/university/</guid>
       <description></description>
     </item>
     
@@ -49,20 +49,20 @@
     </item>
     
     <item>
-      <title>University</title>
-      <link>//www.dlfer.xyz/topics/university/</link>
-      <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
+      <title>Algebra</title>
+      <link>//www.dlfer.xyz/topics/algebra/</link>
+      <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
       
-      <guid>//www.dlfer.xyz/topics/university/</guid>
+      <guid>//www.dlfer.xyz/topics/algebra/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Var</title>
-      <link>//www.dlfer.xyz/topics/var/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <title>Poetry</title>
+      <link>//www.dlfer.xyz/topics/poetry/</link>
+      <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
       
-      <guid>//www.dlfer.xyz/topics/var/</guid>
+      <guid>//www.dlfer.xyz/topics/poetry/</guid>
       <description></description>
     </item>
     

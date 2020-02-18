@@ -2,11 +2,10 @@
 
 <html lang="en">
  
-
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.64.1" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -287,50 +286,40 @@
 	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2016-09-22) 
 	  
   </span>
-  
-
-<h2 id="topology-of-so-3-and-fixed-distance-pairs-of-points-in-s-2">Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.</h2>
-
+  <h2 id="topology-of-so3-and-fixed-distance-pairs-of-points-in-s2">Topology of $SO(3)$ and fixed-distance pairs of points in $S^2$.</h2>
 <p>Consider the space $X\subset S^2\times S^2$ of all pairs $(A,B)$ of points
 such that $|A-B|=\sqrt 3$, where the distance is the euclidean distance of
 $S^2\subset \RR^3$, and $S^2$ is the unit sphere in $\RR^3$.</p>
-
 <dl>
 <dt>(1)</dt>
 <dd>$X\approx SO(3) \approx \PP^3(\RR)$.</dd>
 </dl>
-
 <p><em>Proof:</em>
 The fact that $SO(3) \approx \PP^3(\RR)$ is a not-so-easy elementary exercise
-(cf. exercise (11.27) and exercise (7.30) of my <a href="http://www.matapp.unimib.it/~ferrario/geo1-2016/notes-2016-05-20_a4.pdf" target="_blank">Geometry Notes</a>,
+(cf. exercise (11.27) and exercise (7.30) of my <a href="http://www.matapp.unimib.it/~ferrario/geo1-2016/notes-2016-05-20_a4.pdf">Geometry Notes</a>,
 protected by a single-character password: the number of <em>non-zero</em> digits appearing in the password itself; the problem might be ill-posed).
 Now, $SO(3)$ acts freely and transitively on $X$, and since $SO(3)$ is compact and $X$ is Hausdorff, $X\approx SO(3)$.
 <em>/qed/</em></p>
-
 <p>The following is an easy exercise as well.</p>
-
 <dl>
 <dt>(2)</dt>
 <dd>If $\gamma\from I=[0,1] \to X$ is a loop such that $\gamma(0)=\gamma(1)$, then the path $\hat \gamma \from I \to X\times I$ defined
-as $\hat \gamma(t) = (\gamma (t) , t)$ is a <strong>simple</strong> path in $X\times I$ (i.e. $t\neq t'\implies \hat\gamma(t) \neq \hat\gamma(t')$
+as $\hat \gamma(t) = (\gamma (t) , t)$ is a <strong>simple</strong> path in $X\times I$ (i.e. $t\neq t&rsquo;\implies \hat\gamma(t) \neq \hat\gamma(t&rsquo;)$
 starting from $(\gamma(0),0)$ ending in $(\gamma(1),1)$, with $\gamma(0) = \gamma(1)$. Moreover, for each $t\in I$,
 $\gamma(t) = (A(t), B(t))$ where $A(t),B(t)$ are two points such that $|A(t) - B(t)|=\sqrt 3$.</dd>
 </dl>
-
 <p>Now, a <strong>homotopy</strong> relative endpoints of $\gamma$ into another path $\gamma'$ is a continuous family of paths $h_ s(t)$ such that
-$h_ 0(t) = \gamma(t) $ amd $h_ 1(t) = \gamma'(t)$. An element of $\pi_ 1(X)$ is therefore a homotopy class
+$h_ 0(t) = \gamma(t) $ amd $h_ 1(t) = \gamma&rsquo;(t)$. An element of $\pi_ 1(X)$ is therefore a homotopy class
 (rel. endpoints) of loops $I\to X$, and hence a homotopy class of paths rel. endpoints $I\to X\times I$,
 such that $h_ s(0) = ((A(0),B(0)),0)$ and
 $h_ s(1) = ((A(1),B(1)),1)$ for each $s$, with $A(0) = A(1)$
 and $B(0) = B(1)$.</p>
-
-<p>For each integer $n$, let $\FF_ n(S^2)$ denote the <strong>configuration space</strong> of $n$ points in $S^2$, i.e.
+<p>For each integer $n$, let $\FF_ n(S^2)$ denote the **configuration space** of $n$ points in $S^2$, i.e.
 $$
 \FF_ n(S^2) = \{ (x_ 1, \ldots, x_ n) \in S^2 \times \ldots \times S^2 : i \neq j \implies x_ i \neq x_ j \}~.
 $$
 By definition, the inclusion $X\subset \FF_ 2(S^2)$ holds. The fundamental group of $\FF_ n (S^2)$ is called
-the <strong>pure $n$-stranded braid group</strong> of $S^2$, and is denoted by $PB_ n(S^2)$.</p>
-
+the **pure $n$-stranded braid group** of $S^2$, and is denoted by $PB_ n(S^2)$.</p>
 <p>Consider the projection
 $$
 p\from \FF_ 3(S^2) \to \FF_ 2(S^2),
@@ -339,28 +328,25 @@ defined as $p(A,B,C) = (A,B)$ for any $(A,B,C) \in \FF_ 3(S^2)$. It is well-defi
 for any $(A,B) \in \FF_ 2(S^2)$ its pre-image
 in $\FF_ 3(S^2)$ is homeomorphic to $S^2 \smallsetminus \{A,B\}$,
 which has the same homotopy type of $S^1$ (since $A\neq B$).</p>
-
 <p>Now, let $Y\subset \FF_ 3(S^2)$ be defined as follows:
 $$
 Y = \{ (A,B,C) \in \FF_ 3(S^2) : OABC \text{ are coplanar} \}
 $$
 where $O$ is the origin of $\RR^3$.</p>
-
 <dl>
 <dt>(3)</dt>
 <dd>$Y$ is a deformation retract of $\FF_ 3(S^2)$.</dd>
 </dl>
-
 <p><em>Proof:</em>
 For $(A,B,C) \in \FF_ 3(S^2)$, since $A,B,C$ are disjoint, there is a unique plane for $A,B,C$.
 Let $\eta$  be the plane parallel to such a plane, passing through the origin $O$,
 and $l$ the line by $O$ orthogonal to $\eta$. The line $l$ passes through the circumcenter of the
 triangle $ABC$ (why?). Now, let $P_ \eta$  denote the projection of $A,B,C$ in the plane $\eta$,
 orthogonal to $\eta$. Since $A,B,C$ are not on $l$, the projections $A'=P_ \eta A$, $B'=P_ \eta B$
-and $C' = P_ \eta C$ are different from $O$ and distinct. Let  the retraction
+and $C&rsquo; = P_ \eta C$ are different from $O$ and distinct. Let  the retraction
 $r \from \FF_ 3(S^2) \to Y$ be defined as
 $$
-r(A,B,C) = ( \dfrac{A'}{|A'|}, \dfrac{B'}{|B'|}, \dfrac{C'}{|C'|} ) \in Y.
+r(A,B,C) = ( \dfrac{A&rsquo;}{|A'|}, \dfrac{B&rsquo;}{|B'|}, \dfrac{C&rsquo;}{|C'|} ) \in Y.
 $$
 By construction, if $(A,B,C) \in Y$, then $A'=A$, $B'=B$ and $C'=C$, and
 therefore $r(A,B,C) = (A,B,C)$.
@@ -368,34 +354,30 @@ Hence, $r$ is a retraction.
 To show that it is a deformation retraction,
 consider for $t\in [0,1]$ the paths
 $$
-(A(t),B(t),C(t)) = ( (1-t)A+ t A', (1-t)B+tB', (1-t)C + tC' ),
+(A(t),B(t),C(t)) = ( (1-t)A+ t A&rsquo;, (1-t)B+tB&rsquo;, (1-t)C + tC&rsquo; ),
 $$
 and divide each component by its norm. It is path in $\FF_ 3(S^3)$ joining
 $(A,B,C)$ (for $t=0$) to $r(A,B,C)$ (for $t=1$), which depends continuously on $A,B,C$,
 and hence it gives the homotopy between $ir$ and the identity of $\FF_ 3(S^2)$.
-<em>/qed/</em></p>
-
+*/qed/*</p>
 <p>As the next step, let $\hat X \subset Y$ be the subspace defined as follows:
 $$
 \hat X = \{ (A,B,C) \in Y : \text{ $ABC$ is equilateral } \} \subset Y \subset \FF_ 3(S^2).
 $$</p>
-
 <dl>
 <dt>(4)</dt>
 <dd>$\hat X$ is a deformation retract of $Y$.</dd>
 </dl>
-
 <p><em>Proof:</em>
 Given $(A,B,C) \in Y$, let $\eta$ denote the plane containing $OABC$.
 There are in $S^2\cap\eta$ exactly three points $A'$, $B'$ and $C'$
-such that $A'=A$, $|B'-A'| = |C'-A'| = | C' - B'|$ and
+such that $A'=A$, $|B&rsquo;-A'| = |C&rsquo;-A'| = | C&rsquo; - B'|$ and
 the order of $ABC$ in $S^2\cap \eta$ is the same as the order
-of $A'B'C'$. If we define<br />
+of $A&rsquo;B&rsquo;C'$. If we define<br>
 $r(A)=A'$, $r(B)=B'$, $r(C)=C'$  in $S^2\cap \eta$,
 it is a continuous function $r\from Y \to \hat X$,
-which can be shown to be a deformation retraction.<br />
+which can be shown to be a deformation retraction.<br>
 <em>/qed/</em></p>
-
 <p>Finally, consider the
 projection (see Fadell-Neuwirth 1962) of $\FF_ 3(S^2) \to \FF_ 2(S^2)$,
 defined by
@@ -409,35 +391,28 @@ It is one-to-one, continuous, from a compact space to a Hausdorff space, and hen
 $$
 \hat X \approx X ~.
 $$</p>
-
 <p>As a consequence, we have proved that</p>
-
 <dl>
 <dt>(5)</dt>
 <dd>$SO(3)$ is a deformation retract of the configuration space of
 $3$ points on a $2$-sphere $\FF_ 3(S^2)$. Hence $\pi_ 1(\FF_ 3(S^2)) = \pi_ 1(SO(3)) = \ZZ_ 2$.</dd>
 </dl>
-
-<h2 id="pure-braids-in-ff-3-s-2-and-the-fundamental-group-of-so-3">Pure braids in $\FF_3 (S^2)$ and the fundamental group of $SO(3)$.</h2>
-
+<h2 id="pure-braids-in-ff_3-s2-and-the-fundamental-group-of-so3">Pure braids in $\FF_3 (S^2)$ and the fundamental group of $SO(3)$.</h2>
 <p>As we have seen, $X \approx SO(3)$ is a deformation retract of $\FF_ 3 (S^2)$. Its fundamental group can be
 therefore computed as the fundamental group of $\FF_ 3(S^3)$, i.e. the group of pure $3$-stranded
 braids in $S^2$.
 One can represent it as strings joining two concentric (which cannot rotate) spheres,
 or any such settings. A semi-popular example is as in the pictures below.</p>
-
-<p>The problem is to unknot the yellow braid, <strong>without</strong> any rotation of the scissors (and without any cut). I've tried to take pictures of the process, with
+<p>The problem is to unknot the yellow braid, <strong>without</strong> any rotation of the scissors (and without any cut). I&rsquo;ve tried to take pictures of the process, with
 no success.</p>
-
-<p>Further reading: <a href="http://web.math.rochester.edu/people/faculty/jonpak/newbraid.pdf" target="_blank">Fred Cohen and Jonathan Pakianathan notes on <em>Configuration spaces and braid groups</em></a>, where they give a homotopy equivalence between $\FF_ 3(S^2)$ and $SO(3)$.</p>
-
-<p><img src="//www.dlfer.xyz/img/p/p1.png" alt="Dirac Scissors (1)" />
-<img src="//www.dlfer.xyz/img/p/p2.png" alt="Dirac Scissors (2)" />
-<img src="//www.dlfer.xyz/img/p/p3.png" alt="Dirac Scissors (3)" />
-<img src="//www.dlfer.xyz/img/p/p4.png" alt="Dirac Scissors (4)" />
-<img src="//www.dlfer.xyz/img/p/p5.png" alt="Dirac Scissors (5)" />
-<img src="//www.dlfer.xyz/img/p/p6.png" alt="Dirac Scissors (6)" />
-<img src="//www.dlfer.xyz/img/p/p7.png" alt="Dirac Scissors (7)" /></p>
+<p>Further reading: <a href="http://web.math.rochester.edu/people/faculty/jonpak/newbraid.pdf">Fred Cohen and Jonathan Pakianathan notes on <em>Configuration spaces and braid groups</em></a>, where they give a homotopy equivalence between $\FF_ 3(S^2)$ and $SO(3)$.</p>
+<p><img src="//www.dlfer.xyz/img/p/p1.png" alt="Dirac Scissors (1)">
+<img src="//www.dlfer.xyz/img/p/p2.png" alt="Dirac Scissors (2)">
+<img src="//www.dlfer.xyz/img/p/p3.png" alt="Dirac Scissors (3)">
+<img src="//www.dlfer.xyz/img/p/p4.png" alt="Dirac Scissors (4)">
+<img src="//www.dlfer.xyz/img/p/p5.png" alt="Dirac Scissors (5)">
+<img src="//www.dlfer.xyz/img/p/p6.png" alt="Dirac Scissors (6)">
+<img src="//www.dlfer.xyz/img/p/p7.png" alt="Dirac Scissors (7)"></p>
 
 </div>
 
@@ -448,7 +423,7 @@ no success.</p>
 <footer class="site-footer">
     <div class="container">
         <p class="powered-by">
-            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+            Copyright © 2016 - 3016, DL Ferrario &middot; 
 	    <a href="//www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>

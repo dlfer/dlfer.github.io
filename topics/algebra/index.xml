@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebra on DL Ferrario&#39;s Test Web Page</title>
@@ -18,8 +18,8 @@
       <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/post/2017-04-28-sylow/</guid>
-      <description>Wieldandt&#39;s proof of Sylow&#39;s Theorem A brief preparatory combinatorial discussion:
-[ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } ] and therefore [ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} ]
+      <description>Wieldandt&amp;rsquo;s proof of Sylow&amp;rsquo;s Theorem A brief preparatory combinatorial discussion:
+$$ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } $$ and therefore $$ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} $$
 Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then $n=p^\alpha m$.</description>
     </item>
     

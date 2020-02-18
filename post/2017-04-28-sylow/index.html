@@ -2,11 +2,10 @@
 
 <html lang="en">
  
-
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.64.1" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -287,33 +286,27 @@
 	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2017-04-28) 
 	  
   </span>
-  
-
-<h2 id="wieldandt-s-proof-of-sylow-s-theorem">Wieldandt's proof of Sylow's Theorem</h2>
-
+  <h2 id="wieldandts-proof-of-sylows-theorem">Wieldandt&rsquo;s proof of Sylow&rsquo;s Theorem</h2>
 <p>A brief preparatory combinatorial discussion:</p>
-
-<p>[
+<p>$$
 \binom{n}{k} =
 \dfrac{n!}{k!(n-k)!} =
 \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k }  =
 \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j }
-]
+$$
 and therefore
-[
+$$
 \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} =
 \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j}
-]</p>
-
+$$</p>
 <p>Let $p$ be a prime number.
 Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then
 $n=p^\alpha m$. Let $k=p^\alpha$. Then
 by the previous equation
-[
+$$
 \binom{n}{k} = \binom{p^\alpha m}{p^\alpha} =
 \dfrac{p^\alpha m}{p^\alpha } \cdot \dfrac{p^\alpha m-1}{1} \ldots \dfrac{p^\alpha m-j}{j} \ldots \dfrac{p^\alpha m -(p^\alpha-1)}{p^\alpha-1}
-]</p>
-
+$$</p>
 <p>Consider all the fractions $\dfrac{p^\alpha -j}{j}$, for $j=1\ldots p^\alpha -1$: if a power $p^r$ divides $j$,
 then $p^r \leq j &lt; p^\alpha$ and so $p^r$ divides $p^\alpha$ and therefore
 $p^r$ divides $p^\alpha m - j$.
@@ -321,45 +314,37 @@ On the other hand, if a power $p^r$ divides $p^\alpha  m - j$, then it cannot be
 (exercise?), and hence $p^r\leq p^\alpha$, whence the fact that $p^r|j$ follows.
 Hence, all powers of $p$ in all fractions cancel out, and the only place where they can appear is in $m$,
 therefore the following lemma holds.</p>
-
 <dl>
 <dt>(1)</dt>
 <dd>If $p$ is a prime, $m$ a positive integer, then
-[
+$$
 p^r | m \iff p^r | \binom{p^\alpha m}{p^\alpha}.
-]</dd>
+$$</dd>
 </dl>
-
-<p>Now, as the proof of Sylow's theorem.
+<p>Now, as the proof of Sylow&rsquo;s theorem.
 Let $G$ be a group of order $n$, and $p^\alpha$ divides $n$ for a prime $p$.
 Let $R_ 1$, $R_ 2$, $\ldots$, $R_ N$ be all the subsets of $G$ of cardinality $p^\alpha$.
 There are $N=\binom{n}{p^\alpha} = \binom{p^\alpha m}{p^ \alpha}$ such subsets.
 Let $\rho$ denotes the maximum power of $p$ dividing $m$, and hence the maximum power of $p$
-dividing $N$: $p^\rho | N$, $p^{\rho+1}\not| N$  because of <strong>(1)</strong>.</p>
-
+dividing $N$: $p^\rho | N$, $p^{\rho+1}\not| N$  because of **(1)**.</p>
 <p>Let $G$ act on the set $X$ of all $R_ j$'s by left multiplication: there must be at least one $G$-orbit
 in $X$ such that the number $\mu$ of its elements is not divisible by $p^{\rho +1}$,
 since otherwise $N$ would be divisible by $p^{\rho +1}$.
 Let $R\in X$ be one of the elements in such orbit.</p>
-
 <p>The stabilizer of $R$ is the subgroup $H$ of all elements in $G$ such that $gR=R$.</p>
-
 <p>First, note that for each $h\in H$, $h\neq 1$ induces a fixed-point-free bijection $h\from R\to R$
 (which sends $g\in R$ to $hg\in R$). Hence $H$ acts freely on $R$: it follows that $R$ must
 have at least $|H|$ elements, or equivalently that $|H| \leq p^\alpha$ since $R$ has $p^\alpha$
 elements by definition.</p>
-
 <p>Moreover, $H$ is a subgroup of $G$ of index equal the length of the orbit of $R$, that is $\mu$,
 and hence $|H| = \frac{n}{\mu} = \dfrac{p^\alpha m}{\mu}$.
 By construction
-[
+$$
 p^r | m \implies p^{\alpha + \rho} | p^\alpha m = \mu |H|.
-]
+$$
 Since $p^{\rho+1} \not| \mu$ by definition, it must be that $p^\alpha$ divides $|H|$,
 and hence that $p^\alpha \leq |H|$.</p>
-
-<p>This implies that $|H|=p^\alpha$, and therefore the following theorem holds (it is a version of Sylow's Theorem).</p>
-
+<p>This implies that $|H|=p^\alpha$, and therefore the following theorem holds (it is a version of Sylow&rsquo;s Theorem).</p>
 <dl>
 <dt>(S)</dt>
 <dd>If $p$ is a prime number and $p^\alpha$ divides the order of a finite group $G$,
@@ -375,7 +360,7 @@ then there exists a subgroup $H\subset G$ of order $p^\alpha$.</dd>
 <footer class="site-footer">
     <div class="container">
         <p class="powered-by">
-            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+            Copyright © 2016 - 3016, DL Ferrario &middot; 
 	    <a href="//www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>

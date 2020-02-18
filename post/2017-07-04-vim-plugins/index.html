@@ -2,11 +2,10 @@
 
 <html lang="en">
  
-
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.40.1" />
+  <meta name="generator" content="Hugo 0.64.1" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -287,20 +286,13 @@
 	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2017-12-14) 
 	  
   </span>
-  
-
-<h3 id="after-some-years-it-was-time-to-update-my-latex-vim-plugins">After some years, it was time to update my LaTeX vim plugins.</h3>
-
+  <h3 id="after-some-years-it-was-time-to-update-my-latex-vim-plugins">After some years, it was time to update my LaTeX vim plugins.</h3>
 <p>My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.</p>
-
 <p>Now, with the <strong>vundle</strong> plugin.</p>
-
 <p>Things to do:
-I had <a href="https://github.com/VundleVim/Vundle.vim" target="_blank">vundle</a> installed already.
-I needed to add lervag's <a href="https://github.com/lervag/vimtex" target="_blank">vimtex</a> and ajh17's <a href="https://github.com/ajh17/VimCompletesMe" target="_blank">VimCompletesMe</a>.</p>
-
+I had <a href="https://github.com/VundleVim/Vundle.vim">vundle</a> installed already.
+I needed to add lervag&rsquo;s <a href="https://github.com/lervag/vimtex">vimtex</a> and ajh17&rsquo;s <a href="https://github.com/ajh17/VimCompletesMe">VimCompletesMe</a>.</p>
 <p>Hence, in <strong>.vimrc</strong>:</p>
-
 <pre><code>&quot; set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
@@ -330,55 +322,31 @@ augroup END
 &quot; All of your Plugins must be added before the following line
 call vundle#end()            &quot; required
 filetype plugin indent on    &quot; required
-</code></pre>
-
-<p>Remember <strong>:PluginInstall</strong> after adding these lines.</p>
-
+</code></pre><p>Remember <strong>:PluginInstall</strong> after adding these lines.</p>
 <p>Commands to remember:</p>
-
 <pre><code>\ll       =&gt; Start/stop continuous compiling
 \lv       =&gt; Forward search in the PDF
 \le       =&gt; Parse the log file.
 \lc | \lC =&gt; clean .aux files (or also .pdf file)
 [TAB]     =&gt; AutoCompletion
-</code></pre>
-
-<p>At the first lines of the master .TEX file the line:</p>
-
+</code></pre><p>At the first lines of the master .TEX file the line:</p>
 <pre><code>%! TEX program = xelatex
-</code></pre>
-
-<p>Then <strong>okular</strong> should have the inverse/backward search enabled with the Custom Text Editor as
+</code></pre><p>Then <strong>okular</strong> should have the inverse/backward search enabled with the Custom Text Editor as
 one of the two lines:</p>
-
 <pre><code>gvim --remote-silent +%l &quot;%f&quot;
 gvim --servername GVIM --remote +%l %f
-</code></pre>
-
-<p>Further <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt" target="_blank">Help</a>.</p>
-
+</code></pre><p>Further <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt">Help</a>.</p>
 <h3 id="spell-check">Spell check</h3>
-
 <pre><code>map &lt;C-s&gt; : set spl=it spell
 setlocal spell spelllang=it_it
 set spell spelllang=en_us
-</code></pre>
-
-<h3 id="multi-file">Multi-file</h3>
-
+</code></pre><h3 id="multi-file">Multi-file</h3>
 <p>As with the documentation in <strong>:h vimtex-multi-file</strong>,
 either add the root line in all subfiles</p>
-
 <pre><code>%! TEX root = /path/to/my-main.tex
-</code></pre>
-
-<p>or use the <strong>.latexmain</strong> specifier:</p>
-
+</code></pre><p>or use the <strong>.latexmain</strong> specifier:</p>
 <pre><code>touch main.tex.latexmain
-</code></pre>
-
-<h3 id="color-scheme-and-font">Color scheme and font</h3>
-
+</code></pre><h3 id="color-scheme-and-font">Color scheme and font</h3>
 <pre><code>if has('gui_running')
  colorscheme ir_black
  set guifont=Courier\ New\ 16
@@ -390,63 +358,41 @@ endif
 &quot; OSX:
 &quot; set gfn=Courier\ New:h24.00
 &quot; set gfn=Menlo:h24.00
-</code></pre>
-
-<h3 id="and">And ...</h3>
-
+</code></pre><h3 id="and-">And &hellip;</h3>
 <p>To use gvim without GNOME in linuxmint/ubuntu:</p>
-
 <pre><code>sudo apt-get remove vim-gnome
 sudo apt-get install vim-gtk
-</code></pre>
-
-<p>with some other configuration options:</p>
-
+</code></pre><p>with some other configuration options:</p>
 <pre><code>set hlsearch
 set incsearch
 set matchtime=5
 set showmatch
 set smartindent
 set noshiftround
-</code></pre>
-
-<h3 id="how-to-silence-unwanted-latex-warnings">How to silence unwanted LaTeX warnings?</h3>
-
-<p>Use the package <a href="https://www.ctan.org/pkg/silence?lang=en" target="_blank">silence</a>.</p>
-
+</code></pre><h3 id="how-to-silence-unwanted-latex-warnings">How to silence unwanted LaTeX warnings?</h3>
+<p>Use the package <a href="https://www.ctan.org/pkg/silence?lang=en">silence</a>.</p>
 <pre><code>\RequirePackage{silence} % before documentclass
 \WarningFilter{latex}{Marginpar}
-</code></pre>
-
-<p>But I cannot silence overfull hboxes.</p>
-
+</code></pre><p>But I cannot silence overfull hboxes.</p>
 <h3 id="bibliography-bibtex-references">Bibliography, BibTeX references</h3>
-
-<p>Unfortunately  <a href="http://bibdesk.sourceforge.net/" target="_blank">bibdesk</a> only exists
+<p>Unfortunately  <a href="http://bibdesk.sourceforge.net/">bibdesk</a> only exists
 for OSX. Pity.</p>
-
 <p>Alternatives:
-<a href="http://www.jabref.org" target="_blank">JabRef</a>  (are there other options?)</p>
-
+<a href="http://www.jabref.org">JabRef</a>  (are there other options?)</p>
 <p>Put filename.bib into a directory, where all PDF files will go, and use
 the import-bibtex-from-pdf functionality.
 But the DOI automatic import does not work, and getting metadata from PDF
 really does not work.
 Chrome plugin does not exist. Firefox plugin seems not woking.</p>
-
 <p>What else?</p>
-
-<p>Trying <a href="http://www.zotero.org" target="_blank">zotero</a>...
+<p>Trying <a href="http://www.zotero.org">zotero</a>&hellip;
 kind of it does not really work with syncing without their thing,
 but at least DOI and PDF-to-bibtex seem working. It needs some
 understanding and adapting, maybe. Next time.</p>
-
-<hr />
-
+<hr>
 <p>Update on Zotero: it works quite well, with the sync &amp; WebDAV. Unfortunately,
 I need a WebDAV provider or to understand how do I subscribe to the paid service
 on Zotero. Interesting plugins, also: ZotFile &amp; Better Bib(La)TeX.</p>
-
 <p>Another couple of old pieces to check if they still exist: synergy and x2x.</p>
 
 </div>
@@ -458,7 +404,7 @@ on Zotero. Interesting plugins, also: ZotFile &amp; Better Bib(La)TeX.</p>
 <footer class="site-footer">
     <div class="container">
         <p class="powered-by">
-            Copyright &copy; 2016 - 3016, DL Ferrario &middot; 
+            Copyright © 2016 - 3016, DL Ferrario &middot; 
 	    <a href="//www.dlfer.xyz/p/privacy/">Privacy</a> &middot;
             Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
             <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>

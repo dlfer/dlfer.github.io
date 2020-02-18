@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on DL Ferrario&#39;s Test Web Page</title>
@@ -18,7 +18,7 @@
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2019-12-29-food-and-recipes/</guid>
-      <description>A pparently humans have been writing, sharing and storing recipes for their food preparation for quite a long time. The first written recipe (besides beer&#39;s appearing in the old Sumerian hymn) dates back thousands of years. I do know nothing about it, but according to a quick search there are many sources where to look into. An interesting finding:  Recipe tablets from the Yale Babylonian Collection, previously thought to contain pharmaceutical formulas, have been decoded by French Assyriologist and gourmet chef Jean Bottero.</description>
+      <description>A pparently humans have been writing, sharing and storing recipes for their food preparation for quite a long time. The first written recipe (besides beer&amp;rsquo;s appearing in the old Sumerian hymn) dates back thousands of years. I do know nothing about it, but according to a quick search there are many sources where to look into. An interesting finding:  Recipe tablets from the Yale Babylonian Collection, previously thought to contain pharmaceutical formulas, have been decoded by French Assyriologist and gourmet chef Jean Bottero.</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@ Associazioni e siti per SUP canoa e kayak Federazioni e associazioni:  Fedarazio
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</guid>
-      <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&#39;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme finito di punti equidistribuiti nell&#39;intervallo $[0,2\pi]$: [ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. ] L&#39;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&#39;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
+      <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&amp;rsquo;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme *finito* di punti equidistribuiti nell&amp;rsquo;intervallo $[0,2\pi]$: $$ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. $$ L&amp;rsquo;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&amp;rsquo;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@ Associazioni e siti per SUP canoa e kayak Federazioni e associazioni:  Fedarazio
       <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
       <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
 Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
-$ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot;  It is not difficult to add more words lists, e.</description>
+$ sudo pip install xkcdpass $ xkcdpass -w &#34;ita-wiki&#34; -w &#34;ger-anlx&#34; -d &#34;;&#34; It is not difficult to add more words lists, e.</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@ $ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;q
       <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2018-02-01-engita/</guid>
-      <description>A proposito di lingua inglese per le lezioni/esami (e internalizzazione) È di qualche giorno fa la sentenza del Consiglio di Stato N. 00617/2018REG.PROV.COLL. -- N. 05151/2013 REG.RIC, «sul ricorso numero di registro generale 5151 del 2013, proposto da: Ministero dell&#39;Istruzione dell&#39;Università e della Ricerca, in persona del Ministro pro tempore, Politecnico di Milano, in persona del legale rappresentante pro tempore, rappresentati e difesi per legge dall’Avvocatura generale dello Stato. [.</description>
+      <description>A proposito di lingua inglese per le lezioni/esami (e internalizzazione) È di qualche giorno fa la sentenza del Consiglio di Stato N. 00617/2018REG.PROV.COLL. &amp;ndash; N. 05151/2013 REG.RIC, «sul ricorso numero di registro generale 5151 del 2013, proposto da: Ministero dell&amp;rsquo;Istruzione dell&amp;rsquo;Università e della Ricerca, in persona del Ministro pro tempore, Politecnico di Milano, in persona del legale rappresentante pro tempore, rappresentati e difesi per legge dall’Avvocatura generale dello Stato. [..omissis..] per la riforma della sentenza 23 maggio 2013, n.</description>
     </item>
     
     <item>
@@ -90,9 +90,9 @@ $ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;q
       
       <guid>//www.dlfer.xyz/post/2017-11-03-gliesaminonfinisconomai/</guid>
       <description>Norme di Riferimento REGIO DECRETO 31 agosto 1933, n. 1592 FONTE
-Approvazione del testo unico delle leggi sull&#39;istruzione superiore. (033U1592) (GU n.283 del 7-12-1933 - Suppl. Ordinario n. 283 ) note: Entrata in vigore del provvedimento: 22/12/1933
-VITTORIO EMANUELE III, PER GRAZIA DI DIO E PER VOLONTA&#39; DELLA NAZIONE RE D&#39;ITALIA
-Veduto l&#39;art. 70 del R. decreto-legge 4 settembre 1925, n. 1604, col quale il Governo del Re e&#39; autorizzato a riunire in testo unico, provvedendo al loro coordinamento e introducendo, ove occorra, norme integrative; tutte le disposizioni vigenti e quelle da emanarsi eventualmente anche posteriormente alla pubblicazione del decreto stesso in materia d&#39;istruzione superiore e relative a corpi, istituti, stabilimenti, uffici e servizi comunque attinenti all&#39;istruzione e alla cultura superiore;</description>
+Approvazione del testo unico delle leggi sull&amp;rsquo;istruzione superiore. (033U1592) (GU n.283 del 7-12-1933 - Suppl. Ordinario n. 283 ) note: Entrata in vigore del provvedimento: 22/12/1933
+VITTORIO EMANUELE III, PER GRAZIA DI DIO E PER VOLONTA&amp;rsquo; DELLA NAZIONE RE D&amp;rsquo;ITALIA
+Veduto l&amp;rsquo;art. 70 del R. decreto-legge 4 settembre 1925, n. 1604, col quale il Governo del Re e&amp;rsquo; autorizzato a riunire in testo unico, provvedendo al loro coordinamento e introducendo, ove occorra, norme integrative; tutte le disposizioni vigenti e quelle da emanarsi eventualmente anche posteriormente alla pubblicazione del decreto stesso in materia d&amp;rsquo;istruzione superiore e relative a corpi, istituti, stabilimenti, uffici e servizi comunque attinenti all&amp;rsquo;istruzione e alla cultura superiore;</description>
     </item>
     
     <item>
@@ -114,8 +114,8 @@ How much about &amp;quot;mathematics as mountaineering&amp;quot;?</description>
       <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
 And the same for an inline sum: $\sum_j j^2$.
 The answer is: in the preamble
-markup = &amp;quot;mmark&amp;quot;  and then just use
-$$ .. $$ or $ .</description>
+markup = &#34;mmark&#34; and then just use
+$$ .. $$ or $ .. $ apparently.</description>
     </item>
     
     <item>
@@ -126,7 +126,7 @@ $$ .. $$ or $ .</description>
       <guid>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
       <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
 Now, with the vundle plugin.
-Things to do: I had vundle installed already. I needed to add lervag&#39;s vimtex and ajh17&#39;s VimCompletesMe.
+Things to do: I had vundle installed already. I needed to add lervag&amp;rsquo;s vimtex and ajh17&amp;rsquo;s VimCompletesMe.
 Hence, in .vimrc:
 &amp;quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &amp;quot; let Vundle manage Vundle, required Plugin &#39;VundleVim/Vundle.</description>
     </item>
@@ -137,8 +137,8 @@ Hence, in .vimrc:
       <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/post/2017-04-28-sylow/</guid>
-      <description>Wieldandt&#39;s proof of Sylow&#39;s Theorem A brief preparatory combinatorial discussion:
-[ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } ] and therefore [ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} ]
+      <description>Wieldandt&amp;rsquo;s proof of Sylow&amp;rsquo;s Theorem A brief preparatory combinatorial discussion:
+$$ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } $$ and therefore $$ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} $$
 Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then $n=p^\alpha m$.</description>
     </item>
     
@@ -148,9 +148,9 @@ Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$
       <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2016-12-27-paese-di-polonia/</guid>
-      <description>Lettera del Cavalier Battista Guarini (1538-1612) al Segretario del Cardinal Luigi d&#39;Este (1538-1586), Monsignor Benedetto Manzuoli (1530-1585).
-Testo preso dalla raccolta di lettere L&#39;idea del segretario dal signore Bartolomeo Zucchi gentil&#39;huomo di Monza, academico insensato di Perugia. Parte seconda. pubblicato nel 1606 da Bartolomeo Zucchi (1570-1630) a Venezia, presso la Compagnia Minima. ARCHIVE LINK L&#39;ortografia è stata parzialmente adattata a quella moderna.
-Guarini fu Segretario di Alfonso Secondo d&#39;Este, duca di Ferrara (1533-1597) tra il 1573 e il 1583, e scrive al segretario del Cardinal Luigi d&#39;Este, fratello di Alfonso Secondo d&#39;Este.</description>
+      <description>Lettera del Cavalier Battista Guarini (1538-1612) al Segretario del Cardinal Luigi d&amp;rsquo;Este (1538-1586), Monsignor Benedetto Manzuoli (1530-1585).
+Testo preso dalla raccolta di lettere L&amp;rsquo;idea del segretario dal signore Bartolomeo Zucchi gentil&amp;rsquo;huomo di Monza, academico insensato di Perugia. Parte seconda. pubblicato nel 1606 da Bartolomeo Zucchi (1570-1630) a Venezia, presso la Compagnia Minima. ARCHIVE LINK L&amp;rsquo;ortografia è stata parzialmente adattata a quella moderna.
+Guarini fu Segretario di Alfonso Secondo d&amp;rsquo;Este, duca di Ferrara (1533-1597) tra il 1573 e il 1583, e scrive al segretario del Cardinal Luigi d&amp;rsquo;Este, fratello di Alfonso Secondo d&amp;rsquo;Este.</description>
     </item>
     
     <item>
@@ -199,7 +199,7 @@ For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ mor
       <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2016-11-09-tensors/</guid>
-      <description>Abelian Groups Given $a\in A$, the homomirphism $i_ a \from \ZZ \to A$ defined by $i_ a(k) = ka$ is mono (injective) iff $a$ has infinite order. Of $S$ is a set, the free Abelian group generated by $S$ is $$ \ZZ[S] = \ZZ S = \bigoplus_ {s \in S} \ZZ, $$ and it is the group of all finite linear combinations (with integer coefficients) of elements in $S$. The elements of $S$ are a basis (base) of $\ZZ[S]$.</description>
+      <description>Abelian Groups Given $a\in A$, the homomirphism $i_ a \from \ZZ \to A$ defined by $i_ a(k) = ka$ is mono (injective) iff $a$ has infinite order. Of $S$ is a set, the **free** Abelian group generated by $S$ is $$ \ZZ[S] = \ZZ S = \bigoplus_ {s \in S} \ZZ, $$ and it is the group of all finite linear combinations (with integer coefficients) of elements in $S$. The elements of $S$ are a **basis** (**base**) of $\ZZ[S]$.</description>
     </item>
     
     <item>
@@ -208,7 +208,7 @@ For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ mor
       <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2016-11-04-graphs/</guid>
-      <description>Graphs and simplicial complexes A one-dimensional simplicial complex is a graph. That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices and $\Phi_ K$ is the set of simplexes, with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where $E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed edges of $K$) and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes termed again vertices of $K$).</description>
+      <description>Graphs and simplicial complexes A one-dimensional simplicial complex is a graph. That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices and $\Phi_ K$ is the set of simplexes, with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where $E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed *edges* of $K$) and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes termed again *vertices* of $K$).</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@ For each simplex $\sigma \subset K$, the diameter of $\sigma$ (or $|\sigma|$ mor
       <guid>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
       <description>A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$ The proof and the algorithm are the same.
 First, a few auxiliary functions. Given a matrix $M$, the follow two functions are self-explanatory.
-def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] !</description>
+def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] != 0 ) and (abs(M[i][j]) &amp;lt;= valmin) : ijmin = [i,j] valmin = abs(M[i][j]) return ijmin def IdentityMatrix(n): res=[[0 for j in range(n)] for i in range(n)] for i in range(n): res[i][i] = 1 return res def display(M): r=&amp;#34;&amp;#34; for x in M: r += &amp;#34;%s\n&amp;#34; % x return r +&amp;#34;&amp;#34; Then, one needs the elementary operations on rows and columns on the matrix $M$: swap (permute) two rows, add to a row an integer multiple of another row, and change sign of a row.</description>
     </item>
     
     <item>
@@ -229,8 +229,8 @@ def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonn
       
       <guid>//www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
       <description>The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$
-Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\
-V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\</description>
+Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\\
+V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\\</description>
     </item>
     
     <item>
@@ -240,7 +240,7 @@ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots
       
       <guid>//www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
       <description>Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
-$\require{AMScd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;gt;&amp;gt; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;lt;&amp;lt; X_2 \\</description>
+$\require{AMScd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
     </item>
     
     <item>

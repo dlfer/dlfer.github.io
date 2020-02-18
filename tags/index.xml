@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DL Ferrario&#39;s Test Web Page</title>
@@ -7,85 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 09 Nov 2016 13:21:33 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Abelian Groups</title>
-      <link>//www.dlfer.xyz/tags/abelian-groups/</link>
-      <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
+      <title>food</title>
+      <link>//www.dlfer.xyz/tags/food/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/abelian-groups/</guid>
+      <guid>//www.dlfer.xyz/tags/food/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Algorithm</title>
-      <link>//www.dlfer.xyz/tags/algorithm/</link>
-      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      <title>recipes</title>
+      <link>//www.dlfer.xyz/tags/recipes/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/algorithm/</guid>
+      <guid>//www.dlfer.xyz/tags/recipes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Barycentric Subdivision</title>
-      <link>//www.dlfer.xyz/tags/barycentric-subdivision/</link>
-      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/barycentric-subdivision/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Borsuk</title>
-      <link>//www.dlfer.xyz/tags/borsuk/</link>
-      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/borsuk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Borsuk Ulam</title>
-      <link>//www.dlfer.xyz/tags/borsuk-ulam/</link>
-      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/borsuk-ulam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Brouwer</title>
-      <link>//www.dlfer.xyz/tags/brouwer/</link>
-      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/brouwer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Categories</title>
-      <link>//www.dlfer.xyz/tags/categories/</link>
-      <pubDate>Wed, 12 Oct 2016 13:57:52 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/categories/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coproducts</title>
-      <link>//www.dlfer.xyz/tags/coproducts/</link>
-      <pubDate>Wed, 12 Oct 2016 13:57:52 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/coproducts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dialoghi Matematici</title>
+      <title>dialoghi matematici</title>
       <link>//www.dlfer.xyz/tags/dialoghi-matematici/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
@@ -94,11 +40,38 @@
     </item>
     
     <item>
-      <title>Diracts Scissors</title>
-      <link>//www.dlfer.xyz/tags/diracts-scissors/</link>
-      <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
+      <title>math</title>
+      <link>//www.dlfer.xyz/tags/math/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/diracts-scissors/</guid>
+      <guid>//www.dlfer.xyz/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kayak</title>
+      <link>//www.dlfer.xyz/tags/kayak/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/kayak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paddle</title>
+      <link>//www.dlfer.xyz/tags/paddle/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/paddle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SUP</title>
+      <link>//www.dlfer.xyz/tags/sup/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/sup/</guid>
       <description></description>
     </item>
     
@@ -112,42 +85,6 @@
     </item>
     
     <item>
-      <title>English</title>
-      <link>//www.dlfer.xyz/tags/english/</link>
-      <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Examples</title>
-      <link>//www.dlfer.xyz/tags/examples/</link>
-      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/examples/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fixed Point</title>
-      <link>//www.dlfer.xyz/tags/fixed-point/</link>
-      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/fixed-point/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Food</title>
-      <link>//www.dlfer.xyz/tags/food/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/food/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fourier</title>
       <link>//www.dlfer.xyz/tags/fourier/</link>
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
@@ -157,38 +94,38 @@
     </item>
     
     <item>
-      <title>Function Spaces</title>
-      <link>//www.dlfer.xyz/tags/function-spaces/</link>
-      <pubDate>Wed, 05 Oct 2016 14:24:49 +0200</pubDate>
+      <title>password manager</title>
+      <link>//www.dlfer.xyz/tags/password-manager/</link>
+      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/function-spaces/</guid>
+      <guid>//www.dlfer.xyz/tags/password-manager/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Fundamental Group</title>
-      <link>//www.dlfer.xyz/tags/fundamental-group/</link>
-      <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
+      <title>security</title>
+      <link>//www.dlfer.xyz/tags/security/</link>
+      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/fundamental-group/</guid>
+      <guid>//www.dlfer.xyz/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Graph</title>
-      <link>//www.dlfer.xyz/tags/graph/</link>
-      <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
+      <title>software</title>
+      <link>//www.dlfer.xyz/tags/software/</link>
+      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/graph/</guid>
+      <guid>//www.dlfer.xyz/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Homology</title>
-      <link>//www.dlfer.xyz/tags/homology/</link>
-      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      <title>English</title>
+      <link>//www.dlfer.xyz/tags/english/</link>
+      <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/homology/</guid>
+      <guid>//www.dlfer.xyz/tags/english/</guid>
       <description></description>
     </item>
     
@@ -202,281 +139,11 @@
     </item>
     
     <item>
-      <title>Join</title>
-      <link>//www.dlfer.xyz/tags/join/</link>
-      <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/join/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kayak</title>
-      <link>//www.dlfer.xyz/tags/kayak/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/kayak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Latex</title>
-      <link>//www.dlfer.xyz/tags/latex/</link>
-      <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lettera</title>
-      <link>//www.dlfer.xyz/tags/lettera/</link>
-      <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/lettera/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lusternik Schnirelmann</title>
-      <link>//www.dlfer.xyz/tags/lusternik-schnirelmann/</link>
-      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/lusternik-schnirelmann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>//www.dlfer.xyz/tags/markdown/</link>
-      <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Math</title>
-      <link>//www.dlfer.xyz/tags/math/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mountains</title>
-      <link>//www.dlfer.xyz/tags/mountains/</link>
-      <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/mountains/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Norme</title>
       <link>//www.dlfer.xyz/tags/norme/</link>
       <pubDate>Fri, 03 Nov 2017 13:50:17 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/norme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paddle</title>
-      <link>//www.dlfer.xyz/tags/paddle/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/paddle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Password Manager</title>
-      <link>//www.dlfer.xyz/tags/password-manager/</link>
-      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/password-manager/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Polonia</title>
-      <link>//www.dlfer.xyz/tags/polonia/</link>
-      <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/polonia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Product</title>
-      <link>//www.dlfer.xyz/tags/product/</link>
-      <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/product/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>//www.dlfer.xyz/tags/python/</link>
-      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rank</title>
-      <link>//www.dlfer.xyz/tags/rank/</link>
-      <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/rank/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recipes</title>
-      <link>//www.dlfer.xyz/tags/recipes/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/recipes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rescritto Imperiale Sulleducazione</title>
-      <link>//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/</link>
-      <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sagemath</title>
-      <link>//www.dlfer.xyz/tags/sagemath/</link>
-      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/sagemath/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>//www.dlfer.xyz/tags/security/</link>
-      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/security/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simplex</title>
-      <link>//www.dlfer.xyz/tags/simplex/</link>
-      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/simplex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simplicial Approximation</title>
-      <link>//www.dlfer.xyz/tags/simplicial-approximation/</link>
-      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/simplicial-approximation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simplicial Complex</title>
-      <link>//www.dlfer.xyz/tags/simplicial-complex/</link>
-      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/simplicial-complex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smith Normal Form</title>
-      <link>//www.dlfer.xyz/tags/smith-normal-form/</link>
-      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/smith-normal-form/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>So3</title>
-      <link>//www.dlfer.xyz/tags/so3/</link>
-      <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/so3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
-      <link>//www.dlfer.xyz/tags/software/</link>
-      <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sup</title>
-      <link>//www.dlfer.xyz/tags/sup/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/sup/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sylow Theorem</title>
-      <link>//www.dlfer.xyz/tags/sylow-theorem/</link>
-      <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/sylow-theorem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tensor Product</title>
-      <link>//www.dlfer.xyz/tags/tensor-product/</link>
-      <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/tensor-product/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Topology</title>
-      <link>//www.dlfer.xyz/tags/topology/</link>
-      <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/topology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tree</title>
-      <link>//www.dlfer.xyz/tags/tree/</link>
-      <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/tree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ulam</title>
-      <link>//www.dlfer.xyz/tags/ulam/</link>
-      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/ulam/</guid>
       <description></description>
     </item>
     
@@ -499,6 +166,51 @@
     </item>
     
     <item>
+      <title>Mountains</title>
+      <link>//www.dlfer.xyz/tags/mountains/</link>
+      <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/mountains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topology</title>
+      <link>//www.dlfer.xyz/tags/topology/</link>
+      <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/topology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winding number</title>
+      <link>//www.dlfer.xyz/tags/winding-number/</link>
+      <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/winding-number/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>//www.dlfer.xyz/tags/latex/</link>
+      <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MarkDown</title>
+      <link>//www.dlfer.xyz/tags/markdown/</link>
+      <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Vim</title>
       <link>//www.dlfer.xyz/tags/vim/</link>
       <pubDate>Tue, 04 Jul 2017 11:31:30 +0200</pubDate>
@@ -508,11 +220,299 @@
     </item>
     
     <item>
-      <title>Winding Number</title>
-      <link>//www.dlfer.xyz/tags/winding-number/</link>
-      <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
+      <title>Sylow theorem</title>
+      <link>//www.dlfer.xyz/tags/sylow-theorem/</link>
+      <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
       
-      <guid>//www.dlfer.xyz/tags/winding-number/</guid>
+      <guid>//www.dlfer.xyz/tags/sylow-theorem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rescritto imperiale sull&#39;educazione</title>
+      <link>//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/</link>
+      <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/rescritto-imperiale-sulleducazione/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lettera</title>
+      <link>//www.dlfer.xyz/tags/lettera/</link>
+      <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/lettera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polonia</title>
+      <link>//www.dlfer.xyz/tags/polonia/</link>
+      <pubDate>Tue, 27 Dec 2016 10:26:32 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/polonia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diract&#39;s Scissors</title>
+      <link>//www.dlfer.xyz/tags/diracts-scissors/</link>
+      <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/diracts-scissors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fundamental group</title>
+      <link>//www.dlfer.xyz/tags/fundamental-group/</link>
+      <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/fundamental-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SO(3)</title>
+      <link>//www.dlfer.xyz/tags/so3/</link>
+      <pubDate>Fri, 25 Nov 2016 13:12:28 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/so3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Borsuk</title>
+      <link>//www.dlfer.xyz/tags/borsuk/</link>
+      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/borsuk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Borsuk-Ulam</title>
+      <link>//www.dlfer.xyz/tags/borsuk-ulam/</link>
+      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/borsuk-ulam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brouwer</title>
+      <link>//www.dlfer.xyz/tags/brouwer/</link>
+      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/brouwer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fixed point</title>
+      <link>//www.dlfer.xyz/tags/fixed-point/</link>
+      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/fixed-point/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lusternik-Schnirelmann</title>
+      <link>//www.dlfer.xyz/tags/lusternik-schnirelmann/</link>
+      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/lusternik-schnirelmann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ulam</title>
+      <link>//www.dlfer.xyz/tags/ulam/</link>
+      <pubDate>Mon, 21 Nov 2016 15:47:19 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/ulam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>barycentric subdivision</title>
+      <link>//www.dlfer.xyz/tags/barycentric-subdivision/</link>
+      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/barycentric-subdivision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simplex</title>
+      <link>//www.dlfer.xyz/tags/simplex/</link>
+      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/simplex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simplicial approximation</title>
+      <link>//www.dlfer.xyz/tags/simplicial-approximation/</link>
+      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/simplicial-approximation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simplicial complex</title>
+      <link>//www.dlfer.xyz/tags/simplicial-complex/</link>
+      <pubDate>Fri, 18 Nov 2016 13:53:47 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/simplicial-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Join</title>
+      <link>//www.dlfer.xyz/tags/join/</link>
+      <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/join/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product</title>
+      <link>//www.dlfer.xyz/tags/product/</link>
+      <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abelian groups</title>
+      <link>//www.dlfer.xyz/tags/abelian-groups/</link>
+      <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/abelian-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rank</title>
+      <link>//www.dlfer.xyz/tags/rank/</link>
+      <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/rank/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor product</title>
+      <link>//www.dlfer.xyz/tags/tensor-product/</link>
+      <pubDate>Wed, 09 Nov 2016 13:21:33 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/tensor-product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph</title>
+      <link>//www.dlfer.xyz/tags/graph/</link>
+      <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/graph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tree</title>
+      <link>//www.dlfer.xyz/tags/tree/</link>
+      <pubDate>Fri, 04 Nov 2016 13:08:54 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>//www.dlfer.xyz/tags/algorithm/</link>
+      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Examples</title>
+      <link>//www.dlfer.xyz/tags/examples/</link>
+      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/examples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homology</title>
+      <link>//www.dlfer.xyz/tags/homology/</link>
+      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/homology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>//www.dlfer.xyz/tags/python/</link>
+      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sagemath</title>
+      <link>//www.dlfer.xyz/tags/sagemath/</link>
+      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/sagemath/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smith Normal Form</title>
+      <link>//www.dlfer.xyz/tags/smith-normal-form/</link>
+      <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/smith-normal-form/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Categories</title>
+      <link>//www.dlfer.xyz/tags/categories/</link>
+      <pubDate>Wed, 12 Oct 2016 13:57:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coproducts</title>
+      <link>//www.dlfer.xyz/tags/coproducts/</link>
+      <pubDate>Wed, 12 Oct 2016 13:57:52 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/coproducts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Function spaces</title>
+      <link>//www.dlfer.xyz/tags/function-spaces/</link>
+      <pubDate>Wed, 05 Oct 2016 14:24:49 +0200</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/function-spaces/</guid>
       <description></description>
     </item>
     

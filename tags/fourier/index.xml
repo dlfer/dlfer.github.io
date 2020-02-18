@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fourier on DL Ferrario&#39;s Test Web Page</title>
@@ -18,7 +18,7 @@
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</guid>
-      <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&#39;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme finito di punti equidistribuiti nell&#39;intervallo $[0,2\pi]$: [ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. ] L&#39;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&#39;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
+      <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&amp;rsquo;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme *finito* di punti equidistribuiti nell&amp;rsquo;intervallo $[0,2\pi]$: $$ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. $$ L&amp;rsquo;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&amp;rsquo;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
     </item>
     
   </channel>

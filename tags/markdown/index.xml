@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on DL Ferrario&#39;s Test Web Page</title>
+    <title>MarkDown on DL Ferrario&#39;s Test Web Page</title>
     <link>//www.dlfer.xyz/tags/markdown/</link>
-    <description>Recent content in Markdown on DL Ferrario&#39;s Test Web Page</description>
+    <description>Recent content in MarkDown on DL Ferrario&#39;s Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
@@ -21,8 +21,8 @@
       <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
 And the same for an inline sum: $\sum_j j^2$.
 The answer is: in the preamble
-markup = &amp;quot;mmark&amp;quot;  and then just use
-$$ .. $$ or $ .</description>
+markup = &#34;mmark&#34; and then just use
+$$ .. $$ or $ .. $ apparently.</description>
     </item>
     
   </channel>

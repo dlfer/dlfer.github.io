@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algorithm on DL Ferrario&#39;s Test Web Page</title>
@@ -20,7 +20,7 @@
       <guid>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
       <description>A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$ The proof and the algorithm are the same.
 First, a few auxiliary functions. Given a matrix $M$, the follow two functions are self-explanatory.
-def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] !</description>
+def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] != 0 ) and (abs(M[i][j]) &amp;lt;= valmin) : ijmin = [i,j] valmin = abs(M[i][j]) return ijmin def IdentityMatrix(n): res=[[0 for j in range(n)] for i in range(n)] for i in range(n): res[i][i] = 1 return res def display(M): r=&amp;#34;&amp;#34; for x in M: r += &amp;#34;%s\n&amp;#34; % x return r +&amp;#34;&amp;#34; Then, one needs the elementary operations on rows and columns on the matrix $M$: swap (permute) two rows, add to a row an integer multiple of another row, and change sign of a row.</description>
     </item>
     
   </channel>
