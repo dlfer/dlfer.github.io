@@ -31,7 +31,7 @@ Ingredienti  100gr ricotta 4 fette di mortadella (spesse) 4 gherigli di noce; tr
       <description>(il cucchiaio di argento, pag. 174)
 Ingredienti Per la pasta:
  300 g farina 100 g burro ammorbidito 1 uovo zucchero un cucchiaio latte qb  Per il ripieno:
- 200 gr mozzarella a dadini 150 gr prosciutto cotto; tagliare a quadretti 100 gr mortadella; tagliare a a quadretti 2 tbsp parmigiano grattugiato 2 uova 1 cup besciamella  Prep  Farina a fontana, += uovo, zucchero, burro, latte. Lavorare ⇒ morbida.</description>
+ 200 gr mozzarella a dadini 150 gr prosciutto cotto; tagliare a quadretti 100 gr mortadella; tagliare a a quadretti 2 tbsp parmigiano grattugiato 2 uova 1 cup besciamella  Prep  Farina a fontana, ↓ uovo, zucchero, burro, latte. Lavorare ⇒ morbida.</description>
     </item>
     
     <item>
@@ -522,12 +522,14 @@ Ingredienti  0,5 cipolla 1 spicchio aglio; schiacciato 10 g burro 1 tsp olio 160
     </item>
     
     <item>
-      <title></title>
+      <title>Search</title>
       <link>https://www.dlfer.xyz/recipes/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/search/</guid>
-      <description>.</description>
+      <description>(Inserire i termini della ricerca &amp;ndash; con * dove serve)
+ var idx, searchInput, searchResults = null var documents = [] function renderSearchResults(results){ if (results.length  0) { if (results.length  9){ results = results.slice(0,10) } searchResults.innerHTML = &#39;&#39; results.forEach(result = { var article = document.createElement(&#39;article&#39;) article.innerHTML = ` ${documents[result.ref].title} ${result.ref}` searchResults.appendChild(article) }) } else { searchResults.innerHTML = &#39;No results found.
+&#39; } } function registerSearchHandler() { searchInput.oninput = function(event) { if (searchInput.</description>
     </item>
     
     <item>
