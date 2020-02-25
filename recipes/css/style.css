@@ -19,7 +19,7 @@ li:before:not(.dropdown,.nav,.dropdown-menu) {
 ul.csv { list-style: none; margin: 0; padding: 0; }
 ul.csv li { display: inline; padding-left: 0px;}
 ul.csv li:before { content: ""; padding-right: 0px; }
-ul.csv li:after { content: ","; }
+ul.csv li:after { content: ", "; }
 ul.csv li:last-child:after { content: ""; }
 
 
