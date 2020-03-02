@@ -2,6 +2,14 @@
     
     
     {
+        "url": "/recipes/main/brasato-alle-erbe/",
+        "title": "Brasato alle erbe",
+        "content": "Ingredienti  500gr manzo da arrosto / scamone di vitello / manzo da bollito erbe: pimento, pepe, timo, rosmarino, chiodi di garofano, ginepro, alloro, salvia. marinata: 3-4 bicchieri di vino rosso, aceto di mele, 3-4 tbsp olio, cipolla, sedano, carota, aglio, erbe (sopra). burro, olio, farina [panna/latte ]  Prep Legare la carne con spago. Marinare almeno 4 ore, meglio una notte nel vino + cipolla, carota, sedano + erbe. Girare ogni tanto. Togliere la carne, asciugarla. Infarinarla. Togliere le verdure dalla marinata, scolarle. Tranne: pepe, pimento, ginepro, chiodi di garofano. Rosolare la carne da tutte le parti in [@pentola] con burrolio e aglio a fuoco medio/alto. Aggiungere le verdure e soffriggere [!10 min]. Aggiungere il liquido della marinata [e latte/panna], brasare (sobbollire a fuoco molto basso con coperchio) nel resto della marinata [!2-3 ore]. Fino a che la carne è morbida. Lasciare riposare un po\u0026rsquo;. Affettare e bagnare col liquido di cottura filtrato (assaggiare per vedere se è troppo forte).  " ,
+        "tags" : "brasato ; erbe"
+    }
+    
+    , 
+    {
         "url": "/recipes/var/frittata-con-cipolle/",
         "title": "Frittata con cipolle",
         "content": "Ingredienti  6 uova 2 tbsp parmigiano grattugiato 40gr burro i\u0026amp; olio sale, pepe 1-2 cipolle; affettate finemente [latte poco, farina]  Prep  stufare le cipolle a lungo nel burrolio. ↓ sale,pepe. ↓ le uova col parmigiano, sbattute. [↓ latte \u0026amp; farina] Fuoco medio, con coperchio. Girare a metà cottura. [!5 min] + [!5 min]  " ,
@@ -179,7 +187,7 @@
     , 
     {
         "url": "/recipes/var/antipasti-freddi-di-verdure/",
-        "title": "Antipasti Freddi Di Verdure",
+        "title": "Antipasti freddi di verdure",
         "content": "Sedano alle spezie  450 gr gambi di sedano 2 tsp sale 1 sp + 1tsp zucchero 3 sp olio di sesamo (scuro) 1 sp salsa di soia 2 tsp aceto (riso o mele) 1 spicchio d\u0026rsquo;aglio tritato [olio al peperoncino]   Tagliare il sedano 5cm + sale, zucchero [!wait 10 min] Mischiare tutto il resto. Asciugare il sedano, aggiungere le spezie e [!wait 3 ore] in frigorifero.  Pomodori/datterini e olive così come è\nKimchi  450 gr cavolo cinese oppure daikon oppure fagiolini 10 cipollotti/scalogno polvere di chili ginger aglio   Mettere le foglie salate di cavolo sul colapasta [!wait 2 ore] Lavarle e asciugarle. Mischiare tutto, con il cavolo a tocchi, e lasciare per parecchio (quanto?)   Ma è davvero possibile fare il kimchi in casa?\n " ,
         "tags" : "antipasti ; freddo ; verdura ; kimchi"
     }
@@ -315,7 +323,7 @@
     , 
     {
         "url": "/recipes/dessert/frittelle-di-carnevale/",
-        "title": "Frittelle Di Carnevale",
+        "title": "Frittelle di carnevale",
         "content": "Ingredienti (vedi sotto)\nPrep Mettere a mollo l\u0026rsquo;uvette nel RUM.\nPortare a bollire in una casseruola:\n 1/4 bicchiere di latte (40-50 cc). 1/4 bicchiere di acqua (40-50 cc). Ma anche 125gr di latte. Sale. Burro (50gr). 3 cucchiai di zucchero (forse di più?) / 50gr zucchero.  Togliere dal fuoco,\nAggiungere in una volta sola, mescolando con cucchiaio di legno:\n Farina (150gr) [con lievito vanigliato]  Rimettere su fuoco medio finché si stacca dalle pareti, amalgamando bene. Lasciare raffreddare in una ciotola.\nAggiungere alla pasta, incorporando quando è tiepido:\n 4 uova intere (una alla volta) scorza grattugiata di un limone con qualche goccia di rum/liquore/passito [e uvetta]  Sbattere finché liscio, poi lasciare riposare 60min in un luogo fresco.\n Friggere in olio/strutto (meglio olio, lo strutto puzza), lasciandole cadere da un cucchiaino/cucchiaio una per volta. Rigirarle subito dopo qualche secondo. Olio: 170-180°C.   Aggiungere zucchero, zucchero a velo alla fine.\n " ,
         "tags" : "frittelle ; dolci fritti ; carnevale"
     }
@@ -347,7 +355,7 @@
     , 
     {
         "url": "/recipes/var/insalata-greca/",
-        "title": "Insalata Greca",
+        "title": "Insalata greca",
         "content": "Ingredienti  5 pomodori ramati 1 cipolla rossa affettata molto fine 1 tbsp origano 3 tbsp olio evo 50-100 gr feta sbriciolata 1 cetriolo affettato sottilissimo, sbucciato 1 peperone verde piccolo affettato 1 manciata di olive nere 1 tbsp aceto pepe  Prep  Pomodori+cipolla+sale+origano) [aspettare 0.5 ora almeno] aggiungere prima di servire feta, cetriolo, peperone e olive. olio e aceto emulsionati.  " ,
         "tags" : "grecia ; insalata"
     }
@@ -364,7 +372,7 @@
     {
         "url": "/recipes/main/manzo-alla-california/",
         "title": "Manzo Alla California",
-        "content": "Ingredienti  1.000 g polpa di manzo/vitello; lardellato 30 g pancetta 30-50 g burro 1 cipolla qb farina bianca 00 0,5-1 bicchiere aceto 0,5 l latte intero 0,25 l panna; (invece del latte) 1 unit carota; (opzionale)  Prep   La sera precedente, alla preparazione, tagliare la pancetta a striscioline e lardellare il manzo.\n  cottura: Rosolare la cipolla affettata nel burro, aggiungere la carota tagliata a pezzetti, la carne infarinata, sfumare con l\u0026rsquo;aceto e far bollire fino a che non sia evaporato, aggiungere 60%. di latte|panna, coprire e cuocere lentamente per 2-3 ore e mezzo.\n  Aggiungere brodo/acqua se si secca.\n  Prima delle fine, aggiungere il resto del latte|panna.\n  Far bollire per 10 minuti, togliere dal fuoco e separare il sugo.\n  Affettare il manzo e cospargerlo col sugo separato.\n   Invece dell\u0026rsquo;aceto, si può mettere aceto di vin bianco+ vin bianco + succo di limone.\n " ,
+        "content": "Ingredienti  1.000 g polpa di manzo/vitello; lardellato 30 g pancetta 30-50 g burro 1 cipolla qb farina bianca 00 0,5-1 bicchiere aceto 0,5 l latte intero 0,25 l panna; (invece del latte) 1 unit carota; (opzionale)  Prep  La sera precedente, alla preparazione, tagliare la pancetta a striscioline e lardellare il manzo. cottura: Rosolare la cipolla affettata nel burro, aggiungere la carota tagliata a pezzetti, la carne infarinata, sfumare con l\u0026rsquo;aceto e far bollire fino a che non sia evaporato, aggiungere 60%. di latte|panna, coprire e cuocere lentamente per 2-3 ore e mezzo. Aggiungere brodo/acqua se si secca. Prima delle fine, aggiungere il resto del latte|panna. Far bollire per 10 minuti, togliere dal fuoco e separare il sugo. Affettare il manzo e cospargerlo col sugo separato.   Invece dell\u0026rsquo;aceto, si può mettere aceto di vin bianco+ vin bianco + succo di limone.\n " ,
         "tags" : "carne ; lombardia"
     }
     
@@ -372,7 +380,7 @@
     {
         "url": "/recipes/menu/menu-di-carnevale/",
         "title": "Menu Di Carnevale",
-        "content": " Shephard\u0026#39;s pie (Secondi di carne) : [ inglese, carne, forno, patate ]  Frittelle Di Carnevale (Dolci) : [ frittelle, dolci fritti, carnevale ]   " ,
+        "content": " Shephard\u0026#39;s pie (Secondi di carne) : [ inglese, carne, forno, patate ]  Frittelle di carnevale (Dolci) : [ frittelle, dolci fritti, carnevale ]   " ,
         "tags" : "carnevale"
     }
     
@@ -403,8 +411,8 @@
     , 
     {
         "url": "/recipes/primi/risotto-con-la-luganega/",
-        "title": "Risotto Con La Luganega",
-        "content": "La luganega è la salsiccia lombarda. Risotto tradizionale di Monza. Per 6 persone (abbondante) oppure 8 persone.\nIngredienti  2 cipolle piccole (una rossa e una bianca). 1 sedanino 3-4 spicchi d’aglio schiacciato burro 75gr, olio 480 gr riso Carnaroli/Vialone (bio lavorato a pietra) 300 gr Luganega (macelleria Viganò di Verano Brianza) 200 gr di salsiccia di Mantova 1/2 bicchiere vino rosso. sale/pepe. parmigiano. 1.5 litri brodo  Prep  padella con burrolio: aglio battuto, cipolle. soffriggere. aggiungere la salsiccia mantovana scottare 1 minuto la luganega in acqua bollente. spellarla e tagliarla a pezzi grossi. tostare il riso, sfumare con il vino, aggiungere brodo poco per volta. per la luganega: in padella (senza burro né olio) per 5 minuti, sfumare con vino, lasciare 10 minuti coperta sul fuoco spento. alla fine, lasciare mantecare il risotto (aggiungendo una noce di burro e il pepe). servire ogni piatto con un po’ di luganega sopra (in una conchetta)  " ,
+        "title": "Risotto con la luganega",
+        "content": "La luganega è la salsiccia lombarda. Risotto tradizionale di Monza. Per 6 persone (abbondante) oppure 8 persone.\nIngredienti  2 cipolle piccole (una rossa e una bianca). 1 sedanino 3-4 spicchi d’aglio schiacciato burro 75gr, olio 480 gr riso Carnaroli/Vialone (bio lavorato a pietra) 300 gr Luganega (macelleria Viganò di Verano Brianza) 200 gr di salsiccia di Mantova 1/2 bicchiere vino rosso. sale/pepe. parmigiano. 1.5 litri brodo  Prep  [@padella] con burrolio: aglio battuto, cipolle. soffriggere. aggiungere la salsiccia mantovana scottare 1 minuto la luganega in acqua bollente. spellarla e tagliarla a pezzi grossi. tostare il riso, sfumare con il vino, aggiungere brodo poco per volta. per la luganega: in [@padella] (senza burro né olio) per 5 minuti, sfumare con vino, lasciare 10 minuti coperta sul fuoco spento. alla fine, lasciare mantecare il risotto (aggiungendo una noce di burro e il pepe). servire ogni piatto con un po’ di luganega sopra (in una conchetta)  " ,
         "tags" : "risotto ; luganega"
     }
     
@@ -419,7 +427,7 @@
     , 
     {
         "url": "/recipes/dessert/torta-di-riso/",
-        "title": "Torta Di Riso",
+        "title": "Torta di riso",
         "content": "La sintesi delle seguenti ricette, e la ricostruzione della ricetta lombarda originale?\n 1 lt latte 250gr riso 100 gr zucchero / (80 gr zucchero vanigliato e 30 gr zucchero di canna) 70 gr miele 50 gr burro 100 gr pangrattato 4 tuorli d\u0026rsquo;uovo, 2 albumi. 30 gr maizena 1 limone bio : scorza, poco succo 50-100gr mandorle (bianche) tritate amaretto di saronno [100gr amaretti tritati]   Lavare il limone: scorza x pudding, grattugiare x crema. Portare a bollire: latte, riso, scorza, burro, zucchero, pizzico di sale. [!40 min]; lasciare raffreddare [!30 min]. Togliere la scorza. Sbattere 4 tuorli, scorza grattugiata, sale, mandorle tritate, maizena, miele. [amaretto di Saronno]. [amaretti tritati] Montare 2 albumi e aggiungerli. Aggiungere al riso: mettere in teglia con burro\u0026amp;pangrattato, lasciar riposare. Spennellare amaretto di saronno e zucchero caramellato. Forno 180°C [!15-30-45 min]   Ingredienti  1 litro di latte, gr. 200 di riso, gr. 200 di zucchero, 4 uova intere, gr. 200 di mandorle spellate e tritate molto fini, [gr. 50 di cedro candito tagliato a dadini], buccia di limone grattugiata, sale, burro, pangrattato.  Prep  In una pentola fare bollire il latte con un pizzico di sale, versare il riso e cuocerlo mescolandolo spesso fino a quando ha assorbito tutto il latte. Toglierlo dal fuoco, aggiungere lo zucchero, le mandorle, la buccia di limone, il cedro e lasciarlo intiepidire. Unire quindi le uova, sbattere bene il composto e versarlo in una tortiera dal diametro di circa 24 centimetri, imburrata e passata di pangrattato. Infornare a 200 gradi circa per 1/2 ora. La torta è cotta quando sulla superficie si è formata una crosticina dorata e introducendo uno stecchino al centro della torta questo uscirà asciutto. Sformarla sul piatto di portata ed è ottima sia servita ancora tiepida o lasciata raffreddare.   Altra versione: Ingredienti  200 gr di riso 1 litro di latte 3 uova intere + 1 tuorlo 150 gr di zucchero + 2 cucchiai per la teglia burro per la teglia 1 limone 1 pizzico di sale  Prep  Lavate bene il limone, asciugatelo e tagliate un pezzetto di scorza. Grattugiate il resto della scorza e mettetelo da parte. Mettete il latte in una pentola, aggiungete il riso, il pezzetto di scorza di limone e portate ad ebollizione. Fate cuocere il riso a fuoco basso mescolando ogni tanto, finché non avrà assorbito tutto il latte: quindi togliete la scorza di limone, spegnete il fuoco e lasciate raffreddare. In una ciotola sbattete le uova e il tuorlo insieme allo zucchero, aggiungete la scorza di limone grattugiata e il pizzico di sale, unite il riso e mescolate bene. Imburrate una teglia, versatevi lo zucchero e fatelo scorrere lungo tutta la superficie e i bordi della teglia, in modo che si appiccichi uniformemente al burro. Quindi versate l\u0026rsquo;impasto nella teglia e fate cuocere per circa 30 minuti a 180°.  \\\n Altra versione Ingredienti  250 g Riso 1 kg Latte 200 g Miele 30 g Amido di mais 100 g Tuorli Vaniglia  Prep  Cuocere il riso insieme al latte e alla vaniglia per circa 20 minuti a fine cottura spegnere il fuoco e aggiungete il miele , i tuorli e l’amido, mescolate bene e versate in una tortiera bene imburrata, il composto non deve superare i 3 cm. Cuocere in forno a 200 gradi per 20 minuti.   Ricetta non bolognese Ingredienti Per 2 persone:\n 200 g di riso 160 g di zucchero 100 g di burro 4 tuorli d\u0026rsquo;uovo 1 litro abbondante di latte uvetta q.b. cocco grattugiato q.b.  Prep  Cuocere il riso in acqua bollente 5 minuti. Far bollire il latte, assieme a zucchero e burro Scolare il riso e terminarne la cottura nel latte per 10 minuti Aggiungere i 4 rossi d\u0026rsquo;uovo, l\u0026rsquo;uvetta e il cocco grattugiato Depositare l\u0026rsquo;impasto in una teglia bassa preventivamente ricoperta di carta da forno Cuocere per 20 minuti circa in forno a 180°   Un\u0026rsquo;altra versione Ingredienti  1 litro di latte; 5 o 6 uova, dipende dalla grandezza 80/100 grammi di riso (scegliete una qualità dal grano minuscolo - tipo il vialone nano - originario); 100 gr di mandorle; 100 gr di canditi tagliati a dadini o tritati grossolanamente (esclusivamente cedro ed arancia); 100 gr di zucchero 80 gr zucchero vanigliato 1 limone (scorza) 4 o 5 amaretti (in realtà servirebbero alcune mandorle amare ma oggi sono introvabili); due o tre cucchiai da cucina di un liquore per pasticceria (l\u0026rsquo;ideale è l\u0026rsquo;amaretto o mandorla amara, se non avete ripiegate su un altro liquore);  Prep:  Fate bollire il latte con la scorza di un limone, versateci il riso e lasciate che cuocia 20 minuti,unite lo zucchero e fate raffreddare. Ora unite le uova una alla volta. Tostate leggermente la mandorle in forno e frantumatele grossolanamente. A questo punto unite tutti gli altri ingredienti (gli amaretti devono essere sbriciolati). Mescolate bene e versate il composto in una teglia imburrata o foderata di carta forno. Mettete al forno a 140° per circa 3 ore: la cottura è bene che sia lenta per non far staccare la superficie del dolce dalla parte sottostante. Il tempo non è facilmente quantificabile per via dell\u0026rsquo;umidità del composto. In ogni modo le prove dell\u0026rsquo;avvenuta cottura sono due: 1) la crosta deve essere ben brunita (mi raccomando non bruciata); 2) infilando uno stecchino nella torta deve uscirne asciutto. A questo punto estraete la torta dal forno, lasciatela raffreddare e tagliatela a losanghe di 3 - 4 cm. di lato. Si serve infilzando ciascuna losanga con uno stuzzicadenti.  " ,
         "tags" : "riso ; torta ; forno"
     }

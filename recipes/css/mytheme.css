@@ -30,3 +30,7 @@ td.count {vertical-align:top;padding-right: 2rem; text-align:right; font-weight:
   max-height: 540px;
   overflow-y: auto;
 }
+
+.recipedate { 
+color: #777; 
+}
