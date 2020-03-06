@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/topics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>University</title>
+      <link>//www.dlfer.xyz/topics/university/</link>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/topics/university/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Var</title>
@@ -27,15 +36,6 @@
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/topics/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>University</title>
-      <link>//www.dlfer.xyz/topics/university/</link>
-      <pubDate>Thu, 01 Feb 2018 13:38:19 +0100</pubDate>
-      
-      <guid>//www.dlfer.xyz/topics/university/</guid>
       <description></description>
     </item>
     

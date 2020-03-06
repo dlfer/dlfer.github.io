@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>didattica</title>
+      <link>//www.dlfer.xyz/tags/didattica/</link>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/didattica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virus</title>
+      <link>//www.dlfer.xyz/tags/virus/</link>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/virus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>food</title>
