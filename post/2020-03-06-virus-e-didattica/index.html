@@ -289,7 +289,7 @@
   <h1 class="post-title">Virus e didattica a distanza</h1>
   <span class="post-date">2020-03-06 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2020-03-18) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2020-04-04) 
 	  
   </span>
   <h2 id="da-quando-le-università-e-scuole-lombarde">Da quando le università e scuole lombarde</h2>
@@ -499,13 +499,102 @@ e uploadare? Se fossero in aula, si potrebbero generare $n$ fogli diversi, da
 distribuire agli studenti. Altrimenti?</p>
 <h3 id="soluzioni-parziali">Soluzioni parziali</h3>
 <ul>
-<li>Per creare in LaTeX banchi di domande da usare in moodle per test a crocette:
-<a href="http://www.dlfer.xyz/var/mcq-quickstart.html">MCQ-XeLaTeX</a></li>
+<li>Per creare in LaTeX banchi di domande da usare in moodle per test a crocette
+o per consegne a mano:
+<a href="http://www.dlfer.xyz/var/mcq-moodle.html">MCQ-XeLaTeX</a></li>
 <li>Per creare in TeX famiglie di esercizi con parametri:
 <a href="http://www.dlfer.xyz/var/casengine.html">CAS-Engine</a> (TBA). Poi possono essere assegnati
 agli studenti, svolti online e consegnati su moodle o classroom.</li>
 <li>Esercizi parametrici e a risposta multipla su moodle (con i moduli standard).</li>
 </ul>
+<h2 id="aggiornamento-2020-04-04">Aggiornamento (2020-04-04)</h2>
+<p>Sono state pubblicate online le
+<a href="https://www.unimib.it/sites/default/files/linee_guida_per_gli_esami_scritti_-_versione_docenti.pdf">Linee guida</a>
+per gli esami scritti  di UniMiB.</p>
+<p>Possibili vie per gli esami/parti di esami di matematica:</p>
+<h3 id="esame-a-risposta-multipla-crocette">Esame a risposta multipla (crocette).</h3>
+<p>Questi sono gli esami standard a crocette,
+da erogare sulla
+<a href="https://esamionline.elearning.unimib.it/">piattaforma moodle per gli esami</a>,
+che dovrebbe essere equivalente alla piattaforma
+<a href="https://elearning.unimib.it/">e-learning</a>.</p>
+<p>Come fare?</p>
+<ol start="0">
+<li>Scrivere le domande, con risposte, il tipo di punteggio assegnato, le modalità (con o senza penalizzazione negativa sulle risposte sbagliate? Con o senza la possibilità di fare più tentativi? Incrementale o a colpo secco?), la durata. Meglio
+se con varianti, o in ogni caso permutando l&rsquo;ordine delle domande e delle risposte.</li>
+<li>Chiedere l&rsquo;accesso sulla piattaforma esami, <a href="https://servicedesk.unimib.it/secure/CreateIssue.jspa?pid=10102&amp;issuetype=10036"><strong>aprendo il ticket N°1</strong></a>.</li>
+<li>concordare  l’avvio
+della procedura di <em>e-Proctoring</em> con i SI,
+<a href="https://servicedesk.unimib.it/secure/CreateIssue.jspa?pid=10102&amp;issuetype=10036"><strong>aprendo il ticket N°2</strong></a>.</li>
+<li>Creare l&rsquo;esame (quiz) sulla piattaforma  moodle per gli esami, importare le domande e definendone i parametri (permutazioni, randomizzazione, &hellip;). In caso di difficoltà,
+chiedere assistenza <a href="https://servicedesk.unimib.it/secure/CreateIssue.jspa?pid=10102&amp;issuetype=10036"><strong>aprendo il ticket N°3</strong></a>.</li>
+<li>Gli esami avvengono senza l&rsquo;intervento del docente,
+durante l&rsquo;intervallo di tempo deciso sopra,
+ed hanno la durata decisa sopra.</li>
+<li>Al termine degli esami, controllare i risultati sulla piattaforma moodle.</li>
+</ol>
+<p>Come fare a scrivere domande a risposta multipla?</p>
+<ul>
+<li>In TeX: <a href="https://ctan.org/pkg/moodle?lang=en">moodle CTAN package</a>,</li>
+<li><a href="https://www.dlfer.xyz/var/mcq-full.html">MCQ-XeLaTeX</a>,</li>
+<li><a href="https://docs.moodle.org/38/en/GIFT_format">GIFT format</a>.</li>
+<li>Approfondimento: <a href="https://docs.moodle.org/38/en/Building_Quiz">Boulding Quiz</a>.</li>
+</ul>
+<p>Come gestire il quiz in moodle?</p>
+<ul>
+<li><a href="https://docs.moodle.org/38/en/Quiz_quick_guide">Quiz quick guide</a></li>
+<li>Creare una <strong>categoria</strong> (per esempio <code>scritto-2020-04-04</code>) (cfr. <a href="https://docs.moodle.org/38/en/Question_categories">question categories</a>)</li>
+<li>Nel <a href="https://docs.moodle.org/38/en/Question_bank">deposito delle domande</a> importare le domande, facendo attenzione a importarle tutte nella <strong>categoria</strong> appena creata <code>scritto-2020-04-04</code> (se si sa come importare domande).</li>
+<li>Creare o rivedere le domande importate.</li>
+<li>Creare il quiz aggiungendo <code>Attività-&gt;Quiz</code>, prendendo tutte le domande presenti nella categoria <code>scritto-2020-04-04</code>, oppure un certo numero scelte a caso.</li>
+</ul>
+<h3 id="esame-scritto-standard">Esame scritto standard</h3>
+<p>Questi sono gli esami standard, che
+non potendo consegnare i fogli A4/A4
+agli studenti, vanno erogati
+sulla
+<a href="https://esamionline.elearning.unimib.it/">piattaforma moodle per gli esami</a>,
+che dovrebbe essere equivalente alla piattaforma
+<a href="https://elearning.unimib.it/">e-learning</a>.</p>
+<ol start="0">
+<li>Scrivere lo scritto in PDF, come al solito. Meglio se con $n$ varianti degli esercizi, formato A4.</li>
+<li>Chiedere l&rsquo;accesso sulla piattaforma esami, <a href="https://servicedesk.unimib.it/secure/CreateIssue.jspa?pid=10102&amp;issuetype=10036"><strong>aprendo il ticket N°1</strong></a></li>
+<li>In autonomia pianificare la <strong>sorveglianza</strong> durante lo scritto, con Webex o altro. Se necessario,
+chiedere assistenza <a href="https://servicedesk.unimib.it/secure/CreateIssue.jspa?pid=10102&amp;issuetype=10036"><strong>aprendo il ticket N°2</strong></a>.</li>
+<li>Creare l&rsquo;esame (quiz) sulla piattaforma  moodle per gli esami, caricando i PDF creati sopra, creando domande in moodle con i PDF come allegato, definendone i parametri (varianti dei compiti, randomizzazione, &hellip;). Formato della domanda consigliato: <strong>componimento</strong>. In caso di difficoltà,
+chiedere assistenza <a href="https://servicedesk.unimib.it/secure/CreateIssue.jspa?pid=10102&amp;issuetype=10036"><strong>aprendo il ticket N°3</strong></a>.</li>
+<li>Gli esami avvengono  <strong>durante</strong> un meeting webex con il docente e con tutti i <strong>sorveglianti</strong> (membri della commissione e ausiliari);
+durante l&rsquo;intervallo di tempo deciso sopra,
+ed hanno la durata decisa sopra.
+<ul>
+<li>Prima dell&rsquo;inizio: <strong>identificazione</strong>  (mostrare un documento in webcam (privata?)).</li>
+<li>Durante lo scritto: <strong>sorveglianza</strong>  (tramite webcam - webex: usare il <strong>focus lock</strong> e il <strong>grid view</strong> a pagine; registrare tutto).</li>
+<li>Alla fine dello scritto: <strong>consegna</strong> dei PDF (<em>document scan</em> + <em>upload</em> su moodle).</li>
+</ul>
+</li>
+<li>Al termine degli esami, correggere gli scritti consegnati (presenti come PDF su moodle), e assegnare i voti.</li>
+</ol>
+<p>Come fare a scrivere il file di esame?</p>
+<ul>
+<li>In LaTeX: <a href="https://ctan.org/pkg/exam?lang=en">exam package</a>  (<a href="https://www.overleaf.com/learn/latex/Typesetting%20exams%20in%20LaTeX">help</a>),  <a href="https://www.dlfer.xyz/var/mcq-full.html">MCQ-XeLaTeX</a> (con <a href="https://www.dlfer.xyz/var/mcq-moodle.html">varianti automatiche</a>), &hellip;</li>
+<li>In Word, Libreoffice, &hellip;</li>
+</ul>
+<p>Come creare e gestire il quiz in moodle?</p>
+<ul>
+<li>Come sopra creare una categoria.</li>
+<li>Aggiungere <code>Attività -&gt; Quiz</code> al corso. Inserire le domande  prese dalla categoria  creata (domande tipo <code>Componimento</code>/<code>Essay</code> con file allegati).</li>
+</ul>
+<h3 id="qualche-osservazione">Qualche osservazione:</h3>
+<ol>
+<li>Identificazione del candidato: possibile farlo in una videoroom privata? Come evitare che i documenti vengano condivisi sugli schermi di altri studenti? Come farlo velocemente?</li>
+<li>Modalità di sorveglianza remota: perché non utilizzare lo smartphone per la sorveglianza? L&rsquo;idea di impedire le frodi <em>«tenere lo smartphone o il tablet col quale verranno fatte le scansioni sempre visibile sul tavolo, spento e a faccia in giù.»</em> è aggirabile molto facilmente (basta avere lo smartphone di un familiare). Perché non usare lo smartphone sia per lo scan che per la sorveglianza? In questo modo lo smartphone può riprendere in campo medio lo studente, lo schermo del PC/tablet e la superficie di lavoro.</li>
+<li><em>Document scan upload</em> e frodi: il modo più ovvio di copiare è: salvare il PDF dello scritto su una cartella condivisa con il <em>ghorstwriter</em>, fingere di svolgere il compito intanto che il <em>ghostwriter</em> lo svolge altrove, e al momento della consegna entrambi studente e <em>ghostwriter</em> fanno  <em>document scan</em> salvando nella cartella condivisa: a questo punto per l&rsquo;<em>upload</em> basta caricare il file prodotto dal <em>ghostwriter</em>, presente nella cartella condivisa. Mostrare gli scritti su webcam prima dell&rsquo;upload è un modo per limitare questo problema (ma basta mostrarli
+sfocati, o in fretta, per invalidare l&rsquo;allineamento).
+Un altro modo importante è fare in modo che gli scritti siano individualizzati (diversi studente per studente).
+Ci sono altri modi?</li>
+<li>Mancanza di requisiti hardware e orali: in mancanza di connessione e dispositivi hardware adeguati in che senso un orale può sostituire l&rsquo;esame a distanza scritto? Se non c'è connessione e non c'è computer connesso come è possibile l&rsquo;orale?</li>
+<li><em>«Se uno studente perde la connessione il suo esame viene tramutato in prova orale»</em>. In matematica le prove orali potrebbero essere equivalenti a prove scritte solo in alcuni casi particolari. In genere servono per approfondimenti o chiarimenti su prove scritte già fatte. Questa frase è un po&rsquo; pericolosa. Come controllare che lo studente non abbia volontariamente fatto cadere la connessione?</li>
+</ol>
 
 </div>
 
