@@ -13,27 +13,42 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/tags/didattica/</loc>
-    <lastmod>2020-04-04T00:00:00+02:00</lastmod>
+    <loc>//www.dlfer.xyz/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/</loc>
-    <lastmod>2020-04-04T00:00:00+02:00</lastmod>
+    <loc>//www.dlfer.xyz/tags/metafore/</loc>
+    <lastmod>2020-08-03T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/post/</loc>
-    <lastmod>2020-04-04T00:00:00+02:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/post/2020-07-29-sette-chakras/</loc>
+    <lastmod>2020-08-03T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/tags/</loc>
-    <lastmod>2020-04-04T00:00:00+02:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/topics/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/topics/var/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//www.dlfer.xyz/tags/didattica/</loc>
     <lastmod>2020-04-04T00:00:00+02:00</lastmod>
   </url>
   
@@ -68,11 +83,6 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/topics/var/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//www.dlfer.xyz/tags/dialoghi-matematici/</loc>
     <lastmod>2019-12-28T00:00:00+01:00</lastmod>
   </url>
@@ -94,22 +104,22 @@
   
   <url>
     <loc>//www.dlfer.xyz/tags/kayak/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/tags/paddle/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/tags/sup/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/post/suppakayak/</loc>
-    <lastmod>2019-12-31T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/post/suppekayak/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -203,13 +213,13 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/tags/topology/</loc>
-    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/topics/topology/</loc>
+    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/topics/topology/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/tags/topology/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
