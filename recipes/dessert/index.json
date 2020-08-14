@@ -2,6 +2,30 @@
     
     
     {
+        "url": "/recipes/menu/ferragosto/",
+        "title": "Ferragosto",
+        "content": " Vitello tonnato (Secondi di carne) : [ vitello, tonno, freddo ]  Gazpacho (Veg) : [ Zuppa, freddo ]  Guacamole (Veg) : [ mex ]  Insalata di riso (Veg) : [ riso, freddo ]   " ,
+        "tags" : "freddo"
+    }
+    
+    , 
+    {
+        "url": "/recipes/var/insalata-di-riso/",
+        "title": "Insalata di riso",
+        "content": "Ingredienti  300-450 gr riso (per insalate) 10 olive [farcite] 1 peperone rosso (100gr) 1 peperone verde/giallo (100gr) 100-150 gr prosciutto cotto (una sola fetta spessa), poi a cubetti (100 gr emmental e 2 wurstel) oppure 200 gr tonno 2 pomodori [erba cipollina] , [cipolle di tropea] , [1 cuore di sedano] , [1 carota] 5 tbsp succo di limone olio, sale, pepe [zafferano] [aglio] [basilico, prezzemolo]  Prep  [@casseruola] acqua salata abbondante, bollire, + riso per [! 15-20 minuti] (a seconda del riso). Tagliare a rondelle le olive, [a fettine i wurstel (sbollentati)], sottilissimi peperoni (a riposo cosparsi di sale), a dadini i pomodori, a dadi prosciutto [e formaggio], [tritato erba cipollina/cipolle/sedano/carota]. [@ciotolina] emulsionare olio (3 Tbsp), limone filtrato, [zafferano diluito in acqua tiepida], sale, pepe. Variante: insaporire l\u0026rsquo;olio con [pesto di aglio] e/o con [acciughe] spappolate (a caldo: cfr insalata di riso novarese). Scolare il riso, passarlo sotto acqua; aggiungere il resto. Condire con emulsione [e tonno sminuzzato], [e trito di basilico e prezzemolo].  " ,
+        "tags" : "riso ; freddo"
+    }
+    
+    , 
+    {
+        "url": "/recipes/main/vitello-tonnato/",
+        "title": "Vitello tonnato",
+        "content": "Ingredienti  800 gr magatello 1 cipolla 1 carota 1 gambo sedano aceto, olio, sale 150-200-400 gr tonno sott\u0026rsquo;olio [2-5 acciughe (filetti)] 2 tbsp capperi (25 gr \u0026ndash; sott\u0026rsquo;aceto? sotto sale?) succo di 1 limone (al colino) + olio oppure 250 cc di maionese [2 tuorli sodi]  Prep  In una [@pentola] : acqua salata, cipolla, carota e sedano, [1 tbsp aceto, 1 tbsp olio]. Al bollore: + la carne (legata). Cuocere a fuoco lento e coperto per [! 2 ore]. Lasciare RAFFREDDARE nel brodo. Salsa: FRULLARE tonno, [acciughe], capperi, succo del limone e olio (oppure maionese). + brodo di cottura (se serve); [tuorli]. [sgocciolare se serve, coprendola con un piatto con pesi]], slegare la carne, tagliare a fette sottili, coprire con salsa (+ qualche cappero decorazione). In frigo [! alcune ore], in pirofila con coperchio.  " ,
+        "tags" : "vitello ; tonno ; freddo"
+    }
+    
+    , 
+    {
         "url": "/recipes/main/brasato-alle-erbe/",
         "title": "Brasato alle erbe",
         "content": "Ingredienti  500gr manzo da arrosto / scamone di vitello / manzo da bollito erbe: pimento, pepe, timo, rosmarino, chiodi di garofano, ginepro, alloro, salvia. marinata: 3-4 bicchieri di vino rosso, aceto di mele, 3-4 tbsp olio, cipolla, sedano, carota, aglio, erbe (sopra). burro, olio, farina [panna/latte ]  Prep Legare la carne con spago. Marinare almeno 4 ore, meglio una notte nel vino + cipolla, carota, sedano + erbe. Girare ogni tanto. Togliere la carne, asciugarla. Infarinarla. Togliere le verdure dalla marinata, scolarle. Tranne: pepe, pimento, ginepro, chiodi di garofano. Rosolare la carne da tutte le parti in [@pentola] con burrolio e aglio a fuoco medio/alto. Aggiungere le verdure e soffriggere [!10 min]. Aggiungere il liquido della marinata [e latte/panna], brasare (sobbollire a fuoco molto basso con coperchio) nel resto della marinata [!2-3 ore]. Fino a che la carne è morbida. Lasciare riposare un po\u0026rsquo;. Affettare e bagnare col liquido di cottura filtrato (assaggiare per vedere se è troppo forte).  " ,

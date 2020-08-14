@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/</loc>
-    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -24,12 +24,67 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/menu/</loc>
-    <lastmod>2020-02-22T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/menu/ferragosto/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/freddo/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/var/insalata-di-riso/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/riso/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/tonno/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/veg/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/vitello/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/vitello-tonnato/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -43,23 +98,8 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/tags/erbe/</loc>
     <lastmod>2020-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
-    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
-    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -124,11 +164,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/var/cornetti-di-mortadella/</loc>
-    <lastmod>2020-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/freddo/</loc>
     <lastmod>2020-02-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -324,11 +359,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/spiedini-di-pollo/</loc>
-    <lastmod>2020-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/veg/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -640,11 +670,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/pesce/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/riso/</loc>
-    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
