@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>uova</title>
+      <link>https://www.dlfer.xyz/recipes/tags/uova/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/uova/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forno</title>
+      <link>https://www.dlfer.xyz/recipes/tags/forno/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/forno/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>melanzane</title>
+      <link>https://www.dlfer.xyz/recipes/tags/melanzane/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/melanzane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>riso</title>
+      <link>https://www.dlfer.xyz/recipes/tags/riso/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/riso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>freddo</title>
@@ -18,15 +54,6 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/freddo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>riso</title>
-      <link>https://www.dlfer.xyz/recipes/tags/riso/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/riso/</guid>
       <description></description>
     </item>
     
@@ -99,15 +126,6 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/spaghetti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uova</title>
-      <link>https://www.dlfer.xyz/recipes/tags/uova/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/uova/</guid>
       <description></description>
     </item>
     
@@ -202,15 +220,6 @@
     </item>
     
     <item>
-      <title>forno</title>
-      <link>https://www.dlfer.xyz/recipes/tags/forno/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/forno/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>frutti di mare</title>
       <link>https://www.dlfer.xyz/recipes/tags/frutti-di-mare/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
@@ -243,15 +252,6 @@
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/lenticchie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>melanzane</title>
-      <link>https://www.dlfer.xyz/recipes/tags/melanzane/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/melanzane/</guid>
       <description></description>
     </item>
     
