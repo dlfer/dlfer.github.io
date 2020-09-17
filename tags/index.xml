@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>kayak</title>
+      <link>//www.dlfer.xyz/tags/kayak/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/kayak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paddle</title>
+      <link>//www.dlfer.xyz/tags/paddle/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/paddle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SUP</title>
+      <link>//www.dlfer.xyz/tags/sup/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/sup/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>metafore</title>
@@ -81,33 +108,6 @@
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kayak</title>
-      <link>//www.dlfer.xyz/tags/kayak/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/kayak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>paddle</title>
-      <link>//www.dlfer.xyz/tags/paddle/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/paddle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SUP</title>
-      <link>//www.dlfer.xyz/tags/sup/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/sup/</guid>
       <description></description>
     </item>
     
