@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Secondi</title>
+      <link>https://www.dlfer.xyz/recipes/categories/secondi/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/categories/secondi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primi</title>
+      <link>https://www.dlfer.xyz/recipes/categories/primi/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/categories/primi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Secondi di carne</title>
@@ -36,24 +54,6 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/categories/dolci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Primi</title>
-      <link>https://www.dlfer.xyz/recipes/categories/primi/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/categories/primi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Secondi</title>
-      <link>https://www.dlfer.xyz/recipes/categories/secondi/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/categories/secondi/</guid>
       <description></description>
     </item>
     

@@ -2,6 +2,38 @@
     
     
     {
+        "url": "/recipes/nonna/uova-all-aurora/",
+        "title": "Uova all'aurora",
+        "content": "Ingredienti  6 uova 30 gr burro latte 1 bicchiere farina 1 tbsp formaggio 30 gr  Prep  Rassodare le uova, sgusciarle dividendo l\u0026rsquo;albume dai rossi. Tagliare a dadini il bianco ed unirlo alla besciamella che avrete intanto preparato con la farina, il burro, il latte caldo; salare; unirvi il formaggio grattuggiato e disporre il composto su un vassoio o su un piatto che vada al forno. Ornare con i rossi fatto cadere a pioggia da un setaccino. Ancora qualche fiocco di burro ed infornare fino a doratura.  " ,
+        "tags" : "uova"
+    }
+    
+    , 
+    {
+        "url": "/recipes/nonna/uova-dorate/",
+        "title": "Uova dorate",
+        "content": "Ingredienti  uova 6 parmigiano 50 gr burro 20 gr farina 1 tbsp latte 1/2 bicchiere uovo, pangrattato, olio  Prep  rassodare le uova e tagliarle poi verticalmente (sgusciate); togliere il rosso e passarlo al setaccio. Burro, farina, latte caldo → besciamella molto soda, salare, tolta dal fuoco aggiungere formaggio e rossi passati. Fare un composto duro e lasciare raffreddare. Riempire con questo le mezze uova, facendone di ogni mezzo una, passarle nella farina, nell\u0026rsquo;uovo sbattuto, e nel pangrattato e friggerle in un tegamino dai bordi alti e piuttosto stretto.  " ,
+        "tags" : "uova"
+    }
+    
+    , 
+    {
+        "url": "/recipes/nonna/pasticcio-di-melanzane/",
+        "title": "Pasticcio di melanzane",
+        "content": "Ingredienti  melanzane 1.5-2 kg (tagliate a fette, lavate, salate, sgocciolate su piano inclinato) carne macinato 300 gr salsiccia o prosciutto 100 gr formaggio parmigiano/grana 100 gr farina 2 cucchiai latte 1/2 litro sale, pepe, olio, burro, salsa cipolla, sedano, carota → besciamella (con latte, farina, 30gr burro)  Prep  Ragù con cipolla, sedano, carota e carne. + salsa. Asciugare le melanzane e friggerle in olio. @tegame/pirofila: strato di melanzane, ragù, besciamella, parmigiano ciclicamente. In forno per [! 30 min] circa.  " ,
+        "tags" : "melanzane ; forno"
+    }
+    
+    , 
+    {
+        "url": "/recipes/nonna/riso-gratinato/",
+        "title": "Riso gratinato",
+        "content": "Ingredienti  Riso 250 gr Burro 60 gr Panna 250 gr Latte 2 bicchieri Formaggio 70 gr Farina 1 TBSP Sale  Prep  LESSARE il riso in acqua salata per 7-8 minuti e scolarlo subito. AGGIUNGERE 1/2 burro, un po\u0026rsquo; di formaggio, 1 bic panna. Coperchio e RIPOSARE [! 1 ora]. Preparare la besciamella con la farina, il rimanente burro e latte bollente. Quando pronta, + sale. Ungere @tegame o @pirofila (da tavolo), strato di besciamella. Spruzzata di formaggio. + tutto il riso, il resto della besciamella, spargere parmigiano. Forno [! 20 min ]. Tolto dal forno, riposare [! 10 min] prima di servire.  " ,
+        "tags" : "riso"
+    }
+    
+    , 
+    {
         "url": "/recipes/menu/ferragosto/",
         "title": "Ferragosto",
         "content": " Vitello tonnato (Secondi di carne) : [ vitello, tonno, freddo ]  Gazpacho (Veg) : [ Zuppa, freddo ]  Guacamole (Veg) : [ mex ]  Insalata di riso (Veg) : [ riso, freddo ]   " ,
@@ -413,7 +445,7 @@
         "url": "/recipes/main/moussaka/",
         "title": "Moussaka",
         "content": "MOUSSAKA\nIngredienti  2-3 melanzane (spurgate e affettate) 450 gr polpa macinata 2 cipolle affettate 1 aglio finemente tritato 400 gr polpa di pomodoro 1 tbsp prezzemolo tritato sale, pepe, noce moscata, cannella, origano (alloro, salvia) 300ml Yogurt greco 1 tbsp grana grattugiato 2 uova aglio 1/2 bicchiere vino rosso  Prep  dorare entrambi i lati delle fette di melanzane (alla piastra, in padella, alla griglia) rosolare cipolle aglio (5min) e carne (5min). aggiungere origano e spezie, pomodoro, sale, pepe, cannella, aglio, vino rosso. bollire 30-45 minuti, gli ultimi senza coperchio per evaporare. in teglia/pirofila, fare strato di fette di melanzane, poi carne (senza alloro), poi fette ecc ecc (n volte). Alla fine, sopra, il resto delle melanzane. Anche, aggiungere formaggio in mezzo. sbattere le uova, con lo yugurt, sale e pepe: aggiungere come ultimo strato sopra la teglia. aggiungere grana (sopra). forno 180°C per 30-45 minuti.  " ,
-        "tags" : "grecia ; forno"
+        "tags" : "grecia ; forno ; melanzane"
     }
     
     , 
