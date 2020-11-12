@@ -14,7 +14,7 @@
   
   <url>
     <loc>//www.dlfer.xyz/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,7 +29,7 @@
   
   <url>
     <loc>//www.dlfer.xyz/post/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -44,12 +44,12 @@
   
   <url>
     <loc>//www.dlfer.xyz/tags/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/topics/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -223,13 +223,13 @@
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/tags/topology/</loc>
-    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/topics/topology/</loc>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>//www.dlfer.xyz/topics/topology/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <loc>//www.dlfer.xyz/tags/topology/</loc>
+    <lastmod>2017-10-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -399,7 +399,7 @@
   
   <url>
     <loc>//www.dlfer.xyz/tags/simplicial-complex/</loc>
-    <lastmod>2018-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -439,17 +439,17 @@
   
   <url>
     <loc>//www.dlfer.xyz/tags/graph/</loc>
-    <lastmod>2016-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/post/2016-11-04-graphs/</loc>
-    <lastmod>2016-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>//www.dlfer.xyz/tags/tree/</loc>
-    <lastmod>2016-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

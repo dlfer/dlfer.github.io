@@ -297,264 +297,105 @@
   <h1 class="post-title">Graphs, trees and simplicial complexes</h1>
   <span class="post-date">2016-11-04 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2016-11-04) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2020-11-12) 
 	  
   </span>
   <h2 id="graphs-and-simplicial-complexes">Graphs and simplicial complexes</h2>
-<p>A one-dimensional simplicial complex is a <em>graph</em>.
-That is, $K=(X_ K,\Phi_ K)$ where $V(K) = X_ K$ is the set of vertices
-and $\Phi_ K$ is the set of  simplexes,
-with $\Phi_ K = \Phi^1_ K \cup \Phi^0_ K$, where
-$E(K) = \Phi^1_ K$ are the 1-dimensional simplexes (termed *edges* of $K$)
-and $\Phi^0_ K = \{ \{P\} : P \in X_ K \}$ are the $0$-dimensional simplexes (sometimes
-termed again *vertices* of $K$).</p>
-<p>A <em>subgraph</em> $X \subset K$ is a graph with as vertices
-a subset of vertices of $K$, and as edges
-a subset of the edges of $K$.</p>
-<p>A <em>path</em> (walk?) in $K$ of length $l$ form a vertex $P_ 0\in X_ K$
-to a vertex $P_ l \in X_ K$ is a sequence $P_ 0, \ldots, P_ l$
-of $l+1$ vertices such such that for each $j=0,\ldots, l-1$
-$$
+<p>A one-dimensional simplicial complex is a <em>graph</em>. That is, <span class="math inline">\(K=(X_ K,\Phi_ K)\)</span> where <span class="math inline">\(V(K) = X_ K\)</span> is the set of vertices and <span class="math inline">\(\Phi_ K\)</span> is the set of simplexes, with <span class="math inline">\(\Phi_ K = \Phi^1_ K \cup \Phi^0_ K\)</span>, where <span class="math inline">\(E(K) = \Phi^1_ K\)</span> are the 1-dimensional simplexes (termed <em>edges</em> of <span class="math inline">\(K\)</span>) and <span class="math inline">\(\Phi^0_ K = \{ \{P\} : P \in X_ K \}\)</span> are the <span class="math inline">\(0\)</span>-dimensional simplexes (sometimes termed again <em>vertices</em> of <span class="math inline">\(K\)</span>).</p>
+<p>A <em>subgraph</em> <span class="math inline">\(X \subset K\)</span> is a graph with as vertices a subset of vertices of <span class="math inline">\(K\)</span>, and as edges a subset of the edges of <span class="math inline">\(K\)</span>.</p>
+<p>A <em>path</em> (walk?) in <span class="math inline">\(K\)</span> of length <span class="math inline">\(l\)</span> form a vertex <span class="math inline">\(P_ 0\in X_ K\)</span> to a vertex <span class="math inline">\(P_ l \in X_ K\)</span> is a sequence <span class="math inline">\(P_ 0, \ldots, P_ l\)</span> of <span class="math inline">\(l+1\)</span> vertices such such that for each <span class="math inline">\(j=0,\ldots, l-1\)</span> <span class="math display">\[
 \{ P_ j, P_ {j+1} \} \in \Phi^1_ K.
-$$
-If the vertices $P_ 0, \ldots, P_ {l}$ are all **distinct** (except possibly $P_ 0 = P_ l$), then the path
-is a *simple path*.</p>
-<p><strong>Remark</strong>: This terminology is not uniform in the literature. For many authors, paths
-in graph theory are what here we call simple paths.
-Note that if $x,y$ are vertices and there exists a path
-from $x$ to $y$ of length $l$, then
-there exists a simple path from $x$ to $y$ of length $\leq l$.
-In fact, assume that there is a path $x=P_ 0, \ldots, P_ l=y$.
-If it is not simple, then there exists indices $i,j$
-such that $i &lt; j$ and $P_ i = P_ j$. Hence there is a path
-$x=P_ 0, \ldots, P_ {i-1}, P_ i=P_ j, P_ {j+1}, \ldots , P_ k =y$
-skipping all indices between $i$ and $j$, with length $&lt;l$.
-By a finite number of iterations, the path will have no multiple vertices
-except the endpoints $x$ and $y$.</p>
-<p><strong>Definition:</strong> $K$ is <em>connected</em> if there is a path between any two  of its vertices.</p>
-<p>Let $\partial_ 1\from C_ 1(K) \to C_ 0 (K)$ be the unique non-trivial boundary homomorphism
-in the simplicial chain complex of $K$.</p>
-<p><strong>Definition:</strong> $K$ is <em>acyclic</em> if $\partial_ 1\from C_ 1(K) \to C_ 0(K)$
-has trivial kernel $Z_ 1(K) = \ker \partial_ 1 = 0$.</p>
-<p>In graph theory, a <em>cycle</em> in $K$ is a subgraph of $K$ where each vertex belongs to exactly two
-(neighbouring) edges. If it not difficult to see that if there is such a cycle,
-then it represents a non-zero algebraic cycle in $C_ 1(K)$, and hence
-$Z_ 1(K) \neq 0$. We sometimes use the terms *geometric cycle* (the subgraph)
-and *algebraic cycle* (the element of $Z_ 1(K)$).</p>
+\]</span> If the vertices <span class="math inline">\(P_ 0, \ldots, P_ {l}\)</span> are all <strong>distinct</strong> (except possibly <span class="math inline">\(P_ 0 = P_ l\)</span>), then the path is a <em>simple path</em>.</p>
+<p><strong>Remark</strong>: This terminology is not uniform in the literature. For many authors, paths in graph theory are what here we call simple paths. Note that if <span class="math inline">\(x,y\)</span> are vertices and there exists a path from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span> of length <span class="math inline">\(l\)</span>, then there exists a simple path from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span> of length <span class="math inline">\(\leq l\)</span>. In fact, assume that there is a path <span class="math inline">\(x=P_ 0, \ldots, P_ l=y\)</span>. If it is not simple, then there exists indices <span class="math inline">\(i,j\)</span> such that <span class="math inline">\(i \lt j\)</span> and <span class="math inline">\(P_ i = P_ j\)</span>. Hence there is a path <span class="math inline">\(x=P_ 0, \ldots, P_ {i-1}, P_ i=P_ j, P_ {j+1}, \ldots , P_ k =y\)</span> skipping all indices between <span class="math inline">\(i\)</span> and <span class="math inline">\(j\)</span>, with length <span class="math inline">\(\lt l\)</span>. By a finite number of iterations, the path will have no multiple vertices except the endpoints <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>.</p>
+<p><strong>Definition:</strong> <span class="math inline">\(K\)</span> is <em>connected</em> if there is a path between any two of its vertices.</p>
+<p>Let <span class="math inline">\(\partial_ 1\from C_ 1(K) \to C_ 0 (K)\)</span> be the unique non-trivial boundary homomorphism in the simplicial chain complex of <span class="math inline">\(K\)</span>.</p>
+<p><strong>Definition:</strong> <span class="math inline">\(K\)</span> is <em>acyclic</em> if <span class="math inline">\(\partial_ 1\from C_ 1(K) \to C_ 0(K)\)</span> has trivial kernel <span class="math inline">\(Z_ 1(K) = \ker \partial_ 1 = 0\)</span>.</p>
+<p>In graph theory, a <em>cycle</em> in <span class="math inline">\(K\)</span> is a subgraph of <span class="math inline">\(K\)</span> where each vertex belongs to exactly two (neighbouring) edges. If it not difficult to see that if there is such a cycle, then it represents a non-zero algebraic cycle in <span class="math inline">\(C_ 1(K)\)</span>, and hence <span class="math inline">\(Z_ 1(K) \neq 0\)</span>. We sometimes use the terms <em>geometric cycle</em> (the subgraph) and <em>algebraic cycle</em> (the element of <span class="math inline">\(Z_ 1(K)\)</span>).</p>
 <dl>
-<dt>(1)</dt>
-<dd>A graph $K$ is acyclic $Z_ 1(K) = 0$ if and only if it does not contain a geometric cycle, i.e. a
-**subgraph** where each vertex belongs to exactly
-two edges.</dd>
+<dt><strong>(1)</strong></dt>
+<dd>A graph <span class="math inline">\(K\)</span> is acyclic <span class="math inline">\(Z_ 1(K) = 0\)</span> if and only if it does not contain a geometric cycle, i.e. a <strong>subgraph</strong> where each vertex belongs to exactly two edges.
+</dd>
 </dl>
-<p><em>Proof:</em>
-Since a geometric non-trivial cycle is an algebraic cycle,
-if  $Z_ 1(K) = 0 $ then there cannot be grometric cycles, and
-the &ldquo;only if&rdquo; part is proven.
-For the &ldquo;if&rdquo; part: assume $z\in Z_ 1(K)$ is such that
-$$
+<p><em>Proof:</em> Since a geometric non-trivial cycle is an algebraic cycle, if $Z_ 1(K) = 0 $ then there cannot be grometric cycles, and the “only if” part is proven. For the “if” part: assume <span class="math inline">\(z\in Z_ 1(K)\)</span> is such that <span class="math display">\[
 z = \sum_ {j=1}^l \alpha_ j[P_ j,P_ {j+1}], \quad \forall j, \alpha_ j \neq 0
-$$
-Let $S$ denote the set of all the $l$ edges ($1$-simplices) appearing in the sum of $z$.
-The vertices $P_ 1,\ldots, P_ {l+1}$ need not be distinct. Let $X$ be the subgraph
-with as vertices the  set
-of vertices of the edges in $S$,
-and as edges the elements of $S$.
-Note that each vertex in $X$ belongs to at least two edges: if
-on the contrary there exists $j$ (or $j+1$) such that $[P_ j,P_ {j+1}]$
-is the only edge in $S$ containing $P_ j$ (or $P_ {j+1}$),
-then in the sum $\partial_ 1(z)$ the term $P_ j$ (or  $P_ {j+1}$)
-has as coefficient $\pm \alpha_ j \neq 0$, which is not possible
-since $\partial_ 1(z) = 0$.</p>
-<p>Now, take $[P_ 1,P_ 2]$. There exists an edge $\sigma \in S$ such that $P_ 2 \in \sigma$ and $\sigma \neq [P_ 1,P_ 2]$, and let (permuting indices
-if necessary) assume $\sigma = [P_ 2, P_ 3]$.
-Now, if $P_ 3 = P_ 1$, then $P_ 1, P_ 2, P_ 3$ together with the three consecutive edges
-is a geometric cycle, and we finish.
-Otherwise, $P_ 3 \not\in \{ P_ 1, P_ 2\}$ (i.e. the three vertices are distinct),
-and there exists (up to permuting indices if necessary)
-$P_ 4\not\in \{ P_ 2, P_ 3 \}$ such that $[P_ 3, P_ 4] \in S$.
-Either $P_ 4 \in \{ P_ 1\}$ or not.
-If yes, then there is the  geometric cycle
-$P_ 1, P_ 2, P_ 3, P_ 4$
-(with proper edges).
-If not, then $P_ 1, P_ 2, P_ 3, P_ 4$ are all distinct;
-furthermore
-there is $P_ 5 \not\in \{ P_ 3, P_ 4 \} $ such that $[P_ 4, P_ 5]\in S$.
-If $P_ 5 \in \{P_ 1, P_ 2\}$, then we obtained  a cycle
-$P_ 1P_ 2 P_ 3 P_ 4 P_ 5$ (or
-$P_ 2 P_ 3 P_ 4 P_ 5$.
-If not, then $P_ 1, \ldots, P_ 5$ are all distinct.</p>
-<p>We proceed in this way, and either we stop with a geometric cycle, or we obtain a sequence  of distinct vertices
-$P_ 1, \ldots, P_ n$ such that $[P_ j, P_ {j+1}] \in S$ for each $j$.
-Since $S$ is finite, the iteration has to stop at most in $l$ steps.
-*(/Proof)*</p>
+\]</span> Let <span class="math inline">\(S\)</span> denote the set of all the <span class="math inline">\(l\)</span> edges (<span class="math inline">\(1\)</span>-simplices) appearing in the sum of <span class="math inline">\(z\)</span>. The vertices <span class="math inline">\(P_ 1,\ldots, P_ {l+1}\)</span> need not be distinct. Let <span class="math inline">\(X\)</span> be the subgraph with as vertices the set of vertices of the edges in <span class="math inline">\(S\)</span>, and as edges the elements of <span class="math inline">\(S\)</span>. Note that each vertex in <span class="math inline">\(X\)</span> belongs to at least two edges: if on the contrary there exists <span class="math inline">\(j\)</span> (or <span class="math inline">\(j+1\)</span>) such that <span class="math inline">\([P_ j,P_ {j+1}]\)</span> is the only edge in <span class="math inline">\(S\)</span> containing <span class="math inline">\(P_ j\)</span> (or <span class="math inline">\(P_ {j+1}\)</span>), then in the sum <span class="math inline">\(\partial_ 1(z)\)</span> the term <span class="math inline">\(P_ j\)</span> (or <span class="math inline">\(P_ {j+1}\)</span>) has as coefficient <span class="math inline">\(\pm \alpha_ j \neq 0\)</span>, which is not possible since <span class="math inline">\(\partial_ 1(z) = 0\)</span>.</p>
+<p>Now, take <span class="math inline">\([P_ 1,P_ 2]\)</span>. There exists an edge <span class="math inline">\(\sigma \in S\)</span> such that <span class="math inline">\(P_ 2 \in \sigma\)</span> and <span class="math inline">\(\sigma \neq [P_ 1,P_ 2]\)</span>, and let (permuting indices if necessary) assume <span class="math inline">\(\sigma = [P_ 2, P_ 3]\)</span>. Now, if <span class="math inline">\(P_ 3 = P_ 1\)</span>, then <span class="math inline">\(P_ 1, P_ 2, P_ 3\)</span> together with the three consecutive edges is a geometric cycle, and we finish. Otherwise, <span class="math inline">\(P_ 3 \not\in \{ P_ 1, P_ 2\}\)</span> (i.e. the three vertices are distinct), and there exists (up to permuting indices if necessary) <span class="math inline">\(P_ 4\not\in \{ P_ 2, P_ 3 \}\)</span> such that <span class="math inline">\([P_ 3, P_ 4] \in S\)</span>. Either <span class="math inline">\(P_ 4 \in \{ P_ 1\}\)</span> or not. If yes, then there is the geometric cycle <span class="math inline">\(P_ 1, P_ 2, P_ 3, P_ 4\)</span> (with proper edges). If not, then <span class="math inline">\(P_ 1, P_ 2, P_ 3, P_ 4\)</span> are all distinct; furthermore there is $P_ 5 { P_ 3, P_ 4 } $ such that <span class="math inline">\([P_ 4, P_ 5]\in S\)</span>. If <span class="math inline">\(P_ 5 \in \{P_ 1, P_ 2\}\)</span>, then we obtained a cycle <span class="math inline">\(P_ 1P_ 2 P_ 3 P_ 4 P_ 5\)</span> (or <span class="math inline">\(P_ 2 P_ 3 P_ 4 P_ 5\)</span>. If not, then <span class="math inline">\(P_ 1, \ldots, P_ 5\)</span> are all distinct.</p>
+<p>We proceed in this way, and either we stop with a geometric cycle, or we obtain a sequence of distinct vertices <span class="math inline">\(P_ 1, \ldots, P_ n\)</span> such that <span class="math inline">\([P_ j, P_ {j+1}] \in S\)</span> for each <span class="math inline">\(j\)</span>. Since <span class="math inline">\(S\)</span> is finite, the iteration has to stop at most in <span class="math inline">\(l\)</span> steps. <em>(/Proof)</em></p>
 <h2 id="trees">Trees</h2>
-<p><strong>Definition:</strong> A <em>tree</em> $T$ is a connected acyclic graph.</p>
+<p><strong>Definition:</strong> A <em>tree</em> <span class="math inline">\(T\)</span> is a connected acyclic graph.</p>
 <dl>
-<dt>(2)</dt>
-<dd>A connected graph $K$ is acyclic if and only if any two vertices can be connected by a unique simple path.</dd>
+<dt><strong>(2)</strong></dt>
+<dd>A connected graph <span class="math inline">\(K\)</span> is acyclic if and only if any two vertices can be connected by a unique simple path.
+</dd>
 </dl>
-<p><em>Proof:</em>
-First, assume that $K$ is connected and $x$, $y$ are two vertices of $K$.
-Since $K$ is connected, there is a simple path
-from $x$ to $y$.
-If there are two distinct simple paths
-from $x$ to $y$,
-$$
+<p><em>Proof:</em> First, assume that <span class="math inline">\(K\)</span> is connected and <span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span> are two vertices of <span class="math inline">\(K\)</span>. Since <span class="math inline">\(K\)</span> is connected, there is a simple path from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span>. If there are two distinct simple paths from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span>, <span class="math display">\[
 x=P_ 0, \ldots, P_ l = y, \quad
-x=Q_ 0, \ldots, Q_ k = y,
-$$
-then $$ z = \sum_ {j=0}^{l-1} [P_ j,P_ {j+1} ] - \sum_ {i=0}^{k-1} [Q_ i, Q_ {i+1}] \neq 0
-$$
-but
-$\partial_ 1 z = -x + y + x - y = 0$,
-hence $z \in Z_ 1(K) \neq 0 $.
-Therefore $K$ is not acyclic.</p>
-<p>On the other hand, if $K$ is not acyclic, there exists a geometric cycle in $K$, and two vertices
-joined by two distinct simple paths.
-<em>(/Proof)</em></p>
+x=Q_ 0, \ldots, Q_ k = y, 
+\]</span> then <span class="math display">\[ z = \sum_ {j=0}^{l-1} [P_ j,P_ {j+1} ] - \sum_ {i=0}^{k-1} [Q_ i, Q_ {i+1}] \neq 0 
+\]</span> but <span class="math inline">\(\partial_ 1 z = -x + y + x - y = 0\)</span>, hence $z Z_ 1(K) 0 $. Therefore <span class="math inline">\(K\)</span> is not acyclic.</p>
+<p>On the other hand, if <span class="math inline">\(K\)</span> is not acyclic, there exists a geometric cycle in <span class="math inline">\(K\)</span>, and two vertices joined by two distinct simple paths. <em>(/Proof)</em></p>
 <dl>
-<dt>(3)</dt>
-<dd>A connected graph $K$ contains as subgraph a tree $T$ having as vertices the same set of vertices of $K$ (a <em>spanning tree</em>).
-It is maximal in the family of all subgraphs of $K$ wich are trees.</dd>
+<dt><strong>(3)</strong></dt>
+<dd>A connected graph <span class="math inline">\(K\)</span> contains as subgraph a tree <span class="math inline">\(T\)</span> having as vertices the same set of vertices of <span class="math inline">\(K\)</span> (a <em>spanning tree</em>). It is maximal in the family of all subgraphs of <span class="math inline">\(K\)</span> wich are trees.
+</dd>
 </dl>
-<p><em>Proof:</em>
-Let $X$ be the set of all subgraphs of $K$ which are trees, ordered by inclusion.
-Such a set of subgraphs is finite and partially ordered, and hence it has maximal elements.<br>
-Let us show that a tree $T\subset K$ is maximal in $X$ if and only if it is a spanning tree,
-i.e. if and only if its vertices are the same as the vertices of $K$.</p>
-<p>If the set of vertices of $T$ coincides with the set of vertices of $K$,
-and $T&rsquo; \subset K$ is another tree such that $T\subset T'$, $T \neq   T'$,
-then there exists an edge $[P,Q] \subset T'$ such that
-$[P,Q] \not\subset T$. But there is a (unique) simple  path
-from $P$ to $Q$, which yield a cycle in $T'$ together with the edge $[P,Q]$:
-this is impossible since $T'$ is a tree and hence acyclic.</p>
-<p>On the other hand,
-if the set of vertices of $T$ does not coincide with the set of vertices of $K$,
-then there exists $Q$ vertex of $K$ such that $Q \not \in T$.
-Take $P \in T$, and $P=P_ 0, \ldots, P_ l = Q$ a simple path
-in $K$ (which is connected). Let $j$ be the minimum value of the index
-such that $P_ j \in K$ but $P_ {j+1} \not\in K$.
-The edge $\sigma = [P_ j, P_ {j+1}]$ is not contained in $T$,
-hence the subgraph $T&rsquo; = T \cup [P_ j, P_ {j+1}]$
-is not equal to $T$.<br>
-Now, if $X\subset T'$ is a geometric cycle,
-then it cannot contain $[P_ j, P_ {j+1}]$ (since the only edge of $T'$
-containing $P_ {j+1}$ is $\sigma$), and therefore
-$X \subset T$.
-But $T$ is a tree, and hence it does not have cycles.
-Thus, $T'$ is acyclic. It is easy to show that $T'$ is connected,
-and hence that it is a tree, and that $T$ is not maximal.
-*(/Proof)*</p>
+<p><em>Proof:</em> Let <span class="math inline">\(X\)</span> be the set of all subgraphs of <span class="math inline">\(K\)</span> which are trees, ordered by inclusion. Such a set of subgraphs is finite and partially ordered, and hence it has maximal elements.<br />
+Let us show that a tree <span class="math inline">\(T\subset K\)</span> is maximal in <span class="math inline">\(X\)</span> if and only if it is a spanning tree, i.e. if and only if its vertices are the same as the vertices of <span class="math inline">\(K\)</span>.</p>
+<p>If the set of vertices of <span class="math inline">\(T\)</span> coincides with the set of vertices of <span class="math inline">\(K\)</span>, and <span class="math inline">\(T&#39; \subset K\)</span> is another tree such that <span class="math inline">\(T\subset T&#39;\)</span>, <span class="math inline">\(T \neq T&#39;\)</span>, then there exists an edge <span class="math inline">\([P,Q] \subset T&#39;\)</span> such that <span class="math inline">\([P,Q] \not\subset T\)</span>. But there is a (unique) simple path from <span class="math inline">\(P\)</span> to <span class="math inline">\(Q\)</span>, which yield a cycle in <span class="math inline">\(T&#39;\)</span> together with the edge <span class="math inline">\([P,Q]\)</span>: this is impossible since <span class="math inline">\(T&#39;\)</span> is a tree and hence acyclic.</p>
+<p>On the other hand, if the set of vertices of <span class="math inline">\(T\)</span> does not coincide with the set of vertices of <span class="math inline">\(K\)</span>, then there exists <span class="math inline">\(Q\)</span> vertex of <span class="math inline">\(K\)</span> such that <span class="math inline">\(Q \not \in T\)</span>. Take <span class="math inline">\(P \in T\)</span>, and <span class="math inline">\(P=P_ 0, \ldots, P_ l = Q\)</span> a simple path in <span class="math inline">\(K\)</span> (which is connected). Let <span class="math inline">\(j\)</span> be the minimum value of the index such that <span class="math inline">\(P_ j \in K\)</span> but <span class="math inline">\(P_ {j+1} \not\in K\)</span>. The edge <span class="math inline">\(\sigma = [P_ j, P_ {j+1}]\)</span> is not contained in <span class="math inline">\(T\)</span>, hence the subgraph <span class="math inline">\(T&#39; = T \cup [P_ j, P_ {j+1}]\)</span> is not equal to <span class="math inline">\(T\)</span>.<br />
+Now, if <span class="math inline">\(X\subset T&#39;\)</span> is a geometric cycle, then it cannot contain <span class="math inline">\([P_ j, P_ {j+1}]\)</span> (since the only edge of <span class="math inline">\(T&#39;\)</span> containing <span class="math inline">\(P_ {j+1}\)</span> is <span class="math inline">\(\sigma\)</span>), and therefore <span class="math inline">\(X \subset T\)</span>. But <span class="math inline">\(T\)</span> is a tree, and hence it does not have cycles. Thus, <span class="math inline">\(T&#39;\)</span> is acyclic. It is easy to show that <span class="math inline">\(T&#39;\)</span> is connected, and hence that it is a tree, and that <span class="math inline">\(T\)</span> is not maximal. <em>(/Proof)</em></p>
 <h2 id="homology-of-a-graph">Homology of a graph</h2>
 <dl>
-<dt>(4)</dt>
-<dd>The homology groups of a <strong>connected</strong> graph $K$ are:
-$$
+<dt><strong>(4)</strong></dt>
+<dd>The homology groups of a <strong>connected</strong> graph <span class="math inline">\(K\)</span> are: <span class="math display">\[
 H_ 0(K) = \ZZ, \quad
-H_ 1(K) = \ZZ^{h_ 1}
-$$
-where $h_ 1 =c_ 1 - c_ 0+1$,
-with $c_ 0$ is the number of vertices of $K$,
-$c_ 1$ is the number of edges of $K$.</dd>
+H_ 1(K) = \ZZ^{h_ 1} 
+\]</span> where <span class="math inline">\(h_ 1 =c_ 1 - c_ 0+1\)</span>, with <span class="math inline">\(c_ 0\)</span> is the number of vertices of <span class="math inline">\(K\)</span>, <span class="math inline">\(c_ 1\)</span> is the number of edges of <span class="math inline">\(K\)</span>.
+</dd>
 </dl>
-<p><em>Proof:</em>
-Let $T\subset K$ be a spanning tree, with -say- $l+1$ vertices.
-By definition, $Z_ 1(T) = 0$.
-Let $R$ be a vertex of $T$.
-It is possible to define an ascending chain of trees
-$\{R\} = T_ 0 \subset  T_ 1 \subset \ldots \subset T_ l = T$,
-such that the $j$-th tree $T_ j$ has $j+1$ vertices.
-Let $P_ j$ denote the vertex of $T_ j $ which is not in $T_ {j-1}$ (if $j=0$,
-$P_ 0 =R$). Such a vertex, for $j&gt;0$, belongs to a unique edge in $T_ j$:
-let $P_ j'$ be the other vertex of such a simplex.
-Hence $T_ j$ has $j+1$ vertices and $j$ edges, and therefore
-$T$ has $c_ 0$ vertices (the same as $K$), and $c_ 0-1$ edges (after $R$,
-$T$ is obtained by adding iteratively $l$ edges). Let $Y$ denote the set of edges
-of $K$ which are **not** in $T$: it has $r= c_ 1 - (c_ 0 - 1)= c_ 1 - c_ 0 + 1$ elements.
-Let $\pi \from C_ 1(K) \to \ZZ[Y]\cong \ZZ^r $
-denote the projection, defined as
-$$
-\pi(\sigma) =
+<p><em>Proof:</em> Let <span class="math inline">\(T\subset K\)</span> be a spanning tree, with -say- <span class="math inline">\(l+1\)</span> vertices. By definition, <span class="math inline">\(Z_ 1(T) = 0\)</span>. Let <span class="math inline">\(R\)</span> be a vertex of <span class="math inline">\(T\)</span>. It is possible to define an ascending chain of trees <span class="math inline">\(\{R\} = T_ 0 \subset T_ 1 \subset \ldots \subset T_ l = T\)</span>, such that the <span class="math inline">\(j\)</span>-th tree <span class="math inline">\(T_ j\)</span> has <span class="math inline">\(j+1\)</span> vertices. Let <span class="math inline">\(P_ j\)</span> denote the vertex of $T_ j $ which is not in <span class="math inline">\(T_ {j-1}\)</span> (if <span class="math inline">\(j=0\)</span>, <span class="math inline">\(P_ 0 =R\)</span>). Such a vertex, for <span class="math inline">\(j&gt;0\)</span>, belongs to a unique edge in <span class="math inline">\(T_ j\)</span>: let <span class="math inline">\(P_ j&#39;\)</span> be the other vertex of such a simplex. Hence <span class="math inline">\(T_ j\)</span> has <span class="math inline">\(j+1\)</span> vertices and <span class="math inline">\(j\)</span> edges, and therefore <span class="math inline">\(T\)</span> has <span class="math inline">\(c_ 0\)</span> vertices (the same as <span class="math inline">\(K\)</span>), and <span class="math inline">\(c_ 0-1\)</span> edges (after <span class="math inline">\(R\)</span>, <span class="math inline">\(T\)</span> is obtained by adding iteratively <span class="math inline">\(l\)</span> edges). Let <span class="math inline">\(Y\)</span> denote the set of edges of <span class="math inline">\(K\)</span> which are <strong>not</strong> in <span class="math inline">\(T\)</span>: it has <span class="math inline">\(r= c_ 1 - (c_ 0 - 1)= c_ 1 - c_ 0 + 1\)</span> elements. Let $C_ 1(K) ^r $ denote the projection, defined as <span class="math display">\[
+\pi(\sigma) = 
 \begin{cases}
-\sigma &amp; \text{if $\sigma \in Y$} \\<br>
+\sigma &amp; \text{if $\sigma \in Y$} \\
 0 &amp; \text{otherwise}
 \end{cases}
-$$
-Then $\ker \pi \cap Z_ 1 (K) = 0$:  in fact, if $z \in \ker \pi \cap Z_ 1 (K) = 0$,
-then
-as $\pi (z) = 0$, the support of $z$ is in $T$. Hence $z\in Z_ 1(T) = 0$,
-and therefore $z=0$.
-Therefore, the restriction of $\pi$ to $Z_ 1(K)$ is a monomorphism
-$Z_1 (K) \to \ZZ[Y]$.</p>
-<p>It is also onto: for any edge $\sigma =[x,y]\in Y$,
-its vertices $x,y$ belong to $T$. There is a unique simple path in $T$
-from $x$ to $y$, say $x=P_ 0, \ldots P_ k = y$.
-Then
-$$
+\]</span> Then <span class="math inline">\(\ker \pi \cap Z_ 1 (K) = 0\)</span>: in fact, if <span class="math inline">\(z \in \ker \pi \cap Z_ 1 (K) = 0\)</span>, then as <span class="math inline">\(\pi (z) = 0\)</span>, the support of <span class="math inline">\(z\)</span> is in <span class="math inline">\(T\)</span>. Hence <span class="math inline">\(z\in Z_ 1(T) = 0\)</span>, and therefore <span class="math inline">\(z=0\)</span>. Therefore, the restriction of <span class="math inline">\(\pi\)</span> to <span class="math inline">\(Z_ 1(K)\)</span> is a monomorphism <span class="math inline">\(Z_1 (K) \to \ZZ[Y]\)</span>.</p>
+<p>It is also onto: for any edge <span class="math inline">\(\sigma =[x,y]\in Y\)</span>, its vertices <span class="math inline">\(x,y\)</span> belong to <span class="math inline">\(T\)</span>. There is a unique simple path in <span class="math inline">\(T\)</span> from <span class="math inline">\(x\)</span> to <span class="math inline">\(y\)</span>, say <span class="math inline">\(x=P_ 0, \ldots P_ k = y\)</span>. Then <span class="math display">\[
 z = [y,x] + \sum_ {j=0}^{k-1} [P_ j, P_ {j+1}] \in Z_ 1(K),
 \text{ and }
 \pi(z) = [y,x] = -\sigma.
-$$
-Thus $H_ 1(K) = Z_ 1(K) = \ZZ^{r}$.</p>
-<p>The $0$-dimensional homology of any connected graph is $\ZZ$: consider the augmentation homomorphism
-$\varepsilon \from C_ 0(K) \to \ZZ$,
-defined as $\varepsilon [P] = 1$ for each vertex $P$.
-Fix a vertex $R$ of $K$
-For each $j=1, \ldots, c_ 0$,
-let $P_ j$ denote the $j$-th vertex in $K$,
-and
-let $P_ i^j$ (as $i=0,\ldots, l_ j$)
-denote the simple path such that $P_ 0^j = R$,
-and $P_ {l_ j}=P_ j$
-Then,
-for each $j$
-$$
+\]</span> Thus <span class="math inline">\(H_ 1(K) = Z_ 1(K) = \ZZ^{r}\)</span>.</p>
+<p>The <span class="math inline">\(0\)</span>-dimensional homology of any connected graph is <span class="math inline">\(\ZZ\)</span>: consider the augmentation homomorphism <span class="math inline">\(\varepsilon \from C_ 0(K) \to \ZZ\)</span>, defined as <span class="math inline">\(\varepsilon [P] = 1\)</span> for each vertex <span class="math inline">\(P\)</span>. Fix a vertex <span class="math inline">\(R\)</span> of <span class="math inline">\(K\)</span> For each <span class="math inline">\(j=1, \ldots, c_ 0\)</span>, let <span class="math inline">\(P_ j\)</span> denote the <span class="math inline">\(j\)</span>-th vertex in <span class="math inline">\(K\)</span>, and let <span class="math inline">\(P_ i^j\)</span> (as <span class="math inline">\(i=0,\ldots, l_ j\)</span>) denote the simple path such that <span class="math inline">\(P_ 0^j = R\)</span>, and <span class="math inline">\(P_ {l_ j}=P_ j\)</span> Then, for each <span class="math inline">\(j\)</span> <span class="math display">\[
 \partial_ 1 \left(
 [P_ 0^j,P_ 1^j] +
 \ldots
-[P_ {l_ j-1}^j,P_ {l_ j}^j]
+[P_ {l_ j-1}^j,P_ {l_ j}^j] 
 \right) = [P_ {l_ j}^j] - [ P_ 0^j ] = [P_ j] - [R ].
-$$
-Let $p_ j$ denote the sum
-$$p_ j = [P_ 0^j,P_ 1^j] + \ldots [P_ {l_ j-1}^j,P_ {l_ j}^j].$$</p>
-<p>Hence
-if $z = \sum_ {j=1}^ {c_ 0} \alpha_ j [P_ j] \in \ker \varepsilon$,
-$$ z = \sum_ {j=1}^ {c_ 0} \alpha_ j ([P_ j] - [R]) =
-= \sum_ {j=1}^ {c_ 0} \alpha_ j (\partial_ 1 p_ j)  \in B_ 0(K)
-$$
-is a boundary. Therefore $B_ 0(K) = \ker \epsilon$, and
-$H_ 0(K) = \ZZ$.
-*(/Proof)*</p>
-<p>$\newcommand{\rk}{\operatorname{rank}}$</p>
-<p><strong>Remark:</strong>
-Given a short exact sequence of abelian groups $0\to A \to B \to C \to 0$,
-one has $\rk B = \rk A + \rk C$.
-Now, consider the two exact sequences
-$$
-0 \to B_ j \to Z_ j \to  H_ j \to 0
-\implies
+\]</span> Let <span class="math inline">\(p_ j\)</span> denote the sum <span class="math display">\[p_ j = [P_ 0^j,P_ 1^j] + \ldots [P_ {l_ j-1}^j,P_ {l_ j}^j].\]</span></p>
+<p>Hence if <span class="math inline">\(z = \sum_ {j=1} ^{c_ 0} \alpha_ j [P_ j] \in \ker \varepsilon\)</span>, <span class="math display">\[ 
+z = \sum_ {j=1}^ {c_ 0} \alpha_ j ([P_ j] - [R]) = \sum_ {j=1}^ {c_ 0} \alpha_ j (\partial_ 1 p_ j)  \in B_ 0(K)
+\]</span> is a boundary. Therefore <span class="math inline">\(B_ 0(K) = \ker \epsilon\)</span>, and <span class="math inline">\(H_ 0(K) = \ZZ\)</span>. <em>(/Proof)</em></p>
+<p><span class="math inline">\(\newcommand{\rk}{\operatorname{rank}}\)</span></p>
+<p><strong>Remark:</strong> Given a short exact sequence of abelian groups <span class="math inline">\(0\to A \to B \to C \to 0\)</span>, one has <span class="math inline">\(\rk B = \rk A + \rk C\)</span>. Now, consider the two exact sequences <span class="math display">\[
+0 \to B_ j \to Z_ j \to  H_ j \to 0 
+\implies 
 \rk Z_ j = \rk B_ j + \rk H_ j
-$$
-$$
+\]</span> <span class="math display">\[
 0 \to Z_ {j} \to C_  j \to B_ {j-1} \to 0
 \implies
 \rk C_ j = \rk Z_ j + \rk B_ {j-1},
-$$
-which implies
-$$\begin{aligned}
+\]</span> which implies <span class="math display">\[\begin{aligned}
 \sum_ {j} (-1)^j \rk C_ j &amp; =
-\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\\<br>
-&amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\\<br>
-&amp;=
+\sum_ {j} (-1)^j ( \rk Z_ j + \rk B_ {j-1}) = \\
+&amp;= \sum_ {j} (-1)^j \left( \left( \rk B_ j + \rk H_ j \right) + \rk B_ {j-1} \right) = \\
+&amp;= 
 \sum_ {j} (-1)^j \rk B_ j  +
-\sum_ {j} (-1)^{j+1} \rk B_ j +
-\sum_ {j} (-1)^j \rk H_ j  \\\<br>
-&amp;=
-\sum_ {j} (-1)^j \rk H_ j
+\sum_ {j} (-1)^{j+1} \rk B_ j + 
+\sum_ {j} (-1)^j \rk H_ j  \\
+&amp;= 
+\sum_ {j} (-1)^j \rk H_ j 
 \end{aligned}
-$$
-which in our context is $c_ 0 - c_ 1 = h_ 0 - h_ 1$.</p>
+\]</span> which in our context is <span class="math inline">\(c_ 0 - c_ 1 = h_ 0 - h_ 1\)</span>.</p>
 
 </div>
 
