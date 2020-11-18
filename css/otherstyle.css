@@ -104,7 +104,7 @@ figcaption:before {
 }
 
 figcaption {
-    display: block;
+    display: none;
     margin-top: 0.75em;
     line-height: 1.25;
     font-size: 1rem;

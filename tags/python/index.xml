@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Thu, 27 Oct 2016 11:45:52 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AGT: W1</title>
+      <link>//www.dlfer.xyz/post/agt/w1/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/agt/w1/</guid>
+      <description>Installare CAS, python, jupyter, sagemath? Per poter fare un po’ di matematica computazionale serve avere un calcolatore e degli strumenti di calcolo. Potrebbe bastare un abaco, una copia del Liber Abbaci di Fibonacci per imparare ad usare le cifre decimali (PDF oppure SpringerLink), un regolo calcolatore oppure qualcosa di più recente.
+Una lista (molto incompleta) di strumenti di calcolo utili per la matematica:
+ maple Mathematica matlab (with a toolbox) sagemath per python: SymPy, SciLab, SciPy, e molti altri… jupyter  Quali installare, e come?</description>
+    </item>
     
     <item>
       <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>

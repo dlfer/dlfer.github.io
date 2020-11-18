@@ -272,6 +272,10 @@
     
       
     
+      
+    
+      
+    
   </nav>
 </div>
 
@@ -297,7 +301,7 @@
   <h1 class="post-title">Joins and Products of polyhedra</h1>
   <span class="post-date">2016-11-14 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2018-18-28) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2020-11-18) 
 	  
   </span>
   <h2 id="join-kl-of-two-simplicial-complexes">Join $K*L$ of two simplicial complexes</h2>
@@ -752,27 +756,25 @@ F_ {j} \gamma_ {j-1} [ P_ 0, \ldots, P_ n ]
 $$
 $$
 F_ {n+1} \gamma_ n [ P_ 0, \ldots, P_ n ] = [ P_ 0, \ldots, P_ n ] ,
-$$</p>
-<p>$$
+$$
+$$
 i &lt; j  \implies
-F_ i \gamma_ j [ P_ 0, \ldots, P_ n ] = [ P_ 0 , \ldots , \hat P_ i, \ldots, P_ j , P&rsquo;_ j, \ldots, P&rsquo;_ n ]
+F_ i \gamma_ j [ P_ 0, \ldots, P_ n ] =
+[ P_ 0 , \ldots , \hat P_ i, \ldots, P_ j , P&rsquo;_ j, \ldots, P&rsquo;_ n ]
 = \gamma_ {j-1} F_ {i} [ P_ 0, \ldots, P_ n ];
+$$
+$$
+i \lt  j+1  \implies F_ i \gamma_ j [P_ 0, \ldots, P_ n] = [ P_ 0 , \ldots ,  P_ j , P&rsquo;_ j, \ldots, \hat P&rsquo;_ {i-1} , \ldots, P&rsquo;_ n ] = \gamma_ {j} F_ {i-1} [ P_ 0, \ldots, P_ n ].
+$$</p>
+<p>Therefore if
+$x = [ P_ 0, \ldots, P_ n ]$
+one has
+$$
+\partial_ {n+1} s_ n x   = \sum_ {i=0}^{n+1} (-1)^i   \sum_ {j=0}^n (-1)^j F_ i \gamma_ j x = \sum_ {i=0}^{n+1} \sum_ {j=0}^n (-1)^{i+j} F_ i \gamma_ j x
 $$</p>
 <p>$$
-i &gt; j+1  \implies
-F_ i \gamma_ j [P_ 0, \ldots, P_ n] =
-[ P_ 0 , \ldots ,  P_ j , P&rsquo;_ j, \ldots, \hat P&rsquo;_ {i-1} , \ldots, P&rsquo;_ n ]
-= \gamma_ {j} F_ {i-1} [ P_ 0, \ldots, P_ n ].
-$$</p>
-<h1 id="sum_-i0n1--1i---sum_-">Quindi se $x = [P_ 0, \ldots, P_ n]$ si ha
-$$
-\partial_ {n+1} s_ n x   =
-\sum_ {i=0}^{n+1} (-1)^i   \sum_</h1>
-<p>\sum_ {i=0}^{n+1} \sum_ {j=0}^n (-1)^{i+j} F_ i \gamma_ j x<br>
-$$
-$$
 = \sum_ {j=0}^n \left(
-\sum_ {i=0}^{j-1} (-1)^{i+j} F_ i \gamma_ j x<br>
+\sum_ {i=0}^{j-1} (-1)^{i+j} F_ i \gamma_ j x
 + (-1)^{2j} F_ {j} \gamma_ j x + (-1)^{2j+1} F_ {j+1} \gamma_ j x +
 \sum_ {i=j+2}^{n+1} (-1)^{i+j} F_ i \gamma_ j x
 \right)
@@ -792,30 +794,18 @@ $$
 \sum_ {i=j+2}^{n+1} (-1)^{i+j}  \gamma_ j F_ {i-1} x
 $$
 $$
-=  F_ 0 \gamma_ 0 x - F_ {n+1} \gamma_ n x +
-\sum_ {j=0}^{n-1}
-\sum_ {i=0}^{j} (-1)^{i+j+1}  \gamma_ {j} F_ i x   +
-\sum_ {j=0}^{n-1}
-\sum_ {i=j+1}^{n} (-1)^{i+j+1}  \gamma_ j F_ {i} x
+=  F_ 0 \gamma_ 0 x - F_ {n+1} \gamma_ n x + \sum_ {j=0}^{n-1} \sum_ {i=0}^{j} (-1)^{i+j+1}  \gamma_ {j} F_ i x   + \sum_ {j=0}^{n-1} \sum_ {i=j+1}^{n} (-1)^{i+j+1}  \gamma_ j F_ {i} x
 $$
 $$
-=  F_ 0 \gamma_ 0 x - F_ {n+1} \gamma_ n x -
-\sum_ {j=0}^{n-1}
-\sum_ {i=0}^{n} (-1)^{i+j}  \gamma_ {j} F_ i x .
+=  F_ 0 \gamma_ 0 x - F_ {n+1} \gamma_ n x - \sum_ {j=0}^{n-1} \sum_ {i=0}^{n} (-1)^{i+j}  \gamma_ {j} F_ i x .
 $$</p>
 <p>Quindi
-$$ \begin{aligned}
-( \partial_ {n+1} s_ n +
-s_ {n-1} \partial_ n ) x  &amp;=
-F_ 0 \gamma_ 0 x  - F_ {n+1} \gamma_ n x  -
-\sum_ {j=0}^{n-1}
-\sum_ {i=0}^{n} (-1)^{i+j}  \gamma_ {j} F_ i x</p>
-<ul>
-<li>\sum_ {j=0}^{n-1} (-i)^j \sum_ {i=0}^n (-1)^i \gamma_ j F_ i x \\\<br>
-&amp;=  [P_ 0&rsquo;, \ldots, P&rsquo;_ n] - [P_ 0, \ldots, P_ n] .
-\end{aligned}
-$$</li>
-</ul>
+$$
+\partial_ {n+1} s_ n + s_ {n-1} \partial_ n ) x  = F_ 0 \gamma_ 0 x  - F_ {n+1} \gamma_ n x  - \sum_ {j=0}^{n-1} \sum_ {i=0}^{n} (-1)^{i+j}  \gamma_ {j} F_ i x + \sum_ {j=0}^{n-1} (-i)^j \sum_ {i=0}^n (-1)^i \gamma_ j F_ i x
+$$
+$$
+=  [P_ 0&rsquo;, \ldots, P&rsquo;_ n] - [P_ 0, \ldots, P_ n] .
+$$</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
