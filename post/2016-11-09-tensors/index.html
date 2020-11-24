@@ -276,6 +276,8 @@
     
       
     
+      
+    
   </nav>
 </div>
 
@@ -301,10 +303,11 @@
   <h1 class="post-title">Ranks, Tensors and Abelian Groups</h1>
   <span class="post-date">2016-11-09 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2016-11-09) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2020-11-20) 
 	  
   </span>
-  <h2 id="abelian-groups">Abelian Groups</h2>
+  <p>$\require{AMScd}$</p>
+<h2 id="abelian-groups">Abelian Groups</h2>
 <p>Given $a\in A$, the homomirphism
 $i_ a \from \ZZ \to A$ defined by
 $i_ a(k) = ka$
@@ -363,7 +366,7 @@ Let $A_ 1 = \{ a \in A : \max \supp(a) = s_ 1  \} $.
 If $a\in A_ 1$, then  by definition
 $\max \supp(a) = s_ 1$,
 then $|a(s_ 1)| \geq b_ 1(s_ 1)$, and hence there are integers $q$ and $r$
-such that $0\leq r &lt; b_ 1(s_ 1)$
+such that $0\leq r \lt b_ 1(s_ 1)$
 and $|a(s_ 1)| = q b_ 1(s_ 1) + r $.
 But if $r\neq 0$ then $q b_ 1 -  a$  has last coefficient equal to $r$,
 which is smaller than $b_ 1(s_ 1)$,
@@ -377,7 +380,7 @@ there exists $q\in \ZZ$ such that $a= q b_ 1$.
 In other words, $A_ 1 = \langle b_ 1 \rangle = \ZZ[b_ 1]$.</p>
 <p>For the next step, define as $b_ 2$, the element in $A \smallsetminus A_ 1$
 with smallest last index (say, $s_ 2$) and smallest nonzero positive last coefficient.
-Since $b_ 2 \not\in A_ 1$, $s_ 1 &lt; s_ 2$.
+Since $b_ 2 \not\in A_ 1$, $s_ 1 \lt s_ 2$.
 Let $A_ 2 = \{ a \in A : \max \supp(a) \leq s_ 2 \} $.
 Note that
 $A_ 1 \cap \langle b_ 2 \rangle = 0$, and therefore it is a direct sum
@@ -507,9 +510,11 @@ Cfr. Proposition 7.3, page 110 of Hilton-Stammbach (1997)<sup id="fnref:4"><a hr
 if $B&rsquo;\stackrel{\beta&rsquo;}{\to} B \stackrel{\beta&rsquo;'}{\to} B&rsquo;&rsquo; \to 0$
 is an exact sequence of abelian groups,
 then for any abelian group $A$ the sequence
+$$
 \begin{CD}
-A \otimes B&rsquo; @&gt;{\beta&rsquo;_ *}&raquo; A \otimes B @&gt;{\beta&rsquo;'_ *}&raquo; A \otimes B&rsquo;&rsquo; @&gt;{}&raquo; 0
-\end{CD}<br>
+A \otimes B&rsquo; @&gt;{\beta&rsquo;_ *}&gt;&gt; A \otimes B @&gt;{\beta&rsquo;'_ *}&gt;&gt; A \otimes B&rsquo;&rsquo; @&gt;{}&gt;&gt; 0
+\end{CD}
+$$
 is exact.</dd>
 </dl>
 <p><em>Proof:</em>
@@ -520,7 +525,7 @@ more precisely, for every short exact sequence
 $0 \to B&rsquo;\stackrel{\beta&rsquo;}{\to} B \stackrel{\beta&rsquo;'}{\to} B&rsquo;&rsquo; \to 0$
 the sequence
 \begin{CD}
-0 @&gt;{}&raquo; A \otimes B&rsquo; @&gt;{\beta&rsquo;_ *}&raquo; A \otimes B @&gt;{\beta&rsquo;'_ *}&raquo; A \otimes B&rsquo;&rsquo; @&gt;{}&raquo; 0
+0 @&gt;{}&gt;&gt; A \otimes B&rsquo; @&gt;{\beta&rsquo;_ *}&gt;&gt; A \otimes B @&gt;{\beta&rsquo;'_ *}&gt;&gt; A \otimes B&rsquo;&rsquo; @&gt;{}&gt;&gt; 0
 \end{CD}<br>
 is exact.</p>
 <dl>
@@ -570,7 +575,7 @@ $g\from B \to C$ an epimorphism (surjective homomophism)
 such that $\operatorname{Im} f = \ker g$. In other words, the following
 sequence is exact.
 \begin{CD}
-0 @&gt;{}&raquo; A  @&gt;{f}&raquo; B  @&gt;{g}&raquo; C @&gt;{}&raquo; 0  \\\<br>
+0 @&gt;{}&gt;&gt; A  @&gt;{f}&gt;&gt; B  @&gt;{g}&gt;&gt; C @&gt;{}&gt;&gt; 0  \<br>
 \end{CD}</p>
 <dl>
 <dt>(8)</dt>
@@ -580,7 +585,7 @@ sequence is exact.
 Since the functor $\QQ \otimes -$ is exact, as $\QQ$ is flat (torsion-free),
 the sequence
 \begin{CD}
-0 @&gt;{}&raquo; \QQ \otimes A  @&gt;{f_ *}&raquo; \QQ \otimes B  @&gt;{g_ *}&raquo; \QQ \otimes  C @&gt;{}&raquo; 0  \\\<br>
+0 @&gt;{}&gt;&gt; \QQ \otimes A  @&gt;{f_ *}&gt;&gt; \QQ \otimes B  @&gt;{g_ *}&gt;&gt; \QQ \otimes  C @&gt;{}&gt;&gt; 0  \<br>
 \end{CD}
 is exact (and it is a sequence of $\QQ$-vector spaces).
 Therefore

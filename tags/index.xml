@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>jupyter</title>
       <link>//www.dlfer.xyz/tags/jupyter/</link>
-      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>//www.dlfer.xyz/tags/jupyter/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>python</title>
       <link>//www.dlfer.xyz/tags/python/</link>
-      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>//www.dlfer.xyz/tags/python/</guid>
       <description></description>
@@ -499,7 +499,7 @@
     </item>
     
     <item>
-      <title>examples</title>
+      <title>Examples</title>
       <link>//www.dlfer.xyz/tags/examples/</link>
       <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
       

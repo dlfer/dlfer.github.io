@@ -276,6 +276,8 @@
     
       
     
+      
+    
   </nav>
 </div>
 
@@ -396,7 +398,7 @@ $(x,y) \leq  (x&rsquo;,y&rsquo;)$ iff $ x \leq x&rsquo; \&amp; y \leq y&rsquo; $
 (it is the **product order**, which is not a total order).</p>
 <p>Or, consider the <strong>lexycographical order</strong>, which is a total order,
 defined as
-$(x,y) \leq (x&rsquo;,y&rsquo;)$ iff $ x&lt;x'$ or $x=x'$ and $y\leq y'$.</p>
+$(x,y) \leq (x&rsquo;,y&rsquo;)$ iff $x&lt;x'$ or $x=x'$ and $y\leq y'$.</p>
 <p>With this, define an $n$-simplex $\sigma \subset X$ as
 a subset
 $$
@@ -418,7 +420,7 @@ On the other hand, if
 $(x_ 0,y_ 0) &lt; (x_ 1, y_ 1) &lt; \ldots (x_ n, y_ n)$ is an ascending chain in the product order,
 for each pair of consecutive terms $(x,y) &lt; (x&rsquo;,y&rsquo;)$ either $x=x'$ (and therefore $y&lt;y'$,
 and hence (x,y) precedes $(x&rsquo;,y&rsquo;)$ in the lexycographical order),
-or $x&lt;x'$ (and hence $(x,y)$ precedes (x&rsquo;,y&rsquo;)$ in the lexycographical order).
+or $x&lt;x'$ (and hence $(x,y)$ precedes $(x&rsquo;,y&rsquo;)$ in the lexycographical order).
 In Ferrario-Piccinini<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, page 99, in the proof it is omitted to mention the simplices $p_ 1$ and $p_ 2$ need to be ordered, as above.
 Otherwise, more chains would appear ordered as ascending with the lexycographical order, than those ascending with the product order.</p>
 <p><strong>Example:</strong>
@@ -764,7 +766,7 @@ F_ i \gamma_ j [ P_ 0, \ldots, P_ n ] =
 = \gamma_ {j-1} F_ {i} [ P_ 0, \ldots, P_ n ];
 $$
 $$
-i \lt  j+1  \implies F_ i \gamma_ j [P_ 0, \ldots, P_ n] = [ P_ 0 , \ldots ,  P_ j , P&rsquo;_ j, \ldots, \hat P&rsquo;_ {i-1} , \ldots, P&rsquo;_ n ] = \gamma_ {j} F_ {i-1} [ P_ 0, \ldots, P_ n ].
+i \gt  j+1  \implies F_ i \gamma_ j [P_ 0, \ldots, P_ n] = [ P_ 0 , \ldots ,  P_ j , P&rsquo;_ j, \ldots, \hat P&rsquo;_ {i-1} , \ldots, P&rsquo;_ n ] = \gamma_ {j} F_ {i-1} [ P_ 0, \ldots, P_ n ].
 $$</p>
 <p>Therefore if
 $x = [ P_ 0, \ldots, P_ n ]$

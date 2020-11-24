@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AGT: W2</title>
+      <link>//www.dlfer.xyz/post/agt/w2/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/post/agt/w2/</guid>
+      <description>Dato da fare la scorsa volta:  Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia \(H_0\) e \(H_1\). Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo possibilmente euclideo, e visualizzare quel che viene.
+ # define a function for visualization: import matplotlib as mpl import matplotlib.pyplot as plt from matplotlib.collections import LineCollection import numpy as np mpl.</description>
+    </item>
     
     <item>
       <title>AGT: W1</title>

@@ -19,7 +19,7 @@
       
       <guid>//www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
       <description>Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
-$\require{AMScd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
+$\require{amscd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
     </item>
     
   </channel>
