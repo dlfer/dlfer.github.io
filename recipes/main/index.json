@@ -2,6 +2,30 @@
     
     
     {
+        "url": "/recipes/var/potage-soup/",
+        "title": "Potage soup",
+        "content": "Ingredienti  4-6 spicchi di aglio: sbucciati e interi 1 cipolla grande, oppure 2 : a julienne 2 gambi di sedano : tagliato fino 1 carota : a tocchettini 2 patate medie : a tocchetti [1 peperone (già cotto al forno in pezzi) ] Olio Pepe, sale, timo, [poca paprika, maggiorana] 1 lt brodo  Prep  Soffriggere in olio l\u0026rsquo;aglio, la cipolla, il sedano. [! 10 min] Aggiungere carote a tocchettini, patate a tocchetti, insaporire un po\u0026rsquo;. Aggiungere il brodo con un filo d\u0026rsquo;olio. Aggiungere gli odori. Cuocere lento fino a che morbido. [! 40-50 min] Mescolare e lasciare un po\u0026rsquo; raffreddare. Frullare e regolare di sale/spezie.   Potage Soup\n " ,
+        "tags" : "cipolle ; patate ; zuppa"
+    }
+    
+    , 
+    {
+        "url": "/recipes/var/stracciatella/",
+        "title": "Stracciatella",
+        "content": "Ingredienti  1 lt di brodo [aromatizzato con chiodi di garofano e pepe in grani] 3 uova [2 tbsp semolino] 4 tbsp parmigiano grattugiato Prezzemolo tritato finissimo, noce moscata, sale, [scorza di limone grattugiata, oppure il succo di uno spicchio di limone]  Prep  [Tenere un mestolo di brodo freddo], il resto portare a bollire. [@ Terrina] sbattere uova, [semolino,] parmigiano, prezzemolo, sale, noce moscata [con il mestolo di brodo freddo]. Versare di a filo nel brodo bollente, sbattere con frusta per [! 0.5-1 min] per stracciare, lasciare riprendere il bollore, poi sobbollire per [! 10 minuti] a fuoco medio, a rapprendere. Aggiungere altro parmigiano.   Varianti: la Minestra del Paradiso di Artusi: «È una minestra sostanziosa e delicata; ma il Paradiso, fosse pur quello di Maometto, non ci ha nulla che fare. Montate sode quattro chiare d\u0026rsquo;uovo, incorporateci dentro i rossi, poi versateci quattro cucchiaiate non tanto colme di pangrattato fine di pane duro, altrettanto di parmigiano grattato e l\u0026rsquo;odore della noce moscata. Mescolate adagino onde il composto resti soffice e gettatelo nel brodo bollente a cucchiaini. Fatelo bollire per sette od otto minuti e servitelo. Questa dose potrà bastare per sei persone.»\n " ,
+        "tags" : "zuppa ; uova"
+    }
+    
+    , 
+    {
+        "url": "/recipes/var/zuppa-di-cipolle/",
+        "title": "Zuppa di cipolle",
+        "content": "Ingredienti  aglio 500gr cipolle, tagliate sottili 2 tbsp farina 1 tsp zucchero 1/2 bicchiere vino bianco/rosso/birra [alloro], timo (meglio se fresco), [oppure un bouquet garni, da togliere prima della fine: mazzetto di prezzemolo, timo e alloro, con aggiunta di erbe di Provenza (basilico, maggiorana, rosmarino, santoreggia, timo, alloro, fiori di lavanda, semi di finocchio, salvia)] 1 lt brodo caldo (1.5 o 0.5, a seconda) olio, burro, sale, pepe groviera/formaggio grattug. pane secco a tocchi noce moscata  Prep  [@ pentola] burrolio, appassire le cipolle [!15 min], fino a quando trasparenti. Aggiungere farina e zucchero, mescolare per 2-3 minuti. Poi aggiungere vino e sfumare. Aggiungere il brodo, aglio, gli odori, noce moscata, sale/pepe. [! 1h] a fuoco basso. Alla fine aggiungere, crostini e formaggio.   Variante: alla fine gratinare in cocotte singole di coccio.\n " ,
+        "tags" : "cipolle ; zuppa"
+    }
+    
+    , 
+    {
         "url": "/recipes/nonna/uova-all-aurora/",
         "title": "Uova all'aurora",
         "content": "Ingredienti  6 uova 30 gr burro latte 1 bicchiere farina 1 tbsp formaggio 30 gr  Prep  Rassodare le uova, sgusciarle dividendo l\u0026rsquo;albume dai rossi. Tagliare a dadini il bianco ed unirlo alla besciamella che avrete intanto preparato con la farina, il burro, il latte caldo; salare; unirvi il formaggio grattuggiato e disporre il composto su un vassoio o su un piatto che vada al forno. Ornare con i rossi fatto cadere a pioggia da un setaccino. Ancora qualche fiocco di burro ed infornare fino a doratura.  " ,
@@ -14,6 +38,14 @@
         "title": "Uova dorate",
         "content": "Ingredienti  uova 6 parmigiano 50 gr burro 20 gr farina 1 tbsp latte 1/2 bicchiere uovo, pangrattato, olio  Prep  rassodare le uova e tagliarle poi verticalmente (sgusciate); togliere il rosso e passarlo al setaccio. Burro, farina, latte caldo → besciamella molto soda, salare, tolta dal fuoco aggiungere formaggio e rossi passati. Fare un composto duro e lasciare raffreddare. Riempire con questo le mezze uova, facendone di ogni mezzo una, passarle nella farina, nell\u0026rsquo;uovo sbattuto, e nel pangrattato e friggerle in un tegamino dai bordi alti e piuttosto stretto.  " ,
         "tags" : "uova"
+    }
+    
+    , 
+    {
+        "url": "/recipes/nonna/brasato/",
+        "title": "Brasato",
+        "content": "Ingredienti  700/800 gr scamone 5 cuc. olio 50 gr burro cipolla, carota, sedano 1 bic vino bianco farina dado  Prep  Far rosolare la carne nel burrolio prima cipolla carota e sedano, poi la carne. Quando dorata: bagnare con vino bianco. Abbassare la fiamma quando il vino è evaporato. Quando la carne è cotta: togliere la carne dal sugo, setacciare il sugo; in un tegamino legare/tostare farina e grasso del sugo, e lentamente aggiungere tutto il sugo. Amalgamare e coprire il brasato tagliato a fette col sugo.  " ,
+        "tags" : "brasato ; carne"
     }
     
     , 
