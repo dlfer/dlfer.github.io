@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Dolci</title>
+      <link>https://www.dlfer.xyz/recipes/categories/dolci/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/categories/dolci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Secondi</title>
       <link>https://www.dlfer.xyz/recipes/categories/secondi/</link>
-      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/categories/secondi/</guid>
       <description></description>
@@ -45,15 +54,6 @@
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dolci</title>
-      <link>https://www.dlfer.xyz/recipes/categories/dolci/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/categories/dolci/</guid>
       <description></description>
     </item>
     

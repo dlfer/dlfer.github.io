@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>castagne</title>
+      <link>https://www.dlfer.xyz/recipes/tags/castagne/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/castagne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manzo</title>
+      <link>https://www.dlfer.xyz/recipes/tags/manzo/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/manzo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>sardine</title>
@@ -135,15 +153,6 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/erbe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>castagne</title>
-      <link>https://www.dlfer.xyz/recipes/tags/castagne/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/castagne/</guid>
       <description></description>
     </item>
     
