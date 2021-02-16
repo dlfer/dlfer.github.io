@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Topics on DL Ferrario&#39;s Test Web Page</title>
+    <title>Topics on Test Web Page</title>
     <link>//www.dlfer.xyz/topics/</link>
-    <description>Recent content in Topics on DL Ferrario&#39;s Test Web Page</description>
+    <description>Recent content in Topics on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/topics/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Var</title>
+      <link>//www.dlfer.xyz/topics/var/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/topics/var/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Topology</title>
@@ -18,15 +27,6 @@
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>//www.dlfer.xyz/topics/topology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Var</title>
-      <link>//www.dlfer.xyz/topics/var/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/topics/var/</guid>
       <description></description>
     </item>
     

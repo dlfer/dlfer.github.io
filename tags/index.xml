@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on DL Ferrario&#39;s Test Web Page</title>
+    <title>Tags on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/</link>
-    <description>Recent content in Tags on DL Ferrario&#39;s Test Web Page</description>
+    <description>Recent content in Tags on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Canoa</title>
+      <link>//www.dlfer.xyz/tags/canoa/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/canoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kayak</title>
+      <link>//www.dlfer.xyz/tags/kayak/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/kayak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SUP</title>
+      <link>//www.dlfer.xyz/tags/sup/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/sup/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>jupyter</title>
@@ -31,29 +58,11 @@
     </item>
     
     <item>
-      <title>kayak</title>
-      <link>//www.dlfer.xyz/tags/kayak/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/kayak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>paddle</title>
       <link>//www.dlfer.xyz/tags/paddle/</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>//www.dlfer.xyz/tags/paddle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SUP</title>
-      <link>//www.dlfer.xyz/tags/sup/</link>
-      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>//www.dlfer.xyz/tags/sup/</guid>
       <description></description>
     </item>
     
@@ -126,6 +135,15 @@
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pagaia</title>
+      <link>//www.dlfer.xyz/tags/pagaia/</link>
+      <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/tags/pagaia/</guid>
       <description></description>
     </item>
     
@@ -499,7 +517,7 @@
     </item>
     
     <item>
-      <title>Examples</title>
+      <title>examples</title>
       <link>//www.dlfer.xyz/tags/examples/</link>
       <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
       
