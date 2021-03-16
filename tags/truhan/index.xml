@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Truhan on Test Web Page</title>
+    <link>//www.dlfer.xyz/tags/truhan/</link>
+    <description>Recent content in Truhan on Test Web Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
+    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/tags/truhan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Soy un truhán, soy un señor (1978)</title>
+      <link>//www.dlfer.xyz/poem/truhansenor/</link>
+      <pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/poem/truhansenor/</guid>
+      <description>L&#39;originale spagnola, composta da Ramón Arcusa, che assieme a Manuel De La Calva fa parte del Dúo Dinámico.  Soy un truhán, soy un señor (Ramon Arcusa - Julio Iglesias (1978))    Confieso que a veces soy cuerdo y a veces loco,  y amo así la vida y tomo de todo un poco.  Me gustan las mujeres, me gusta el vino,  y si tengo que olvidarlas, bebo y olvido.</description>
+    </item>
+    
+  </channel>
+</rss>
