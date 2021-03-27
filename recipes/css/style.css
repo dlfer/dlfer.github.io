@@ -1,28 +1,29 @@
-ul :not(.nav, .dropdown-menu) {
-  list-style: none; /* Remove list bullets */
-  padding: 0;
-  margin: 0;
-}
+/*
+  ul :not(.nav, .dropdown-menu) {
+   list-style: none; 
+   padding: 0;
+   margin: 0;
+ }
 
-li :not(.dropdown, .dropdown-menu) {
+li :not(.dropdown,.dropdown-menu,.csv) {
   padding-left: 16px;
 }
 
-li:before:not(.dropdown,.nav,.dropdown-menu) {
+li:before:not(.dropdown,.nav,.dropdown-menu,.csv) {
   color: #aaa;
   content: "\27A4";
-  /* content: "\27A4";  Insert content that looks like bullets */
   padding-right: 8px;
 }
+*/
+  /* content: "\27A4";  Insert content that looks like bullets */
 
-
+ 
 ul.csv { list-style: none; margin: 0; padding: 0; }
 ul.csv li { display: inline; padding-left: 0px;}
 ul.csv li:before { content: ""; padding-right: 0px; }
 ul.csv li:after { content: ", "; }
 ul.csv li:last-child:after { content: ""; }
-
-
+ 
 
 /*************************************************
  *  Tables

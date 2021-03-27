@@ -2,6 +2,14 @@
     
     
     {
+        "url": "/recipes/main/salmone-marinato/",
+        "title": "Salmone marinato",
+        "content": "Ingredients  1/4 cup olive oil 1 T. Dijon mustard 2 T. soy sauce 2 T. balsamic vinegar 2 T. coarse cracked black pepper salmon fillets  Prep  Combine all marinade ingredients and whisk to mix well and store in refrigerator if necessary. Brush the fillets with the marinade. Wait [! 15-20 min]. The salmon fillets may be poached in a large skillet using aluminium foil as a cover, medium heat. Or, better grill over coals or open fire, or buttered cast iron skillet. Cooking time [! 15-50 min] for a fillet. As they cook, continue to brush them with the marinade. If they stick, sprinkle with water and add some olive oil and marinade. Cook until the center is flaky and opaque.  " ,
+        "tags" : "salmone"
+    }
+    
+    , 
+    {
         "url": "/recipes/main/beef-stroganoff/",
         "title": "Beef-Stroganoff",
         "content": "Ingredienti  carne di manzo fette sottili 400g 1 cipolla 1 spicchio di aglio 10 champignon (oppure congelato 250g) 1 cucchiaio di farina 1/2 bicchiere vino rosso 1/2 bicchiere passato di pomodoro 1/2 bicchiere panna acida 1/2 bicchiere di brodo Spezie: sale, pepe e paprika  Prep  Mettere un po\u0026rsquo; di sale, pepe e paprika sulla carne e lasciare per 15 minuti Intanto tagliare una cipolla nella forma sottile e un spicchio di aglio nella forma fine. Friggere cipolla sulla padella fin che diventa sciupata e dopo di che aggiungere aglio. Quando profuma l\u0026rsquo;aglio, aggiungere la carne. Quando la carne è non più rossa aggiungere champignon Mettere il vino e fare evaporare alcol un attimo con il fuoco vivace. Dopo di che aggiungere farina, passato di pomodoro e brodo e lasciare cuocere per 10 minuti Controllare il gusto (se ci serve mettere sale o qualcosa) Aggiungere la panna acida  " ,
@@ -316,7 +324,7 @@
     {
         "url": "/recipes/var/avodado-soup/",
         "title": "Avodado Soup",
-        "content": " 2 sp EVO 3 spicchi aglio; tritato. 1 cipolla piccola; tritata. 2 peperoncini (stemmed, seeded, minced) 1 grosso pomodoro (cored, chopped) 1 lt brodo (pollo o verdura) 2-3 avocado medi maturi (peeled, pitted) sale, pepe 1/2 cup foglie di cilantro fresche / prezzemolo 1/2 cup tortilla chips   Casseruola con olio, fuoco medio: ↓ aglio, cipolla, peperoncino [!1 min]. ↓ pomodoro [!4 min] ↓ brodo, alla bollitura, sobbollire [!10 min]. Scolare e lasciar raffreddare. Frullare tutto con avocado ⇒ puree. +sale,pepe. Frigo [!2h] Mescolare.   Guarnire con coriandolo e tortilla chips (o cubetti di avocado)\n " ,
+        "content": "Ingr  2 sp EVO 3 spicchi aglio; tritato. 1 cipolla piccola; tritata. 2 peperoncini (stemmed, seeded, minced) 1 grosso pomodoro (cored, chopped) 1 lt brodo (pollo o verdura) 2-3 avocado medi maturi (peeled, pitted) sale, pepe 1/2 cup foglie di cilantro fresche / prezzemolo 1/2 cup tortilla chips  Prep  Casseruola con olio, fuoco medio: ↓ aglio, cipolla, peperoncino [!1 min]. ↓ pomodoro [!4 min] ↓ brodo, alla bollitura, sobbollire [!10 min]. Scolare e lasciar raffreddare. Frullare tutto con avocado ⇒ puree. +sale,pepe. Frigo [!2h] Mescolare.   Guarnire con coriandolo e tortilla chips (o cubetti di avocado)\n " ,
         "tags" : "Zuppa ; Avocado"
     }
     
