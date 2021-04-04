@@ -54,7 +54,8 @@
          alt="Illustration of arrosto"/> 
 </figure>
 
-<hr><h3><a href="/recipes/main/agnello-cacio-e-uova/">Agnello cacio e uova</a></h3>
+<hr><h3><a href="/recipes/main/agnello-arrosto-alla-norcina/">Agnello arrosto alla norcina</a></h3>
+    <h3><a href="/recipes/main/agnello-cacio-e-uova/">Agnello cacio e uova</a></h3>
     <h3><a href="/recipes/main/arroz-con-pollo/">Arroz Con Pollo</a></h3>
     <h3><a href="/recipes/main/beef-stroganoff/">Beef-Stroganoff</a></h3>
     <h3><a href="/recipes/main/braciole-di-maiale-alle-mele/">Braciole Di Maiale Alle Mele</a></h3>
@@ -93,6 +94,11 @@
 </div>
 <script src="https://www.dlfer.xyz/recipes/js/jquery-3.4.1.min.js"></script>
 <script src="https://www.dlfer.xyz/recipes/js/bootstrap.min.js"></script>
+<script>
+$("ul:not(.dropdown,.nav,.dropdown-menu,.csv) li").click(function() {
+  $(this).toggleClass("checked");
+});
+</script>
 
 </body>
 </html>

@@ -49,7 +49,7 @@
 		 <div class="col-sm-8"><h1>Tags</h1>
 
 
-<p><a href="/recipes/tags/agnello/">agnello</a> (2)</p>
+<p><a href="/recipes/tags/agnello/">agnello</a> (3)</p>
 
 <p><a href="/recipes/tags/antipasti/">antipasti</a> (1)</p>
 
@@ -91,7 +91,7 @@
 
 <p><a href="/recipes/tags/erbe/">erbe</a> (1)</p>
 
-<p><a href="/recipes/tags/forno/">forno</a> (12)</p>
+<p><a href="/recipes/tags/forno/">forno</a> (13)</p>
 
 <p><a href="/recipes/tags/freddo/">freddo</a> (7)</p>
 
@@ -145,7 +145,7 @@
 
 <p><a href="/recipes/tags/pane/">pane</a> (2)</p>
 
-<p><a href="/recipes/tags/patate/">patate</a> (4)</p>
+<p><a href="/recipes/tags/patate/">patate</a> (5)</p>
 
 <p><a href="/recipes/tags/peperoni/">peperoni</a> (1)</p>
 
@@ -204,6 +204,11 @@
 </div>
 <script src="https://www.dlfer.xyz/recipes/js/jquery-3.4.1.min.js"></script>
 <script src="https://www.dlfer.xyz/recipes/js/bootstrap.min.js"></script>
+<script>
+$("ul:not(.dropdown,.nav,.dropdown-menu,.csv) li").click(function() {
+  $(this).toggleClass("checked");
+});
+</script>
 
 </body>
 </html>

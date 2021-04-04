@@ -1,29 +1,44 @@
-/*
-  ul :not(.nav, .dropdown-menu) {
+/* 
+ul:not(.nav, .dropdown-menu) {
    list-style: none; 
    padding: 0;
    margin: 0;
- }
-
-li :not(.dropdown,.dropdown-menu,.csv) {
-  padding-left: 16px;
 }
 
-li:before:not(.dropdown,.nav,.dropdown-menu,.csv) {
+ul:not(.dropdown,.dropdown-menu,.csv) li {
+  padding-left: 24px;
+}
+
+ul:not(.dropdown,.nav,.dropdown-menu,.csv) li:before {
   color: #aaa;
   content: "\27A4";
   padding-right: 8px;
 }
-*/
+*/ 
+
   /* content: "\27A4";  Insert content that looks like bullets */
 
- 
+/* Darker background-color on hover */
+ul:not(.dropdown,.nav,.dropdown-menu,.csv) li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, strike out text */
+ul li.checked {
+  text-decoration: line-through;
+}
+
+
+/* --------------------------------------------------------------- */ 
 ul.csv { list-style: none; margin: 0; padding: 0; }
 ul.csv li { display: inline; padding-left: 0px;}
 ul.csv li:before { content: ""; padding-right: 0px; }
 ul.csv li:after { content: ", "; }
 ul.csv li:last-child:after { content: ""; }
- 
+
+
+
+
 
 /*************************************************
  *  Tables

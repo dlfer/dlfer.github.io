@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>agnello</title>
+      <link>https://www.dlfer.xyz/recipes/tags/agnello/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/agnello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forno</title>
+      <link>https://www.dlfer.xyz/recipes/tags/forno/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/forno/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patate</title>
+      <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/patate/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>salmone</title>
@@ -58,15 +85,6 @@
     </item>
     
     <item>
-      <title>patate</title>
-      <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/patate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>uova</title>
       <link>https://www.dlfer.xyz/recipes/tags/uova/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
@@ -99,15 +117,6 @@
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/carne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>forno</title>
-      <link>https://www.dlfer.xyz/recipes/tags/forno/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/forno/</guid>
       <description></description>
     </item>
     
@@ -225,15 +234,6 @@
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/torte-salate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>agnello</title>
-      <link>https://www.dlfer.xyz/recipes/tags/agnello/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/agnello/</guid>
       <description></description>
     </item>
     

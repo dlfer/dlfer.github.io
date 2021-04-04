@@ -61,7 +61,7 @@
 
 <p><a href="/recipes/categories/secondi/">Secondi</a> (13)</p>
 
-<p><a href="/recipes/categories/secondi-di-carne/">Secondi di carne</a> (15)</p>
+<p><a href="/recipes/categories/secondi-di-carne/">Secondi di carne</a> (16)</p>
 
 <p><a href="/recipes/categories/secondi-di-pesce/">Secondi di pesce</a> (2)</p>
 
@@ -78,6 +78,11 @@
 </div>
 <script src="https://www.dlfer.xyz/recipes/js/jquery-3.4.1.min.js"></script>
 <script src="https://www.dlfer.xyz/recipes/js/bootstrap.min.js"></script>
+<script>
+$("ul:not(.dropdown,.nav,.dropdown-menu,.csv) li").click(function() {
+  $(this).toggleClass("checked");
+});
+</script>
 
 </body>
 </html>

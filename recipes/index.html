@@ -47,8 +47,8 @@
 </div>
 <div id="content" class="container">
 		 <div class="row">
-		 <div class="col-sm-8"><h1>Alcune Ricette (68)</h1><hr><table class="count"> 
-  <h3><a href="/recipes/main/">Piatti principali (secondi)</a>(23)</h3>
+		 <div class="col-sm-8"><h1>Alcune Ricette (69)</h1><hr><table class="count"> 
+  <h3><a href="/recipes/main/">Piatti principali (secondi)</a>(24)</h3>
       <ul class="list-unstyled"></ul>
   <h3><a href="/recipes/primi/">Primi</a>(5)</h3>
       <ul class="list-unstyled"></ul>
@@ -71,6 +71,11 @@
 </div>
 <script src="https://www.dlfer.xyz/recipes/js/jquery-3.4.1.min.js"></script>
 <script src="https://www.dlfer.xyz/recipes/js/bootstrap.min.js"></script>
+<script>
+$("ul:not(.dropdown,.nav,.dropdown-menu,.csv) li").click(function() {
+  $(this).toggleClass("checked");
+});
+</script>
 
 </body>
 </html>

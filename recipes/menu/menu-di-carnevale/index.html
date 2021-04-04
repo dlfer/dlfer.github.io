@@ -86,6 +86,11 @@
 </div>
 <script src="https://www.dlfer.xyz/recipes/js/jquery-3.4.1.min.js"></script>
 <script src="https://www.dlfer.xyz/recipes/js/bootstrap.min.js"></script>
+<script>
+$("ul:not(.dropdown,.nav,.dropdown-menu,.csv) li").click(function() {
+  $(this).toggleClass("checked");
+});
+</script>
 
 </body>
 </html>
