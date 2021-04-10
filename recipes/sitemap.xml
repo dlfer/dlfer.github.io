@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,6 +33,41 @@
   </url>
   
   <url>
+    <loc>https://www.dlfer.xyz/recipes/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/chickenpie/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/pollo/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/pub/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2021-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.dlfer.xyz/recipes/tags/agnello/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -43,32 +78,12 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/tags/forno/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/patate/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
-    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
     <lastmod>2021-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -424,11 +439,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/nocciole/</loc>
-    <lastmod>2020-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/pollo/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
