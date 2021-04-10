@@ -313,7 +313,7 @@
   <h1 class="post-title">UISP acquaviva</h1>
   <span class="post-date">2021-02-16 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2021-03-29) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2021-04-10) 
 	  
   </span>
   <p>Significato di <a href="http://www.uisp.it/">UISP</a>:  <strong>U</strong>nione <strong>I</strong>taliana <strong>S</strong>port <strong>P</strong>er tutti.</p>
@@ -817,7 +817,7 @@
 </tbody>
 </table>
 <h3 id="distanza-da-angolo">Distanza da angolo</h3>
-<p>Se confronto un oggetto lungo $L$ a distanza $x$ con il mio pollice (braccio teso),
+<p>Se confronto un oggetto lungo $L$ a distanza $x$ con il mio pollice (braccio teso $\sim$  60 cm),
 lungo $l$, allora vale la proporzione
 $l : 60 \sim L : x$,
 e quindi $x = \frac{60}{l} L$. Il valore di $\frac{60}{l}$ è indicato
@@ -828,8 +828,8 @@ allora la distanza è $24 \times 150 = 3600 $ cm, cioè 36m.
 Se invece è la metà del pollice, la distanza sarà doppia, cioè 72m.</p>
 <h3 id="angoli">Angoli</h3>
 <p>La distanza dall&rsquo;occhio alla mano è approssimativamente 60cm. Quindi
-l&rsquo;angolo in radianti di una parte della mano lunga $l$ sarà $\approx l/60$, da cui
-segue che l&rsquo;angolo in gradi sarà $\frac{l}{ 60 } \times \frac{ 360 }{ 2\pi  } \approx 0.95 l  \sim l $.</p>
+l&rsquo;angolo in radianti di una parte della mano lunga $l$ cm sarà $\approx l/60$, da cui
+segue che l&rsquo;angolo in gradi sarà $\frac{l}{ 60 } \times \frac{ 360 }{ 2\pi  } \approx 0.95 l °  \sim l ° $.</p>
 <table>
 <thead>
 <tr>
@@ -839,11 +839,6 @@ segue che l&rsquo;angolo in gradi sarà $\frac{l}{ 60 } \times \frac{ 360 }{ 2\p
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>pugno</td>
-<td>tenuto di fronte, braccio teso</td>
-<td>8.5-10°</td>
-</tr>
 <tr>
 <td>mignolo</td>
 <td>come sopra</td>
@@ -855,15 +850,44 @@ segue che l&rsquo;angolo in gradi sarà $\frac{l}{ 60 } \times \frac{ 360 }{ 2\p
 <td>~2°</td>
 </tr>
 <tr>
+<td>pugno</td>
+<td>tenuto di fronte, braccio teso</td>
+<td>8.5-10°</td>
+</tr>
+<tr>
 <td>spanna</td>
 <td>come sopra</td>
 <td>21-22°</td>
 </tr>
 </tbody>
 </table>
+<p>Il <strong>diametro angolare</strong> $\alpha$ in gradi di un oggetto lungo $L$ a distanza $x$ dall&rsquo;osservatore
+soddisfa l&rsquo;equazione
+$$ \dfrac{L}{x} = \tan \alpha. $$
+Se $\alpha$ è abbastanza piccolo, $\tan \alpha \sim \dfrac{\alpha \pi }{180} \sim \frac{\alpha}{57} \sim \frac{\alpha}{60} $:
+segue che
+$$ L : x = \alpha : 60 \iff x : L = 60 : \alpha. $$
+Cioè la distanza $x$ si calcola dalla formula
+$$
+x = L \times 60 : \alpha,
+$$
+che è uguale alla precedente, per le misure in centimetri delle parti della mano (ma $\alpha$
+può essere calcolato più precisamente con due misurazioni di bussola!).</p>
 <blockquote>
 <p>Il <a href="https://it.wikipedia.org/wiki/Diametro_angolare">diametro angolare</a>  della luna è circa 1/2°.</p>
 </blockquote>
+<p><em>(Il diametro della luna è 3500km: quindi la luna orbiterebbe ad una distanza di
+$x \sim 3500 \times 60 \times 2  = 420000 $ km. La distanza media reale è
+384400 km. Tutte queste stime di distanza sono per valutare le distanze a occhio!)</em></p>
+<p><strong>Osservazione:</strong> l&rsquo;unità di misura per $x$ e $L$ deve essere la stessa. Se
+invece si considera $L$ misurata in piedi (per esempio, una altezza) e $x$ in miglia nautiche,
+allora dato che 1 nm = 6076.12 ft $\sim $ 6000 ft,
+$$
+x \text{ nm} \sim L&rsquo; \times \dfrac{60}{ 6000 \alpha} = L&rsquo; :  ( 100 \alpha ).
+$$
+Cioè, se vedo un Boeing 737-500 (100 piedi), o un palazzo di 9 piani,
+con un diametro angolare di 1/2°,
+la distanza sarà di 2 miglia nautiche.</p>
 <h3 id="velocità">Velocità</h3>
 <table>
 <thead>
