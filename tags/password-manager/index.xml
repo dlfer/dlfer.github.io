@@ -20,7 +20,7 @@
       <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
       <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
 Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
-$ sudo pip install xkcdpass $ xkcdpass -w &#34;ita-wiki&#34; -w &#34;ger-anlx&#34; -d &#34;;&#34; It is not difficult to add more words lists, e.</description>
+$ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot; It is not difficult to add more words lists, e.</description>
     </item>
     
   </channel>

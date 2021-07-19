@@ -313,28 +313,28 @@
   <h1 class="post-title">Fixing MarkDown LaTeX underscore problem</h1>
   <span class="post-date">2017-10-04 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2017-10-04) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2021-07-19) 
 	  
   </span>
   <h2 id="how-to-fix-markdown-underscore-with-latex-problem">How to fix Markdown underscore with LaTeX problem?</h2>
-
 <p>Test of a displaystyle formula
-<span  class="math">\(
-A_k^n = 
+$$
+A_k^n =
 \dfrac{n!}{k!(n-k)!} =
 \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k }  =
 \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j }
-\)</span></p>
-
+$$</p>
 <p>And the same for an inline sum: $\sum_j j^2$.</p>
-
 <p>The answer is: in the preamble</p>
-<pre><code>markup = "mmark"</code></pre>
-<p>and then just use</p>
+<pre><code>markup = &quot;mmark&quot;
+</code></pre><p>and then just use</p>
 <pre><code>$$ .. $$ 
 or 
-$ ..  $</code></pre>
-<p>apparently.</p>
+$ ..  $
+</code></pre><p>apparently.</p>
+<h2 id="update-2021-07-19">UPDATE 2021-07-19</h2>
+<pre><code>WARN 2021/07/19 12:38:55 Markup type mmark is deprecated and will be removed in a future release.
+</code></pre><p>Without the line <code>markup = &quot;mmark&quot;</code> everything is fine. Default = <code>goldmark</code>.</p>
 
 </div>
 

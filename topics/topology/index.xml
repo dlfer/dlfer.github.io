@@ -39,8 +39,8 @@ Una lista (molto incompleta) di strumenti di calcolo utili per la matematica:
       <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/post/2017-10-25-windingaround/</guid>
-      <description>Just ... ...reading John Roe&#39;s book Winding Around. Here: For an extended riff on the idea of mathematics as mountaineering see &amp;quot;Into Thin Air&amp;quot; by Colin Adams, on Mathematical Intelligencer.
-How much about &amp;quot;mathematics as mountaineering&amp;quot;?</description>
+      <description>Just &amp;hellip; &amp;hellip;reading John Roe&amp;rsquo;s book Winding Around. Here: For an extended riff on the idea of mathematics as mountaineering see &amp;ldquo;Into Thin Air&amp;rdquo; by Colin Adams, on Mathematical Intelligencer.
+How much about &amp;ldquo;mathematics as mountaineering&amp;rdquo;?</description>
     </item>
     
     <item>
@@ -131,7 +131,7 @@ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots
       
       <guid>//www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
       <description>Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
-$\require{amscd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
+$\require{amscd}$ $$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
     </item>
     
     <item>

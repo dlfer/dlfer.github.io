@@ -313,7 +313,7 @@
   <h1 class="post-title">Categorical products and coproducts </h1>
   <span class="post-date">2016-10-12 
 	  
-	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2020-11-20) 
+	  (<i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;2021-07-19) 
 	  
   </span>
   <h2 id="universal-property-of-coproducts">Universal property of coproducts</h2>
@@ -322,11 +322,13 @@ $j_1 \from X_1 \to X_1 \coprod X_2$,
 $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram
 commutes <em>(the first is with MathJax AMScd, the second is an embedded SVG produced with xypic)</em>:</p>
 <p>$\require{amscd}$
+$$
 \begin{CD}
 X_1 @&gt;{j_1}&raquo; X_1 \coprod X_2 @&lt;{j_2}&laquo; X_2  \\\<br>
 @|  @VVhV  @|  \\\<br>
 X_1 @&gt;{h_1}&raquo; Z  @&lt;{h_2}&laquo; X_2  \\\<br>
-\end{CD}</p>
+\end{CD}
+$$</p>
 <center>
 <img alt="Diagram for coproduct of two objects" src="//www.dlfer.xyz/img/coprod1.svg" width="400"/>
 </center>
@@ -359,8 +361,7 @@ Given $h_ \alpha$, pointed maps, $h_ \alpha (x_ \alpha) = z_ 0$,
 where $z_ 0$ is the base-point of $Z$. Hence
 the map defined on the disjoint union (which is continuous)
 induces a (continuous) map on the quotient
-$h \from \bigvee_ {s \in S} X_ s \to Z$.
-*(/Proof)*</p>
+$h \from \bigvee_ {s \in S} X_ s \to Z$. <i>(/Proof)</i></p>
 <h2 id="products">Products</h2>
 <p>Reversing arrows, one define the <strong>product</strong>, denoted by
 $\prod_ {s \in S} X_ s$,
@@ -394,7 +395,7 @@ which is not equivalent to the product topology.</p>
 <dl>
 <dt>(2)</dt>
 <dd>The product in $\mathbf{Top}_ *$ is the cartesian product,
-with the **product topology**. The base point
+with the <b>product topology</b>. The base point
 of $\prod_ {s \in S } (X_ s, \hat x_ s) $
 is $(\hat x_ s)_ {s \in S}$.</dd>
 </dl>
@@ -410,7 +411,7 @@ in $\mathbf{Top}$. Furthermore, if $\hat z\in Z$ is the base-point,
 then $h_ \alpha(\hat z) = \hat x_ \alpha$ for each $\alpha$,
 hence
 $h(\hat z)$ is the base-point in $\prod_ {\alpha \in S } (X_ \alpha, \hat x_ \alpha)$.
-*(/Proof)*</p>
+<i>(/Proof)</i></p>
 <p>If $X_ \alpha$ does not depend upon $\alpha$,
 then the product
 $\prod_ {\alpha \in S} X_ \alpha$ is also
@@ -513,8 +514,9 @@ as in the following diagram.</p>
 </center>
 Given $X\in \bD$ and $F\from \bC \to \bD$, 
 the comma category $X \downarrow F$ is uniquely defined. 
-If $X\downarrow F$ has an **[initial object](https://en.wikipedia.org/wiki/Initial_and_terminal_objects)**, 
-then this is termed the **universal arrow** from $X$ to $F$. 
+If $X\downarrow F$ has an 
+<p><a href="https://en.wikipedia.org/wiki/Initial_and_terminal_objects">initial object</a>,
+then this is termed the <b>universal arrow</b> from $X$ to $F$.</p>
 <dl>
 <dt>(5)</dt>
 <dd>The coproduct of two objects $X_ 1,X_ 2$ in $\bC$
@@ -549,7 +551,7 @@ $f \from A \to Z$
 such that the composition
 $ \Delta(f) j\from (X_ 1,X_ 2) \to (A,A) \to (Z,Z)$
 is equal to $h$.
-*(/Proof)*</p>
+<i>(/Proof)</i></p>
 
 </div>
 

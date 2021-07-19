@@ -317,39 +317,29 @@
 	  
   </span>
   <h2 id="first-install-the-password-manager">First, install the password manager.</h2>
-
 <p>On windows 10, it is
 <a href="https://keepass.info">keepass</a>.
 On linux, the debian package for keepass2 is available in the standard repository.</p>
-
 <p>Since <a href="https://anarc.at/blog/2017-02-18-passwords-entropy/">strong passwords are needed</a>,
 either use the keepass password internal generator,
 or (maybe for the master password), install and use  e.g. <a href="https://github.com/ulif/diceware">diceware</a>
 or
 <a href="https://pypi.org/project/xkcdpass/">xkcdpass</a>:</p>
 <pre><code>$ sudo pip install xkcdpass
-$ xkcdpass -w "ita-wiki" -w "ger-anlx" -d ";"</code></pre>
-<p>It is not difficult to add more words lists, e.g. <a href="https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases">EFF wordlists</a> or <a href="https://www.taringamberini.com/it/diceware_it_IT/lista-di-parole-diceware-in-italiano/">Diceware in italian</a>.</p>
-
+$ xkcdpass -w &quot;ita-wiki&quot; -w &quot;ger-anlx&quot; -d &quot;;&quot;
+</code></pre><p>It is not difficult to add more words lists, e.g. <a href="https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases">EFF wordlists</a> or <a href="https://www.taringamberini.com/it/diceware_it_IT/lista-di-parole-diceware-in-italiano/">Diceware in italian</a>.</p>
 <p>After finishing the <strong>keepass</strong> installation, and creating a database,<br>
 install the <a href="https://github.com/JanisEst/KeePassBrowserImporter">KeePassBrowserImporter plugin</a> plugin.</p>
-
 <p>Then, import all passwords saved in (possibly) all <strong>google chrome</strong>/<strong>chromium</strong> profiles.</p>
-
 <p>The next step is to</p>
-
 <h2 id="sync-the-database-between-devices">sync the database between devices.</h2>
-
 <p>According to the <a href="https://keepass.info/help/kb/trigger_examples.html#dbsync">documentation</a>, each node
 should have a local DB and a shared Dropbox DB.</p>
-
 <p>To simplify, without extra plugins, just use Dropbox local daemon, syncing the database in the
 <code>Apps/KeePass</code> subfolder of the shared Dropbox folder.
 The istructions are not exactly one-line to follow, but require a few minutes for each
 computer to sync.</p>
-
 <h2 id="finally">Finally,</h2>
-
 <p><strong>print</strong> a KeePass Emergency Sheet. Also, just in case, a few backup copies and a few PassPhrases
 written in safe pieces of paper?
 <strong>Problem</strong>: in linux, due to some .NET issues, it is not possible  to print the DB.</p>

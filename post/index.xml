@@ -90,9 +90,8 @@ Ganesh (dio degli inizi, successo e saggezza). Elefante. Indra ( underworld, abi
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2019-12-23-qmath/</guid>
-      <description>La matematica è fatta di domande. Tante domande. E di risposte. Poche risposte giuste e complete, molte risposte parziali, moltissime risposte sbagliate. 
-»Qual è il concetto più grande di infinito? ¬ Cosa intendi per infinito?
-» Non so, l&#39;infinito ... una cosa infinitamente grande.
+      <description>La matematica è fatta di domande. Tante domande. E di risposte. Poche risposte giuste e complete, molte risposte parziali, moltissime risposte sbagliate.  »Qual è il concetto più grande di infinito? ¬ Cosa intendi per infinito?
+» Non so, l&amp;rsquo;infinito &amp;hellip; una cosa infinitamente grande.
 ¬ Ah, ho capito. Una cosa che non è finita, e quindi che se si prova a contarla non si finisce mai di contare. È così?</description>
     </item>
     
@@ -102,7 +101,7 @@ Ganesh (dio degli inizi, successo e saggezza). Elefante. Indra ( underworld, abi
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>//www.dlfer.xyz/post/2019-12-19-coldwater/</guid>
-      <description>Quali sono gli effetti dell&#39;acqua fredda sul corpo? S e una persona cade in acqua fredda senza protezioni termiche, il rischio primario non è l&#39;ipotermia, che arriva per ultima. Prima di quello, ci sono altri rischi più urgenti. Quando l&#39;acqua è fredda? Quando la sua temperatura è meno di 10-15 °C, nella maggio parte dei casi.
+      <description>Quali sono gli effetti dell&amp;rsquo;acqua fredda sul corpo? S e una persona cade in acqua fredda senza protezioni termiche, il rischio primario non è l&amp;rsquo;ipotermia, che arriva per ultima. Prima di quello, ci sono altri rischi più urgenti. Quando l&amp;rsquo;acqua è fredda? Quando la sua temperatura è meno di 10-15 °C, nella maggio parte dei casi.
 Molto approssimativamente:
  Un minuto per far passare lo shock da freddo e riprendere il controllo della respirazione.</description>
     </item>
@@ -114,7 +113,7 @@ Molto approssimativamente:
       
       <guid>//www.dlfer.xyz/post/suppekayak/</guid>
       <description>Per muoversi in acqua uno degli strumenti primitivi più facili da usare è la pagaia. La differenza tra remo (oar) e pagaia (paddle) ? Il remo è agganciata alla barca in un fulcro (scalmo (oarlock, rowlock)), mentre la pagaia è impugnata liberamente. Le robe principali che una persona da sola può muovere con una pagaia: Kayak, canoa (canoe), tavola da pagaia in piedi SUP (Stand Up Paddleboard), canotto/gommoncino (packraft).
-Luoghi d&#39;acqua pagaiabili Elenco di luoghi in cui è possibile l&#39;imbarco/sbarco, vicino al parcheggio Per un elenco più vasto, c&#39;è la lista con the OFFICIAL top 100 places to paddle IN THE WORLD della International Canoe Federation: al 32-esimo posto c&#39;è il Lago di Pusiano.</description>
+Luoghi d&amp;rsquo;acqua pagaiabili Elenco di luoghi in cui è possibile l&amp;rsquo;imbarco/sbarco, vicino al parcheggio Per un elenco più vasto, c&#39;è la lista con the OFFICIAL top 100 places to paddle IN THE WORLD della International Canoe Federation: al 32-esimo posto c&#39;è il Lago di Pusiano.</description>
     </item>
     
     <item>
@@ -134,7 +133,7 @@ Luoghi d&#39;acqua pagaiabili Elenco di luoghi in cui è possibile l&#39;imbarco
       <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
       <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
 Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
-$ sudo pip install xkcdpass $ xkcdpass -w &#34;ita-wiki&#34; -w &#34;ger-anlx&#34; -d &#34;;&#34; It is not difficult to add more words lists, e.</description>
+$ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot; It is not difficult to add more words lists, e.</description>
     </item>
     
     <item>
@@ -164,8 +163,8 @@ Veduto l&amp;rsquo;art. 70 del R. decreto-legge 4 settembre 1925, n. 1604, col q
       <pubDate>Thu, 26 Oct 2017 16:14:02 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/post/2017-10-25-windingaround/</guid>
-      <description>Just ... ...reading John Roe&#39;s book Winding Around. Here: For an extended riff on the idea of mathematics as mountaineering see &amp;quot;Into Thin Air&amp;quot; by Colin Adams, on Mathematical Intelligencer.
-How much about &amp;quot;mathematics as mountaineering&amp;quot;?</description>
+      <description>Just &amp;hellip; &amp;hellip;reading John Roe&amp;rsquo;s book Winding Around. Here: For an extended riff on the idea of mathematics as mountaineering see &amp;ldquo;Into Thin Air&amp;rdquo; by Colin Adams, on Mathematical Intelligencer.
+How much about &amp;ldquo;mathematics as mountaineering&amp;rdquo;?</description>
     </item>
     
     <item>
@@ -174,10 +173,10 @@ How much about &amp;quot;mathematics as mountaineering&amp;quot;?</description>
       <pubDate>Wed, 04 Oct 2017 15:16:15 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/post/2017-10-03-mmark/</guid>
-      <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula \( A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } \)
+      <description>How to fix Markdown underscore with LaTeX problem? Test of a displaystyle formula $$ A_k^n = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } $$
 And the same for an inline sum: $\sum_j j^2$.
 The answer is: in the preamble
-markup = &#34;mmark&#34; and then just use
+markup = &amp;quot;mmark&amp;quot; and then just use
 $$ .. $$ or $ .. $ apparently.</description>
     </item>
     
@@ -304,7 +303,7 @@ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots
       
       <guid>//www.dlfer.xyz/post/2016-10-12-coproducts/</guid>
       <description>Universal property of coproducts Let $X_1, X_2$ be objects of the category $\vC$. The coproduct of $X_1$ and $X_2$ (if it exists) is a space $X_1 \coprod X_2$ and two morphisms $j_1 \from X_1 \to X_1 \coprod X_2$, $j_2 \from X_2 \to X_1 \coprod X_2$ such that the following diagram commutes (the first is with MathJax AMScd, the second is an embedded SVG produced with xypic):
-$\require{amscd}$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
+$\require{amscd}$ $$ \begin{CD} X_1 @&amp;gt;{j_1}&amp;raquo; X_1 \coprod X_2 @&amp;lt;{j_2}&amp;laquo; X_2 \\\</description>
     </item>
     
     <item>
