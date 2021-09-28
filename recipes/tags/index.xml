@@ -7,10 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>carne</title>
+      <link>https://www.dlfer.xyz/recipes/tags/carne/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/carne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cipolle</title>
+      <link>https://www.dlfer.xyz/recipes/tags/cipolle/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/cipolle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>crostata</title>
+      <link>https://www.dlfer.xyz/recipes/tags/crostata/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/crostata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>francese</title>
+      <link>https://www.dlfer.xyz/recipes/tags/francese/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/francese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mele</title>
+      <link>https://www.dlfer.xyz/recipes/tags/mele/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/mele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>patate</title>
+      <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/patate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ragù</title>
+      <link>https://www.dlfer.xyz/recipes/tags/rag%C3%B9/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/rag%C3%B9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sformato</title>
+      <link>https://www.dlfer.xyz/recipes/tags/sformato/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/sformato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zuppa</title>
+      <link>https://www.dlfer.xyz/recipes/tags/zuppa/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/zuppa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pollo</title>
@@ -45,15 +126,6 @@
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/forno/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>patate</title>
-      <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
-      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/patate/</guid>
       <description></description>
     </item>
     
@@ -94,15 +166,6 @@
     </item>
     
     <item>
-      <title>cipolle</title>
-      <link>https://www.dlfer.xyz/recipes/tags/cipolle/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/cipolle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>uova</title>
       <link>https://www.dlfer.xyz/recipes/tags/uova/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
@@ -112,29 +175,11 @@
     </item>
     
     <item>
-      <title>zuppa</title>
-      <link>https://www.dlfer.xyz/recipes/tags/zuppa/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/zuppa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>brasato</title>
       <link>https://www.dlfer.xyz/recipes/tags/brasato/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/brasato/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>carne</title>
-      <link>https://www.dlfer.xyz/recipes/tags/carne/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/carne/</guid>
       <description></description>
     </item>
     
@@ -301,7 +346,7 @@
     </item>
     
     <item>
-      <title>Involtini</title>
+      <title>involtini</title>
       <link>https://www.dlfer.xyz/recipes/tags/involtini/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
@@ -567,15 +612,6 @@
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/maiale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mele</title>
-      <link>https://www.dlfer.xyz/recipes/tags/mele/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/mele/</guid>
       <description></description>
     </item>
     
