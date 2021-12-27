@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Dec 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>caffè</title>
+      <link>https://www.dlfer.xyz/recipes/tags/caff%C3%A8/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/caff%C3%A8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inglese</title>
+      <link>https://www.dlfer.xyz/recipes/tags/inglese/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/inglese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>noci</title>
+      <link>https://www.dlfer.xyz/recipes/tags/noci/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/noci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torta</title>
+      <link>https://www.dlfer.xyz/recipes/tags/torta/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/torta/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>carne</title>
@@ -175,11 +211,128 @@
     </item>
     
     <item>
+      <title>acciughe</title>
+      <link>https://www.dlfer.xyz/recipes/tags/acciughe/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/acciughe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bodino</title>
+      <link>https://www.dlfer.xyz/recipes/tags/bodino/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/bodino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>brasato</title>
       <link>https://www.dlfer.xyz/recipes/tags/brasato/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/brasato/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>budino</title>
+      <link>https://www.dlfer.xyz/recipes/tags/budino/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/budino/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carbonara</title>
+      <link>https://www.dlfer.xyz/recipes/tags/carbonara/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/carbonara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cavolfiore</title>
+      <link>https://www.dlfer.xyz/recipes/tags/cavolfiore/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/cavolfiore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>filetto</title>
+      <link>https://www.dlfer.xyz/recipes/tags/filetto/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/filetto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnocchi</title>
+      <link>https://www.dlfer.xyz/recipes/tags/gnocchi/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/gnocchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latte</title>
+      <link>https://www.dlfer.xyz/recipes/tags/latte/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/latte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maiale</title>
+      <link>https://www.dlfer.xyz/recipes/tags/maiale/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/maiale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mandorle</title>
+      <link>https://www.dlfer.xyz/recipes/tags/mandorle/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/mandorle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mantovana</title>
+      <link>https://www.dlfer.xyz/recipes/tags/mantovana/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/mantovana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marsala</title>
+      <link>https://www.dlfer.xyz/recipes/tags/marsala/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/marsala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medaglioni</title>
+      <link>https://www.dlfer.xyz/recipes/tags/medaglioni/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/medaglioni/</guid>
       <description></description>
     </item>
     
@@ -193,11 +346,83 @@
     </item>
     
     <item>
+      <title>osso buco</title>
+      <link>https://www.dlfer.xyz/recipes/tags/osso-buco/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/osso-buco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pesche</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pesche/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pesche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pomidoro</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pomidoro/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pomidoro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ravioli</title>
+      <link>https://www.dlfer.xyz/recipes/tags/ravioli/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/ravioli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ricotta</title>
+      <link>https://www.dlfer.xyz/recipes/tags/ricotta/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/ricotta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>riso</title>
       <link>https://www.dlfer.xyz/recipes/tags/riso/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/riso/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spaghetti</title>
+      <link>https://www.dlfer.xyz/recipes/tags/spaghetti/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/spaghetti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spinaci</title>
+      <link>https://www.dlfer.xyz/recipes/tags/spinaci/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/spinaci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strudel</title>
+      <link>https://www.dlfer.xyz/recipes/tags/strudel/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/strudel/</guid>
       <description></description>
     </item>
     
@@ -243,15 +468,6 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/pancetta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spaghetti</title>
-      <link>https://www.dlfer.xyz/recipes/tags/spaghetti/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/spaghetti/</guid>
       <description></description>
     </item>
     
@@ -463,15 +679,6 @@
     </item>
     
     <item>
-      <title>mandorle</title>
-      <link>https://www.dlfer.xyz/recipes/tags/mandorle/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/mandorle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>pimento</title>
       <link>https://www.dlfer.xyz/recipes/tags/pimento/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
@@ -607,15 +814,6 @@
     </item>
     
     <item>
-      <title>maiale</title>
-      <link>https://www.dlfer.xyz/recipes/tags/maiale/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/maiale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mex</title>
       <link>https://www.dlfer.xyz/recipes/tags/mex/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
@@ -670,15 +868,6 @@
     </item>
     
     <item>
-      <title>torta</title>
-      <link>https://www.dlfer.xyz/recipes/tags/torta/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/torta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>zeppole</title>
       <link>https://www.dlfer.xyz/recipes/tags/zeppole/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
@@ -693,15 +882,6 @@
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/salsiccia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>inglese</title>
-      <link>https://www.dlfer.xyz/recipes/tags/inglese/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/inglese/</guid>
       <description></description>
     </item>
     
