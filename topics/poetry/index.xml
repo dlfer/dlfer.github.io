@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 16 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="//www.dlfer.xyz/topics/poetry/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alcune poesie di Diego Valeri</title>
+      <link>//www.dlfer.xyz/poem/diego-valeri/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//www.dlfer.xyz/poem/diego-valeri/</guid>
+      <description>Diego Valeri (nato il a Piove di Sacco il 1887-01-25, morto a Roma il 1976-11-27)
+ Quel pomeriggio dolce (Calle del vento, 1975)   Quel pomeriggio dolce  si andava lungo il fiume.  E ci sorprese a un tratto,  dall&amp;#39;altra riva,  un vasto coro, un alto  rammarichìo di tortore selvagge  raccolte lì, chissà come, da quando.   Il bel fiume era l&amp;#39;Adda  errabonda per prati e campi,  tra leggiere boschine di pioppi.</description>
+    </item>
     
     <item>
       <title>Soy un truhán, soy un señor (1978)</title>
