@@ -322,209 +322,209 @@
 <blockquote>
 <p>Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia <span class="math inline">\(H_0\)</span> e <span class="math inline">\(H_1\)</span>. Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo <strong>possibilmente</strong> euclideo, e visualizzare quel che viene.</p>
 </blockquote>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># define a function for visualization:</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="im">from</span> matplotlib.collections <span class="im">import</span> LineCollection</span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-6"><a href="#cb1-6"></a>mpl.rcParams[<span class="st">&#39;figure.figsize&#39;</span>] <span class="op">=</span> (<span class="fl">8.0</span>, <span class="fl">8.0</span>)</span>
-<span id="cb1-7"><a href="#cb1-7"></a>pi<span class="op">=</span>np.pi</span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="kw">def</span> view(X,show_labels<span class="op">=</span><span class="va">False</span>):</span>
-<span id="cb1-9"><a href="#cb1-9"></a>    vertices,edges<span class="op">=</span>X <span class="co"># assign names...</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>    fig<span class="op">=</span>plt.figure()</span>
-<span id="cb1-11"><a href="#cb1-11"></a>    ax<span class="op">=</span>fig.gca()</span>
-<span id="cb1-12"><a href="#cb1-12"></a>    ax.set_aspect(<span class="st">&#39;equal&#39;</span>)</span>
-<span id="cb1-13"><a href="#cb1-13"></a>    ax.set_axis_off()</span>
-<span id="cb1-14"><a href="#cb1-14"></a>    fig.set_facecolor(<span class="st">&#39;white&#39;</span>)</span>
-<span id="cb1-15"><a href="#cb1-15"></a>    </span>
-<span id="cb1-16"><a href="#cb1-16"></a>    lc <span class="op">=</span> LineCollection(edges, color<span class="op">=</span><span class="st">&quot;black&quot;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
-<span id="cb1-17"><a href="#cb1-17"></a>    </span>
-<span id="cb1-18"><a href="#cb1-18"></a>    ax.add_collection(lc)</span>
-<span id="cb1-19"><a href="#cb1-19"></a>    <span class="cf">for</span> P <span class="kw">in</span> vertices:</span>
-<span id="cb1-20"><a href="#cb1-20"></a>        ax.add_patch(plt.Circle(P, <span class="fl">0.005</span><span class="op">*</span>N<span class="op">/</span><span class="dv">2</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>,</span>
-<span id="cb1-21"><a href="#cb1-21"></a>                        linewidth<span class="op">=</span><span class="dv">2</span>, rasterized<span class="op">=</span><span class="va">False</span>, antialiased<span class="op">=</span><span class="va">True</span>,facecolor<span class="op">=</span><span class="st">&#39;w&#39;</span>,</span>
-<span id="cb1-22"><a href="#cb1-22"></a>                        zorder<span class="op">=</span><span class="dv">1000</span>) )</span>
-<span id="cb1-23"><a href="#cb1-23"></a>        </span>
-<span id="cb1-24"><a href="#cb1-24"></a>    <span class="cf">if</span> show_labels:</span>
-<span id="cb1-25"><a href="#cb1-25"></a>          <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(vertices)):</span>
-<span id="cb1-26"><a href="#cb1-26"></a>                Px,Py<span class="op">=</span>vertices[j]</span>
-<span id="cb1-27"><a href="#cb1-27"></a>                ax.annotate(<span class="st">&quot;$</span><span class="sc">%s</span><span class="st">$&quot;</span> <span class="op">%</span> j, vertices[j] , (Px<span class="op">-</span><span class="fl">0.06</span>,Py<span class="op">+</span><span class="fl">0.01</span>),fontsize<span class="op">=</span><span class="dv">24</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
-<span id="cb1-28"><a href="#cb1-28"></a>    ax.plot()   <span class="co">#Causes an autoscale update.</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a>    plt.show()</span></code></pre></div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Primo problema: come **codificare** un grafo: elenco di vertici (euclidei?) e di spigoli.</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>N<span class="op">=</span><span class="dv">3</span> <span class="co">#numero di case/pozzi</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="im">import</span> random</span>
-<span id="cb2-4"><a href="#cb2-4"></a></span>
-<span id="cb2-5"><a href="#cb2-5"></a>A<span class="op">=</span>[(random.random(),random.random()) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># complesso simplicial astratto o euclideo</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a>B<span class="op">=</span>[ (random.random(), random.random()) <span class="cf">for</span> y <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># (niente cooordinate o coordinate?)</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a></span>
-<span id="cb2-8"><a href="#cb2-8"></a>vertices <span class="op">=</span> A <span class="op">+</span> B <span class="co"># concatenation of lists (overloading degli operatori)</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a>edges <span class="op">=</span> [ [x, y] <span class="cf">for</span> x <span class="kw">in</span> A <span class="cf">for</span> y <span class="kw">in</span> B[<span class="dv">1</span>:] ] <span class="co"># math notation</span></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># un grafo quindi è la coppia:</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a>X <span class="op">=</span> (vertices,edges) <span class="co"># come complesso simpliciale mancherebbero gli 0-simplessi, però...</span></span>
-<span id="cb2-12"><a href="#cb2-12"></a></span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="co"># proviamo a scrivere una funzione per calcolare l&#39;omologia: h_0 e h_1: prima </span></span>
-<span id="cb2-14"><a href="#cb2-14"></a><span class="co"># di tutto dovremmo capire se è connesso oppure no... </span></span>
-<span id="cb2-15"><a href="#cb2-15"></a></span>
-<span id="cb2-16"><a href="#cb2-16"></a></span></code></pre></div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a>view(X,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define a function for visualization:</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.collections <span class="im">import</span> LineCollection</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>mpl.rcParams[<span class="st">&#39;figure.figsize&#39;</span>] <span class="op">=</span> (<span class="fl">8.0</span>, <span class="fl">8.0</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>pi<span class="op">=</span>np.pi</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> view(X,show_labels<span class="op">=</span><span class="va">False</span>):</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    vertices,edges<span class="op">=</span>X <span class="co"># assign names...</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    fig<span class="op">=</span>plt.figure()</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    ax<span class="op">=</span>fig.gca()</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    ax.set_aspect(<span class="st">&#39;equal&#39;</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    ax.set_axis_off()</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    fig.set_facecolor(<span class="st">&#39;white&#39;</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>    lc <span class="op">=</span> LineCollection(edges, color<span class="op">=</span><span class="st">&quot;black&quot;</span>, lw<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    ax.add_collection(lc)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> P <span class="kw">in</span> vertices:</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>        ax.add_patch(plt.Circle(P, <span class="fl">0.005</span><span class="op">*</span>N<span class="op">/</span><span class="dv">2</span>, edgecolor<span class="op">=</span><span class="st">&#39;black&#39;</span>,</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>                        linewidth<span class="op">=</span><span class="dv">2</span>, rasterized<span class="op">=</span><span class="va">False</span>, antialiased<span class="op">=</span><span class="va">True</span>,facecolor<span class="op">=</span><span class="st">&#39;w&#39;</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>                        zorder<span class="op">=</span><span class="dv">1000</span>) )</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> show_labels:</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>          <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(vertices)):</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>                Px,Py<span class="op">=</span>vertices[j]</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>                ax.annotate(<span class="st">&quot;$</span><span class="sc">%s</span><span class="st">$&quot;</span> <span class="op">%</span> j, vertices[j] , (Px<span class="op">-</span><span class="fl">0.06</span>,Py<span class="op">+</span><span class="fl">0.01</span>),fontsize<span class="op">=</span><span class="dv">24</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    ax.plot()   <span class="co">#Causes an autoscale update.</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Primo problema: come **codificare** un grafo: elenco di vertici (euclidei?) e di spigoli.</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">3</span> <span class="co">#numero di case/pozzi</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>A<span class="op">=</span>[(random.random(),random.random()) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># complesso simplicial astratto o euclideo</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>B<span class="op">=</span>[ (random.random(), random.random()) <span class="cf">for</span> y <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># (niente cooordinate o coordinate?)</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>vertices <span class="op">=</span> A <span class="op">+</span> B <span class="co"># concatenation of lists (overloading degli operatori)</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>edges <span class="op">=</span> [ [x, y] <span class="cf">for</span> x <span class="kw">in</span> A <span class="cf">for</span> y <span class="kw">in</span> B[<span class="dv">1</span>:] ] <span class="co"># math notation</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># un grafo quindi è la coppia:</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> (vertices,edges) <span class="co"># come complesso simpliciale mancherebbero gli 0-simplessi, però...</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co"># proviamo a scrivere una funzione per calcolare l&#39;omologia: h_0 e h_1: prima </span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># di tutto dovremmo capire se è connesso oppure no... </span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>view(X,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
 <figure>
-<img src="w2_files/w2_4_0.png" alt="" /><figcaption>png</figcaption>
+<img src="w2_files/w2_4_0.png" alt="png" /><figcaption aria-hidden="true">png</figcaption>
 </figure>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># now: come calcolare le componenti connesse? e l&#39;omologia? come fare? </span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="co"># Classico: https://en.wikipedia.org/wiki/Breadth-first_search</span></span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="im">from</span> scipy.sparse <span class="im">import</span> csr_matrix</span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="im">from</span> scipy.sparse.csgraph <span class="im">import</span> connected_components</span>
-<span id="cb4-5"><a href="#cb4-5"></a></span>
-<span id="cb4-6"><a href="#cb4-6"></a></span>
-<span id="cb4-7"><a href="#cb4-7"></a><span class="co"># quindi: h_0 è il numero delle componenti connesse:</span></span>
-<span id="cb4-8"><a href="#cb4-8"></a></span>
-<span id="cb4-9"><a href="#cb4-9"></a><span class="kw">def</span> h0(X):</span>
-<span id="cb4-10"><a href="#cb4-10"></a>    vertices,edges <span class="op">=</span> X </span>
-<span id="cb4-11"><a href="#cb4-11"></a>    incidence_matrix <span class="op">=</span> np.zeros((<span class="bu">len</span>(vertices),<span class="bu">len</span>(vertices)))</span>
-<span id="cb4-12"><a href="#cb4-12"></a>    <span class="cf">for</span> s <span class="kw">in</span> edges:</span>
-<span id="cb4-13"><a href="#cb4-13"></a>        x<span class="op">=</span>vertices.index(s[<span class="dv">0</span>])</span>
-<span id="cb4-14"><a href="#cb4-14"></a>        y<span class="op">=</span>vertices.index(s[<span class="dv">1</span>])</span>
-<span id="cb4-15"><a href="#cb4-15"></a>    </span>
-<span id="cb4-16"><a href="#cb4-16"></a>        incidence_matrix[x,y] <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb4-17"><a href="#cb4-17"></a>        incidence_matrix[y,x] <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb4-18"><a href="#cb4-18"></a>    graph <span class="op">=</span> csr_matrix(incidence_matrix)</span>
-<span id="cb4-19"><a href="#cb4-19"></a>    n_components <span class="op">=</span> connected_components(csgraph<span class="op">=</span>graph, directed<span class="op">=</span><span class="va">False</span>, return_labels<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb4-20"><a href="#cb4-20"></a>    <span class="cf">return</span> n_components</span>
-<span id="cb4-21"><a href="#cb4-21"></a></span>
-<span id="cb4-22"><a href="#cb4-22"></a><span class="bu">print</span>(h0(X))</span>
-<span id="cb4-23"><a href="#cb4-23"></a>    </span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># now: come calcolare le componenti connesse? e l&#39;omologia? come fare? </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Classico: https://en.wikipedia.org/wiki/Breadth-first_search</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.sparse <span class="im">import</span> csr_matrix</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.sparse.csgraph <span class="im">import</span> connected_components</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># quindi: h_0 è il numero delle componenti connesse:</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> h0(X):</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    vertices,edges <span class="op">=</span> X </span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    incidence_matrix <span class="op">=</span> np.zeros((<span class="bu">len</span>(vertices),<span class="bu">len</span>(vertices)))</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> s <span class="kw">in</span> edges:</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>        x<span class="op">=</span>vertices.index(s[<span class="dv">0</span>])</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>        y<span class="op">=</span>vertices.index(s[<span class="dv">1</span>])</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>        incidence_matrix[x,y] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>        incidence_matrix[y,x] <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    graph <span class="op">=</span> csr_matrix(incidence_matrix)</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    n_components <span class="op">=</span> connected_components(csgraph<span class="op">=</span>graph, directed<span class="op">=</span><span class="va">False</span>, return_labels<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> n_components</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(h0(X))</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
 <pre><code>2</code></pre>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># ora calcoliamo h_1: teniamo conto che h_0 - h_1 = c_0 - c_1 :</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="co"># segue che h_1 = h0 - c_0 + c_1 </span></span>
-<span id="cb6-3"><a href="#cb6-3"></a><span class="kw">def</span> h1(X):</span>
-<span id="cb6-4"><a href="#cb6-4"></a>    vertices, edges <span class="op">=</span> X </span>
-<span id="cb6-5"><a href="#cb6-5"></a>    c0 <span class="op">=</span> <span class="bu">len</span>(vertices)</span>
-<span id="cb6-6"><a href="#cb6-6"></a>    c1 <span class="op">=</span> <span class="bu">len</span>(edges)</span>
-<span id="cb6-7"><a href="#cb6-7"></a>    <span class="cf">return</span> h0(X) <span class="op">-</span> c0 <span class="op">+</span> c1</span>
-<span id="cb6-8"><a href="#cb6-8"></a></span>
-<span id="cb6-9"><a href="#cb6-9"></a><span class="bu">print</span>(h1(X))</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ora calcoliamo h_1: teniamo conto che h_0 - h_1 = c_0 - c_1 :</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># segue che h_1 = h0 - c_0 + c_1 </span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> h1(X):</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    vertices, edges <span class="op">=</span> X </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    c0 <span class="op">=</span> <span class="bu">len</span>(vertices)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    c1 <span class="op">=</span> <span class="bu">len</span>(edges)</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> h0(X) <span class="op">-</span> c0 <span class="op">+</span> c1</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(h1(X))</span></code></pre></div>
 <pre><code>2</code></pre>
-<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a><span class="co"># e per dare delle coordinate migliori di quelle random?</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="im">import</span> scipy.optimize</span>
-<span id="cb8-3"><a href="#cb8-3"></a>elastic_constant<span class="op">=</span><span class="fl">1.0</span></span>
-<span id="cb8-4"><a href="#cb8-4"></a></span>
-<span id="cb8-5"><a href="#cb8-5"></a><span class="kw">def</span> sq_euc_norm(P):</span>
-<span id="cb8-6"><a href="#cb8-6"></a>    result<span class="op">=</span><span class="fl">0.0</span></span>
-<span id="cb8-7"><a href="#cb8-7"></a>    <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(P)):</span>
-<span id="cb8-8"><a href="#cb8-8"></a>        result <span class="op">+=</span> P[j] <span class="op">*</span> P[j]</span>
-<span id="cb8-9"><a href="#cb8-9"></a>    <span class="cf">return</span> result</span>
-<span id="cb8-10"><a href="#cb8-10"></a></span>
-<span id="cb8-11"><a href="#cb8-11"></a><span class="kw">def</span> euc_norm(P):</span>
-<span id="cb8-12"><a href="#cb8-12"></a>    sq_result <span class="op">=</span> sq_euc_norm(P)</span>
-<span id="cb8-13"><a href="#cb8-13"></a>    <span class="cf">return</span> sq_result <span class="op">**</span> (<span class="fl">0.5</span>)</span>
-<span id="cb8-14"><a href="#cb8-14"></a></span>
-<span id="cb8-15"><a href="#cb8-15"></a><span class="kw">def</span> distance(P, Q):</span>
-<span id="cb8-16"><a href="#cb8-16"></a>    result <span class="op">=</span> euc_norm(P<span class="op">-</span>Q)</span>
-<span id="cb8-17"><a href="#cb8-17"></a>    <span class="cf">return</span> result</span>
-<span id="cb8-18"><a href="#cb8-18"></a></span>
-<span id="cb8-19"><a href="#cb8-19"></a><span class="kw">def</span> vector_product(P,Q):</span>
-<span id="cb8-20"><a href="#cb8-20"></a>    vector_product<span class="op">=</span>np.zeros(<span class="dv">3</span>)</span>
-<span id="cb8-21"><a href="#cb8-21"></a>    vector_product[<span class="dv">0</span>] <span class="op">=</span> P[<span class="dv">1</span>] <span class="op">*</span> Q[<span class="dv">2</span>] <span class="op">-</span> Q[<span class="dv">1</span>] <span class="op">*</span> P[<span class="dv">2</span>]</span>
-<span id="cb8-22"><a href="#cb8-22"></a>    vector_product[<span class="dv">1</span>] <span class="op">=</span> Q[<span class="dv">0</span>] <span class="op">*</span> P[<span class="dv">2</span>] <span class="op">-</span> P[<span class="dv">0</span>] <span class="op">*</span> Q[<span class="dv">2</span>]</span>
-<span id="cb8-23"><a href="#cb8-23"></a>    vector_product[<span class="dv">2</span>] <span class="op">=</span> P[<span class="dv">0</span>] <span class="op">*</span> Q[<span class="dv">1</span>] <span class="op">-</span> Q[<span class="dv">0</span>] <span class="op">*</span> P[<span class="dv">1</span>]</span>
-<span id="cb8-24"><a href="#cb8-24"></a>    <span class="cf">return</span> vector_product</span>
-<span id="cb8-25"><a href="#cb8-25"></a></span>
-<span id="cb8-26"><a href="#cb8-26"></a><span class="kw">def</span> dot_product(P,Q):</span>
-<span id="cb8-27"><a href="#cb8-27"></a>    <span class="cf">return</span> np.dot(P,Q)</span>
-<span id="cb8-28"><a href="#cb8-28"></a></span>
-<span id="cb8-29"><a href="#cb8-29"></a><span class="kw">def</span> Uij(P,Q,are_endpoints<span class="op">=</span><span class="va">False</span>):</span>
-<span id="cb8-30"><a href="#cb8-30"></a>    <span class="co">&quot;&quot;&quot;interaction of P and Q: edges elastic attract, all repulsive&quot;&quot;&quot;</span></span>
-<span id="cb8-31"><a href="#cb8-31"></a>    <span class="cf">if</span> are_endpoints:</span>
-<span id="cb8-32"><a href="#cb8-32"></a>        <span class="cf">return</span> elastic_constant <span class="op">*</span> sq_euc_norm(P<span class="op">-</span>Q) <span class="op">+</span> <span class="fl">1.</span> <span class="op">/</span> euc_norm(P<span class="op">-</span>Q)</span>
-<span id="cb8-33"><a href="#cb8-33"></a>    <span class="cf">else</span>:</span>
-<span id="cb8-34"><a href="#cb8-34"></a>        <span class="cf">return</span> <span class="fl">1.</span> <span class="op">/</span> euc_norm(P<span class="op">-</span>Q)</span>
-<span id="cb8-35"><a href="#cb8-35"></a></span>
-<span id="cb8-36"><a href="#cb8-36"></a><span class="kw">def</span> grad_Uij(P,Q,are_endpoints<span class="op">=</span><span class="va">False</span>):</span>
-<span id="cb8-37"><a href="#cb8-37"></a>    <span class="co">&quot;&quot;&quot;grad of interaction of P and Q, wrt P&quot;&quot;&quot;</span></span>
-<span id="cb8-38"><a href="#cb8-38"></a>    <span class="cf">if</span> are_endpoints:</span>
-<span id="cb8-39"><a href="#cb8-39"></a>        <span class="cf">return</span> <span class="fl">2.0</span> <span class="op">*</span> elastic_constant <span class="op">*</span> (P<span class="op">-</span>Q) <span class="op">-</span> (P<span class="op">-</span>Q) <span class="op">*</span> euc_norm(P<span class="op">-</span>Q)<span class="op">**</span>(<span class="op">-</span><span class="fl">3.</span>)</span>
-<span id="cb8-40"><a href="#cb8-40"></a>    <span class="cf">else</span>:</span>
-<span id="cb8-41"><a href="#cb8-41"></a>        <span class="cf">return</span> <span class="op">-</span> (P<span class="op">-</span>Q) <span class="op">*</span> euc_norm(P<span class="op">-</span>Q)<span class="op">**</span>(<span class="op">-</span><span class="fl">3.</span>)</span>
-<span id="cb8-42"><a href="#cb8-42"></a></span>
-<span id="cb8-43"><a href="#cb8-43"></a><span class="kw">def</span> potential(conf,is_edge):</span>
-<span id="cb8-44"><a href="#cb8-44"></a>    energy <span class="op">=</span> <span class="fl">0.0</span></span>
-<span id="cb8-45"><a href="#cb8-45"></a>    number_of_vertices,eucl_dim<span class="op">=</span>conf.shape</span>
-<span id="cb8-46"><a href="#cb8-46"></a>    <span class="co"># numba.prange requires parallel=True flag to compile.</span></span>
-<span id="cb8-47"><a href="#cb8-47"></a>    <span class="co"># It causes the loop to run in parallel in multiple threads.</span></span>
-<span id="cb8-48"><a href="#cb8-48"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(number_of_vertices<span class="op">-</span><span class="dv">1</span>):</span>
-<span id="cb8-49"><a href="#cb8-49"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, number_of_vertices ):</span>
-<span id="cb8-50"><a href="#cb8-50"></a>            <span class="cf">if</span> is_edge[i,j]:</span>
-<span id="cb8-51"><a href="#cb8-51"></a>                energy <span class="op">+=</span> Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">True</span> )</span>
-<span id="cb8-52"><a href="#cb8-52"></a>            <span class="cf">else</span>:</span>
-<span id="cb8-53"><a href="#cb8-53"></a>                energy <span class="op">+=</span> Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb8-54"><a href="#cb8-54"></a>    <span class="cf">return</span> energy</span>
-<span id="cb8-55"><a href="#cb8-55"></a></span>
-<span id="cb8-56"><a href="#cb8-56"></a><span class="kw">def</span> grad_potential(conf,is_edge):</span>
-<span id="cb8-57"><a href="#cb8-57"></a>    number_of_vertices,eucl_dim<span class="op">=</span>conf.shape</span>
-<span id="cb8-58"><a href="#cb8-58"></a>    grad <span class="op">=</span> np.zeros((number_of_vertices,eucl_dim))</span>
-<span id="cb8-59"><a href="#cb8-59"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(number_of_vertices<span class="op">-</span><span class="dv">1</span>):</span>
-<span id="cb8-60"><a href="#cb8-60"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, number_of_vertices ):</span>
-<span id="cb8-61"><a href="#cb8-61"></a>            <span class="cf">if</span> is_edge[i,j]:</span>
-<span id="cb8-62"><a href="#cb8-62"></a>                grad[i,:] <span class="op">+=</span> grad_Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">True</span> )</span>
-<span id="cb8-63"><a href="#cb8-63"></a>                grad[j,:] <span class="op">+=</span> grad_Uij( conf[j,:],conf[i,:], are_endpoints<span class="op">=</span><span class="va">True</span> )</span>
-<span id="cb8-64"><a href="#cb8-64"></a>            <span class="cf">else</span>:</span>
-<span id="cb8-65"><a href="#cb8-65"></a>                grad[i,:] <span class="op">+=</span> grad_Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">False</span> )</span>
-<span id="cb8-66"><a href="#cb8-66"></a>                grad[j,:] <span class="op">+=</span> grad_Uij( conf[j,:],conf[i,:], are_endpoints<span class="op">=</span><span class="va">False</span> )</span>
-<span id="cb8-67"><a href="#cb8-67"></a>    <span class="cf">return</span> grad</span>
-<span id="cb8-68"><a href="#cb8-68"></a></span>
-<span id="cb8-69"><a href="#cb8-69"></a><span class="kw">def</span> euclidean_embedding(vertices,edges,dim<span class="op">=</span><span class="dv">2</span>):</span>
-<span id="cb8-70"><a href="#cb8-70"></a>    number_of_vertices<span class="op">=</span><span class="bu">len</span>(vertices)</span>
-<span id="cb8-71"><a href="#cb8-71"></a>    eucl_dim<span class="op">=</span>dim</span>
-<span id="cb8-72"><a href="#cb8-72"></a></span>
-<span id="cb8-73"><a href="#cb8-73"></a>    is_edge<span class="op">=</span>np.zeros( (number_of_vertices,)<span class="op">*</span><span class="dv">2</span> , dtype<span class="op">=</span><span class="bu">bool</span>)</span>
-<span id="cb8-74"><a href="#cb8-74"></a>    <span class="cf">for</span> (i,j) <span class="kw">in</span> edges:</span>
-<span id="cb8-75"><a href="#cb8-75"></a>        is_edge[i,j]<span class="op">=</span><span class="va">True</span></span>
-<span id="cb8-76"><a href="#cb8-76"></a></span>
-<span id="cb8-77"><a href="#cb8-77"></a>    <span class="kw">def</span> opt_fun(x):</span>
-<span id="cb8-78"><a href="#cb8-78"></a>        conf<span class="op">=</span>x.reshape(number_of_vertices,eucl_dim)</span>
-<span id="cb8-79"><a href="#cb8-79"></a>        result <span class="op">=</span> potential(conf,is_edge)</span>
-<span id="cb8-80"><a href="#cb8-80"></a>        <span class="cf">return</span> result</span>
-<span id="cb8-81"><a href="#cb8-81"></a>    </span>
-<span id="cb8-82"><a href="#cb8-82"></a>    <span class="kw">def</span> opt_jac(x):</span>
-<span id="cb8-83"><a href="#cb8-83"></a>        conf<span class="op">=</span>x.reshape(number_of_vertices,eucl_dim)</span>
-<span id="cb8-84"><a href="#cb8-84"></a>        result <span class="op">=</span> grad_potential(conf,is_edge)</span>
-<span id="cb8-85"><a href="#cb8-85"></a>        <span class="cf">return</span> result.reshape(number_of_vertices<span class="op">*</span>eucl_dim)</span>
-<span id="cb8-86"><a href="#cb8-86"></a>    X0<span class="op">=</span>np.random.rand( number_of_vertices,eucl_dim )</span>
-<span id="cb8-87"><a href="#cb8-87"></a>    result <span class="op">=</span> scipy.optimize.minimize(opt_fun,X0,method<span class="op">=</span><span class="st">&#39;CG&#39;</span>,jac<span class="op">=</span>opt_jac)</span>
-<span id="cb8-88"><a href="#cb8-88"></a>    </span>
-<span id="cb8-89"><a href="#cb8-89"></a>    outconf<span class="op">=</span>result.x.reshape(number_of_vertices,eucl_dim)</span>
-<span id="cb8-90"><a href="#cb8-90"></a>    howsol<span class="op">=</span>euc_norm(result.jac)</span>
-<span id="cb8-91"><a href="#cb8-91"></a>    <span class="bu">print</span>(<span class="st">&quot;howsol: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(howsol))</span>
-<span id="cb8-92"><a href="#cb8-92"></a>    <span class="co"># print(outconf)</span></span>
-<span id="cb8-93"><a href="#cb8-93"></a>    eucl_vertices<span class="op">=</span> [ <span class="bu">tuple</span>( outconf[i,:] )  <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(number_of_vertices) ]</span>
-<span id="cb8-94"><a href="#cb8-94"></a>    eucl_edges<span class="op">=</span> [ (eucl_vertices[i],eucl_vertices[j]) <span class="cf">for</span> i,j <span class="kw">in</span> edges ]</span>
-<span id="cb8-95"><a href="#cb8-95"></a>    <span class="cf">return</span> (eucl_vertices,eucl_edges)</span>
-<span id="cb8-96"><a href="#cb8-96"></a></span></code></pre></div>
-<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a>N<span class="op">=</span><span class="dv">5</span> <span class="co">#numero di case/pozzi</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a>A<span class="op">=</span>[x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># complesso simplicial astratto o euclideo</span></span>
-<span id="cb9-3"><a href="#cb9-3"></a>B<span class="op">=</span>[ y <span class="cf">for</span> y <span class="kw">in</span>  <span class="bu">range</span>(N,N<span class="op">+</span>N)]  <span class="co"># (niente cooordinate o coordinate?)</span></span>
-<span id="cb9-4"><a href="#cb9-4"></a>vertices <span class="op">=</span> A <span class="op">+</span> B <span class="co"># concatenation of lists (overloading degli operatori)</span></span>
-<span id="cb9-5"><a href="#cb9-5"></a>edges <span class="op">=</span> [ [x, y] <span class="cf">for</span> x <span class="kw">in</span> A <span class="cf">for</span> y <span class="kw">in</span> B ] <span class="co"># math notation</span></span>
-<span id="cb9-6"><a href="#cb9-6"></a><span class="bu">print</span>(vertices,edges)</span>
-<span id="cb9-7"><a href="#cb9-7"></a>eucl_S<span class="op">=</span>euclidean_embedding(vertices,edges)</span>
-<span id="cb9-8"><a href="#cb9-8"></a>view(eucl_S,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># e per dare delle coordinate migliori di quelle random?</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.optimize</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>elastic_constant<span class="op">=</span><span class="fl">1.0</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sq_euc_norm(P):</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>    result<span class="op">=</span><span class="fl">0.0</span></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(P)):</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>        result <span class="op">+=</span> P[j] <span class="op">*</span> P[j]</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> euc_norm(P):</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>    sq_result <span class="op">=</span> sq_euc_norm(P)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sq_result <span class="op">**</span> (<span class="fl">0.5</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> distance(P, Q):</span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> euc_norm(P<span class="op">-</span>Q)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> vector_product(P,Q):</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>    vector_product<span class="op">=</span>np.zeros(<span class="dv">3</span>)</span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>    vector_product[<span class="dv">0</span>] <span class="op">=</span> P[<span class="dv">1</span>] <span class="op">*</span> Q[<span class="dv">2</span>] <span class="op">-</span> Q[<span class="dv">1</span>] <span class="op">*</span> P[<span class="dv">2</span>]</span>
+<span id="cb8-22"><a href="#cb8-22" aria-hidden="true" tabindex="-1"></a>    vector_product[<span class="dv">1</span>] <span class="op">=</span> Q[<span class="dv">0</span>] <span class="op">*</span> P[<span class="dv">2</span>] <span class="op">-</span> P[<span class="dv">0</span>] <span class="op">*</span> Q[<span class="dv">2</span>]</span>
+<span id="cb8-23"><a href="#cb8-23" aria-hidden="true" tabindex="-1"></a>    vector_product[<span class="dv">2</span>] <span class="op">=</span> P[<span class="dv">0</span>] <span class="op">*</span> Q[<span class="dv">1</span>] <span class="op">-</span> Q[<span class="dv">0</span>] <span class="op">*</span> P[<span class="dv">1</span>]</span>
+<span id="cb8-24"><a href="#cb8-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> vector_product</span>
+<span id="cb8-25"><a href="#cb8-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-26"><a href="#cb8-26" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> dot_product(P,Q):</span>
+<span id="cb8-27"><a href="#cb8-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.dot(P,Q)</span>
+<span id="cb8-28"><a href="#cb8-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-29"><a href="#cb8-29" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> Uij(P,Q,are_endpoints<span class="op">=</span><span class="va">False</span>):</span>
+<span id="cb8-30"><a href="#cb8-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;interaction of P and Q: edges elastic attract, all repulsive&quot;&quot;&quot;</span></span>
+<span id="cb8-31"><a href="#cb8-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> are_endpoints:</span>
+<span id="cb8-32"><a href="#cb8-32" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> elastic_constant <span class="op">*</span> sq_euc_norm(P<span class="op">-</span>Q) <span class="op">+</span> <span class="fl">1.</span> <span class="op">/</span> euc_norm(P<span class="op">-</span>Q)</span>
+<span id="cb8-33"><a href="#cb8-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb8-34"><a href="#cb8-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="fl">1.</span> <span class="op">/</span> euc_norm(P<span class="op">-</span>Q)</span>
+<span id="cb8-35"><a href="#cb8-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-36"><a href="#cb8-36" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> grad_Uij(P,Q,are_endpoints<span class="op">=</span><span class="va">False</span>):</span>
+<span id="cb8-37"><a href="#cb8-37" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;grad of interaction of P and Q, wrt P&quot;&quot;&quot;</span></span>
+<span id="cb8-38"><a href="#cb8-38" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> are_endpoints:</span>
+<span id="cb8-39"><a href="#cb8-39" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="fl">2.0</span> <span class="op">*</span> elastic_constant <span class="op">*</span> (P<span class="op">-</span>Q) <span class="op">-</span> (P<span class="op">-</span>Q) <span class="op">*</span> euc_norm(P<span class="op">-</span>Q)<span class="op">**</span>(<span class="op">-</span><span class="fl">3.</span>)</span>
+<span id="cb8-40"><a href="#cb8-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb8-41"><a href="#cb8-41" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="op">-</span> (P<span class="op">-</span>Q) <span class="op">*</span> euc_norm(P<span class="op">-</span>Q)<span class="op">**</span>(<span class="op">-</span><span class="fl">3.</span>)</span>
+<span id="cb8-42"><a href="#cb8-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-43"><a href="#cb8-43" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> potential(conf,is_edge):</span>
+<span id="cb8-44"><a href="#cb8-44" aria-hidden="true" tabindex="-1"></a>    energy <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb8-45"><a href="#cb8-45" aria-hidden="true" tabindex="-1"></a>    number_of_vertices,eucl_dim<span class="op">=</span>conf.shape</span>
+<span id="cb8-46"><a href="#cb8-46" aria-hidden="true" tabindex="-1"></a>    <span class="co"># numba.prange requires parallel=True flag to compile.</span></span>
+<span id="cb8-47"><a href="#cb8-47" aria-hidden="true" tabindex="-1"></a>    <span class="co"># It causes the loop to run in parallel in multiple threads.</span></span>
+<span id="cb8-48"><a href="#cb8-48" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(number_of_vertices<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb8-49"><a href="#cb8-49" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, number_of_vertices ):</span>
+<span id="cb8-50"><a href="#cb8-50" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> is_edge[i,j]:</span>
+<span id="cb8-51"><a href="#cb8-51" aria-hidden="true" tabindex="-1"></a>                energy <span class="op">+=</span> Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">True</span> )</span>
+<span id="cb8-52"><a href="#cb8-52" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb8-53"><a href="#cb8-53" aria-hidden="true" tabindex="-1"></a>                energy <span class="op">+=</span> Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb8-54"><a href="#cb8-54" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> energy</span>
+<span id="cb8-55"><a href="#cb8-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-56"><a href="#cb8-56" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> grad_potential(conf,is_edge):</span>
+<span id="cb8-57"><a href="#cb8-57" aria-hidden="true" tabindex="-1"></a>    number_of_vertices,eucl_dim<span class="op">=</span>conf.shape</span>
+<span id="cb8-58"><a href="#cb8-58" aria-hidden="true" tabindex="-1"></a>    grad <span class="op">=</span> np.zeros((number_of_vertices,eucl_dim))</span>
+<span id="cb8-59"><a href="#cb8-59" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(number_of_vertices<span class="op">-</span><span class="dv">1</span>):</span>
+<span id="cb8-60"><a href="#cb8-60" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i <span class="op">+</span> <span class="dv">1</span>, number_of_vertices ):</span>
+<span id="cb8-61"><a href="#cb8-61" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> is_edge[i,j]:</span>
+<span id="cb8-62"><a href="#cb8-62" aria-hidden="true" tabindex="-1"></a>                grad[i,:] <span class="op">+=</span> grad_Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">True</span> )</span>
+<span id="cb8-63"><a href="#cb8-63" aria-hidden="true" tabindex="-1"></a>                grad[j,:] <span class="op">+=</span> grad_Uij( conf[j,:],conf[i,:], are_endpoints<span class="op">=</span><span class="va">True</span> )</span>
+<span id="cb8-64"><a href="#cb8-64" aria-hidden="true" tabindex="-1"></a>            <span class="cf">else</span>:</span>
+<span id="cb8-65"><a href="#cb8-65" aria-hidden="true" tabindex="-1"></a>                grad[i,:] <span class="op">+=</span> grad_Uij( conf[i,:],conf[j,:], are_endpoints<span class="op">=</span><span class="va">False</span> )</span>
+<span id="cb8-66"><a href="#cb8-66" aria-hidden="true" tabindex="-1"></a>                grad[j,:] <span class="op">+=</span> grad_Uij( conf[j,:],conf[i,:], are_endpoints<span class="op">=</span><span class="va">False</span> )</span>
+<span id="cb8-67"><a href="#cb8-67" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> grad</span>
+<span id="cb8-68"><a href="#cb8-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-69"><a href="#cb8-69" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> euclidean_embedding(vertices,edges,dim<span class="op">=</span><span class="dv">2</span>):</span>
+<span id="cb8-70"><a href="#cb8-70" aria-hidden="true" tabindex="-1"></a>    number_of_vertices<span class="op">=</span><span class="bu">len</span>(vertices)</span>
+<span id="cb8-71"><a href="#cb8-71" aria-hidden="true" tabindex="-1"></a>    eucl_dim<span class="op">=</span>dim</span>
+<span id="cb8-72"><a href="#cb8-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-73"><a href="#cb8-73" aria-hidden="true" tabindex="-1"></a>    is_edge<span class="op">=</span>np.zeros( (number_of_vertices,)<span class="op">*</span><span class="dv">2</span> , dtype<span class="op">=</span><span class="bu">bool</span>)</span>
+<span id="cb8-74"><a href="#cb8-74" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> (i,j) <span class="kw">in</span> edges:</span>
+<span id="cb8-75"><a href="#cb8-75" aria-hidden="true" tabindex="-1"></a>        is_edge[i,j]<span class="op">=</span><span class="va">True</span></span>
+<span id="cb8-76"><a href="#cb8-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-77"><a href="#cb8-77" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> opt_fun(x):</span>
+<span id="cb8-78"><a href="#cb8-78" aria-hidden="true" tabindex="-1"></a>        conf<span class="op">=</span>x.reshape(number_of_vertices,eucl_dim)</span>
+<span id="cb8-79"><a href="#cb8-79" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> potential(conf,is_edge)</span>
+<span id="cb8-80"><a href="#cb8-80" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> result</span>
+<span id="cb8-81"><a href="#cb8-81" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-82"><a href="#cb8-82" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> opt_jac(x):</span>
+<span id="cb8-83"><a href="#cb8-83" aria-hidden="true" tabindex="-1"></a>        conf<span class="op">=</span>x.reshape(number_of_vertices,eucl_dim)</span>
+<span id="cb8-84"><a href="#cb8-84" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> grad_potential(conf,is_edge)</span>
+<span id="cb8-85"><a href="#cb8-85" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> result.reshape(number_of_vertices<span class="op">*</span>eucl_dim)</span>
+<span id="cb8-86"><a href="#cb8-86" aria-hidden="true" tabindex="-1"></a>    X0<span class="op">=</span>np.random.rand( number_of_vertices,eucl_dim )</span>
+<span id="cb8-87"><a href="#cb8-87" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> scipy.optimize.minimize(opt_fun,X0,method<span class="op">=</span><span class="st">&#39;CG&#39;</span>,jac<span class="op">=</span>opt_jac)</span>
+<span id="cb8-88"><a href="#cb8-88" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb8-89"><a href="#cb8-89" aria-hidden="true" tabindex="-1"></a>    outconf<span class="op">=</span>result.x.reshape(number_of_vertices,eucl_dim)</span>
+<span id="cb8-90"><a href="#cb8-90" aria-hidden="true" tabindex="-1"></a>    howsol<span class="op">=</span>euc_norm(result.jac)</span>
+<span id="cb8-91"><a href="#cb8-91" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;howsol: </span><span class="sc">{}</span><span class="st">&quot;</span>.<span class="bu">format</span>(howsol))</span>
+<span id="cb8-92"><a href="#cb8-92" aria-hidden="true" tabindex="-1"></a>    <span class="co"># print(outconf)</span></span>
+<span id="cb8-93"><a href="#cb8-93" aria-hidden="true" tabindex="-1"></a>    eucl_vertices<span class="op">=</span> [ <span class="bu">tuple</span>( outconf[i,:] )  <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(number_of_vertices) ]</span>
+<span id="cb8-94"><a href="#cb8-94" aria-hidden="true" tabindex="-1"></a>    eucl_edges<span class="op">=</span> [ (eucl_vertices[i],eucl_vertices[j]) <span class="cf">for</span> i,j <span class="kw">in</span> edges ]</span>
+<span id="cb8-95"><a href="#cb8-95" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (eucl_vertices,eucl_edges)</span>
+<span id="cb8-96"><a href="#cb8-96" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">5</span> <span class="co">#numero di case/pozzi</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>A<span class="op">=</span>[x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># complesso simplicial astratto o euclideo</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>B<span class="op">=</span>[ y <span class="cf">for</span> y <span class="kw">in</span>  <span class="bu">range</span>(N,N<span class="op">+</span>N)]  <span class="co"># (niente cooordinate o coordinate?)</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>vertices <span class="op">=</span> A <span class="op">+</span> B <span class="co"># concatenation of lists (overloading degli operatori)</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>edges <span class="op">=</span> [ [x, y] <span class="cf">for</span> x <span class="kw">in</span> A <span class="cf">for</span> y <span class="kw">in</span> B ] <span class="co"># math notation</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(vertices,edges)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>eucl_S<span class="op">=</span>euclidean_embedding(vertices,edges)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>view(eucl_S,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
 <pre><code>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] [[0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9]]
 howsol: 1.4563980367849192e-05</code></pre>
 <figure>
-<img src="w2_files/w2_8_1.png" alt="" /><figcaption>png</figcaption>
+<img src="w2_files/w2_8_1.png" alt="png" /><figcaption aria-hidden="true">png</figcaption>
 </figure>
-<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a>N<span class="op">=</span><span class="dv">7</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a>vertices <span class="op">=</span> [ x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]</span>
-<span id="cb11-3"><a href="#cb11-3"></a>edges <span class="op">=</span> [ <span class="bu">sorted</span>( [x, (x<span class="op">+</span><span class="dv">1</span>) <span class="op">%</span> N] ) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)] <span class="op">+</span> <span class="op">\</span></span>
-<span id="cb11-4"><a href="#cb11-4"></a> [ <span class="bu">sorted</span>( [x,(x<span class="op">+</span><span class="dv">3</span>) <span class="op">%</span>N ]) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N) ]</span>
-<span id="cb11-5"><a href="#cb11-5"></a><span class="bu">print</span>(vertices,edges)</span>
-<span id="cb11-6"><a href="#cb11-6"></a>eucl_S<span class="op">=</span>euclidean_embedding(vertices,edges)</span>
-<span id="cb11-7"><a href="#cb11-7"></a>view(eucl_S,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">7</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>vertices <span class="op">=</span> [ x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>edges <span class="op">=</span> [ <span class="bu">sorted</span>( [x, (x<span class="op">+</span><span class="dv">1</span>) <span class="op">%</span> N] ) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)] <span class="op">+</span> <span class="op">\</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a> [ <span class="bu">sorted</span>( [x,(x<span class="op">+</span><span class="dv">3</span>) <span class="op">%</span>N ]) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N) ]</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(vertices,edges)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>eucl_S<span class="op">=</span>euclidean_embedding(vertices,edges)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>view(eucl_S,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
 <pre><code>[0, 1, 2, 3, 4, 5, 6] [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [0, 6], [0, 3], [1, 4], [2, 5], [3, 6], [0, 4], [1, 5], [2, 6]]
 howsol: 3.9716886522722156e-06</code></pre>
 <figure>
-<img src="w2_files/w2_9_1.png" alt="" /><figcaption>png</figcaption>
+<img src="w2_files/w2_9_1.png" alt="png" /><figcaption aria-hidden="true">png</figcaption>
 </figure>
 <h2 id="quindi-da-fare">Quindi da fare…</h2>
 <blockquote>
