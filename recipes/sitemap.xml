@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://www.dlfer.xyz/recipes/main/genovesa/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.dlfer.xyz/recipes/tags/pasta/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
@@ -64,6 +69,11 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -340,11 +350,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/dessert/montblanc-2/</loc>
     <lastmod>2021-01-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi/</loc>
-    <lastmod>2021-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
