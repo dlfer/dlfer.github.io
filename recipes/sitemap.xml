@@ -38,13 +38,38 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/caff%C3%A8/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
+    <loc>https://www.dlfer.xyz/recipes/categories/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/</loc>
+    <loc>https://www.dlfer.xyz/recipes/tags/cipolle/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/pasta-alla-genovese/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/spaghetti/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/caff%C3%A8/</loc>
+    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -60,11 +85,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/noci/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -158,17 +178,7 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-pesce/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/spaghetti/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -204,11 +214,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/carne/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/cipolle/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
