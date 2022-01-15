@@ -4,12 +4,12 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/primi/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -44,7 +44,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -64,7 +64,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,6 +90,116 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/regionali/zuppa-inglese/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/acciughe/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/alici/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/alici-marinate/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/bottarga/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/capitone/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/capitone-in-umido/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/cipolla/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/melanzane/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/orate/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/orate-alla-sarda/</loc>
+    <lastmod>2021-12-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/penne/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/penne-con-bottarga/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/peperoncino/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-pesce/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/spaghetti/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/spaghetti-alla-bottarga/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/spaghetti-alla-norma/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/spaghetti-con-acciughe-e-pangrattato/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/tagliatelle/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/tagliatelle-con-cipolla-di-tropea/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/zucchine/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -135,11 +245,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/patate/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -204,11 +309,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/salmone-marinato/</loc>
-    <lastmod>2021-03-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-pesce/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -280,11 +380,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/regionali/uova-dorate/</loc>
     <lastmod>2020-09-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/acciughe/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -408,11 +503,6 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/melanzane/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/regionali/mele-ripiene/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url>
@@ -494,11 +584,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/regionali/sformato-di-cavolfiore/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/spaghetti/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -684,11 +769,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/primi/calzone-barese/</loc>
-    <lastmod>2020-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/capitone/</loc>
     <lastmod>2020-02-21T00:00:00+00:00</lastmod>
   </url>
   
