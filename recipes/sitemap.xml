@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/carne/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.dlfer.xyz/recipes/categories/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
@@ -48,17 +53,17 @@
   </url>
   
   <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/pasta/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.dlfer.xyz/recipes/primi/pasta-alla-genovese/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/spaghetti/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,6 +188,11 @@
   </url>
   
   <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/spaghetti/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.dlfer.xyz/recipes/primi/spaghetti-alla-bottarga/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
@@ -210,11 +220,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/zucchine/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/carne/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
