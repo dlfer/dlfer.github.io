@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 21 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>quiche</title>
+      <link>https://www.dlfer.xyz/recipes/tags/quiche/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/quiche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>torta salata</title>
+      <link>https://www.dlfer.xyz/recipes/tags/torta-salata/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/torta-salata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fagioli</title>
+      <link>https://www.dlfer.xyz/recipes/tags/fagioli/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/fagioli/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pesce</title>
@@ -18,6 +45,15 @@
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/pesce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polpette</title>
+      <link>https://www.dlfer.xyz/recipes/tags/polpette/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/polpette/</guid>
       <description></description>
     </item>
     
@@ -220,7 +256,7 @@
     </item>
     
     <item>
-      <title>patate</title>
+      <title>Patate</title>
       <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -774,15 +810,6 @@
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/pimento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>polpette</title>
-      <link>https://www.dlfer.xyz/recipes/tags/polpette/</link>
-      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/polpette/</guid>
       <description></description>
     </item>
     

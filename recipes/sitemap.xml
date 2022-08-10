@@ -34,16 +34,56 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/quiche/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/var/quiche-lorraine/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/torta-salata/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/colazione/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/cowboy-beans/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/cowboy-meatballs/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/fagioli/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,7 +98,12 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <loc>https://www.dlfer.xyz/recipes/tags/polpette/</loc>
+    <lastmod>2022-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
     <lastmod>2022-06-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -90,11 +135,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi/</loc>
-    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -285,11 +325,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/rag%C3%B9/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
-    <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -969,11 +1004,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/polpette/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/polpette/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
   </url>
   
