@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.64.1" />
+  <meta name="generator" content="Hugo 0.92.2" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -300,6 +300,12 @@
     
       
     
+      
+    
+      
+    
+      
+    
   </nav>
 </div>
 
@@ -346,22 +352,22 @@ Now, $SO(3)$ acts freely and transitively on $X$, and since $SO(3)$ is compact a
 <dl>
 <dt>(2)</dt>
 <dd>If $\gamma\from I=[0,1] \to X$ is a loop such that $\gamma(0)=\gamma(1)$, then the path $\hat \gamma \from I \to X\times I$ defined
-as $\hat \gamma(t) = (\gamma (t) , t)$ is a <strong>simple</strong> path in $X\times I$ (i.e. $t\neq t&rsquo;\implies \hat\gamma(t) \neq \hat\gamma(t&rsquo;)$
+as $\hat \gamma(t) = (\gamma (t) , t)$ is a <strong>simple</strong> path in $X\times I$ (i.e. $t\neq t'\implies \hat\gamma(t) \neq \hat\gamma(t')$
 starting from $(\gamma(0),0)$ ending in $(\gamma(1),1)$, with $\gamma(0) = \gamma(1)$. Moreover, for each $t\in I$,
 $\gamma(t) = (A(t), B(t))$ where $A(t),B(t)$ are two points such that $|A(t) - B(t)|=\sqrt 3$.</dd>
 </dl>
 <p>Now, a <strong>homotopy</strong> relative endpoints of $\gamma$ into another path $\gamma'$ is a continuous family of paths $h_ s(t)$ such that
-$h_ 0(t) = \gamma(t) $ amd $h_ 1(t) = \gamma&rsquo;(t)$. An element of $\pi_ 1(X)$ is therefore a homotopy class
+$h_ 0(t) = \gamma(t) $ amd $h_ 1(t) = \gamma'(t)$. An element of $\pi_ 1(X)$ is therefore a homotopy class
 (rel. endpoints) of loops $I\to X$, and hence a homotopy class of paths rel. endpoints $I\to X\times I$,
 such that $h_ s(0) = ((A(0),B(0)),0)$ and
 $h_ s(1) = ((A(1),B(1)),1)$ for each $s$, with $A(0) = A(1)$
 and $B(0) = B(1)$.</p>
-<p>For each integer $n$, let $\FF_ n(S^2)$ denote the **configuration space** of $n$ points in $S^2$, i.e.
+<p>For each integer $n$, let $\FF_ n(S^2)$ denote the <strong>configuration space</strong> of $n$ points in $S^2$, i.e.
 $$
 \FF_ n(S^2) = \{ (x_ 1, \ldots, x_ n) \in S^2 \times \ldots \times S^2 : i \neq j \implies x_ i \neq x_ j \}~.
 $$
 By definition, the inclusion $X\subset \FF_ 2(S^2)$ holds. The fundamental group of $\FF_ n (S^2)$ is called
-the **pure $n$-stranded braid group** of $S^2$, and is denoted by $PB_ n(S^2)$.</p>
+the <strong>pure $n$-stranded braid group</strong> of $S^2$, and is denoted by $PB_ n(S^2)$.</p>
 <p>Consider the projection
 $$
 p\from \FF_ 3(S^2) \to \FF_ 2(S^2),
@@ -385,10 +391,10 @@ Let $\eta$  be the plane parallel to such a plane, passing through the origin $O
 and $l$ the line by $O$ orthogonal to $\eta$. The line $l$ passes through the circumcenter of the
 triangle $ABC$ (why?). Now, let $P_ \eta$  denote the projection of $A,B,C$ in the plane $\eta$,
 orthogonal to $\eta$. Since $A,B,C$ are not on $l$, the projections $A'=P_ \eta A$, $B'=P_ \eta B$
-and $C&rsquo; = P_ \eta C$ are different from $O$ and distinct. Let  the retraction
+and $C' = P_ \eta C$ are different from $O$ and distinct. Let  the retraction
 $r \from \FF_ 3(S^2) \to Y$ be defined as
 $$
-r(A,B,C) = ( \dfrac{A&rsquo;}{|A'|}, \dfrac{B&rsquo;}{|B'|}, \dfrac{C&rsquo;}{|C'|} ) \in Y.
+r(A,B,C) = ( \dfrac{A'}{|A'|}, \dfrac{B'}{|B'|}, \dfrac{C'}{|C'|} ) \in Y.
 $$
 By construction, if $(A,B,C) \in Y$, then $A'=A$, $B'=B$ and $C'=C$, and
 therefore $r(A,B,C) = (A,B,C)$.
@@ -396,12 +402,12 @@ Hence, $r$ is a retraction.
 To show that it is a deformation retraction,
 consider for $t\in [0,1]$ the paths
 $$
-(A(t),B(t),C(t)) = ( (1-t)A+ t A&rsquo;, (1-t)B+tB&rsquo;, (1-t)C + tC&rsquo; ),
+(A(t),B(t),C(t)) = ( (1-t)A+ t A', (1-t)B+tB', (1-t)C + tC' ),
 $$
 and divide each component by its norm. It is path in $\FF_ 3(S^3)$ joining
 $(A,B,C)$ (for $t=0$) to $r(A,B,C)$ (for $t=1$), which depends continuously on $A,B,C$,
 and hence it gives the homotopy between $ir$ and the identity of $\FF_ 3(S^2)$.
-*/qed/*</p>
+<em>/qed/</em></p>
 <p>As the next step, let $\hat X \subset Y$ be the subspace defined as follows:
 $$
 \hat X = \{ (A,B,C) \in Y : \text{ $ABC$ is equilateral } \} \subset Y \subset \FF_ 3(S^2).
@@ -413,7 +419,7 @@ $$</p>
 <p><em>Proof:</em>
 Given $(A,B,C) \in Y$, let $\eta$ denote the plane containing $OABC$.
 There are in $S^2\cap\eta$ exactly three points $A'$, $B'$ and $C'$
-such that $A'=A$, $|B&rsquo;-A'| = |C&rsquo;-A'| = | C&rsquo; - B'|$ and
+such that $A'=A$, $|B'-A'| = |C'-A'| = | C' - B'|$ and
 the order of $ABC$ in $S^2\cap \eta$ is the same as the order
 of $A&rsquo;B&rsquo;C'$. If we define<br>
 $r(A)=A'$, $r(B)=B'$, $r(C)=C'$  in $S^2\cap \eta$,

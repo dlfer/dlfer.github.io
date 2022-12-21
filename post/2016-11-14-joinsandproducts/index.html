@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.64.1" />
+  <meta name="generator" content="Hugo 0.92.2" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -300,6 +300,12 @@
     
       
     
+      
+    
+      
+    
+      
+    
   </nav>
 </div>
 
@@ -331,11 +337,11 @@
   <h2 id="join-kl-of-two-simplicial-complexes">Join $K*L$ of two simplicial complexes</h2>
 <p>Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes
 ($X_ K$ denotes the set of vertices of $K$ and
-$\Phi_ K$ the set of simplices). Then the join $K*L$
+$\Phi_ K$ the set of simplices). Then the join $K<em>L$
 is the simplicial complex defined as follows. Its set of vertices
 $X=X_ K \cup X_ L$ is the union of the sets of
 vertices of $K$ and of $L$, and
-a non-empty subset of $X$ is a simplex of $K*L$ if and only if it is of type
+a non-empty subset of $X$ is a simplex of $K</em>L$ if and only if it is of type
 $\sigma \cup \tau$, where $\sigma \in \Phi_ K \cup \{ \emptyset \}$
 and $\tau \in \Phi_ L \cup \{\emptyset \}$.</p>
 <p>Now, assume that $K$ and $L$ are embedded simplicially
@@ -400,7 +406,7 @@ $$
 with $p&gt;0$, $q&gt;0$ and $p+q=1$ for two (uniquely defined) points $x$ and $y$ in the interiors of two simplices
 of $K$ and $L$ respectively.
 Hence $J$ is an euclidean (geometric) simplicial complex, isomorphic as simplicial complex  to $K*L$.
-*/qed/*</p>
+<em>/qed/</em></p>
 <p><strong>Remark:</strong> it follows from $P=px+qy$ that $J$ is the union of all unit segments joining points of $|K|$ to point
 of $|L|$ (from here the name &ldquo;<em>join</em>&quot;).</p>
 <h2 id="cartesian-product-ktimes-l-of-two-simplicial-complexes">Cartesian product $K\times L$ of two simplicial complexes</h2>
@@ -416,11 +422,11 @@ $$
 Let $p_ 1 \from X \to X_ K$ and $p_ 2\from X \to X_ L$ the projections on the first and second factor,
 respectively.</p>
 <p>Now, consider the following <strong>order</strong> relation in $X = X_ X \times X_ L$:
-$(x,y) \leq  (x&rsquo;,y&rsquo;)$ iff $ x \leq x&rsquo; \&amp; y \leq y&rsquo; $
-(it is the **product order**, which is not a total order).</p>
+$(x,y) \leq  (x',y')$ iff $ x \leq x' \&amp; y \leq y' $
+(it is the <strong>product order</strong>, which is not a total order).</p>
 <p>Or, consider the <strong>lexycographical order</strong>, which is a total order,
 defined as
-$(x,y) \leq (x&rsquo;,y&rsquo;)$ iff $x&lt;x'$ or $x=x'$ and $y\leq y'$.</p>
+$(x,y) \leq (x',y')$ iff $x&lt;x'$ or $x=x'$ and $y\leq y'$.</p>
 <p>With this, define an $n$-simplex $\sigma \subset X$ as
 a subset
 $$
@@ -428,7 +434,7 @@ $$
 $$
 such that:</p>
 <ol>
-<li>$(x_ 0,y_ 0) &lt; (x_ 1, y_ 1) &lt; \ldots (x_ n, y_ n)$ is an **ascending chain**;</li>
+<li>$(x_ 0,y_ 0) &lt; (x_ 1, y_ 1) &lt; \ldots (x_ n, y_ n)$ is an <strong>ascending chain</strong>;</li>
 <li>$p_ 1(\sigma) \subset X_ K$ is a simplex of $K$ (of dimension $\leq n$), and $x_ 0\leq x_ 1 \ldots \leq x_ n$ (some inequalities
 might be equalities);</li>
 <li>$p_ 2(\sigma)\subset X_ L$ is a simplex of $L$ (of dimension $\leq n$), and $y_ 0 \leq y_ 1 \ldots \leq y_ n$ (sime inequalities
@@ -440,9 +446,9 @@ $(x_ 0,y_ 0) &lt; (x_ 1, y_ 1) &lt; \ldots (x_ n, y_ n)$ is an ascending chain i
 then 2. and 3. imply that it is also an ascending chain in the product order.
 On the other hand, if
 $(x_ 0,y_ 0) &lt; (x_ 1, y_ 1) &lt; \ldots (x_ n, y_ n)$ is an ascending chain in the product order,
-for each pair of consecutive terms $(x,y) &lt; (x&rsquo;,y&rsquo;)$ either $x=x'$ (and therefore $y&lt;y'$,
-and hence (x,y) precedes $(x&rsquo;,y&rsquo;)$ in the lexycographical order),
-or $x&lt;x'$ (and hence $(x,y)$ precedes $(x&rsquo;,y&rsquo;)$ in the lexycographical order).
+for each pair of consecutive terms $(x,y) &lt; (x',y')$ either $x=x'$ (and therefore $y&lt;y'$,
+and hence (x,y) precedes $(x',y')$ in the lexycographical order),
+or $x&lt;x'$ (and hence $(x,y)$ precedes $(x',y')$ in the lexycographical order).
 In Ferrario-Piccinini<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, page 99, in the proof it is omitted to mention the simplices $p_ 1$ and $p_ 2$ need to be ordered, as above.
 Otherwise, more chains would appear ordered as ascending with the lexycographical order, than those ascending with the product order.</p>
 <p><strong>Example:</strong>
@@ -455,8 +461,8 @@ $$
 Ascending chains are the following two:
 $$
 \begin{aligned}
-A &lt;  B &lt;  B&rsquo; \\\<br>
-A &lt; A&rsquo; &lt;  B&rsquo;
+A &lt;  B &lt;  B' \\\
+A &lt; A' &lt;  B'
 \end{aligned}
 $$</p>
 <p><strong>Example:</strong>
@@ -464,26 +470,26 @@ Let $\Delta^2 \times \Delta^1$ be the product of the standard $2$-simplex  $\Del
 the standard $1$-simplex $\Delta^1$ (with vertices $0,1$).
 Vertices are pairs
 $$
-A=(A,0), B=(B,0), C=(C,0), A'=(A,1), B'=(B,1), C&rsquo;(C,1).
+A=(A,0), B=(B,0), C=(C,0), A'=(A,1), B'=(B,1), C'(C,1).
 $$
 Ascending chains are the following three:
 $$
 \begin{aligned}
-A &lt; B &lt; C &lt; C&rsquo; \\\<br>
-A &lt; B &lt; B&rsquo; &lt; C&rsquo; \\\<br>
-A &lt; A&rsquo; &lt; B&rsquo; &lt; C&rsquo;
+A &lt; B &lt; C &lt; C' \\\
+A &lt; B &lt; B' &lt; C' \\\
+A &lt; A' &lt; B' &lt; C'
 \end{aligned}
 $$</p>
 <p><strong>Example:</strong>
 As above, the ascending chains of $\Delta^3 \times \Delta^1$,
-with vertices  $A,B,C,D,A&rsquo;,B&rsquo;,C&rsquo;,D'$
+with vertices  $A,B,C,D,A',B',C',D'$
 are the following:
 $$
 \begin{aligned}
-A &lt; B &lt; C &lt; D &lt; D&rsquo; \\\<br>
-A &lt; B &lt; C &lt; C&rsquo; &lt; D&rsquo; \\\<br>
-A &lt; B &lt; B&rsquo; &lt; C&rsquo; &lt; D&rsquo; \\\<br>
-A &lt; A&rsquo; &lt; B&rsquo; &lt; C&rsquo; &lt; D&rsquo;
+A &lt; B &lt; C &lt; D &lt; D' \\\
+A &lt; B &lt; C &lt; C' &lt; D' \\\
+A &lt; B &lt; B' &lt; C' &lt; D' \\\
+A &lt; A' &lt; B' &lt; C' &lt; D'
 \end{aligned}
 $$</p>
 <p>Consider any geometric realizations $|K|\subset \RR^k$ and $|L|\subset \RR^l$.</p>
@@ -504,7 +510,7 @@ $p = x_ 0 P_ 0+ \ldots + x_ n P_ n$ with $x_ j &gt;0$ and $x_ 0 + \ldots + x_ n 
 and
 $q = y_ 0 Q_ 0+ \ldots + y_ m Q_ m$ with $y_ i &gt;0$ and $y_ 0 + \ldots + y_ m = 1$.</p>
 <p>Now, consider the embeddings
-$\iota\from \sigma \approx \Delta^n \to \RR^n$ and $\iota&rsquo; \from \tau \approx \Delta^m \to  \RR^m$,
+$\iota\from \sigma \approx \Delta^n \to \RR^n$ and $\iota' \from \tau \approx \Delta^m \to  \RR^m$,
 defined as
 $$
 X_ \alpha  = \sum_ {j=0}^\alpha x_ j \implies x_ j = X_ j - X_ {j-1},
@@ -516,7 +522,7 @@ with $\alpha = 0 \ldots n-1$ and $\beta=0\ldots m-1$.
 Note that $\iota \sigma $ is the set of all elements $(X_ 0,\ldots, X_ {n-1})$
 of $\RR^n$ such that
 $$0 \leq X_ 0 \leq X_ 1 \leq \ldots \leq X_ n = 1,$$
-and the same for $\iota&rsquo; \tau $ as $0\leq Y_ 0 \leq \ldots \leq Y_ m = 1$.</p>
+and the same for $\iota' \tau $ as $0\leq Y_ 0 \leq \ldots \leq Y_ m = 1$.</p>
 <p>By definition, moreover, in the interior of $\sigma$ and $\tau$ the inequality
 $$
 0 &lt; X_ 0 &lt; X_ 1 &lt; \ldots &lt; X_ {n-1} &lt; 1
@@ -529,14 +535,14 @@ hold.</p>
 $(0,\ldots, 0, 1, \ldots, 1)$,
 made with $j$ zeroes and $n-j$ ones.
 The same,
-$\iota&rsquo; Q_ i$ has  as coordinates
+$\iota' Q_ i$ has  as coordinates
 a list of $i$ zeroes and $m-i$ ones.</p>
 <p>Consider the union of all the values of the $X$ and $Y$ coordinates, together with $0$ and $1$, i.e.
 $$
 S = \{ 0, X_ 0, X_ 1, \ldots, X_ {n-1}, Y_ 0, Y_ 1, \ldots, Y_ {m-1}, 1 \} \subset [0,1] \subset \RR.
 $$
 This is a set of $\# S$ distinct numbers, with
-$\# S \leq n+m+2$ (since it is not *a priori* required for them to be distinct),
+$\# S \leq n+m+2$ (since it is not <em>a priori</em> required for them to be distinct),
 and hence
 $S = \{ 0,  \xi_ 0, \xi_ 1, \ldots, \xi_ {s} =  1 \}$
 with
@@ -670,7 +676,7 @@ $$\begin{aligned}
 \sum_ {r=0} ^s \lambda_ r P_ {j_ r},
 \sum_ {r=0} ^s \lambda_ r Q_ {i_ r}
 \right)
-\\\<br>
+\\\
 &amp; = \left(
 \sum_ {\alpha=0}^n
 \left(
@@ -684,7 +690,7 @@ P_ \alpha ,
 \lambda_ r
 \right)
 Q_ \beta
-\right) \\\<br>
+\right) \\\
 &amp;= \left(
 \sum_ {j=0}^n x_ j P_ j,
 \sum_ {i=0}^m y_ j Q_ j
@@ -707,25 +713,25 @@ so that $P \equiv (P,0)$ and $P'=(P,1)$.
 Let now $s_ n \from C_ n(K) \to C_ {n+1}(K\times I)$ be the chain complex morphism defined as
 $$
 \begin{aligned}
-s_ n([P_ 0,\ldots, P_ n]) &amp; =  \sum_ {j=0} ^n (-1)^j [P_ 0,\ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n] \\\<br>
-&amp;= [P_ 0,P&rsquo;_ 0, \ldots, P_ n] - [P_ 0,P_ 1, P&rsquo;_ 1, \ldots, P&rsquo;_ n] + \ldots + (-1)^n [P_ 0,\ldots, P_ n, P&rsquo;_ n]~.
+s_ n([P_ 0,\ldots, P_ n]) &amp; =  \sum_ {j=0} ^n (-1)^j [P_ 0,\ldots, P_ j, P'_ j, \ldots, P'_ n] \\\
+&amp;= [P_ 0,P'_ 0, \ldots, P_ n] - [P_ 0,P_ 1, P'_ 1, \ldots, P'_ n] + \ldots + (-1)^n [P_ 0,\ldots, P_ n, P'_ n]~.
 \end{aligned}
 $$
 Note that
 $$\begin{aligned}
-\partial_ {n+1} [P_ 0,\ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n] &amp; =
-\sum_ {i=0}^{j-1} (-1)^i [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n] \\\
-&amp; + (-1)^j [P_ 0, \ldots, \hat P_ j, P&rsquo;_ j , \ldots, P&rsquo;_ n] \\\<br>
-&amp; - (-1)^j [P_ 0, \ldots, P_ j, \hat P&rsquo; _ j, \ldots, P&rsquo;_ n] \\\<br>
-&amp; - \sum_ {i=j-1}^n (-1)^i [P_ 0, \ldots,  P_ j, P&rsquo;_ j, \ldots, \hat P&rsquo;_ i, \ldots, P&rsquo;_ n]
+\partial_ {n+1} [P_ 0,\ldots, P_ j, P'_ j, \ldots, P'_ n] &amp; =
+\sum_ {i=0}^{j-1} (-1)^i [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P'_ j, \ldots, P'_ n] \\\
+&amp; + (-1)^j [P_ 0, \ldots, \hat P_ j, P'_ j , \ldots, P'_ n] \\\
+&amp; - (-1)^j [P_ 0, \ldots, P_ j, \hat P' _ j, \ldots, P'_ n] \\\
+&amp; - \sum_ {i=j-1}^n (-1)^i [P_ 0, \ldots,  P_ j, P'_ j, \ldots, \hat P'_ i, \ldots, P'_ n]
 \end{aligned}
 $$
 and
 $$
 \begin{aligned}
 s_ {n-1} [P_ 0, \ldots, \hat P_ i, \ldots, P_ n] &amp;=
-\sum_ {j=0}^ {i-1} (-1)^i [P_ 0, \ldots, P_ j, P&rsquo;_ j, \ldots, \hat P&rsquo;_ i, \ldots, P&rsquo;_ n] \\\ &amp; -
-\sum_ {j=i+1} ^ n (-1)^j [P_ 0, \ldots, \hat P_ i, \ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n]
+\sum_ {j=0}^ {i-1} (-1)^i [P_ 0, \ldots, P_ j, P'_ j, \ldots, \hat P'_ i, \ldots, P'_ n] \\\ &amp; -
+\sum_ {j=i+1} ^ n (-1)^j [P_ 0, \ldots, \hat P_ i, \ldots, P_ j, P'_ j, \ldots, P'_ n]
 \end{aligned}
 $$
 $$
@@ -733,26 +739,26 @@ $$
 \implies
 \partial_ {n+1} s_ n [P_ 0,\ldots, P_ n]
 &amp; =<br>
-\sum_ {j=0} ^n (-1)^j \partial_ {n+1} [P_ 0,\ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n] \\\<br>
+\sum_ {j=0} ^n (-1)^j \partial_ {n+1} [P_ 0,\ldots, P_ j, P'_ j, \ldots, P'_ n] \\\
 &amp; =<br>
-\sum_ {j=0} ^n   \sum_ {i=0}^{j-1} j (-1)^{i+j} [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n]   \\\
-&amp; + \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, \hat P_ j, P&rsquo;_ j , \ldots, P&rsquo;_ n] \\\<br>
-&amp; - \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, P_ j, \hat P&rsquo; _ j, \ldots, P&rsquo;_ n] \\\<br>
-&amp;  - \sum_ {j=0} ^n \sum_ {i=j}^n (-1)^{i+j} [P_ 0, \ldots,  P_ j, P&rsquo;_ j, \ldots, \hat P&rsquo;_ i, \ldots, P&rsquo;_ n] \\\<br>
+\sum_ {j=0} ^n   \sum_ {i=0}^{j-1} j (-1)^{i+j} [P_ 0, \ldots, \hat P_ i, \ldots , P_ j, P'_ j, \ldots, P'_ n]   \\\
+&amp; + \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, \hat P_ j, P'_ j , \ldots, P'_ n] \\\
+&amp; - \sum_ {j=0}^ n (-1)^{j+j} [P_ 0, \ldots, P_ j, \hat P' _ j, \ldots, P'_ n] \\\
+&amp;  - \sum_ {j=0} ^n \sum_ {i=j}^n (-1)^{i+j} [P_ 0, \ldots,  P_ j, P'_ j, \ldots, \hat P'_ i, \ldots, P'_ n] \\\
 s_ {n-1} \partial_ n [P_ 0,\ldots, P_ n] &amp;=
 \sum_ {i=0}^ {n}
-\sum_ {j=0}^ {i-1} (-1)^{i+j} [P_ 0, \ldots, P_ j, P&rsquo;_ j, \ldots, \hat P&rsquo;_ i, \ldots, P&rsquo;_ n] \\\ &amp; -
-\sum_ {i=0}^ n \sum_ {j=i+1} ^ n (-1)^{i+j} [P_ 0, \ldots, \hat P_ i, \ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n]
+\sum_ {j=0}^ {i-1} (-1)^{i+j} [P_ 0, \ldots, P_ j, P'_ j, \ldots, \hat P'_ i, \ldots, P'_ n] \\\ &amp; -
+\sum_ {i=0}^ n \sum_ {j=i+1} ^ n (-1)^{i+j} [P_ 0, \ldots, \hat P_ i, \ldots, P_ j, P'_ j, \ldots, P'_ n]
 \end{aligned}
 $$
 and
 $$ \begin{aligned} \implies
 ( \partial_ {n+1} s_ n +
 s_ {n-1} \partial_ n ) [P_ 0,\ldots, P_ n] &amp;=
-\sum_ {j=0}^ n \left( [P_ 0, \ldots, \hat P_ j, P&rsquo;_ j , \ldots, P&rsquo;_ n] - \sum_ {j=0}^ n [P_ 0, \ldots, P_ j, \hat P&rsquo; _ j, \ldots, P&rsquo;_ n]
-\right) \\\<br>
-&amp;= [P&rsquo;_ 0, \ldots, P&rsquo;_ n] - [P_ 0,P&rsquo;_ 1, \ldots, P&rsquo;_ n] + [P_ 0,P&rsquo;_ 1, \ldots, P&rsquo;_ n] - \ldots - [P_ 0, \ldots, P_ n] \\\<br>
-&amp;=  [P_ 0&rsquo;, \ldots, P&rsquo;_ n] - [P_ 0, \ldots, P_ n]
+\sum_ {j=0}^ n \left( [P_ 0, \ldots, \hat P_ j, P'_ j , \ldots, P'_ n] - \sum_ {j=0}^ n [P_ 0, \ldots, P_ j, \hat P' _ j, \ldots, P'_ n]
+\right) \\\
+&amp;= [P'_ 0, \ldots, P'_ n] - [P_ 0,P'_ 1, \ldots, P'_ n] + [P_ 0,P'_ 1, \ldots, P'_ n] - \ldots - [P_ 0, \ldots, P_ n] \\\
+&amp;=  [P_ 0', \ldots, P'_ n] - [P_ 0, \ldots, P_ n]
 \end{aligned}
 $$
 and therefore
@@ -762,20 +768,20 @@ $$</p>
 <p>EDIT 2018-10-28: Trying to be more explicit/formal.
 Consider the (symbolic) operator $\gamma_ j $  from $n$-chains of $K$ to $n+1$-chains of $K\times I$,
 defined as
-$$ \gamma_ j [ P_ 0, \ldots, P_ n ] = [ P_ 0, \ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n ] $$
+$$ \gamma_ j [ P_ 0, \ldots, P_ n ] = [ P_ 0, \ldots, P_ j, P'_ j, \ldots, P'_ n ] $$
 and
 the $i$-th face operator
 $$ F_ i [ P_ 0, \ldots, P_ i, \ldots, P_ n ] = [P_ 0, \ldots, \hat P_ i, \ldots, P_ n ].  $$</p>
 <p>For $j=0, \ldots, n$ and $i=0, \ldots, n+1$,
 $$
-F_ i \gamma_ j [ P_ 0, \ldots, P_ n ] = F_ i [ P_ 0, \ldots, P_ j, P&rsquo;_ j, \ldots, P&rsquo;_ n ]
+F_ i \gamma_ j [ P_ 0, \ldots, P_ n ] = F_ i [ P_ 0, \ldots, P_ j, P'_ j, \ldots, P'_ n ]
 $$
 $$
-F_ 0 \gamma_ 0 [ P_ 0, \ldots, P_ n ] = [ P&rsquo;_ 0, \ldots, P&rsquo;_ n ] ,
+F_ 0 \gamma_ 0 [ P_ 0, \ldots, P_ n ] = [ P'_ 0, \ldots, P'_ n ] ,
 $$
 $$
 F_ j \gamma_ j [ P_ 0, \ldots, P_ n ]
-= [ P_ 0, \ldots, P_ {j-1} , P&rsquo;_ j , \ldots, P&rsquo;_ n] =
+= [ P_ 0, \ldots, P_ {j-1} , P'_ j , \ldots, P'_ n] =
 F_ {j} \gamma_ {j-1} [ P_ 0, \ldots, P_ n ]
 $$
 $$
@@ -784,11 +790,11 @@ $$
 $$
 i &lt; j  \implies
 F_ i \gamma_ j [ P_ 0, \ldots, P_ n ] =
-[ P_ 0 , \ldots , \hat P_ i, \ldots, P_ j , P&rsquo;_ j, \ldots, P&rsquo;_ n ]
+[ P_ 0 , \ldots , \hat P_ i, \ldots, P_ j , P'_ j, \ldots, P'_ n ]
 = \gamma_ {j-1} F_ {i} [ P_ 0, \ldots, P_ n ];
 $$
 $$
-i \gt  j+1  \implies F_ i \gamma_ j [P_ 0, \ldots, P_ n] = [ P_ 0 , \ldots ,  P_ j , P&rsquo;_ j, \ldots, \hat P&rsquo;_ {i-1} , \ldots, P&rsquo;_ n ] = \gamma_ {j} F_ {i-1} [ P_ 0, \ldots, P_ n ].
+i \gt  j+1  \implies F_ i \gamma_ j [P_ 0, \ldots, P_ n] = [ P_ 0 , \ldots ,  P_ j , P'_ j, \ldots, \hat P'_ {i-1} , \ldots, P'_ n ] = \gamma_ {j} F_ {i-1} [ P_ 0, \ldots, P_ n ].
 $$</p>
 <p>Therefore if
 $x = [ P_ 0, \ldots, P_ n ]$
@@ -828,13 +834,13 @@ $$
 \partial_ {n+1} s_ n + s_ {n-1} \partial_ n ) x  = F_ 0 \gamma_ 0 x  - F_ {n+1} \gamma_ n x  - \sum_ {j=0}^{n-1} \sum_ {i=0}^{n} (-1)^{i+j}  \gamma_ {j} F_ i x + \sum_ {j=0}^{n-1} (-i)^j \sum_ {i=0}^n (-1)^i \gamma_ j F_ i x
 $$
 $$
-=  [P_ 0&rsquo;, \ldots, P&rsquo;_ n] - [P_ 0, \ldots, P_ n] .
+=  [P_ 0', \ldots, P'_ n] - [P_ 0, \ldots, P_ n] .
 $$</p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>Ferrario, Davide L.; Piccinini, Renzo A. <em>Simplicial structures in topology.</em> CMS Books in Mathematics/Ouvrages de Mathématiques de la SMC. Springer, New York, 2011. xvi+243 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-7236-1">978-1-4419-7235-4</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Ferrario, Davide L.; Piccinini, Renzo A. <em>Simplicial structures in topology.</em> CMS Books in Mathematics/Ouvrages de Mathématiques de la SMC. Springer, New York, 2011. xvi+243 pp. ISBN: <a href="http://link.springer.com/book/10.1007%2F978-1-4419-7236-1">978-1-4419-7235-4</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>

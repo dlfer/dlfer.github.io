@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.64.1" />
+  <meta name="generator" content="Hugo 0.92.2" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -300,6 +300,12 @@
     
       
     
+      
+    
+      
+    
+      
+    
   </nav>
 </div>
 
@@ -332,7 +338,7 @@
 <p>The proof and the algorithm are the same.</p>
 <p>First, a few auxiliary functions. Given a matrix $M$, the follow two functions are
 self-explanatory.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">dims</span>(M):
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">dims</span>(M):
  num_righe<span style="color:#666">=</span><span style="color:#a2f">len</span>(M)
  num_colonne<span style="color:#666">=</span><span style="color:#a2f">len</span>(M[<span style="color:#666">0</span>])
  <span style="color:#a2f;font-weight:bold">return</span> (num_righe,num_colonne)
@@ -343,7 +349,7 @@ self-explanatory.</p>
  valmin<span style="color:#666">=</span><span style="color:#a2f">max</span>( <span style="color:#a2f">max</span>([<span style="color:#a2f">abs</span>(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> M[j][s:]]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s,num_righe) )
  <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> (<span style="color:#a2f">range</span>(s,num_righe)):
   <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> (<span style="color:#a2f">range</span>(s,num_colonne)):
-   <span style="color:#a2f;font-weight:bold">if</span> (M[i][j] <span style="color:#666">!=</span> <span style="color:#666">0</span> ) <span style="color:#a2f;font-weight:bold">and</span> (<span style="color:#a2f">abs</span>(M[i][j]) <span style="color:#666">&lt;</span><span style="color:#666">=</span> valmin) :
+   <span style="color:#a2f;font-weight:bold">if</span> (M[i][j] <span style="color:#666">!=</span> <span style="color:#666">0</span> ) <span style="color:#a2f;font-weight:bold">and</span> (<span style="color:#a2f">abs</span>(M[i][j]) <span style="color:#666">&lt;=</span> valmin) :
     ijmin <span style="color:#666">=</span> [i,j]
     valmin <span style="color:#666">=</span> <span style="color:#a2f">abs</span>(M[i][j])
  <span style="color:#a2f;font-weight:bold">return</span> ijmin
@@ -355,14 +361,14 @@ self-explanatory.</p>
  <span style="color:#a2f;font-weight:bold">return</span> res
 
 <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">display</span>(M):
- r<span style="color:#666">=</span><span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b44">&#34;</span>
+ r<span style="color:#666">=</span><span style="color:#b44">&#34;&#34;</span>
  <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> M:
-  r <span style="color:#666">+</span><span style="color:#666">=</span> <span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> x
- <span style="color:#a2f;font-weight:bold">return</span> r <span style="color:#666">+</span><span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b44">&#34;</span>
+  r <span style="color:#666">+=</span> <span style="color:#b44">&#34;</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> x
+ <span style="color:#a2f;font-weight:bold">return</span> r <span style="color:#666">+</span><span style="color:#b44">&#34;&#34;</span>
 </code></pre></div><p>Then, one needs the elementary operations on rows and columns on the matrix $M$:
 swap (permute) two rows, add to a row an integer multiple of another row, and
 change sign of a row. The same for columns.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">swap_rows</span>(M,i,j):
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">swap_rows</span>(M,i,j):
  tmp<span style="color:#666">=</span>M[i]
  M[i]<span style="color:#666">=</span>M[j]
  M[j]<span style="color:#666">=</span>tmp
@@ -377,12 +383,12 @@ change sign of a row. The same for columns.</p>
 <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">add_to_row</span>(M,x,k,s):
  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
  <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_colonne):
-  M[x][tmpj] <span style="color:#666">+</span><span style="color:#666">=</span> k <span style="color:#666">*</span> M[s][tmpj]
+  M[x][tmpj] <span style="color:#666">+=</span> k <span style="color:#666">*</span> M[s][tmpj]
 
 <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">add_to_column</span>(M,x,k,s):
  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
  <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_righe):
-  M[tmpj][x] <span style="color:#666">+</span><span style="color:#666">=</span> k <span style="color:#666">*</span> M[tmpj][s]
+  M[tmpj][x] <span style="color:#666">+=</span> k <span style="color:#666">*</span> M[tmpj][s]
 
 <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">change_sign_row</span>(M,x):
  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
@@ -398,12 +404,12 @@ is the only one non-zero in its $s$-th column under $s$ and $s$-th row at the ri
 then the algorithm will proceed.</p>
 <p>The second, will scan in the submatrix at the lower-right of $M_ {s,s}$, to check if there is any entry which
 is not divisible by $M_ {s,s}$. If it cannot be found, then it returns an empty set.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">is_lone</span>(M,s):
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">is_lone</span>(M,s):
  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
  <span style="color:#a2f;font-weight:bold">if</span> [M[s][x] <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne) <span style="color:#a2f;font-weight:bold">if</span> M[s][x] <span style="color:#666">!=</span> <span style="color:#666">0</span>] <span style="color:#666">+</span> [ M[y][s] <span style="color:#a2f;font-weight:bold">for</span> y <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe) <span style="color:#a2f;font-weight:bold">if</span> M[y][s] <span style="color:#666">!=</span> <span style="color:#666">0</span>] <span style="color:#666">==</span> []:
-  <span style="color:#a2f;font-weight:bold">return</span> True
+  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">True</span>
  <span style="color:#a2f;font-weight:bold">else</span>:
-  <span style="color:#a2f;font-weight:bold">return</span> False
+  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">False</span>
 
 <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">get_nextentry</span>(M,s):
   <span style="color:#080;font-style:italic"># find and element which is not divisible by M[s][s]</span>
@@ -412,7 +418,7 @@ is not divisible by $M_ {s,s}$. If it cannot be found, then it returns an empty 
    <span style="color:#a2f;font-weight:bold">for</span> y <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne):
     <span style="color:#a2f;font-weight:bold">if</span> M[x][y] <span style="color:#666">%</span> M[s][s]  <span style="color:#666">!=</span> <span style="color:#666">0</span>:
      <span style="color:#a2f;font-weight:bold">return</span> (x,y)
-  <span style="color:#a2f;font-weight:bold">return</span> None
+  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">None</span>
 </code></pre></div><p>Given all these functions, the algorithm/proof is rather simple, as written in the folliwing block.
 The main idea is to put at the UL corner $M_ {0,0}$ the GCD of all matrix entries,
 by row/column operations.</p>
@@ -439,19 +445,19 @@ except $M_ {0,0}$  are zero.</p>
 <p>Now go back  to the step of finding the new non-zero minimum, put it in $(0,0)$,  and repeat from there.</p>
 <p>Why in a finite number of steps $M_ {0,0}$ has to divide all the entries?
 At the UL corner, $M_ {0,0}$ was chosen to be the minimum of non-zero terms
-of $M$, and the new one will be $M&rsquo;_ {0,0} \leq M_ {0,0}$. But, if there was an entry<br>
-not divisible by $M_ {0,0}$, then $M&rsquo;_ {0,0} &lt; M_ {0,0}$.
+of $M$, and the new one will be $M'_ {0,0} \leq M_ {0,0}$. But, if there was an entry<br>
+not divisible by $M_ {0,0}$, then $M'_ {0,0} &lt; M_ {0,0}$.
 We show this with an example.
 Assume $a$ does not divide $b$ (and hence $a\neq b$),
 both positive. First, add the second row to the first.
 $$
 \begin{bmatrix}
-a &amp; 0 \\\<br>
+a &amp; 0 \\\
 0 &amp; b
 \end{bmatrix}
 \mapsto
 \begin{bmatrix}
-a &amp; b \\\<br>
+a &amp; b \\\
 0 &amp; b
 \end{bmatrix}
 $$
@@ -461,13 +467,13 @@ $$
 \mapsto
 \begin{cases}
 \begin{bmatrix}
-a &amp; b \\\<br>
+a &amp; b \\\
 0 &amp; b
 \end{bmatrix}
 &amp; \text{if $a&lt;b$}
-\\\<br>
+\\\
 \begin{bmatrix}
-b &amp; a \\\<br>
+b &amp; a \\\
 b &amp; 0
 \end{bmatrix}
 &amp; \text{if $b &lt; a$}
@@ -479,13 +485,13 @@ $$
 \mapsto
 \begin{cases}
 \begin{bmatrix}
-a &amp; b-qa \\\<br>
+a &amp; b-qa \\\
 0 &amp; b
 \end{bmatrix}
 &amp; \text{if $a&lt;b$}
-\\\<br>
+\\\
 \begin{bmatrix}
-b &amp; a-qb \\\<br>
+b &amp; a-qb \\\
 0 &amp; -a
 \end{bmatrix}
 &amp; \text{if $b &lt; a$}
@@ -496,14 +502,14 @@ If $b&lt;a$, it is $|a-qb| &lt; b &lt; a$.
 Hence in both cases after the row/column operations, the minimum of the matrix entries
 will be strictly smaller than $a$. Since this cannot happen indefinitively, after a finite
 number of steps $M_ {0,0}$ will divide all the remaining entries in $M$.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">Smith</span>(M):
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">Smith</span>(M):
  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
  L <span style="color:#666">=</span> IdentityMatrix(num_righe)
  R <span style="color:#666">=</span> IdentityMatrix(num_colonne)
  maxs<span style="color:#666">=</span><span style="color:#a2f">min</span>(num_righe,num_colonne)
  <span style="color:#a2f;font-weight:bold">for</span> s <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(maxs):
-  <span style="color:#a2f;font-weight:bold">print</span> (<span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b44">step </span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b44">/</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> (s<span style="color:#666">+</span><span style="color:#666">1</span>,maxs))
-  <span style="color:#a2f;font-weight:bold">print</span> <span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b44">M:</span><span style="color:#b44">&#34;</span>, display(M)
+  <span style="color:#a2f">print</span> (<span style="color:#b44">&#34;step </span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b44">/</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> (s<span style="color:#666">+</span><span style="color:#666">1</span>,maxs))
+  <span style="color:#a2f">print</span> <span style="color:#b44">&#34;M:&#34;</span>, display(M)
   <span style="color:#a2f;font-weight:bold">while</span> <span style="color:#a2f;font-weight:bold">not</span> is_lone(M,s):
    i,j <span style="color:#666">=</span> MinAij(M,s) <span style="color:#080;font-style:italic"># the non-zero entry with min |.|</span>
    swap_rows(M,s,i)
@@ -512,12 +518,12 @@ number of steps $M_ {0,0}$ will divide all the remaining entries in $M$.</p>
    swap_columns(R,s,j)
    <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe):
     <span style="color:#a2f;font-weight:bold">if</span> M[x][s] <span style="color:#666">!=</span> <span style="color:#666">0</span>:
-     k <span style="color:#666">=</span> M[x][s] <span style="color:#666">/</span><span style="color:#666">/</span> M[s][s]
+     k <span style="color:#666">=</span> M[x][s] <span style="color:#666">//</span> M[s][s]
      add_to_row(M,x,<span style="color:#666">-</span>k,s)
      add_to_row(L,x,<span style="color:#666">-</span>k,s)
    <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne):
     <span style="color:#a2f;font-weight:bold">if</span> M[s][x] <span style="color:#666">!=</span> <span style="color:#666">0</span>:
-     k <span style="color:#666">=</span> M[s][x] <span style="color:#666">/</span><span style="color:#666">/</span> M[s][s]
+     k <span style="color:#666">=</span> M[s][x] <span style="color:#666">//</span> M[s][s]
      add_to_column(M,x,<span style="color:#666">-</span>k,s)
      add_to_column(R,x,<span style="color:#666">-</span>k,s)
    <span style="color:#a2f;font-weight:bold">if</span> is_lone(M,s):
@@ -538,7 +544,7 @@ They are obtained by applying the same row/column operations on two identity mat
 <h2 id="example-the-triangulated-sphere">Example: the triangulated sphere.</h2>
 <p>As an example, here we compute the Smith Normal Forms of the differentials of che chain complex of the triangulate $2$-sphere,
 from <a href="http://www.sagemath.org">sage</a>. First, the differential $\partial_ 1 \from C_ 1 \cong \ZZ^6 \to C_ 0 \cong \ZZ^4 $.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: K<span style="color:#666">=</span>simplicial_complexes<span style="color:#666">.</span>Sphere(<span style="color:#666">2</span>)
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: K<span style="color:#666">=</span>simplicial_complexes<span style="color:#666">.</span>Sphere(<span style="color:#666">2</span>)
 sage: CK<span style="color:#666">=</span>K<span style="color:#666">.</span>chain_complex()
 sage: 
 sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">1</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
@@ -578,7 +584,7 @@ M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span 
   [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
   [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>],
   [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]])
-sage: <span style="color:#a2f;font-weight:bold">print</span> <span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_1:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
+sage: <span style="color:#a2f">print</span> <span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_1:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
 
 smith form of d_1:
 [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
@@ -593,27 +599,27 @@ $LMR = S$.
 Since $\ker S$ is generated by the three vectors
 $$
 \begin{bmatrix}
-0\\\<br>
-0\\\<br>
-0\\\<br>
-1\\\<br>
-0\\\<br>
+0\\\
+0\\\
+0\\\
+1\\\
+0\\\
 0
 \end{bmatrix}
 \begin{bmatrix}
-0\\\<br>
-0\\\<br>
-0\\\<br>
-0\\\<br>
-1\\\<br>
+0\\\
+0\\\
+0\\\
+0\\\
+1\\\
 0
 \end{bmatrix}
 \begin{bmatrix}
-0\\\<br>
-0\\\<br>
-0\\\<br>
-0\\\<br>
-0\\\<br>
+0\\\
+0\\\
+0\\\
+0\\\
+0\\\
 1
 \end{bmatrix},
 $$
@@ -621,27 +627,27 @@ then $\ker LM = \ker M$ is generated by their images by $R$, i.e.
 the last three columns of $R$:
 $$
 \begin{bmatrix}
-1\\\<br>
--1\\\<br>
-0\\\<br>
-1\\\<br>
-0\\\<br>
+1\\\
+-1\\\
+0\\\
+1\\\
+0\\\
 0
 \end{bmatrix}
 \begin{bmatrix}
-1\\\<br>
--1\\\<br>
-0\\\<br>
-0\\\<br>
-1\\\<br>
+1\\\
+-1\\\
+0\\\
+0\\\
+1\\\
 -1
 \end{bmatrix}
 \begin{bmatrix}
-0\\\<br>
--1\\\<br>
-1\\\<br>
-0\\\<br>
-0\\\<br>
+0\\\
+-1\\\
+1\\\
+0\\\
+0\\\
 -1
 \end{bmatrix},
 $$
@@ -657,7 +663,7 @@ $$
 [20] + [03] + [32]~.
 $$</p>
 <p>Furthermore, about the differential $\partial_ 2$ from $C_ 2 \cong \ZZ^4 \to C_ 1 \cong \ZZ^6 $.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">2</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">2</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
 sage: Smith(M)
 step <span style="color:#666">1</span><span style="color:#666">/</span><span style="color:#666">4</span>
 
@@ -702,7 +708,7 @@ M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span 
   [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>],
   [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]],
  [[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>], [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>], [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>], [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]])
-sage: <span style="color:#a2f;font-weight:bold">print</span> <span style="color:#b44"></span><span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_2:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
+sage: <span style="color:#a2f">print</span> <span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_2:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
 
 smith form of d_2:
 [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
@@ -716,10 +722,10 @@ The generator of $\ker \partial_ 2$ is, as above, the last column of $R$,
 which is
 $$
 \begin{bmatrix}
-1\\\<br>
--1\\\<br>
-1\\\<br>
--1\\\<br>
+1\\\
+-1\\\
+1\\\
+-1\\\
 \end{bmatrix}
 $$
 which corresponds to the cycle
@@ -742,10 +748,10 @@ as in the following diagram.</p>
 ![Chain complex diagram](/img/c2c1.svg)
 </center>
 <p>Let $\alpha_ 1$, $\alpha_ 2$, $\ldots$, $\alpha_ q$
-be the *elementary divisors* of $\partial_ 2$, i.e.
+be the <em>elementary divisors</em> of $\partial_ 2$, i.e.
 the non-zero diagonal terms of $S_ 2$,
 and $\beta_ 1$, $\beta_ 2$, $\ldots$, $\beta_ r$
-the *elementary divisors* of $\partial_ 1$, i.e.
+the <em>elementary divisors</em> of $\partial_ 1$, i.e.
 the non-zero diagonal terms of $S_ 1$.
 Let $\ve_ 1$, $\ve_ 2$, $\ldots$, $\ve_ {c_ 1}$ be
 the standard basis of $\ZZ^{c_ 1}$.</p>
@@ -766,25 +772,25 @@ where $Q$ is the subgroup generated by the first $q$ columns of $L_ 2^{-1}$,
 and $Q'$ the subgroup generated by the last $c_ 1 - q$ columns of $L_ 2^{-1}$.</p>
 <p>By construction $B_ 1 \subset Q$, and since $C_ 1$ is torsion-free, $Q\subset Z_ 1$.
 Now, define
-$Q&rsquo;&rsquo; = Q&rsquo; \cap Z_ 1$, which is a subgroup of $Z_ 1$.  Since $Q&rsquo;&rsquo; \cap Q = 0$,
+$Q'' = Q' \cap Z_ 1$, which is a subgroup of $Z_ 1$.  Since $Q'' \cap Q = 0$,
 it is defined the direct sum
-$Q\oplus Q&rsquo;&rsquo; \subset Z_ 1$. If $x \in Z_ 1 \subset C_ 1 = Q \oplus Q'$, then
-$x=q + q'$ with $q \in Q$ and $q&rsquo; \in Q'$,
-and $0 = \partial_ 1 x = \partial_ 1 q + \partial_ 1 q&rsquo; = \partial_ 1 q'$,
-hence $x=q + q'$ with $q \in Q$ and $q&rsquo; \in Q&rsquo; \cap Z_ 1 = Q'&lsquo;$,
-and hence $Z_ 1 = Q \oplus Q'&lsquo;$.</p>
-<p>Since $Z_ 1=Q\oplus Q'&lsquo;$ is a free abelian group of rank $c_ 1 - r$,
+$Q\oplus Q'' \subset Z_ 1$. If $x \in Z_ 1 \subset C_ 1 = Q \oplus Q'$, then
+$x=q + q'$ with $q \in Q$ and $q' \in Q'$,
+and $0 = \partial_ 1 x = \partial_ 1 q + \partial_ 1 q' = \partial_ 1 q'$,
+hence $x=q + q'$ with $q \in Q$ and $q' \in Q' \cap Z_ 1 = Q''$,
+and hence $Z_ 1 = Q \oplus Q''$.</p>
+<p>Since $Z_ 1=Q\oplus Q''$ is a free abelian group of rank $c_ 1 - r$,
 and  $Q$ is a free abelian subgroup of rank $q$,</p>
 <dl>
 <dt>(1)</dt>
-<dd>$Q&rsquo;'\subset Z_ 1$ is a free abelian group of rank $c_ 1 - r - q$.</dd>
+<dd>$Q''\subset Z_ 1$ is a free abelian group of rank $c_ 1 - r - q$.</dd>
 </dl>
 <p>Furthermore, since $B_ 1 \subset Q$,  the quotient $Z_ 1 / B_ 1$ splits as
 $$
 \dfrac{Z_ 1 }{ B_ 1  } =
-\dfrac{Q \oplus  Q&rsquo;'}{ B_ 1\oplus 0}
+\dfrac{Q \oplus  Q''}{ B_ 1\oplus 0}
 \cong
-\dfrac{Q}{ B_ 1 } \oplus Q&rsquo;&rsquo;<br>
+\dfrac{Q}{ B_ 1 } \oplus Q''<br>
 \cong
 $$
 $$
@@ -816,7 +822,7 @@ $q=3$.</p>
 $$
 \begin{aligned}
 H_ 0 &amp;  \cong \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ^{4-0-3} = \ZZ \\\
-H_ 1 &amp; \cong \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ^{6-3-3} = 0 \\\<br>
+H_ 1 &amp; \cong \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ_ 1 \oplus \ZZ^{6-3-3} = 0 \\\
 H_ 2 &amp; \cong \ZZ^{4-0-3} = \ZZ .
 \end{aligned}
 $$</p>
@@ -828,9 +834,9 @@ Next, generators of $R_ 1^{-1}Q$ are $\vw_ j = R_ 1^{-1} L_ 2^{-1} \ve_ j$ for $
 Since for each $j=1,\ldots, q$, $L_ 2^{-1} \ve_ j \in Q$, hence
 $$ S_ 1 \vw_ j = S_ 1 R_ 1^{-1} L_ 2^{-1} \ve_ j = L_ 1 \partial_ 1 L_ 2^{-1} \ve_ j = 0, $$
 which means that the first $r$ entries of $\vw_ j$ are zero.
-Note that the projection  $p\from Z_ 1 = Q\oplus Q&rsquo;&rsquo; \to Q $,
+Note that the projection  $p\from Z_ 1 = Q\oplus Q'' \to Q $,
 after $R_ 1^{-1}$, is a projection
-$ \ZZ^{c_ 1 - r}  \to \ZZ^{q}$. Its kernel is $Q'&lsquo;$.</p>
+$ \ZZ^{c_ 1 - r}  \to \ZZ^{q}$. Its kernel is $Q''$.</p>
 <p>So, let $T$ denote the $(c_ 1 -r ) \times q$ matrix
 whose $q$ columns are the last $c_ 1 - r$ entries of $\vw_ j$,
 for $j=1,\ldots, q$. It represents the monomorphism
@@ -838,27 +844,27 @@ $T\from R_ 1^{-1} Q \to \ker S_ 1$, or
 $T \from  \ZZ^q \to \ZZ^{c_ 1 - r}.$
 Let $S_ T$ its Smith Normal Form, and $L_ T$ and $R_ T$ the unimodular matrices
 such that $S_ T = L_ T T R_ T$.
-By the arguments above, $S_ T $ has $q$ $1$'s as elementary divisors,
+By the arguments above, $S_ T $ has $q$ $1$&rsquo;s as elementary divisors,
 and the rest are $0$.
 Furthermore, the unimodular matrix
 $L_ T ^{-1} \from \ZZ^{c_ 1 - r} \to \ZZ^{c_ 1 - r}$<br>
 sends the first $q$ elements of the standard basis $\ve_ j$, $j=1,\ldots, q$,
 to a set of generators for $Q$ (the image of $T$ in $\ker S_ 1$).
 The latter $c_ 1 - r - q$ columns of $L_ T^{-1}$ are the coefficients
-of a set of generators of $Q'&lsquo;$ in the standard basis of $\ker S_ 1$,
+of a set of generators of $Q''$ in the standard basis of $\ker S_ 1$,
 which we can denote by $\vw_ {q+1}, \ldots, \vw_ {c_ 1 - r}$ (by adding
 $q$ zeros at the head of the $(c_ 1 - r)$-tuple).</p>
 <p>So, going back to $C_ 1$, $Z_ 1$ is generated by
 the elements of $Q$, i.e.
 $$ R_ 1 \vw_ 1 = L_ 2^{-1} \ve_ 1, \ldots R_ 1 \vw_ q = L_ 2^{-1} \ve_ q, $$
-and the elements of  \( Q&rsquo;&rsquo; \),
+and the elements of  \( Q'' \),
 i.e.<br>
 $$
 R_ 1 \vw_ {q+1} =  R_ 1 L_ T^{-1} \ve_ {q+1} \ldots R_ 1 \vw_ {c_ 1 - r} =  R_ 1 L_ T^{-1} \ve_ {c_ 1 - r}
 $$
 where suitable zeros are added when necessary.
 More in <a href="http://link.springer.com/book/10.1007%2Fb97315">Computational Homology</a>,
-by *Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek*, Springer, 2004.</p>
+by <em>Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek</em>, Springer, 2004.</p>
 
 </div>
 

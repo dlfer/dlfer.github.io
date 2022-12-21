@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 10:53:07 +0100</lastBuildDate>
-    
-	<atom:link href="//www.dlfer.xyz/tags/fourier/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 29 Oct 2018 10:53:07 +0100</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/fourier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Un esempio di Discrete Cosine Transform</title>
       <link>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</link>
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2018-11-29-discretecosinetransform/</guid>
-      <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&amp;rsquo;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme *finito* di punti equidistribuiti nell&amp;rsquo;intervallo $[0,2\pi]$: $$ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. $$ L&amp;rsquo;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&amp;rsquo;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
+      <description>Esercizio di Analisi di Fourier su insiemi finiti: Consideriamo, per funzioni $2\pi$-periodiche e pari, una approssimazione dell&amp;rsquo;integrale $\int_{-\pi}^\pi f(x) g(x) dx$, che consideri soltanto un insieme finito di punti equidistribuiti nell&amp;rsquo;intervallo $[0,2\pi]$: $$ X_N = \left\{ \dfrac{2j\pi}{N} : j=0,\ldots,N-1 \right\} = \{ 0, \frac{2\pi}{N}, \ldots ,\frac{2(N-1)\pi}{N} \}. $$ L&amp;rsquo;integrale su $X_N$, per $N\to \infty$, è uno dei metodi (trapezi) usati per calcolare approssimazioni numeriche dell&amp;rsquo;integrale continuo. Supponiamo che $N$ sia pari $N=2n$.</description>
     </item>
     
   </channel>

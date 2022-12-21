@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 28 Sep 2016 10:30:48 +0200</lastBuildDate>
-    
-	<atom:link href="//www.dlfer.xyz/p/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 28 Sep 2016 10:30:48 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/p/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
       <link>//www.dlfer.xyz/p/papers/</link>

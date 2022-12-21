@@ -7,18 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 14 Nov 2016 11:07:25 +0100</lastBuildDate>
-    
-	<atom:link href="//www.dlfer.xyz/tags/product/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 14 Nov 2016 11:07:25 +0100</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/product/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Joins and Products of polyhedra</title>
       <link>//www.dlfer.xyz/post/2016-11-14-joinsandproducts/</link>
       <pubDate>Mon, 14 Nov 2016 11:07:25 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2016-11-14-joinsandproducts/</guid>
-      <description>Join $K*L$ of two simplicial complexes Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes ($X_ K$ denotes the set of vertices of $K$ and $\Phi_ K$ the set of simplices). Then the join $K*L$ is the simplicial complex defined as follows. Its set of vertices $X=X_ K \cup X_ L$ is the union of the sets of vertices of $K$ and of $L$, and a non-empty subset of $X$ is a simplex of $K*L$ if and only if it is of type $\sigma \cup \tau$, where $\sigma \in \Phi_ K \cup \{ \emptyset \}$ and $\tau \in \Phi_ L \cup \{\emptyset \}$.</description>
+      <description>Join $K*L$ of two simplicial complexes Let $K = (X_ K, \Phi_ K)$ and $L = (X_ L, \Phi_ L)$ be two simplicial complexes ($X_ K$ denotes the set of vertices of $K$ and $\Phi_ K$ the set of simplices). Then the join $KL$ is the simplicial complex defined as follows. Its set of vertices $X=X_ K \cup X_ L$ is the union of the sets of vertices of $K$ and of $L$, and a non-empty subset of $X$ is a simplex of $KL$ if and only if it is of type $\sigma \cup \tau$, where $\sigma \in \Phi_ K \cup \{ \emptyset \}$ and $\tau \in \Phi_ L \cup \{\emptyset \}$.</description>
     </item>
     
   </channel>
