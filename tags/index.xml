@@ -7,11 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Scambio di tempo</title>
       <link>//www.dlfer.xyz/tags/scambio-di-tempo/</link>
-      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/tags/scambio-di-tempo/</guid>
       <description></description>
@@ -20,7 +24,7 @@
     <item>
       <title>Time banking</title>
       <link>//www.dlfer.xyz/tags/time-banking/</link>
-      <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Jun 2023 00:00:00 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/tags/time-banking/</guid>
       <description></description>
@@ -29,7 +33,7 @@
     <item>
       <title>Drupka Kunley</title>
       <link>//www.dlfer.xyz/tags/drupka-kunley/</link>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/drupka-kunley/</guid>
       <description></description>
@@ -38,7 +42,7 @@
     <item>
       <title>Patanjali</title>
       <link>//www.dlfer.xyz/tags/patanjali/</link>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/patanjali/</guid>
       <description></description>
@@ -47,7 +51,7 @@
     <item>
       <title>yoga</title>
       <link>//www.dlfer.xyz/tags/yoga/</link>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/yoga/</guid>
       <description></description>
@@ -56,7 +60,7 @@
     <item>
       <title>calculus</title>
       <link>//www.dlfer.xyz/tags/calculus/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/tags/calculus/</guid>
       <description></description>
@@ -65,7 +69,7 @@
     <item>
       <title>teaching</title>
       <link>//www.dlfer.xyz/tags/teaching/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/tags/teaching/</guid>
       <description></description>
@@ -74,7 +78,7 @@
     <item>
       <title>university</title>
       <link>//www.dlfer.xyz/tags/university/</link>
-      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/tags/university/</guid>
       <description></description>
@@ -92,7 +96,7 @@
     <item>
       <title>Canoa</title>
       <link>//www.dlfer.xyz/tags/canoa/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/canoa/</guid>
       <description></description>
@@ -101,7 +105,7 @@
     <item>
       <title>kayak</title>
       <link>//www.dlfer.xyz/tags/kayak/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/kayak/</guid>
       <description></description>
@@ -110,7 +114,7 @@
     <item>
       <title>SUP</title>
       <link>//www.dlfer.xyz/tags/sup/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/sup/</guid>
       <description></description>
@@ -146,7 +150,7 @@
     <item>
       <title>metafore</title>
       <link>//www.dlfer.xyz/tags/metafore/</link>
-      <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2020 00:00:00 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/tags/metafore/</guid>
       <description></description>
@@ -155,7 +159,7 @@
     <item>
       <title>didattica</title>
       <link>//www.dlfer.xyz/tags/didattica/</link>
-      <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/didattica/</guid>
       <description></description>
@@ -164,7 +168,7 @@
     <item>
       <title>virus</title>
       <link>//www.dlfer.xyz/tags/virus/</link>
-      <pubDate>Fri, 06 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2020 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/virus/</guid>
       <description></description>
@@ -173,7 +177,7 @@
     <item>
       <title>food</title>
       <link>//www.dlfer.xyz/tags/food/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/food/</guid>
       <description></description>
@@ -182,7 +186,7 @@
     <item>
       <title>recipes</title>
       <link>//www.dlfer.xyz/tags/recipes/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/recipes/</guid>
       <description></description>
@@ -191,7 +195,7 @@
     <item>
       <title>dialoghi matematici</title>
       <link>//www.dlfer.xyz/tags/dialoghi-matematici/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/dialoghi-matematici/</guid>
       <description></description>
@@ -200,7 +204,7 @@
     <item>
       <title>math</title>
       <link>//www.dlfer.xyz/tags/math/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/tags/math/</guid>
       <description></description>

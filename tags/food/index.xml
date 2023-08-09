@@ -7,11 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/tags/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Food, recipes and language</title>
       <link>//www.dlfer.xyz/post/2019-12-29-food-and-recipes/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2019-12-29-food-and-recipes/</guid>
       <description>A pparently humans have been writing, sharing and storing recipes for their food preparation for quite a long time. The first written recipe (besides beer&amp;rsquo;s appearing in the old Sumerian hymn) dates back thousands of years. I do know nothing about it, but according to a quick search there are many sources where to look into. An interesting finding:  Recipe tablets from the Yale Babylonian Collection, previously thought to contain pharmaceutical formulas, have been decoded by French Assyriologist and gourmet chef Jean Bottero.</description>

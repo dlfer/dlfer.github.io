@@ -7,11 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/kayak/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Feb 2021 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/tags/kayak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>UISP acquaviva</title>
       <link>//www.dlfer.xyz/post/2021-02-acquaviva/</link>
-      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/post/2021-02-acquaviva/</guid>
       <description>Significato di UISP: Unione Italiana Sport Per tutti.

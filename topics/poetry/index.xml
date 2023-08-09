@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/topics/poetry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/topics/poetry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Günter Wilhelm Grass</title>
       <link>//www.dlfer.xyz/poem/grass/</link>
@@ -20,7 +24,7 @@
     <item>
       <title>Yoga Sutras (Patañjali) et al</title>
       <link>//www.dlfer.xyz/poem/yoga-et-al/</link>
-      <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Dec 2022 00:00:00 +0100</pubDate>
       
       <guid>//www.dlfer.xyz/poem/yoga-et-al/</guid>
       <description>The Yoga Sutras of Patanjali Fonti:
@@ -53,7 +57,7 @@
       <pubDate>Sun, 09 Apr 2017 22:15:27 +0200</pubDate>
       
       <guid>//www.dlfer.xyz/poem/2017-04-09-rescritto-imperiale/</guid>
-      <description>Il 30 ottobre 1890 il Ministro dell&amp;rsquo;Educazione Giapponese pubblicò il Rescritto Imperiale sull&amp;rsquo;educazione, che descriveva i principi del sistema formativo giapponese dell&amp;rsquo;epoca Meiji. L&amp;rsquo;obiettivo era una veloce modernizzazione e parziale occidentalizzazione del Giappone, che era rimasto isolato durante il periodo Edo (lo shogunato Tokugawa), e che veniva cambiato radicalmente con le riforme dell&amp;rsquo;oligarchia dell&#39; era Meiji.
+      <description>Il 30 ottobre 1890 il Ministro dell&amp;rsquo;Educazione Giapponese pubblicò il Rescritto Imperiale sull&amp;rsquo;educazione, che descriveva i principi del sistema formativo giapponese dell&amp;rsquo;epoca Meiji. L&amp;rsquo;obiettivo era una veloce modernizzazione e parziale occidentalizzazione del Giappone, che era rimasto isolato durante il periodo Edo (lo shogunato Tokugawa), e che veniva cambiato radicalmente con le riforme dell&amp;rsquo;oligarchia dell&amp;rsquo; era Meiji.
 Nel 1907, una sua traduzione inglese fu divulgata in Inghilterra ed analizzata durante una serie di lezioni del matematico Kikuchi Dairoku all&amp;rsquo;Università di Londra.</description>
     </item>
     

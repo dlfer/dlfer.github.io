@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 04 Nov 2016 13:08:54 +0100</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2016 13:08:54 +0100</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/tags/graph/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Graphs, trees and simplicial complexes</title>
       <link>//www.dlfer.xyz/post/2016-11-04-graphs/</link>

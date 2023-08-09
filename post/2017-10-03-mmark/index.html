@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -310,10 +310,6 @@
     
       
     
-      
-    
-      
-    
   </nav>
 </div>
 
@@ -352,14 +348,14 @@ A_k^n =
 $$</p>
 <p>And the same for an inline sum: $\sum_j j^2$.</p>
 <p>The answer is: in the preamble</p>
-<pre tabindex="0"><code>markup = &quot;mmark&quot;
+<pre><code>markup = &quot;mmark&quot;
 </code></pre><p>and then just use</p>
-<pre tabindex="0"><code>$$ .. $$ 
+<pre><code>$$ .. $$ 
 or 
 $ ..  $
 </code></pre><p>apparently.</p>
 <h2 id="update-2021-07-19">UPDATE 2021-07-19</h2>
-<pre tabindex="0"><code>WARN 2021/07/19 12:38:55 Markup type mmark is deprecated and will be removed in a future release.
+<pre><code>WARN 2021/07/19 12:38:55 Markup type mmark is deprecated and will be removed in a future release.
 </code></pre><p>Without the line <code>markup = &quot;mmark&quot;</code> everything is fine. Default = <code>goldmark</code>.</p>
 
 </div>

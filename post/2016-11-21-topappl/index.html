@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.68.3" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -58,10 +58,6 @@
     
       
         <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/now/">About/now</a>
-      
-    
-      
-    
       
     
       
@@ -368,10 +364,10 @@ and each $M_ j$ does not contain any antipodal points in $S^n$: for each $j=0,\l
 <dd>The following proposition are equivalent.<br>
 <em>(1)</em> (Lusternik-Schnirelmann-Borsuk) If $M_ 0$, $\ldots$, $M_ n$ is a closed covering of $S^n$, then there exists $j$ such that $M_ j$
 contains two antipodal points $x,-x\in M_ j$.<br>
-<em>(2)</em>  There are no odd maps $f \from S^n \to S^{n-1}$.<br>
-<em>(3)</em> (Borsuk&rsquo;s antipodal theorem) Any odd map $f\from S^{n-1} \to S^{n-1}$ is <strong>not</strong> null-homotopic (homotopic to a constant).<br>
-<em>(3')</em> Any map $f\from S^{n-1} \to S^{n-1}$ such that $f(x) \neq f(-x)$ is  <strong>not</strong> null-homotopic (homotopic to a constant).<br>
-<em>(4)</em> (Borsuk-Ulam) For each map $f \from S^n \to \RR^n$, there are two antipodal points $x,-x$ in $S^n$ such that $f(x) = f(-x)$.</dd>
+*(2)*  There are no odd maps $f \from S^n \to S^{n-1}$.<br>
+*(3)* (Borsuk&rsquo;s antipodal theorem) Any odd map $f\from S^{n-1} \to S^{n-1}$ is **not** null-homotopic (homotopic to a constant).<br>
+*(3&rsquo;)* Any map $f\from S^{n-1} \to S^{n-1}$ such that $f(x) \neq f(-x)$ is  **not** null-homotopic (homotopic to a constant).<br>
+*(4)* (Borsuk-Ulam) For each map $f \from S^n \to \RR^n$, there are two antipodal points $x,-x$ in $S^n$ such that $f(x) = f(-x)$.</dd>
 </dl>
 <p><em>Proof:</em></p>
 <p><em>(1)</em> $\implies$ <em>(2)</em>:  If $f\from S^n \to S^{n-1}$ is odd, then let $\varphi F_ 0$, $\ldots$, $\varphi F_ n$ be the images of the
@@ -382,8 +378,8 @@ and are a closed covering of $S^ n$.</p>
 denote the two hemispheres of $S^{n}$. It is therefore possible to define an odd map $f\from S^n \to S^{n-1}$. Conversely, an odd map
 $f\from S^n \to S^{n-1}$ yield, by restriction to the equator, an odd map $S^{n-1} \to S^{n-1}$  which is extendable to an hemisphere,
 and hence nullhomotopic.</p>
-<p><em>(3)</em> $\iff$ <em>(3')</em>: If <em>(3')</em> holds, and $f\from S^{n-1} \to S^{n-1}$ is an odd map, then $f(x) = - f(-x) \neq f(-x)$,
-and hence $f$ is not null-homotopic by <em>(3')</em>. Conversely, if <em>(3)</em> holds, and $f\from S^{n-1} \to S^{n-1}$ is a null-homotopic map such that
+<p><em>(3)</em> $\iff$ <em>(3&rsquo;)</em>: If <em>(3&rsquo;)</em> holds, and $f\from S^{n-1} \to S^{n-1}$ is an odd map, then $f(x) = - f(-x) \neq f(-x)$,
+and hence $f$ is not null-homotopic by <em>(3&rsquo;)</em>. Conversely, if <em>(3)</em> holds, and $f\from S^{n-1} \to S^{n-1}$ is a null-homotopic map such that
 $f(x) \neq f(-x)$, then the map
 $$F(x) = \dfrac{f(x) - f(-x)}{|f(x) - f(-x)|}$$
 is odd.
@@ -419,11 +415,11 @@ the map defined as
 $$
 f(x) = ( g_ 1(x) , \ldots, g_ n(x) ) \in \RR^n .
 $$
-By <em>(4)</em>, there exists $x\in S^n$ such that $f(x) = f(-x)$, and therefore there exists $x\in S^n$ such that
+By *(4)*, there exists $x\in S^n$ such that $f(x) = f(-x)$, and therefore there exists $x\in S^n$ such that
 $g_ j(x) = g_ j(-x)$ for each $j=1,\ldots, n$, which implies that $x\not\in M_ j$ for $j=1,\ldots, n$,
 and $-x\not\in M_ j$ for $j=1,\ldots, n$.<br>
 It must therefore be true that  $\pm x\in M_ 0 $, and therefore $M_ 0$ contains the two antipodal points $\pm x$.<br>
-<em>/qed/</em></p>
+*/qed/*</p>
 <h2 id="lusternik-schnirelmann-category">Lusternik-Schnirelmann category</h2>
 <p>$\newcommand{\Cat}{\operatorname{Cat}}$</p>
 <p>If
@@ -514,7 +510,7 @@ to $\Cat \PP^n = n$.
 <p>$\newcommand{\Tr}{\operatorname{Tr}}$</p>
 <p><strong>Definition</strong> Let $X=|K|$ be a polyhedron, and
 $f\from X \to X$ a continuous self-map. For each $j$, let $\Tr H_ j(f)$ denote
-the <strong>trace</strong> of the square matrix $$H_ j(f) \from H_ j(X;\QQ) \to H_ j (X; \QQ).$$
+the **trace** of the square matrix $$H_ j(f) \from H_ j(X;\QQ) \to H_ j (X; \QQ).$$
 The Lefschetz number of $f$ is
 $$
 L(f) = \sum_ {j=0} ^n (-1)^j \Tr H_ j(f).
@@ -525,7 +521,7 @@ $$</p>
 <dd><strong>Lefschetz Fixed Point Theorem</strong>: If for all $x\in X$, $f(x) \neq x$, then $L(f) = 0$.</dd>
 </dl>
 <p>Recall that $H_ n(S^n) = \ZZ$.
-The <strong>degree</strong> of a self-map $f\from S^n \to S^n$ is the (unique) integer $d\in \ZZ$
+The **degree** of a self-map $f\from S^n \to S^n$ is the (unique) integer $d\in \ZZ$
 such that $H_ n(f)\from H_ n(S^n) \to H_ n(S^n)$ sends $k$ to $dk$. Denote it by
 $\operatorname{gr}(f)$ or $\deg(f)$.</p>
 <dl>
@@ -561,7 +557,7 @@ $r\from D^{n+1} \to S^{n}$
 such that $ri=1_ {S^n}$, where $i\from S^n \to D^{n+1}$ denotes the inclusion.
 By functoriality of $H_ n$, since $H_ n(D^{n+1})=0$, if such $r$ exists
 then $\deg(1_ S^{n})$ cannot be $1$ as it should be by functoriality.
-<em>/qed/</em></p>
+*/qed/*</p>
 <p>It is not difficult to prove the following equivalences.</p>
 <dl>
 <dt>(8)</dt>

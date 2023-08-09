@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 25 Nov 2016 13:12:28 +0100</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/fundamental-group/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Nov 2016 13:12:28 +0100</lastBuildDate>
+    
+	<atom:link href="//www.dlfer.xyz/tags/fundamental-group/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Fundamental group of SO(3) and Dirac&#39;s scissors</title>
       <link>//www.dlfer.xyz/post/2016-11-25-diracscissors/</link>
