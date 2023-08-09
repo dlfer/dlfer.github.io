@@ -1,0 +1,180 @@
+<!DOCTYPE html> <html lang="it-it"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alcune Ricette</title>
+<link rel="stylesheet" href="https://www.dlfer.xyz/recipes/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.dlfer.xyz/recipes/css/bootstrap-theme.min.css">
+<!--[if lt IE 9]>
+  <script src="https://www.dlfer.xyz/recipes/js/html5shiv.min.js"></script>
+  <script src="https://www.dlfer.xyz/recipes/js/respond.min.js"></script>
+  <![endif]-->
+<link rel="stylesheet" href="https://www.dlfer.xyz/recipes/css/mytheme.css">
+<link rel="stylesheet" href="https://www.dlfer.xyz/recipes/css/style.css">
+</head>
+<body><div class="hidden-print">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+	  <!-- Brand and toggle get grouped for better mobile display --> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.dlfer.xyz/recipes">Home</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Collezioni<span class="caret"></span></a>
+          <ul class="dropdown-menu"><li ><a class="sidebar-nav-item" href="/recipes/main/">Piatti principali (secondi)</a></li>
+              <li ><a class="sidebar-nav-item" href="/recipes/primi/">Primi</a></li>
+              <li ><a class="sidebar-nav-item" href="/recipes/dessert/">Dessert</a></li>
+              <li ><a class="sidebar-nav-item" href="/recipes/var/">Varie</a></li>
+              <li ><a class="sidebar-nav-item" href="/recipes/regionali/">Lombarde</a></li>
+              </ul>
+        </li>
+        <li><a href="https://www.dlfer.xyz/recipes/menu">Menu</a></li>
+        <li><a href="https://www.dlfer.xyz/recipes/categories">Piatti</a></li>
+        <li><a href="https://www.dlfer.xyz/recipes/tags">Tags</a></li><li>
+	  <a href="https://www.dlfer.xyz/recipes/search/">Search</a></li></ul></div>
+  </div>
+</nav>
+</div>
+<div id="content" class="container">
+		 <div class="row">
+		 <div class="col-sm-8"><h1>Search</h1>
+<h4> <ul class="csv"></ul></h4><p><em>(Inserire i termini della ricerca &ndash; con * dove serve)</em></p>
+<script src="https://www.dlfer.xyz/recipes/js/vendor/lunr.min.js"></script>
+<script type="text/javascript">
+
+
+var idx, searchInput, searchResults = null
+var documents = []
+
+function renderSearchResults(results){
+
+    if (results.length > 0) {
+
+        
+        if (results.length > 9){
+            results = results.slice(0,10)
+        }
+
+        
+        searchResults.innerHTML = ''
+
+        
+        results.forEach(result => {
+        
+            
+            var article = document.createElement('article')
+            article.innerHTML = `
+            <a href="${result.ref}"><h3 class="title">${documents[result.ref].title}</h3></a>
+            <!-- p><a href="${result.ref}">${result.ref}</a></p -->
+            <br>
+            `
+            searchResults.appendChild(article)
+        })
+
+    
+    } else {
+        searchResults.innerHTML = '<p>No results found.</p>'
+    }
+}
+
+function registerSearchHandler() {
+
+    
+    searchInput.oninput = function(event) {
+
+        
+        if (searchInput.value == '') {
+            
+            searchResults.innerHTML = ''
+        } else {
+            
+            
+            var query = event.target.value
+
+            
+            
+            var results = idx.search(query)
+
+            
+            renderSearchResults(results)
+        }
+    }
+
+    
+    searchInput.focus()
+    searchInput.placeholder = ''
+}
+
+window.onload = function() {
+
+    
+    searchInput = document.getElementById('search-input')
+    searchResults = document.getElementById('search-results')
+
+    
+	fetch('https:\/\/www.dlfer.xyz\/recipes/main/index.json', {
+        method: 'get'
+    }).then(
+        res => res.json()
+    ).then(
+        res => {
+
+            
+            idx = lunr(function() {
+                this.ref('url')
+                this.field('title')
+                this.field('content')
+
+                res.forEach(function(doc) {
+                    this.add(doc)
+                    documents[doc.url] = {
+                        'title': doc.title,
+                        'content': doc.content,
+                    }
+                }, this)
+            })
+
+            
+            registerSearchHandler()
+        }
+    ).catch(
+        err => {
+            searchResults.innerHTML = `<p>${err}</p>`
+        }
+    )
+}
+</script>
+
+<input id="search-input" type="text" placeholder="Loading..." name="search">
+
+<section id="search-results" class="search"></section>
+
+</div>
+		 <div class="col-sm-4"><table></table></div>
+	         </div>	 
+        </div><div class="site-footer" style="height:6rem">
+        <p class="footer">
+            Copyright © 2020 - 3020, DL Ferrario &middot; 
+            <a href="/p/privacy/">Privacy</a> &middot;
+            Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+        </p>
+</div>
+<script src="https://www.dlfer.xyz/recipes/js/jquery-3.4.1.min.js"></script>
+<script src="https://www.dlfer.xyz/recipes/js/bootstrap.min.js"></script>
+<script>
+$("ul:not(.dropdown,.nav,.dropdown-menu,.csv) li").click(function() {
+  $(this).toggleClass("checked");
+});
+</script>
+
+</body>
+</html>

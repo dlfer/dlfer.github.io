@@ -1,0 +1,162 @@
+/* 
+ul:not(.nav, .dropdown-menu) {
+   list-style: none; 
+   padding: 0;
+   margin: 0;
+}
+
+ul:not(.dropdown,.dropdown-menu,.csv) li {
+  padding-left: 24px;
+}
+
+ul:not(.dropdown,.nav,.dropdown-menu,.csv) li:before {
+  color: #aaa;
+  content: "\27A4";
+  padding-right: 8px;
+}
+*/ 
+
+  /* content: "\27A4";  Insert content that looks like bullets */
+
+/* Darker background-color on hover */
+ul:not(.dropdown,.nav,.dropdown-menu,.csv) li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, strike out text */
+ul li.checked {
+  text-decoration: line-through;
+}
+
+
+/* --------------------------------------------------------------- */ 
+ul.csv { list-style: none; margin: 0; padding: 0; }
+ul.csv li { display: inline; padding-left: 0px;}
+ul.csv li:before { content: ""; padding-right: 0px; }
+ul.csv li:after { content: ", "; }
+ul.csv li:last-child:after { content: ""; }
+
+
+
+
+
+/*************************************************
+ *  Tables
+ **************************************************/
+
+table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.43;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+
+table table {
+    background-color: #fff;
+}
+
+
+/* Table Striped */
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+
+/* Table Hover */
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+    background-color: #e5e5e5;
+}
+
+
+figure {
+width: 50%;
+}
+
+.aligncenter img {
+text-align: center;
+width:100%;
+}
+
+.marginauto img {
+margin: 10px auto 20px;
+display: block;
+width:100%;
+}
+
+blockquote {
+  background: #e9e9e9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+/* 
+  blockquote:before {
+  color: #ccc;
+  content: "\279C";
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  margin-left: -1.25em;
+  vertical-align: -0.4em;
+}
+*/ 
+blockquote p {
+  display: inline;
+}
+
+/*************************************************
+ *  Footer
+ **************************************************/
+
+.footer {
+    margin: 4rem 0 0;
+    padding: 2rem 0;
+    width: 100%;
+    background-color: #efefef;
+}
+
+.footer p {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.site-footer,
+footer a#back_to_top i {
+    color: #899596;
+    text-align: center;
+}
+
+
+
