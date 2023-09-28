@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 28 Apr 2017 15:11:07 +0200</lastBuildDate>
-    
-	<atom:link href="//www.dlfer.xyz/tags/sylow-theorem/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 28 Apr 2017 15:11:07 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/sylow-theorem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
       <link>//www.dlfer.xyz/post/2017-04-28-sylow/</link>

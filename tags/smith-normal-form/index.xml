@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Thu, 27 Oct 2016 11:45:52 +0200</lastBuildDate>
-    
-	<atom:link href="//www.dlfer.xyz/tags/smith-normal-form/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 27 Oct 2016 11:45:52 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/smith-normal-form/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
       <link>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>

@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.92.2" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -58,6 +58,10 @@
     
       
         <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/now/">About/now</a>
+      
+    
+      
+    
       
     
       
@@ -363,18 +367,18 @@ with $x_ j \geq 0$, $y_ j \geq 0$ and $\sum_ j x_ j = \sum_ j y_ j  = 1$.
 Hence
 $$
 \begin{aligned}
-x-y &amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\<br>
+x-y &amp; =  \sum_ {j=0}^ n x_ j P_ j  -  \sum_ {i=0} ^n y_ iP_ i  \\\
 &amp;=<br>
 \sum_ {j=0}^n \left( \sum_ {i=0}^n y_ i \right) x_ j P_ j - \sum_ {i=0} ^n \left( \sum_ {j=0}^n x_ j \right)  y_ iP_ i
-\\\<br>
+\\\
 &amp;=<br>
-\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\<br>
-&amp; \implies \\\<br>
-|x-y| &amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\<br>
+\sum_ {i,j=0}^n x_ j y_ i \left( P_ j - P_ i \right) \\\
+&amp; \implies \\\
+|x-y| &amp; \leq \sum_ {i,j=0} ^n x_ j y_ i \max_ {i,j} |P_ i - P_ j| \\\
 &amp;= \left( \sum_ {i,j=0} ^n x_ j y_ i  \right) \max_ {i,j} |P_ i - P_ j| = \max_ {i,j} |P_ i - P_ j|
 \end{aligned}
 $$
-*/qed/*</p>
+<em>/qed/</em></p>
 <p>$\newcommand{\mesh}{\operatorname{mesh}}$
 $\newcommand{\supp}{\operatorname{supp}}$</p>
 <p>Now, define the <strong>mesh</strong> of $K$, denoted by $\mesh K$,  as the maximum diameter of all simplices of $K$.</p>
@@ -390,7 +394,7 @@ $\sigma_ 0 &lt; \sigma_ 1 \ldots, \sigma_ n$.</p>
 <dt>(2)</dt>
 <dd><strong>(Mesh Lemma)</strong> The following inequality holds:
 $$
-\mesh K&rsquo; \leq \dfrac{\dim K}{\dim K + 1} \mesh K.
+\mesh K' \leq \dfrac{\dim K}{\dim K + 1} \mesh K.
 $$</dd>
 </dl>
 <p><em>Proof:</em>
@@ -406,19 +410,19 @@ Hence
 $$
 \begin{aligned}
 b(\sigma_ 0 ) - b ( \sigma_ 1) &amp; =
-\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  + \sum_ {i=0} ^ m Q_ i \right) \\\<br>
-&amp;= \left( \dfrac{1}{n+1} - \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\<br>
+\dfrac{1}{n+1} \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \left( \sum_ {j=0} ^n P_ j  + \sum_ {i=0} ^ m Q_ i \right) \\\
+&amp;= \left( \dfrac{1}{n+1} - \dfrac{1}{n+m+2} \right)  \sum_ {j=0} ^n P_ j - \sum \dfrac{1}{n+m+2} \sum_ {i=0} ^ m Q_ i \\\
 &amp;= \left( \dfrac{m+1}{n+m+2} \right) \left( b([P_ 0, \ldots, P_ n]) - b([Q_ 0, \ldots, Q_ m]) \right) .
 \end{aligned}
 $$
 Now,
-note that if $0 &lt; k &lt; k'$, then $\dfrac{1}{k&rsquo;} &gt; \dfrac{1}{k}$,
+note that if $0 &lt; k &lt; k'$, then $\dfrac{1}{k'} &gt; \dfrac{1}{k}$,
 $\implies$
-$1 + \dfrac{1}{k&rsquo;} &gt; 1+ \dfrac{1}{k} $
+$1 + \dfrac{1}{k'} &gt; 1+ \dfrac{1}{k} $
 $\implies$
 $\dfrac{k'+1}{k} &gt; \dfrac{k+1}{k} $
 $\implies$
-$\dfrac{k}{k+1} &lt; \dfrac{k&rsquo;}{k'+1}$.
+$\dfrac{k}{k+1} &lt; \dfrac{k'}{k'+1}$.
 Hence  from $n+m+1 \leq \dim K$ the following inequality follows
 $$
 \dfrac{m+1}{n+m+2} \leq \dfrac{\dim K}{\dim K + 1},
@@ -429,9 +433,9 @@ $$
 $$
 one deduces that
 $$
-\mesh K&rsquo; \leq \dfrac{\dim K}{\dim K + 1} \mesh K .
+\mesh K' \leq \dfrac{\dim K}{\dim K + 1} \mesh K .
 $$
-*/qed*/</p>
+<em>/qed</em>/</p>
 <h2 id="simplicial-approximation-theorem">Simplicial Approximation Theorem</h2>
 <p>Recall that, for $x\in |K|\subset \RR^k$, we denote by $\supp x$ the support of $x$, i.e.
 the (unique) set of vertices of $K$ with positive barycentric coordinates of $x$,
@@ -459,42 +463,42 @@ $$
 $$
 where $Q$ ranges over all vertices of $L$  and $A(Q) \subset |L|$ is defined as above.
 There is an iterated barycentric subdivision $K'$ such that
-$\mesh K&rsquo; \leq \epsilon/2$.
-Hence for each vertex $P'$ of $K'$, the diameter of $A(P&rsquo;)$ is at most $2 \mesh K&rsquo; \leq \epsilon$.
-Define the map $\varphi \from K&rsquo; \to L$ as follows:
-for each $P'$ vertex of $K'$, $A(P&rsquo;)$ is an open subset of $|K'| \equiv |K| $ of diameter $\leq \epsilon$,
+$\mesh K' \leq \epsilon/2$.
+Hence for each vertex $P'$ of $K'$, the diameter of $A(P')$ is at most $2 \mesh K' \leq \epsilon$.
+Define the map $\varphi \from K' \to L$ as follows:
+for each $P'$ vertex of $K'$, $A(P')$ is an open subset of $|K'| \equiv |K| $ of diameter $\leq \epsilon$,
 and hence it is contained in at least one of the $f^{-1} A(Q)$. Choose one of the $Q$ with such property, and set
-$\varphi (P&rsquo;) = Q$.</p>
-<p>It happens that $\varphi \from K&rsquo; \to K$ is a simplicial function:
-If $[P&rsquo;_ 0, \ldots, P&rsquo;_ n]$ is a simplex in $K'$, then by **(3)**
-$\bigcap_ {j=0} ^n A(P&rsquo;_ j)  \neq \emptyset$,
+$\varphi (P') = Q$.</p>
+<p>It happens that $\varphi \from K' \to K$ is a simplicial function:
+If $[P'_ 0, \ldots, P'_ n]$ is a simplex in $K'$, then by <strong>(3)</strong>
+$\bigcap_ {j=0} ^n A(P'_ j)  \neq \emptyset$,
 and hence
-$\bigcap_ {j=0} ^n f ( A(P&rsquo;_ j) )   \neq \emptyset$,
+$\bigcap_ {j=0} ^n f ( A(P'_ j) )   \neq \emptyset$,
 $\implies$
-$\bigcap_ {j=0} ^n  A(\varphi (P&rsquo;_ j) )    \neq \emptyset$,
-which implies that $[\varphi P&rsquo;_ 0, \ldots, \varphi P&rsquo;_ n]$
+$\bigcap_ {j=0} ^n  A(\varphi (P'_ j) )    \neq \emptyset$,
+which implies that $[\varphi P'_ 0, \ldots, \varphi P'_ n]$
 is an $n$-simplex in $L$.</p>
 <p>Moreover, for any $x \in |K'|$,
 the geometric realization of $\varphi$ sends
 $$
-x = \sum_ {j=0} ^n x_ j P&rsquo;_ j
+x = \sum_ {j=0} ^n x_ j P'_ j
 \mapsto
 |\varphi|(x) =
-\sum_ {j=0} ^n x_ j \varphi(P&rsquo;_ j) =
+\sum_ {j=0} ^n x_ j \varphi(P'_ j) =
 \sum_ {j=0} ^n x_ j Q_ j \in |L|
 $$
 with the property that
-$f( A(P&rsquo;_ j) ) \subset A(Q_ j) $ (assume all $x_j &gt;0$).
+$f( A(P'_ j) ) \subset A(Q_ j) $ (assume all $x_j &gt;0$).
 This implies that
 for any $x\in |K'|$,
 $|\varphi|(x) \in | \supp f(x)|$.</p>
-<p>A simplicial function $\varphi \from K&rsquo; \to L$ such that for each $x\in |K'|=|K|$ the equality
+<p>A simplicial function $\varphi \from K' \to L$ such that for each $x\in |K'|=|K|$ the equality
 $$|\varphi|(x) \in | \supp f(x) | $$
 holds is termed a <strong>simplicial approximation</strong> function of $f$.</p>
 <dl>
 <dt>(4)</dt>
-<dd>Given a continuous map $f\from |K| \to |L|$, there exists a suitable iterated barycentric subdivision $K&rsquo; = K^{(r)}$ and a simplicial
-map $\varphi \from K&rsquo; \to L$ such that $\varphi$ is a simplicial approximation of $f$. Furthermore
+<dd>Given a continuous map $f\from |K| \to |L|$, there exists a suitable iterated barycentric subdivision $K' = K^{(r)}$ and a simplicial
+map $\varphi \from K' \to L$ such that $\varphi$ is a simplicial approximation of $f$. Furthermore
 $|\varphi|\from |K'|=|K| \to |L|$ is homotopic to $f$.</dd>
 </dl>
 <h2 id="hauptvermutung-and-homeomorphisms"><em>Hauptvermutung</em> and homeomorphisms</h2>

@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Thu, 26 Oct 2017 16:14:02 +0200</lastBuildDate>
-    
-	<atom:link href="//www.dlfer.xyz/tags/topology/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 26 Oct 2017 16:14:02 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/topology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Winding Around and Mountains</title>
       <link>//www.dlfer.xyz/post/2017-10-25-windingaround/</link>
@@ -29,8 +25,7 @@ How much about &amp;ldquo;mathematics as mountaineering&amp;rdquo;?</description
       
       <guid>//www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
       <description>The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$
-Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\\
-V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\\</description>
+Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\\ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\\ D_ x &amp;amp;= \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \} = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \} \\\ \Phi_ x &amp;amp; = H_ x \cup V_ x \cup D_ x \end{aligned} $$ where all the integers $j$ are meant $\mod 7$.</description>
     </item>
     
     <item>

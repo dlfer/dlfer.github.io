@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.92.2" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -310,6 +310,10 @@
     
       
     
+      
+    
+      
+    
   </nav>
 </div>
 
@@ -345,7 +349,7 @@
 I had <a href="https://github.com/VundleVim/Vundle.vim">vundle</a> installed already.
 I needed to add lervag&rsquo;s <a href="https://github.com/lervag/vimtex">vimtex</a> and ajh17&rsquo;s <a href="https://github.com/ajh17/VimCompletesMe">VimCompletesMe</a>.</p>
 <p>Hence, in <strong>.vimrc</strong>:</p>
-<pre><code>&quot; set the runtime path to include Vundle and initialize
+<pre tabindex="0"><code>&quot; set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
@@ -376,30 +380,30 @@ call vundle#end()            &quot; required
 filetype plugin indent on    &quot; required
 </code></pre><p>Remember <strong>:PluginInstall</strong> after adding these lines.</p>
 <p>Commands to remember:</p>
-<pre><code>\ll       =&gt; Start/stop continuous compiling
+<pre tabindex="0"><code>\ll       =&gt; Start/stop continuous compiling
 \lv       =&gt; Forward search in the PDF
 \le       =&gt; Parse the log file.
 \lc | \lC =&gt; clean .aux files (or also .pdf file)
 [TAB]     =&gt; AutoCompletion
 </code></pre><p>At the first lines of the master .TEX file the line:</p>
-<pre><code>%! TEX program = xelatex
+<pre tabindex="0"><code>%! TEX program = xelatex
 </code></pre><p>Then <strong>okular</strong> should have the inverse/backward search enabled with the Custom Text Editor as
 one of the two lines:</p>
-<pre><code>gvim --remote-silent +%l &quot;%f&quot;
+<pre tabindex="0"><code>gvim --remote-silent +%l &quot;%f&quot;
 gvim --servername GVIM --remote +%l %f
 </code></pre><p>Further <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt">Help</a>.</p>
 <h3 id="spell-check">Spell check</h3>
-<pre><code>map &lt;C-s&gt; : set spl=it spell
+<pre tabindex="0"><code>map &lt;C-s&gt; : set spl=it spell
 setlocal spell spelllang=it_it
 set spell spelllang=en_us
 </code></pre><h3 id="multi-file">Multi-file</h3>
 <p>As with the documentation in <strong>:h vimtex-multi-file</strong>,
 either add the root line in all subfiles</p>
-<pre><code>%! TEX root = /path/to/my-main.tex
+<pre tabindex="0"><code>%! TEX root = /path/to/my-main.tex
 </code></pre><p>or use the <strong>.latexmain</strong> specifier:</p>
-<pre><code>touch main.tex.latexmain
+<pre tabindex="0"><code>touch main.tex.latexmain
 </code></pre><h3 id="color-scheme-and-font">Color scheme and font</h3>
-<pre><code>if has('gui_running')
+<pre tabindex="0"><code>if has('gui_running')
  colorscheme ir_black
  set guifont=Courier\ New\ 16
  set scrolloff=3
@@ -412,10 +416,10 @@ endif
 &quot; set gfn=Menlo:h24.00
 </code></pre><h3 id="and-">And &hellip;</h3>
 <p>To use gvim without GNOME in linuxmint/ubuntu:</p>
-<pre><code>sudo apt-get remove vim-gnome
+<pre tabindex="0"><code>sudo apt-get remove vim-gnome
 sudo apt-get install vim-gtk
 </code></pre><p>with some other configuration options:</p>
-<pre><code>set hlsearch
+<pre tabindex="0"><code>set hlsearch
 set incsearch
 set matchtime=5
 set showmatch
@@ -423,7 +427,7 @@ set smartindent
 set noshiftround
 </code></pre><h3 id="how-to-silence-unwanted-latex-warnings">How to silence unwanted LaTeX warnings?</h3>
 <p>Use the package <a href="https://www.ctan.org/pkg/silence?lang=en">silence</a>.</p>
-<pre><code>\RequirePackage{silence} % before documentclass
+<pre tabindex="0"><code>\RequirePackage{silence} % before documentclass
 \WarningFilter{latex}{Marginpar}
 </code></pre><p>But I cannot silence overfull hboxes.</p>
 <h3 id="bibliography-bibtex-references">Bibliography, BibTeX references</h3>

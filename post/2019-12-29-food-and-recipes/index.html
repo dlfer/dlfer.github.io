@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.68.3" />
+  <meta name="generator" content="Hugo 0.92.2" />
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -58,6 +58,10 @@
     
       
         <a class="sidebar-nav-item " href="//www.dlfer.xyz/p/now/">About/now</a>
+      
+    
+      
+    
       
     
       
@@ -498,7 +502,7 @@ variable-value pairs can appear. Numbers according to locale,
 ISO format for dates, duration in time units, calories and macros in suitable units.
 All parameters are optional, except the title.
 Alternatives are separated by <code>|</code>.</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-TOML" data-lang="TOML"><span style="">+++</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-TOML" data-lang="TOML"><span style="">+++</span>
 title<span style="">|</span>name<span style="">|</span>recipe= <span style="color:#b44">&#34;Manzo alla california&#34;</span>
 author= <span style="color:#b44">&#34;-dlf&#34;</span>
 version= <span style="color:#b44">&#34;2.1&#34;</span>
@@ -519,7 +523,7 @@ nutrition<span style="">|</span>calories= <span style="color:#666">540</span> kc
 macros= [ proteins, carbo, fat ] 
 <span style="">+++</span>
 </code></pre></div><p>Example of structure of a recipe:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">+++
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">+++
 TOML header
 +++
 
@@ -635,7 +639,7 @@ or Unicode arrows.</li>
 <li>All literal symbols should refer to <strong>equipment</strong>, in a direct or indirect way, and appear between brackets (and with an argument if needed).</li>
 </ul>
 <p>For example,
-Apicius&rsquo; dessert would be:</p>
+Apicius' dessert would be:</p>
 <ul>
 <li>[@pan] middle hot:
 <ul>
@@ -652,13 +656,13 @@ Apicius&rsquo; dessert would be:</p>
 <strong>TOAST</strong> them;
 <strong>CRUSH</strong> with honey;</li>
 <li>[@bowl]:
-<strong>MIX</strong> in pepper, broth, milk and eggs and a little oil. <strong>ADD</strong> ➡  [@pan]:
+<strong>MIX</strong> in pepper, broth, milk and eggs and a little oil. <strong>ADD</strong> ➡️  [@pan]:
 <strong>COOK</strong> [⏰10 min]</li>
 </ul>
 <p>The nice little clock ⏰ (from <code>emojify</code>) can help visualize the timer. Other
 Unicode symbols might help as well. Useful to pre-process markdown and replace
-short versions ⏰ = <code>!</code>, and ➡=<code>-&gt;</code>.</p>
-<p>Other symbol? Maybe ⬅ for adding to the left&hellip; Just all of the symbols should
+short versions ⏰ = <code>!</code>, and ➡️=<code>-&gt;</code>.</p>
+<p>Other symbol? Maybe ⬅️ for adding to the left&hellip; Just all of the symbols should
 appear between brackets (and brackets should never precede a left parenthesis).</p>
 <blockquote>
 <p>Do I need photos? Not at all. I am not sure about emojis or visual hints (they might be useful) but photos are a kind of clutter.</p>
