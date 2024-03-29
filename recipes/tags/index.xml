@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>arrosto</title>
+      <link>https://www.dlfer.xyz/recipes/tags/arrosto/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/arrosto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>francese</title>
+      <link>https://www.dlfer.xyz/recipes/tags/francese/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/francese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vitello</title>
+      <link>https://www.dlfer.xyz/recipes/tags/vitello/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/vitello/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pasqua</title>
@@ -261,15 +288,6 @@
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/crostata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>francese</title>
-      <link>https://www.dlfer.xyz/recipes/tags/francese/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/francese/</guid>
       <description></description>
     </item>
     
@@ -594,15 +612,6 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/tonno/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vitello</title>
-      <link>https://www.dlfer.xyz/recipes/tags/vitello/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/vitello/</guid>
       <description></description>
     </item>
     
