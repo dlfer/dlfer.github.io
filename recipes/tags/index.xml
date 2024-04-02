@@ -13,15 +13,6 @@
     
     
     <item>
-      <title>grotta</title>
-      <link>https://www.dlfer.xyz/recipes/tags/grotta/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/grotta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>latte</title>
       <link>https://www.dlfer.xyz/recipes/tags/latte/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
@@ -36,6 +27,15 @@
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/ligure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sciumette</title>
+      <link>https://www.dlfer.xyz/recipes/tags/sciumette/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/sciumette/</guid>
       <description></description>
     </item>
     
@@ -328,7 +328,7 @@
     </item>
     
     <item>
-      <title>Patate</title>
+      <title>patate</title>
       <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
