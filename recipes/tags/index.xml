@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>grotta</title>
+      <link>https://www.dlfer.xyz/recipes/tags/grotta/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/grotta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latte</title>
+      <link>https://www.dlfer.xyz/recipes/tags/latte/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/latte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ligure</title>
+      <link>https://www.dlfer.xyz/recipes/tags/ligure/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/ligure/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>arrosto</title>
@@ -301,7 +328,7 @@
     </item>
     
     <item>
-      <title>patate</title>
+      <title>Patate</title>
       <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -468,15 +495,6 @@
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/gnocchi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>latte</title>
-      <link>https://www.dlfer.xyz/recipes/tags/latte/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/latte/</guid>
       <description></description>
     </item>
     
@@ -715,7 +733,7 @@
     </item>
     
     <item>
-      <title>Involtini</title>
+      <title>involtini</title>
       <link>https://www.dlfer.xyz/recipes/tags/involtini/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
