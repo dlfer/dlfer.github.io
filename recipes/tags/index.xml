@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>arrosto</title>
+      <link>https://www.dlfer.xyz/recipes/tags/arrosto/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/arrosto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>francese</title>
+      <link>https://www.dlfer.xyz/recipes/tags/francese/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/francese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vitello</title>
+      <link>https://www.dlfer.xyz/recipes/tags/vitello/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/vitello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pasqua</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pasqua/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pasqua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pastiera</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pastiera/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pastiera/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>pollo</title>
@@ -247,15 +292,6 @@
     </item>
     
     <item>
-      <title>francese</title>
-      <link>https://www.dlfer.xyz/recipes/tags/francese/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/francese/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mele</title>
       <link>https://www.dlfer.xyz/recipes/tags/mele/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
@@ -265,7 +301,7 @@
     </item>
     
     <item>
-      <title>Patate</title>
+      <title>patate</title>
       <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       
@@ -580,15 +616,6 @@
     </item>
     
     <item>
-      <title>vitello</title>
-      <link>https://www.dlfer.xyz/recipes/tags/vitello/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/vitello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>erbe</title>
       <link>https://www.dlfer.xyz/recipes/tags/erbe/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
@@ -688,7 +715,7 @@
     </item>
     
     <item>
-      <title>involtini</title>
+      <title>Involtini</title>
       <link>https://www.dlfer.xyz/recipes/tags/involtini/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
