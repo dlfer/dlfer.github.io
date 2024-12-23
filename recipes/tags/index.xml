@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>merluzzo</title>
+      <link>https://www.dlfer.xyz/recipes/tags/merluzzo/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/merluzzo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pesce</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pesce/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pesce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stoccafisso</title>
+      <link>https://www.dlfer.xyz/recipes/tags/stoccafisso/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/stoccafisso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>latte</title>
@@ -117,15 +144,6 @@
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/fagioli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pesce</title>
-      <link>https://www.dlfer.xyz/recipes/tags/pesce/</link>
-      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/pesce/</guid>
       <description></description>
     </item>
     
@@ -733,7 +751,7 @@
     </item>
     
     <item>
-      <title>Involtini</title>
+      <title>involtini</title>
       <link>https://www.dlfer.xyz/recipes/tags/involtini/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
