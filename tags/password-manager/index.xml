@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>password manager on Test Web Page</title>
+    <title>Password Manager on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/password-manager/</link>
-    <description>Recent content in password manager on Test Web Page</description>
+    <description>Recent content in Password Manager on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 13 Aug 2018 10:47:19 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/password-manager/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/password-manager/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Password manager and sync without clouds</title>
       <link>//www.dlfer.xyz/post/2018-08-13-password-manager/</link>
       <pubDate>Mon, 13 Aug 2018 10:47:19 +0200</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2018-08-13-password-manager/</guid>
-      <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.
-Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:
-$ sudo pip install xkcdpass $ xkcdpass -w &amp;quot;ita-wiki&amp;quot; -w &amp;quot;ger-anlx&amp;quot; -d &amp;quot;;&amp;quot; It is not difficult to add more words lists, e.</description>
+      <description>First, install the password manager. On windows 10, it is keepass. On linux, the debian package for keepass2 is available in the standard repository.&#xA;Since strong passwords are needed, either use the keepass password internal generator, or (maybe for the master password), install and use e.g. diceware or xkcdpass:&#xA;$ sudo pip install xkcdpass $ xkcdpass -w &amp;#34;ita-wiki&amp;#34; -w &amp;#34;ger-anlx&amp;#34; -d &amp;#34;;&amp;#34; It is not difficult to add more words lists, e.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jupyter on Test Web Page</title>
+    <title>Jupyter on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/jupyter/</link>
-    <description>Recent content in jupyter on Test Web Page</description>
+    <description>Recent content in Jupyter on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AGT: W2</title>
       <link>//www.dlfer.xyz/post/agt/w2/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/agt/w2/</guid>
-      <description>Dato da fare la scorsa volta:  Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia \(H_0\) e \(H_1\). Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo possibilmente euclideo, e visualizzare quel che viene.
- # define a function for visualization: import matplotlib as mpl import matplotlib.pyplot as plt from matplotlib.collections import LineCollection import numpy as np mpl.</description>
+      <description>Dato da fare la scorsa volta: Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia \(H_0\) e \(H_1\). Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo possibilmente euclideo, e visualizzare quel che viene.&#xA;# define a function for visualization: import matplotlib as mpl import matplotlib.pyplot as plt from matplotlib.collections import LineCollection import numpy as np mpl.</description>
     </item>
-    
     <item>
       <title>AGT: W1</title>
       <link>//www.dlfer.xyz/post/agt/w1/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/agt/w1/</guid>
-      <description>Installare CAS, python, jupyter, sagemath? Per poter fare un po’ di matematica computazionale serve avere un calcolatore e degli strumenti di calcolo. Potrebbe bastare un abaco, una copia del Liber Abbaci di Fibonacci per imparare ad usare le cifre decimali (PDF oppure SpringerLink), un regolo calcolatore oppure qualcosa di più recente.
-Una lista (molto incompleta) di strumenti di calcolo utili per la matematica:
- maple Mathematica matlab (with a toolbox) sagemath per python: SymPy, SciLab, SciPy, e molti altri… jupyter  Quali installare, e come?</description>
+      <description>Installare CAS, python, jupyter, sagemath? Per poter fare un po’ di matematica computazionale serve avere un calcolatore e degli strumenti di calcolo. Potrebbe bastare un abaco, una copia del Liber Abbaci di Fibonacci per imparare ad usare le cifre decimali (PDF oppure SpringerLink), un regolo calcolatore oppure qualcosa di più recente.&#xA;Una lista (molto incompleta) di strumenti di calcolo utili per la matematica:&#xA;maple Mathematica matlab (with a toolbox) sagemath per python: SymPy, SciLab, SciPy, e molti altri… jupyter Quali installare, e come?</description>
     </item>
-    
   </channel>
 </rss>

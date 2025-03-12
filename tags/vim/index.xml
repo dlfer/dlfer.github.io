@@ -7,19 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 04 Jul 2017 11:31:30 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updating my (Xe)LaTeX vim plugin</title>
       <link>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</link>
       <pubDate>Tue, 04 Jul 2017 11:31:30 +0200</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2017-07-04-vim-plugins/</guid>
-      <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.
-Now, with the vundle plugin.
-Things to do: I had vundle installed already. I needed to add lervag&amp;rsquo;s vimtex and ajh17&amp;rsquo;s VimCompletesMe.
-Hence, in .vimrc:
-&amp;quot; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &amp;quot; let Vundle manage Vundle, required Plugin &#39;VundleVim/Vundle.</description>
+      <description>After some years, it was time to update my LaTeX vim plugins. My setting was: plain vim, a makefile, some configuration lines. Back-forward search, not much completion.&#xA;Now, with the vundle plugin.&#xA;Things to do: I had vundle installed already. I needed to add lervag&amp;rsquo;s vimtex and ajh17&amp;rsquo;s VimCompletesMe.&#xA;Hence, in .vimrc:&#xA;&amp;#34; set the runtime path to include Vundle and initialize set rtp+=~/.vim/bundle/Vundle.vim call vundle#rc() &amp;#34; let Vundle manage Vundle, required Plugin &amp;#39;VundleVim/Vundle.</description>
     </item>
-    
   </channel>
 </rss>

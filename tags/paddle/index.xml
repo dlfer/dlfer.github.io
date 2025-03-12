@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>paddle on Test Web Page</title>
+    <title>Paddle on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/paddle/</link>
-    <description>Recent content in paddle on Test Web Page</description>
+    <description>Recent content in Paddle on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/paddle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/paddle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Suppekayak: manovre per SUP (e canoa)</title>
       <link>//www.dlfer.xyz/post/suppekayak2/</link>
       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/suppekayak2/</guid>
-      <description>Nozioni Essenziali  Movimenti:  Portare: in due, a valigia, sulla testa, sulla spalla Entrata in acqua: da spiaggia, molo, scogli Spostare il peso sulla tavola dal naso alla coda (nose to tail), da bordo al bordo (rail to rail) Pagaia: come tenerla in ginocchio o in piedi (on and offside vs. regular and goofy stance), cambiamento di lato, verticalità sui rails; giuste lunghezze e posizione delle mani, angolo della pala.</description>
+      <description>Nozioni Essenziali Movimenti: Portare: in due, a valigia, sulla testa, sulla spalla Entrata in acqua: da spiaggia, molo, scogli Spostare il peso sulla tavola dal naso alla coda (nose to tail), da bordo al bordo (rail to rail) Pagaia: come tenerla in ginocchio o in piedi (on and offside vs. regular and goofy stance), cambiamento di lato, verticalità sui rails; giuste lunghezze e posizione delle mani, angolo della pala. Posizioni: prona, seduta, in ginocchio, neutra o leggermente ibrida o staggered stance, variazioni di surf stance (varie posizioni dal nose al tail, narrow, wide, drop knee on back leg, one or both feet forward; posizioni asimmetriche, a T, hawaiana, &amp;hellip; ) Pagaiate (colpi &amp;ndash; strokes): dritto in avanti (forward stroke, pagaiata propulsiva in avanti) [ (entrata), presa, spinta/passata, uscita/rilascio, recupero/fase aerea ] = [ (entry, reach), catch, power/drive, exit/release, recovery ]; anche: colpo spinta.</description>
     </item>
-    
     <item>
       <title>Acqua, freddo e SUP/kayak</title>
       <link>//www.dlfer.xyz/post/2019-12-19-coldwater/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2019-12-19-coldwater/</guid>
-      <description>Quali sono gli effetti dell&amp;rsquo;acqua fredda sul corpo? S e una persona cade in acqua fredda senza protezioni termiche, il rischio primario non è l&amp;rsquo;ipotermia, che arriva per ultima. Prima di quello, ci sono altri rischi più urgenti. Quando l&amp;rsquo;acqua è fredda? Quando la sua temperatura è meno di 10-15 °C, nella maggior parte dei casi.
-Molto approssimativamente:
- Un minuto per far passare lo shock da freddo e riprendere il controllo della respirazione.</description>
+      <description>Quali sono gli effetti dell&amp;rsquo;acqua fredda sul corpo? S e una persona cade in acqua fredda senza protezioni termiche, il rischio primario non è l&amp;rsquo;ipotermia, che arriva per ultima. Prima di quello, ci sono altri rischi più urgenti. Quando l&amp;rsquo;acqua è fredda? Quando la sua temperatura è meno di 10-15 °C, nella maggior parte dei casi.&#xA;Molto approssimativamente:&#xA;Un minuto per far passare lo shock da freddo e riprendere il controllo della respirazione.</description>
     </item>
-    
     <item>
       <title>Suppekayak: SUP e kayak attorno a Milano</title>
       <link>//www.dlfer.xyz/post/suppekayak/</link>
       <pubDate>Fri, 14 Jun 2019 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/suppekayak/</guid>
-      <description>Per muoversi in acqua uno degli strumenti primitivi più facili da usare è la pagaia. La differenza tra remo (oar) e pagaia (paddle) ? Il remo è agganciata alla barca in un fulcro (scalmo (oarlock, rowlock)), mentre la pagaia è impugnata liberamente. Le robe principali che una persona da sola può muovere con una pagaia: Kayak, canoa (canoe), tavola da pagaia in piedi SUP (Stand Up Paddleboard), canotto/gommoncino (packraft).
-Luoghi d&amp;rsquo;acqua pagaiabili Elenco di luoghi in cui è possibile l&amp;rsquo;imbarco/sbarco, vicino al parcheggio.</description>
+      <description>Per muoversi in acqua uno degli strumenti primitivi più facili da usare è la pagaia. La differenza tra remo (oar) e pagaia (paddle) ? Il remo è agganciata alla barca in un fulcro (scalmo (oarlock, rowlock)), mentre la pagaia è impugnata liberamente. Le robe principali che una persona da sola può muovere con una pagaia: Kayak, canoa (canoe), tavola da pagaia in piedi SUP (Stand Up Paddleboard), canotto/gommoncino (packraft).</description>
     </item>
-    
   </channel>
 </rss>

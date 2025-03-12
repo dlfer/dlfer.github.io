@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.123.7">
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -352,88 +352,88 @@
 <p>The proof and the algorithm are the same.</p>
 <p>First, a few auxiliary functions. Given a matrix $M$, the follow two functions are
 self-explanatory.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">dims</span>(M):
- num_righe<span style="color:#666">=</span><span style="color:#a2f">len</span>(M)
- num_colonne<span style="color:#666">=</span><span style="color:#a2f">len</span>(M[<span style="color:#666">0</span>])
- <span style="color:#a2f;font-weight:bold">return</span> (num_righe,num_colonne)
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">MinAij</span>(M,s):
- num_righe, num_colonne<span style="color:#666">=</span>dims(M)
- ijmin<span style="color:#666">=</span>[s,s]
- valmin<span style="color:#666">=</span><span style="color:#a2f">max</span>( <span style="color:#a2f">max</span>([<span style="color:#a2f">abs</span>(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> M[j][s:]]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s,num_righe) )
- <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> (<span style="color:#a2f">range</span>(s,num_righe)):
-  <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> (<span style="color:#a2f">range</span>(s,num_colonne)):
-   <span style="color:#a2f;font-weight:bold">if</span> (M[i][j] <span style="color:#666">!=</span> <span style="color:#666">0</span> ) <span style="color:#a2f;font-weight:bold">and</span> (<span style="color:#a2f">abs</span>(M[i][j]) <span style="color:#666">&lt;=</span> valmin) :
-    ijmin <span style="color:#666">=</span> [i,j]
-    valmin <span style="color:#666">=</span> <span style="color:#a2f">abs</span>(M[i][j])
- <span style="color:#a2f;font-weight:bold">return</span> ijmin
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">IdentityMatrix</span>(n):
- res<span style="color:#666">=</span>[[<span style="color:#666">0</span> <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(n)] <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(n)]
- <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(n):
-  res[i][i] <span style="color:#666">=</span> <span style="color:#666">1</span>
- <span style="color:#a2f;font-weight:bold">return</span> res
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">display</span>(M):
- r<span style="color:#666">=</span><span style="color:#b44">&#34;&#34;</span>
- <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> M:
-  r <span style="color:#666">+=</span> <span style="color:#b44">&#34;</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> x
- <span style="color:#a2f;font-weight:bold">return</span> r <span style="color:#666">+</span><span style="color:#b44">&#34;&#34;</span>
-</code></pre></div><p>Then, one needs the elementary operations on rows and columns on the matrix $M$:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">dims</span>(M):
+</span></span><span style="display:flex;"><span> num_righe<span style="color:#666">=</span><span style="color:#a2f">len</span>(M)
+</span></span><span style="display:flex;"><span> num_colonne<span style="color:#666">=</span><span style="color:#a2f">len</span>(M[<span style="color:#666">0</span>])
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> (num_righe,num_colonne)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">MinAij</span>(M,s):
+</span></span><span style="display:flex;"><span> num_righe, num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> ijmin<span style="color:#666">=</span>[s,s]
+</span></span><span style="display:flex;"><span> valmin<span style="color:#666">=</span><span style="color:#a2f">max</span>( <span style="color:#a2f">max</span>([<span style="color:#a2f">abs</span>(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> M[j][s:]]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s,num_righe) )
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> (<span style="color:#a2f">range</span>(s,num_righe)):
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> (<span style="color:#a2f">range</span>(s,num_colonne)):
+</span></span><span style="display:flex;"><span>   <span style="color:#a2f;font-weight:bold">if</span> (M[i][j] <span style="color:#666">!=</span> <span style="color:#666">0</span> ) <span style="color:#a2f;font-weight:bold">and</span> (<span style="color:#a2f">abs</span>(M[i][j]) <span style="color:#666">&lt;=</span> valmin) :
+</span></span><span style="display:flex;"><span>    ijmin <span style="color:#666">=</span> [i,j]
+</span></span><span style="display:flex;"><span>    valmin <span style="color:#666">=</span> <span style="color:#a2f">abs</span>(M[i][j])
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> ijmin
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">IdentityMatrix</span>(n):
+</span></span><span style="display:flex;"><span> res<span style="color:#666">=</span>[[<span style="color:#666">0</span> <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(n)] <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(n)]
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> i <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(n):
+</span></span><span style="display:flex;"><span>  res[i][i] <span style="color:#666">=</span> <span style="color:#666">1</span>
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> res
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">display</span>(M):
+</span></span><span style="display:flex;"><span> r<span style="color:#666">=</span><span style="color:#b44">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> M:
+</span></span><span style="display:flex;"><span>  r <span style="color:#666">+=</span> <span style="color:#b44">&#34;</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> x
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> r <span style="color:#666">+</span><span style="color:#b44">&#34;&#34;</span>
+</span></span></code></pre></div><p>Then, one needs the elementary operations on rows and columns on the matrix $M$:
 swap (permute) two rows, add to a row an integer multiple of another row, and
 change sign of a row. The same for columns.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">swap_rows</span>(M,i,j):
- tmp<span style="color:#666">=</span>M[i]
- M[i]<span style="color:#666">=</span>M[j]
- M[j]<span style="color:#666">=</span>tmp
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">swap_columns</span>(M,i,j):
- num_of_columns<span style="color:#666">=</span><span style="color:#a2f">len</span>(M)
- <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_of_columns):
-  tmp<span style="color:#666">=</span>M[x][i]
-  M[x][i] <span style="color:#666">=</span> M[x][j]
-  M[x][j] <span style="color:#666">=</span> tmp
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">add_to_row</span>(M,x,k,s):
- num_righe,num_colonne<span style="color:#666">=</span>dims(M)
- <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_colonne):
-  M[x][tmpj] <span style="color:#666">+=</span> k <span style="color:#666">*</span> M[s][tmpj]
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">add_to_column</span>(M,x,k,s):
- num_righe,num_colonne<span style="color:#666">=</span>dims(M)
- <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_righe):
-  M[tmpj][x] <span style="color:#666">+=</span> k <span style="color:#666">*</span> M[tmpj][s]
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">change_sign_row</span>(M,x):
- num_righe,num_colonne<span style="color:#666">=</span>dims(M)
- <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_colonne):
-  M[x][tmpj] <span style="color:#666">=</span> <span style="color:#666">-</span> M[x][tmpj]
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">change_sign_column</span>(M,x):
- num_righe,num_colonne<span style="color:#666">=</span>dims(M)
- <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_righe):
-  M[tmpj][x] <span style="color:#666">=</span> <span style="color:#666">-</span> M[tmpj][x]
-</code></pre></div><p>Finally, two important functions. The first,  checks that the entry at place $(s,s)$ in the matrix $M$
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">swap_rows</span>(M,i,j):
+</span></span><span style="display:flex;"><span> tmp<span style="color:#666">=</span>M[i]
+</span></span><span style="display:flex;"><span> M[i]<span style="color:#666">=</span>M[j]
+</span></span><span style="display:flex;"><span> M[j]<span style="color:#666">=</span>tmp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">swap_columns</span>(M,i,j):
+</span></span><span style="display:flex;"><span> num_of_columns<span style="color:#666">=</span><span style="color:#a2f">len</span>(M)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_of_columns):
+</span></span><span style="display:flex;"><span>  tmp<span style="color:#666">=</span>M[x][i]
+</span></span><span style="display:flex;"><span>  M[x][i] <span style="color:#666">=</span> M[x][j]
+</span></span><span style="display:flex;"><span>  M[x][j] <span style="color:#666">=</span> tmp
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">add_to_row</span>(M,x,k,s):
+</span></span><span style="display:flex;"><span> num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_colonne):
+</span></span><span style="display:flex;"><span>  M[x][tmpj] <span style="color:#666">+=</span> k <span style="color:#666">*</span> M[s][tmpj]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">add_to_column</span>(M,x,k,s):
+</span></span><span style="display:flex;"><span> num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_righe):
+</span></span><span style="display:flex;"><span>  M[tmpj][x] <span style="color:#666">+=</span> k <span style="color:#666">*</span> M[tmpj][s]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">change_sign_row</span>(M,x):
+</span></span><span style="display:flex;"><span> num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_colonne):
+</span></span><span style="display:flex;"><span>  M[x][tmpj] <span style="color:#666">=</span> <span style="color:#666">-</span> M[x][tmpj]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">change_sign_column</span>(M,x):
+</span></span><span style="display:flex;"><span> num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> tmpj <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(num_righe):
+</span></span><span style="display:flex;"><span>  M[tmpj][x] <span style="color:#666">=</span> <span style="color:#666">-</span> M[tmpj][x]
+</span></span></code></pre></div><p>Finally, two important functions. The first,  checks that the entry at place $(s,s)$ in the matrix $M$
 is the only one non-zero in its $s$-th column under $s$ and $s$-th row at the right of $s$. If this is true,
 then the algorithm will proceed.</p>
 <p>The second, will scan in the submatrix at the lower-right of $M_ {s,s}$, to check if there is any entry which
 is not divisible by $M_ {s,s}$. If it cannot be found, then it returns an empty set.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">is_lone</span>(M,s):
- num_righe,num_colonne<span style="color:#666">=</span>dims(M)
- <span style="color:#a2f;font-weight:bold">if</span> [M[s][x] <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne) <span style="color:#a2f;font-weight:bold">if</span> M[s][x] <span style="color:#666">!=</span> <span style="color:#666">0</span>] <span style="color:#666">+</span> [ M[y][s] <span style="color:#a2f;font-weight:bold">for</span> y <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe) <span style="color:#a2f;font-weight:bold">if</span> M[y][s] <span style="color:#666">!=</span> <span style="color:#666">0</span>] <span style="color:#666">==</span> []:
-  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">True</span>
- <span style="color:#a2f;font-weight:bold">else</span>:
-  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">False</span>
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">get_nextentry</span>(M,s):
-  <span style="color:#080;font-style:italic"># find and element which is not divisible by M[s][s]</span>
-  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
-  <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe):
-   <span style="color:#a2f;font-weight:bold">for</span> y <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne):
-    <span style="color:#a2f;font-weight:bold">if</span> M[x][y] <span style="color:#666">%</span> M[s][s]  <span style="color:#666">!=</span> <span style="color:#666">0</span>:
-     <span style="color:#a2f;font-weight:bold">return</span> (x,y)
-  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">None</span>
-</code></pre></div><p>Given all these functions, the algorithm/proof is rather simple, as written in the folliwing block.
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">is_lone</span>(M,s):
+</span></span><span style="display:flex;"><span> num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">if</span> [M[s][x] <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne) <span style="color:#a2f;font-weight:bold">if</span> M[s][x] <span style="color:#666">!=</span> <span style="color:#666">0</span>] <span style="color:#666">+</span> [ M[y][s] <span style="color:#a2f;font-weight:bold">for</span> y <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe) <span style="color:#a2f;font-weight:bold">if</span> M[y][s] <span style="color:#666">!=</span> <span style="color:#666">0</span>] <span style="color:#666">==</span> []:
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">True</span>
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">get_nextentry</span>(M,s):
+</span></span><span style="display:flex;"><span>  <span style="color:#080;font-style:italic"># find and element which is not divisible by M[s][s]</span>
+</span></span><span style="display:flex;"><span>  num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe):
+</span></span><span style="display:flex;"><span>   <span style="color:#a2f;font-weight:bold">for</span> y <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne):
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f;font-weight:bold">if</span> M[x][y] <span style="color:#666">%</span> M[s][s]  <span style="color:#666">!=</span> <span style="color:#666">0</span>:
+</span></span><span style="display:flex;"><span>     <span style="color:#a2f;font-weight:bold">return</span> (x,y)
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f;font-weight:bold">None</span>
+</span></span></code></pre></div><p>Given all these functions, the algorithm/proof is rather simple, as written in the folliwing block.
 The main idea is to put at the UL corner $M_ {0,0}$ the GCD of all matrix entries,
 by row/column operations.</p>
 <p>First, find the smallest non-zero entry, and put it in the UL corner.
@@ -459,8 +459,8 @@ except $M_ {0,0}$  are zero.</p>
 <p>Now go back  to the step of finding the new non-zero minimum, put it in $(0,0)$,  and repeat from there.</p>
 <p>Why in a finite number of steps $M_ {0,0}$ has to divide all the entries?
 At the UL corner, $M_ {0,0}$ was chosen to be the minimum of non-zero terms
-of $M$, and the new one will be $M'_ {0,0} \leq M_ {0,0}$. But, if there was an entry<br>
-not divisible by $M_ {0,0}$, then $M'_ {0,0} &lt; M_ {0,0}$.
+of $M$, and the new one will be $M&rsquo;_ {0,0} \leq M_ {0,0}$. But, if there was an entry<br>
+not divisible by $M_ {0,0}$, then $M&rsquo;_ {0,0} &lt; M_ {0,0}$.
 We show this with an example.
 Assume $a$ does not divide $b$ (and hence $a\neq b$),
 both positive. First, add the second row to the first.
@@ -516,96 +516,96 @@ If $b&lt;a$, it is $|a-qb| &lt; b &lt; a$.
 Hence in both cases after the row/column operations, the minimum of the matrix entries
 will be strictly smaller than $a$. Since this cannot happen indefinitively, after a finite
 number of steps $M_ {0,0}$ will divide all the remaining entries in $M$.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">Smith</span>(M):
- num_righe,num_colonne<span style="color:#666">=</span>dims(M)
- L <span style="color:#666">=</span> IdentityMatrix(num_righe)
- R <span style="color:#666">=</span> IdentityMatrix(num_colonne)
- maxs<span style="color:#666">=</span><span style="color:#a2f">min</span>(num_righe,num_colonne)
- <span style="color:#a2f;font-weight:bold">for</span> s <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(maxs):
-  <span style="color:#a2f">print</span> (<span style="color:#b44">&#34;step </span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b44">/</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> (s<span style="color:#666">+</span><span style="color:#666">1</span>,maxs))
-  <span style="color:#a2f">print</span> <span style="color:#b44">&#34;M:&#34;</span>, display(M)
-  <span style="color:#a2f;font-weight:bold">while</span> <span style="color:#a2f;font-weight:bold">not</span> is_lone(M,s):
-   i,j <span style="color:#666">=</span> MinAij(M,s) <span style="color:#080;font-style:italic"># the non-zero entry with min |.|</span>
-   swap_rows(M,s,i)
-   swap_rows(L,s,i)
-   swap_columns(M,s,j)
-   swap_columns(R,s,j)
-   <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe):
-    <span style="color:#a2f;font-weight:bold">if</span> M[x][s] <span style="color:#666">!=</span> <span style="color:#666">0</span>:
-     k <span style="color:#666">=</span> M[x][s] <span style="color:#666">//</span> M[s][s]
-     add_to_row(M,x,<span style="color:#666">-</span>k,s)
-     add_to_row(L,x,<span style="color:#666">-</span>k,s)
-   <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne):
-    <span style="color:#a2f;font-weight:bold">if</span> M[s][x] <span style="color:#666">!=</span> <span style="color:#666">0</span>:
-     k <span style="color:#666">=</span> M[s][x] <span style="color:#666">//</span> M[s][s]
-     add_to_column(M,x,<span style="color:#666">-</span>k,s)
-     add_to_column(R,x,<span style="color:#666">-</span>k,s)
-   <span style="color:#a2f;font-weight:bold">if</span> is_lone(M,s):
-    res<span style="color:#666">=</span>get_nextentry(M,s)
-    <span style="color:#a2f;font-weight:bold">if</span> res:
-     x,y<span style="color:#666">=</span>res
-     add_to_row(M,s,<span style="color:#666">1</span>,x)
-     add_to_row(L,s,<span style="color:#666">1</span>,x)
-    <span style="color:#a2f;font-weight:bold">else</span>:
-     <span style="color:#a2f;font-weight:bold">if</span> M[s][s]<span style="color:#666">&lt;</span><span style="color:#666">0</span>:
-      change_sign_row(M,s)
-      change_sign_row(L,s)
- <span style="color:#a2f;font-weight:bold">return</span> L,R
-</code></pre></div><p>A minor step is the one for changing sign of the diagonal entry, just in the case it is negative. At the end, the matrix $M$ will be in
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">Smith</span>(M):
+</span></span><span style="display:flex;"><span> num_righe,num_colonne<span style="color:#666">=</span>dims(M)
+</span></span><span style="display:flex;"><span> L <span style="color:#666">=</span> IdentityMatrix(num_righe)
+</span></span><span style="display:flex;"><span> R <span style="color:#666">=</span> IdentityMatrix(num_colonne)
+</span></span><span style="display:flex;"><span> maxs<span style="color:#666">=</span><span style="color:#a2f">min</span>(num_righe,num_colonne)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> s <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(maxs):
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f">print</span> (<span style="color:#b44">&#34;step </span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b44">/</span><span style="color:#b68;font-weight:bold">%s</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span> <span style="color:#666">%</span> (s<span style="color:#666">+</span><span style="color:#666">1</span>,maxs))
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f">print</span> <span style="color:#b44">&#34;M:&#34;</span>, display(M)
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f;font-weight:bold">while</span> <span style="color:#a2f;font-weight:bold">not</span> is_lone(M,s):
+</span></span><span style="display:flex;"><span>   i,j <span style="color:#666">=</span> MinAij(M,s) <span style="color:#080;font-style:italic"># the non-zero entry with min |.|</span>
+</span></span><span style="display:flex;"><span>   swap_rows(M,s,i)
+</span></span><span style="display:flex;"><span>   swap_rows(L,s,i)
+</span></span><span style="display:flex;"><span>   swap_columns(M,s,j)
+</span></span><span style="display:flex;"><span>   swap_columns(R,s,j)
+</span></span><span style="display:flex;"><span>   <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_righe):
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f;font-weight:bold">if</span> M[x][s] <span style="color:#666">!=</span> <span style="color:#666">0</span>:
+</span></span><span style="display:flex;"><span>     k <span style="color:#666">=</span> M[x][s] <span style="color:#666">//</span> M[s][s]
+</span></span><span style="display:flex;"><span>     add_to_row(M,x,<span style="color:#666">-</span>k,s)
+</span></span><span style="display:flex;"><span>     add_to_row(L,x,<span style="color:#666">-</span>k,s)
+</span></span><span style="display:flex;"><span>   <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(s<span style="color:#666">+</span><span style="color:#666">1</span>,num_colonne):
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f;font-weight:bold">if</span> M[s][x] <span style="color:#666">!=</span> <span style="color:#666">0</span>:
+</span></span><span style="display:flex;"><span>     k <span style="color:#666">=</span> M[s][x] <span style="color:#666">//</span> M[s][s]
+</span></span><span style="display:flex;"><span>     add_to_column(M,x,<span style="color:#666">-</span>k,s)
+</span></span><span style="display:flex;"><span>     add_to_column(R,x,<span style="color:#666">-</span>k,s)
+</span></span><span style="display:flex;"><span>   <span style="color:#a2f;font-weight:bold">if</span> is_lone(M,s):
+</span></span><span style="display:flex;"><span>    res<span style="color:#666">=</span>get_nextentry(M,s)
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f;font-weight:bold">if</span> res:
+</span></span><span style="display:flex;"><span>     x,y<span style="color:#666">=</span>res
+</span></span><span style="display:flex;"><span>     add_to_row(M,s,<span style="color:#666">1</span>,x)
+</span></span><span style="display:flex;"><span>     add_to_row(L,s,<span style="color:#666">1</span>,x)
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f;font-weight:bold">else</span>:
+</span></span><span style="display:flex;"><span>     <span style="color:#a2f;font-weight:bold">if</span> M[s][s]<span style="color:#666">&lt;</span><span style="color:#666">0</span>:
+</span></span><span style="display:flex;"><span>      change_sign_row(M,s)
+</span></span><span style="display:flex;"><span>      change_sign_row(L,s)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> L,R
+</span></span></code></pre></div><p>A minor step is the one for changing sign of the diagonal entry, just in the case it is negative. At the end, the matrix $M$ will be in
 Smith Normal Form,
 and the routine will return the two unimodular matrices $L$ and $R$ resulting from the row/columns operations respectively.
 They are obtained by applying the same row/column operations on two identity matrices.</p>
 <h2 id="example-the-triangulated-sphere">Example: the triangulated sphere.</h2>
 <p>As an example, here we compute the Smith Normal Forms of the differentials of che chain complex of the triangulate $2$-sphere,
 from <a href="http://www.sagemath.org">sage</a>. First, the differential $\partial_ 1 \from C_ 1 \cong \ZZ^6 \to C_ 0 \cong \ZZ^4 $.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: K<span style="color:#666">=</span>simplicial_complexes<span style="color:#666">.</span>Sphere(<span style="color:#666">2</span>)
-sage: CK<span style="color:#666">=</span>K<span style="color:#666">.</span>chain_complex()
-sage: 
-sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">1</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
-sage: Smith(M)
-step <span style="color:#666">1</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
-
-step <span style="color:#666">2</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-
-step <span style="color:#666">3</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-
-step <span style="color:#666">4</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-
-([[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>], [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>], [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>], [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]],
- [[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>],
-  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>],
-  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>],
-  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
-  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>],
-  [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]])
-sage: <span style="color:#a2f">print</span> <span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_1:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
-
-smith form of d_1:
-[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-</code></pre></div><p>Hence $\operatorname{coker} \partial_ 1 \cong  \ZZ^1$ and $\ker \partial_ 1 \cong  \ZZ^3$.
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sage: K<span style="color:#666">=</span>simplicial_complexes<span style="color:#666">.</span>Sphere(<span style="color:#666">2</span>)
+</span></span><span style="display:flex;"><span>sage: CK<span style="color:#666">=</span>K<span style="color:#666">.</span>chain_complex()
+</span></span><span style="display:flex;"><span>sage: 
+</span></span><span style="display:flex;"><span>sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">1</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
+</span></span><span style="display:flex;"><span>sage: Smith(M)
+</span></span><span style="display:flex;"><span>step <span style="color:#666">1</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>step <span style="color:#666">2</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>step <span style="color:#666">3</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>step <span style="color:#666">4</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>([[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>], [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>], [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>], [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]],
+</span></span><span style="display:flex;"><span> [[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]])
+</span></span><span style="display:flex;"><span>sage: <span style="color:#a2f">print</span> <span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_1:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>smith form of d_1:
+</span></span><span style="display:flex;"><span>[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span></code></pre></div><p>Hence $\operatorname{coker} \partial_ 1 \cong  \ZZ^1$ and $\ker \partial_ 1 \cong  \ZZ^3$.
 What about the generators of $\ker \partial_ 1$?
 Let $L$ and $R$ denote the left and right matrices, and $M$ the matrix of $\partial_ 1$.
 Then let $S$ denote the Smith Normal Form of $\partial_ 1$, so that
@@ -677,61 +677,61 @@ $$
 [20] + [03] + [32]~.
 $$</p>
 <p>Furthermore, about the differential $\partial_ 2$ from $C_ 2 \cong \ZZ^4 \to C_ 1 \cong \ZZ^6 $.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">2</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
-sage: Smith(M)
-step <span style="color:#666">1</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
-
-step <span style="color:#666">2</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>]
-
-step <span style="color:#666">3</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
-
-step <span style="color:#666">4</span><span style="color:#666">/</span><span style="color:#666">4</span>
-
-M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-
-([[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>],
-  [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
-  [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
-  [<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>],
-  [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>],
-  [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]],
- [[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>], [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>], [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>], [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]])
-sage: <span style="color:#a2f">print</span> <span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_2:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
-
-smith form of d_2:
-[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
-</code></pre></div><p>Therefore, $\ker \partial_ 2 \cong \ZZ$, and $\operatorname{coker} \partial_ 2 \cong \ZZ^3$.
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sage: M<span style="color:#666">=</span>matrix(ZZ,CK<span style="color:#666">.</span>differential(<span style="color:#666">2</span>))<span style="color:#666">.</span>numpy()<span style="color:#666">.</span>tolist()
+</span></span><span style="display:flex;"><span>sage: Smith(M)
+</span></span><span style="display:flex;"><span>step <span style="color:#666">1</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>step <span style="color:#666">2</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>step <span style="color:#666">3</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>step <span style="color:#666">4</span><span style="color:#666">/</span><span style="color:#666">4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>M: [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>([[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>],
+</span></span><span style="display:flex;"><span>  [<span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]],
+</span></span><span style="display:flex;"><span> [[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>, <span style="color:#666">1</span>], [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">-</span><span style="color:#666">1</span>], [<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>], [<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">-</span><span style="color:#666">1</span>]])
+</span></span><span style="display:flex;"><span>sage: <span style="color:#a2f">print</span> <span style="color:#b44">&#34;</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">smith form of d_2:</span><span style="color:#b62;font-weight:bold">\n</span><span style="color:#b44">&#34;</span>, display(M)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>smith form of d_2:
+</span></span><span style="display:flex;"><span>[<span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>, <span style="color:#666">0</span>]
+</span></span></code></pre></div><p>Therefore, $\ker \partial_ 2 \cong \ZZ$, and $\operatorname{coker} \partial_ 2 \cong \ZZ^3$.
 The generator of $\ker \partial_ 2$ is, as above, the last column of $R$,
 which is
 $$
@@ -781,30 +781,30 @@ $$
 hence
 $B_ 1\subset Z_ 1 \subset C_ 1$ is freely generated by
 $\alpha_ j$-multiples of the first $q$ columns of the inverse $L_ 2^{-1}$.
-Now, $C_ 1 = Q \oplus Q'$,
+Now, $C_ 1 = Q \oplus Q&rsquo;$,
 where $Q$ is the subgroup generated by the first $q$ columns of $L_ 2^{-1}$,
-and $Q'$ the subgroup generated by the last $c_ 1 - q$ columns of $L_ 2^{-1}$.</p>
+and $Q&rsquo;$ the subgroup generated by the last $c_ 1 - q$ columns of $L_ 2^{-1}$.</p>
 <p>By construction $B_ 1 \subset Q$, and since $C_ 1$ is torsion-free, $Q\subset Z_ 1$.
 Now, define
-$Q'' = Q' \cap Z_ 1$, which is a subgroup of $Z_ 1$.  Since $Q'' \cap Q = 0$,
+$Q&rsquo;&rsquo; = Q&rsquo; \cap Z_ 1$, which is a subgroup of $Z_ 1$.  Since $Q&rsquo;&rsquo; \cap Q = 0$,
 it is defined the direct sum
-$Q\oplus Q'' \subset Z_ 1$. If $x \in Z_ 1 \subset C_ 1 = Q \oplus Q'$, then
-$x=q + q'$ with $q \in Q$ and $q' \in Q'$,
-and $0 = \partial_ 1 x = \partial_ 1 q + \partial_ 1 q' = \partial_ 1 q'$,
-hence $x=q + q'$ with $q \in Q$ and $q' \in Q' \cap Z_ 1 = Q''$,
-and hence $Z_ 1 = Q \oplus Q''$.</p>
-<p>Since $Z_ 1=Q\oplus Q''$ is a free abelian group of rank $c_ 1 - r$,
+$Q\oplus Q&rsquo;&rsquo; \subset Z_ 1$. If $x \in Z_ 1 \subset C_ 1 = Q \oplus Q&rsquo;$, then
+$x=q + q&rsquo;$ with $q \in Q$ and $q&rsquo; \in Q&rsquo;$,
+and $0 = \partial_ 1 x = \partial_ 1 q + \partial_ 1 q&rsquo; = \partial_ 1 q&rsquo;$,
+hence $x=q + q&rsquo;$ with $q \in Q$ and $q&rsquo; \in Q&rsquo; \cap Z_ 1 = Q&rsquo;&rsquo;$,
+and hence $Z_ 1 = Q \oplus Q&rsquo;&rsquo;$.</p>
+<p>Since $Z_ 1=Q\oplus Q&rsquo;&rsquo;$ is a free abelian group of rank $c_ 1 - r$,
 and  $Q$ is a free abelian subgroup of rank $q$,</p>
 <dl>
 <dt>(1)</dt>
-<dd>$Q''\subset Z_ 1$ is a free abelian group of rank $c_ 1 - r - q$.</dd>
+<dd>$Q&rsquo;&rsquo;\subset Z_ 1$ is a free abelian group of rank $c_ 1 - r - q$.</dd>
 </dl>
 <p>Furthermore, since $B_ 1 \subset Q$,  the quotient $Z_ 1 / B_ 1$ splits as
 $$
 \dfrac{Z_ 1 }{ B_ 1  } =
-\dfrac{Q \oplus  Q''}{ B_ 1\oplus 0}
+\dfrac{Q \oplus  Q&rsquo;&rsquo;}{ B_ 1\oplus 0}
 \cong
-\dfrac{Q}{ B_ 1 } \oplus Q''<br>
+\dfrac{Q}{ B_ 1 } \oplus Q&rsquo;&rsquo;<br>
 \cong
 $$
 $$
@@ -848,9 +848,9 @@ Next, generators of $R_ 1^{-1}Q$ are $\vw_ j = R_ 1^{-1} L_ 2^{-1} \ve_ j$ for $
 Since for each $j=1,\ldots, q$, $L_ 2^{-1} \ve_ j \in Q$, hence
 $$ S_ 1 \vw_ j = S_ 1 R_ 1^{-1} L_ 2^{-1} \ve_ j = L_ 1 \partial_ 1 L_ 2^{-1} \ve_ j = 0, $$
 which means that the first $r$ entries of $\vw_ j$ are zero.
-Note that the projection  $p\from Z_ 1 = Q\oplus Q'' \to Q $,
+Note that the projection  $p\from Z_ 1 = Q\oplus Q&rsquo;&rsquo; \to Q $,
 after $R_ 1^{-1}$, is a projection
-$ \ZZ^{c_ 1 - r}  \to \ZZ^{q}$. Its kernel is $Q''$.</p>
+$ \ZZ^{c_ 1 - r}  \to \ZZ^{q}$. Its kernel is $Q&rsquo;&rsquo;$.</p>
 <p>So, let $T$ denote the $(c_ 1 -r ) \times q$ matrix
 whose $q$ columns are the last $c_ 1 - r$ entries of $\vw_ j$,
 for $j=1,\ldots, q$. It represents the monomorphism
@@ -865,13 +865,13 @@ $L_ T ^{-1} \from \ZZ^{c_ 1 - r} \to \ZZ^{c_ 1 - r}$<br>
 sends the first $q$ elements of the standard basis $\ve_ j$, $j=1,\ldots, q$,
 to a set of generators for $Q$ (the image of $T$ in $\ker S_ 1$).
 The latter $c_ 1 - r - q$ columns of $L_ T^{-1}$ are the coefficients
-of a set of generators of $Q''$ in the standard basis of $\ker S_ 1$,
+of a set of generators of $Q&rsquo;&rsquo;$ in the standard basis of $\ker S_ 1$,
 which we can denote by $\vw_ {q+1}, \ldots, \vw_ {c_ 1 - r}$ (by adding
 $q$ zeros at the head of the $(c_ 1 - r)$-tuple).</p>
 <p>So, going back to $C_ 1$, $Z_ 1$ is generated by
 the elements of $Q$, i.e.
 $$ R_ 1 \vw_ 1 = L_ 2^{-1} \ve_ 1, \ldots R_ 1 \vw_ q = L_ 2^{-1} \ve_ q, $$
-and the elements of  \( Q'' \),
+and the elements of  \( Q&rsquo;&rsquo; \),
 i.e.<br>
 $$
 R_ 1 \vw_ {q+1} =  R_ 1 L_ T^{-1} \ve_ {q+1} \ldots R_ 1 \vw_ {c_ 1 - r} =  R_ 1 L_ T^{-1} \ve_ {c_ 1 - r}

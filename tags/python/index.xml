@@ -1,54 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Test Web Page</title>
+    <title>Python on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/python/</link>
-    <description>Recent content in python on Test Web Page</description>
+    <description>Recent content in Python on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AGT: W2</title>
       <link>//www.dlfer.xyz/post/agt/w2/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/agt/w2/</guid>
-      <description>Dato da fare la scorsa volta:  Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia \(H_0\) e \(H_1\). Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo possibilmente euclideo, e visualizzare quel che viene.
- # define a function for visualization: import matplotlib as mpl import matplotlib.pyplot as plt from matplotlib.collections import LineCollection import numpy as np mpl.</description>
+      <description>Dato da fare la scorsa volta: Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia \(H_0\) e \(H_1\). Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo possibilmente euclideo, e visualizzare quel che viene.&#xA;# define a function for visualization: import matplotlib as mpl import matplotlib.pyplot as plt from matplotlib.collections import LineCollection import numpy as np mpl.</description>
     </item>
-    
     <item>
       <title>AGT: W1</title>
       <link>//www.dlfer.xyz/post/agt/w1/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/agt/w1/</guid>
-      <description>Installare CAS, python, jupyter, sagemath? Per poter fare un po’ di matematica computazionale serve avere un calcolatore e degli strumenti di calcolo. Potrebbe bastare un abaco, una copia del Liber Abbaci di Fibonacci per imparare ad usare le cifre decimali (PDF oppure SpringerLink), un regolo calcolatore oppure qualcosa di più recente.
-Una lista (molto incompleta) di strumenti di calcolo utili per la matematica:
- maple Mathematica matlab (with a toolbox) sagemath per python: SymPy, SciLab, SciPy, e molti altri… jupyter  Quali installare, e come?</description>
+      <description>Installare CAS, python, jupyter, sagemath? Per poter fare un po’ di matematica computazionale serve avere un calcolatore e degli strumenti di calcolo. Potrebbe bastare un abaco, una copia del Liber Abbaci di Fibonacci per imparare ad usare le cifre decimali (PDF oppure SpringerLink), un regolo calcolatore oppure qualcosa di più recente.&#xA;Una lista (molto incompleta) di strumenti di calcolo utili per la matematica:&#xA;maple Mathematica matlab (with a toolbox) sagemath per python: SymPy, SciLab, SciPy, e molti altri… jupyter Quali installare, e come?</description>
     </item>
-    
     <item>
       <title>Computing the Smith Normal Form of a matrix, and homology groups?</title>
       <link>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</link>
       <pubDate>Thu, 27 Oct 2016 11:45:52 +0200</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2016-10-27-smith-normal-form/</guid>
-      <description>A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$ The proof and the algorithm are the same.
-First, a few auxiliary functions. Given a matrix $M$, the follow two functions are self-explanatory.
-def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] != 0 ) and (abs(M[i][j]) &amp;lt;= valmin) : ijmin = [i,j] valmin = abs(M[i][j]) return ijmin def IdentityMatrix(n): res=[[0 for j in range(n)] for i in range(n)] for i in range(n): res[i][i] = 1 return res def display(M): r=&amp;#34;&amp;#34; for x in M: r += &amp;#34;%s\n&amp;#34; % x return r +&amp;#34;&amp;#34; Then, one needs the elementary operations on rows and columns on the matrix $M$: swap (permute) two rows, add to a row an integer multiple of another row, and change sign of a row.</description>
+      <description>A simple algorithm for computing the Smith Normal Form of a matrix in $\ZZ$ The proof and the algorithm are the same.&#xA;First, a few auxiliary functions. Given a matrix $M$, the follow two functions are self-explanatory.&#xA;def dims(M): num_righe=len(M) num_colonne=len(M[0]) return (num_righe,num_colonne) def MinAij(M,s): num_righe, num_colonne=dims(M) ijmin=[s,s] valmin=max( max([abs(x) for x in M[j][s:]]) for j in range(s,num_righe) ) for i in (range(s,num_righe)): for j in (range(s,num_colonne)): if (M[i][j] != 0 ) and (abs(M[i][j]) &amp;lt;= valmin) : ijmin = [i,j] valmin = abs(M[i][j]) return ijmin def IdentityMatrix(n): res=[[0 for j in range(n)] for i in range(n)] for i in range(n): res[i][i] = 1 return res def display(M): r=&amp;#34;&amp;#34; for x in M: r += &amp;#34;%s\n&amp;#34; % x return r +&amp;#34;&amp;#34; Then, one needs the elementary operations on rows and columns on the matrix $M$: swap (permute) two rows, add to a row an integer multiple of another row, and change sign of a row.</description>
     </item>
-    
     <item>
       <title>Császár torus, python and sagemath</title>
       <link>//www.dlfer.xyz/post/2016-10-19-csaszar-torus/</link>
       <pubDate>Wed, 19 Oct 2016 13:55:55 +0200</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2016-10-19-csaszar-torus/</guid>
-      <description>The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$
-Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\\ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\\ D_ x &amp;amp;= \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \} = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \} \\\ \Phi_ x &amp;amp; = H_ x \cup V_ x \cup D_ x \end{aligned} $$ where all the integers $j$ are meant $\mod 7$.</description>
+      <description>The simplicial complex Consider the (abstract) simplicial $T$ defined as follows: vertices are $$ X=\{ 0,1,2,3,4,5,6 \} = \{ j \mod 7 \}. $$&#xA;Now, for each $x\in X$ let $\Phi_ x$ denote the following subsets of $2^X$ : $$ \begin{aligned} H_ x &amp;amp;= \{ \{j,j+1\} : j =0 \ldots 6 \} = \{ \{j,j-1\} : j =0 \ldots 6 \} \\\ V_ x &amp;amp;= \{ \{ j,j+x \} : j =0 \ldots 6 \} = \{ \{ j,j-x \} : j =0 \ldots 6 \} \\\ D_ x &amp;amp;= \{ \{ j, j + x+1 \} : j = 0 \ldots 6 \} = \{ \{ j, j - x-1 \} : j = 0 \ldots 6 \} \\\ \Phi_ x &amp;amp; = H_ x \cup V_ x \cup D_ x \end{aligned} $$ where all the integers $j$ are meant $\mod 7$.</description>
     </item>
-    
   </channel>
 </rss>

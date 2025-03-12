@@ -7,17 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 28 Apr 2017 15:11:07 +0200</lastBuildDate><atom:link href="//www.dlfer.xyz/topics/algebra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/topics/algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wielandt&#39;s proof of Sylow&#39;s Theorem</title>
       <link>//www.dlfer.xyz/post/2017-04-28-sylow/</link>
       <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2017-04-28-sylow/</guid>
-      <description>Wieldandt&amp;rsquo;s proof of Sylow&amp;rsquo;s Theorem A brief preparatory combinatorial discussion:
-$$ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } $$ and therefore $$ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} $$
-Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then $n=p^\alpha m$.</description>
+      <description>Wieldandt&amp;rsquo;s proof of Sylow&amp;rsquo;s Theorem A brief preparatory combinatorial discussion:&#xA;$$ \binom{n}{k} = \dfrac{n!}{k!(n-k)!} = \dfrac{n (n-1) \ldots (n-j) \ldots (n-k+1)}{ 1 \ldots j \ldots (k-1) \cdot k } = \dfrac{\prod_ {j=1}^k (n-j+1) }{ \prod_ {j=1}^k j } $$ and therefore $$ \binom{n}{k} = \dfrac{n}{k} \cdot \dfrac{n-1}{1} \ldots \dfrac{n-j}{j} \ldots \dfrac{n-(k-1)}{k-1} = \dfrac{n}{k} \prod_{j=1}^{k-1} \dfrac{n-j}{j} $$&#xA;Let $p$ be a prime number. Now, if $n$ is an integer divisible by a power of $p$, say $p^\alpha$, then $n=p^\alpha m$.</description>
     </item>
-    
   </channel>
 </rss>

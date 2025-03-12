@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.123.7">
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -355,35 +355,35 @@
 I had <a href="https://github.com/VundleVim/Vundle.vim">vundle</a> installed already.
 I needed to add lervag&rsquo;s <a href="https://github.com/lervag/vimtex">vimtex</a> and ajh17&rsquo;s <a href="https://github.com/ajh17/VimCompletesMe">VimCompletesMe</a>.</p>
 <p>Hence, in <strong>.vimrc</strong>:</p>
-<pre tabindex="0"><code>&quot; set the runtime path to include Vundle and initialize
+<pre tabindex="0"><code>&#34; set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
-&quot; let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+&#34; let Vundle manage Vundle, required
+Plugin &#39;VundleVim/Vundle.vim&#39;
 
-Plugin 'lervag/vimtex'
-let g:vimtex_view_general_viewer='okular'
-&quot; 'skim' for Mac OSX instead.
-&quot; let g:Tex_ViewRule_pdf = 'Skim'
-&quot; also: forward search
-&quot; map ,p :w&lt;CR&gt;:silent !/Applications/Skim.app/Contents/SharedSupport/displayline
-&quot; on Windows Linux (WSL) 'zathura'
-let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
-let g:vimtex_view_general_options_latexmk = '--unique'
-&quot; let g:vimtex_echo_ignore_wait = 1
-&quot; let g:vimtex_quickfix_latexlog = {'default' : 0}
+Plugin &#39;lervag/vimtex&#39;
+let g:vimtex_view_general_viewer=&#39;okular&#39;
+&#34; &#39;skim&#39; for Mac OSX instead.
+&#34; let g:Tex_ViewRule_pdf = &#39;Skim&#39;
+&#34; also: forward search
+&#34; map ,p :w&lt;CR&gt;:silent !/Applications/Skim.app/Contents/SharedSupport/displayline
+&#34; on Windows Linux (WSL) &#39;zathura&#39;
+let g:vimtex_view_general_options = &#39;--unique file:@pdf\#src:@line@tex&#39;
+let g:vimtex_view_general_options_latexmk = &#39;--unique&#39;
+&#34; let g:vimtex_echo_ignore_wait = 1
+&#34; let g:vimtex_quickfix_latexlog = {&#39;default&#39; : 0}
 let g:vimtex_quickfix_open_on_warning = 0
 
-Plugin 'ajh17/VimCompletesMe'
+Plugin &#39;ajh17/VimCompletesMe&#39;
 augroup VimCompletesMeTex
    autocmd!
    autocmd FileType tex
        \ let b:vcm_omni_pattern = g:vimtex#re#neocomplete
 augroup END
-&quot; All of your Plugins must be added before the following line
-call vundle#end()            &quot; required
-filetype plugin indent on    &quot; required
+&#34; All of your Plugins must be added before the following line
+call vundle#end()            &#34; required
+filetype plugin indent on    &#34; required
 </code></pre><p>Remember <strong>:PluginInstall</strong> after adding these lines.</p>
 <p>Commands to remember:</p>
 <pre tabindex="0"><code>\ll       =&gt; Start/stop continuous compiling
@@ -395,7 +395,7 @@ filetype plugin indent on    &quot; required
 <pre tabindex="0"><code>%! TEX program = xelatex
 </code></pre><p>Then <strong>okular</strong> should have the inverse/backward search enabled with the Custom Text Editor as
 one of the two lines:</p>
-<pre tabindex="0"><code>gvim --remote-silent +%l &quot;%f&quot;
+<pre tabindex="0"><code>gvim --remote-silent +%l &#34;%f&#34;
 gvim --servername GVIM --remote +%l %f
 </code></pre><p>Further <a href="https://github.com/lervag/vimtex/blob/master/doc/vimtex.txt">Help</a>.</p>
 <h3 id="spell-check">Spell check</h3>
@@ -409,7 +409,7 @@ either add the root line in all subfiles</p>
 </code></pre><p>or use the <strong>.latexmain</strong> specifier:</p>
 <pre tabindex="0"><code>touch main.tex.latexmain
 </code></pre><h3 id="color-scheme-and-font">Color scheme and font</h3>
-<pre tabindex="0"><code>if has('gui_running')
+<pre tabindex="0"><code>if has(&#39;gui_running&#39;)
  colorscheme ir_black
  set guifont=Courier\ New\ 16
  set scrolloff=3
@@ -417,9 +417,9 @@ else
  color desert
 endif
 
-&quot; OSX:
-&quot; set gfn=Courier\ New:h24.00
-&quot; set gfn=Menlo:h24.00
+&#34; OSX:
+&#34; set gfn=Courier\ New:h24.00
+&#34; set gfn=Menlo:h24.00
 </code></pre><h3 id="and-">And &hellip;</h3>
 <p>To use gvim without GNOME in linuxmint/ubuntu:</p>
 <pre tabindex="0"><code>sudo apt-get remove vim-gnome

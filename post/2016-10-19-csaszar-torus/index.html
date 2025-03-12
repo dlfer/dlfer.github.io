@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.123.7">
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -394,16 +394,16 @@ We are left with the cases
 $x=2$ or $x=4$.
 Lazy idea: write a few lines of python (2.7) and compute the number of elements
 of $\Phi_ x$ for each $x$&hellip;</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">NumberOfPhi</span>(x):
-<span style="color:#666">...</span>  H<span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>([j,(j<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-<span style="color:#666">...</span>  V<span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>([j,(j<span style="color:#666">+</span>x) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-<span style="color:#666">...</span>  D <span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>([j,(j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-<span style="color:#666">...</span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">len</span>( <span style="color:#a2f">set</span>(H) <span style="color:#666">|</span> <span style="color:#a2f">set</span>(V) <span style="color:#666">|</span> <span style="color:#a2f">set</span>(D) )
-<span style="color:#666">...</span> 
-<span style="color:#666">&gt;&gt;&gt;</span> 
-<span style="color:#666">&gt;&gt;&gt;</span> [ NumberOfPhi(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-[<span style="color:#666">14</span>, <span style="color:#666">14</span>, <span style="color:#666">21</span>, <span style="color:#666">14</span>, <span style="color:#666">21</span>, <span style="color:#666">14</span>, <span style="color:#666">14</span>]
-</code></pre></div><p>This is the end of the proof. <em>(/Proof)</em></p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">NumberOfPhi</span>(x):
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  H<span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>([j,(j<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  V<span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>([j,(j<span style="color:#666">+</span>x) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  D <span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>([j,(j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">len</span>( <span style="color:#a2f">set</span>(H) <span style="color:#666">|</span> <span style="color:#a2f">set</span>(V) <span style="color:#666">|</span> <span style="color:#a2f">set</span>(D) )
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span> 
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> 
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> [ NumberOfPhi(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">14</span>, <span style="color:#666">14</span>, <span style="color:#666">21</span>, <span style="color:#666">14</span>, <span style="color:#666">21</span>, <span style="color:#666">14</span>, <span style="color:#666">14</span>]
+</span></span></code></pre></div><p>This is the end of the proof. <em>(/Proof)</em></p>
 <p>Now, for $2$-simplexes we can proceed in a similar way. For each $x$,
 let
 $$ \begin{aligned}
@@ -420,14 +420,14 @@ U_ 4  &amp; = \{ \{ j, j+4, j+5 \} : j = 0 \ldots 6 \} \implies U_ 4 = L_ 2.
 \end{aligned}
 $$</p>
 <p>A little bit of typing and</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">Inter</span>(x):
-<span style="color:#666">...</span>  L <span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span><span style="color:#666">1</span>)<span style="color:#666">%</span><span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>)<span style="color:#666">%</span><span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-<span style="color:#666">...</span>  U <span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span>x)<span style="color:#666">%</span><span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>)<span style="color:#666">%</span><span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-<span style="color:#666">...</span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">len</span>( <span style="color:#a2f">set</span>(L) <span style="color:#666">|</span> <span style="color:#a2f">set</span>(V) )
-<span style="color:#666">...</span> 
-<span style="color:#666">&gt;&gt;&gt;</span> [ (x,Inter(x)) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
-[(<span style="color:#666">0</span>, <span style="color:#666">14</span>), (<span style="color:#666">1</span>, <span style="color:#666">14</span>), (<span style="color:#666">2</span>, <span style="color:#666">14</span>), (<span style="color:#666">3</span>, <span style="color:#666">14</span>), (<span style="color:#666">4</span>, <span style="color:#666">14</span>), (<span style="color:#666">5</span>, <span style="color:#666">14</span>), (<span style="color:#666">6</span>, <span style="color:#666">14</span>)]
-</code></pre></div><p>This implies that for $x=2,4$ the following is an abstract simplicial complex:
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> <span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">Inter</span>(x):
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  L <span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span><span style="color:#666">1</span>)<span style="color:#666">%</span><span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>)<span style="color:#666">%</span><span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  U <span style="color:#666">=</span> [ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span>x)<span style="color:#666">%</span><span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>)<span style="color:#666">%</span><span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span>  <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">len</span>( <span style="color:#a2f">set</span>(L) <span style="color:#666">|</span> <span style="color:#a2f">set</span>(V) )
+</span></span><span style="display:flex;"><span><span style="color:#666">...</span> 
+</span></span><span style="display:flex;"><span><span style="color:#666">&gt;&gt;&gt;</span> [ (x,Inter(x)) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ]
+</span></span><span style="display:flex;"><span>[(<span style="color:#666">0</span>, <span style="color:#666">14</span>), (<span style="color:#666">1</span>, <span style="color:#666">14</span>), (<span style="color:#666">2</span>, <span style="color:#666">14</span>), (<span style="color:#666">3</span>, <span style="color:#666">14</span>), (<span style="color:#666">4</span>, <span style="color:#666">14</span>), (<span style="color:#666">5</span>, <span style="color:#666">14</span>), (<span style="color:#666">6</span>, <span style="color:#666">14</span>)]
+</span></span></code></pre></div><p>This implies that for $x=2,4$ the following is an abstract simplicial complex:
 $$
 T = ( X, \{ L_ 2 \cup U_ 2 \cup \ldots \} )
 = ( X, \{ L_ 4 \cup U_ 4 \cup \ldots \} ),
@@ -453,177 +453,177 @@ one can find an embedding;
 more details a the <a href="http://www.eg-models.de/models/Classical_Models/2001.02.069/_preview.html">page in the Archive of Electronic Geometry Models</a>.</p>
 <h2 id="sagemath">SageMath</h2>
 <p>Here is a plain sage session. According to <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html">the documentation</a>, the function <code>Torus</code> returns Csaszar&rsquo;s Torus.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sage" data-lang="sage">sage: T <span style="color:#666">=</span> simplicial_complexes<span style="color:#666">.</span>Torus();
-sage: T<span style="color:#666">.</span>faces()
-{<span style="color:#666">-</span><span style="color:#666">1</span>: <span style="color:#a2f">set</span>([()]),
- <span style="color:#666">0</span>: <span style="color:#a2f">set</span>([(<span style="color:#666">4</span>,), (<span style="color:#666">5</span>,), (<span style="color:#666">3</span>,), (<span style="color:#666">0</span>,), (<span style="color:#666">1</span>,), (<span style="color:#666">6</span>,), (<span style="color:#666">2</span>,)]),
- <span style="color:#666">1</span>: <span style="color:#a2f">set</span>([(<span style="color:#666">0</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">3</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">2</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">3</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">3</span>),
-      (<span style="color:#666">2</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">2</span>, <span style="color:#666">4</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">4</span>),
-      (<span style="color:#666">3</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">3</span>, <span style="color:#666">4</span>),
-      (<span style="color:#666">2</span>, <span style="color:#666">3</span>),
-      (<span style="color:#666">4</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">2</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">5</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">2</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">1</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">4</span>),
-      (<span style="color:#666">4</span>, <span style="color:#666">5</span>)]),
- <span style="color:#666">2</span>: <span style="color:#a2f">set</span>([(<span style="color:#666">2</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">4</span>),
-      (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
-      (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">1</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">2</span>),
-      (<span style="color:#666">4</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
-      (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>)])}
-</code></pre></div><p>After a little bit of reordering, faces of sage&rsquo;s $T$ are</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">[(<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">2</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">4</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">2</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">4</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>)]
-</code></pre></div><p>while faces in $U_ 2 \cup L_ 2$ are different.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">[(<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">3</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">3</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">4</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
- (<span style="color:#666">1</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">2</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
- (<span style="color:#666">3</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
- (<span style="color:#666">3</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>)]
-</code></pre></div><p>It it just a permutation of indices, or they are distinct as simplicial complexes?
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sage" data-lang="sage"><span style="display:flex;"><span>sage: T <span style="color:#666">=</span> simplicial_complexes<span style="color:#666">.</span>Torus();
+</span></span><span style="display:flex;"><span>sage: T<span style="color:#666">.</span>faces()
+</span></span><span style="display:flex;"><span>{<span style="color:#666">-</span><span style="color:#666">1</span>: <span style="color:#a2f">set</span>([()]),
+</span></span><span style="display:flex;"><span> <span style="color:#666">0</span>: <span style="color:#a2f">set</span>([(<span style="color:#666">4</span>,), (<span style="color:#666">5</span>,), (<span style="color:#666">3</span>,), (<span style="color:#666">0</span>,), (<span style="color:#666">1</span>,), (<span style="color:#666">6</span>,), (<span style="color:#666">2</span>,)]),
+</span></span><span style="display:flex;"><span> <span style="color:#666">1</span>: <span style="color:#a2f">set</span>([(<span style="color:#666">0</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">3</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">2</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">3</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">3</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">2</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">2</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">3</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">3</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">2</span>, <span style="color:#666">3</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">4</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">2</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">5</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">2</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">1</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">4</span>, <span style="color:#666">5</span>)]),
+</span></span><span style="display:flex;"><span> <span style="color:#666">2</span>: <span style="color:#a2f">set</span>([(<span style="color:#666">2</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">1</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">2</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">4</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span>      (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>)])}
+</span></span></code></pre></div><p>After a little bit of reordering, faces of sage&rsquo;s $T$ are</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[(<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">2</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">2</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">4</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>)]
+</span></span></code></pre></div><p>while faces in $U_ 2 \cup L_ 2$ are different.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[(<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">3</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">1</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">3</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">0</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">2</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">3</span>, <span style="color:#666">4</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">1</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">2</span>, <span style="color:#666">3</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">2</span>, <span style="color:#666">4</span>, <span style="color:#666">5</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">3</span>, <span style="color:#666">4</span>, <span style="color:#666">6</span>),
+</span></span><span style="display:flex;"><span> (<span style="color:#666">3</span>, <span style="color:#666">5</span>, <span style="color:#666">6</span>)]
+</span></span></code></pre></div><p>It it just a permutation of indices, or they are distinct as simplicial complexes?
 The automorphism group of $T$ has 42 elements</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: G<span style="color:#666">=</span>T<span style="color:#666">.</span>automorphism_group()
-sage: <span style="color:#a2f">len</span>(G)
-<span style="color:#666">42</span>
-</code></pre></div><p>and hence there are 120 = 7!/42 distinct possible classes of
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sage: G<span style="color:#666">=</span>T<span style="color:#666">.</span>automorphism_group()
+</span></span><span style="display:flex;"><span>sage: <span style="color:#a2f">len</span>(G)
+</span></span><span style="display:flex;"><span><span style="color:#666">42</span>
+</span></span></code></pre></div><p>and hence there are 120 = 7!/42 distinct possible classes of
 permutations. The easiest is $(0,6)$, which transforms one set of 2-faces into the other.</p>
 <dl>
 <dt>(3)</dt>
 <dd>The two simplicial complexes are equivalent.</dd>
 </dl>
 <p>A little bit of <a href="http://www.sagemath.org">sagemath</a> help in finding such permutations:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">T <span style="color:#666">=</span> simplicial_complexes<span style="color:#666">.</span>Torus();
-
-Facce<span style="color:#666">=</span> <span style="color:#a2f">list</span>(T<span style="color:#666">.</span>faces()[<span style="color:#666">2</span>])
-Facce<span style="color:#666">.</span>sort()
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">L</span>(x):
- <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">set</span>([ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ] )
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">U</span>(x):
- <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">set</span>([ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span>x) <span style="color:#666">%</span> <span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ] )
-
-myFacce<span style="color:#666">=</span>[<span style="color:#a2f">tuple</span>(a) <span style="color:#a2f;font-weight:bold">for</span> a <span style="color:#a2f;font-weight:bold">in</span> ( L(<span style="color:#666">2</span>) <span style="color:#666">|</span> U(<span style="color:#666">2</span>) ) ]
-myFacce<span style="color:#666">.</span>sort()
-
-G <span style="color:#666">=</span>SymmetricGroup((<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>))
-
-<span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">PermutedFacce</span>(g,ListOfTuples):
- result<span style="color:#666">=</span>[]
- <span style="color:#a2f;font-weight:bold">for</span> t <span style="color:#a2f;font-weight:bold">in</span> ListOfTuples:
-  goft<span style="color:#666">=</span>[g(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> t ]
-  goft<span style="color:#666">.</span>sort()
-  result <span style="color:#666">=</span> result <span style="color:#666">+</span> [<span style="color:#a2f">tuple</span>(goft)]
- result<span style="color:#666">.</span>sort()
- <span style="color:#a2f;font-weight:bold">return</span> result
-
-found<span style="color:#666">=</span><span style="color:#666">0</span>
-<span style="color:#a2f;font-weight:bold">for</span> g <span style="color:#a2f;font-weight:bold">in</span> G:
- pFacce<span style="color:#666">=</span>PermutedFacce(g,Facce)
- <span style="color:#a2f;font-weight:bold">if</span> pFacce <span style="color:#666">==</span> myFacce:
-  found <span style="color:#666">+=</span> <span style="color:#666">1</span>
-  <span style="color:#a2f">print</span> <span style="color:#b44">&#34;found n. &#34;</span>, found, <span style="color:#b44">&#34; : &#34;</span>, g
-</code></pre></div><p>And interactively loading it (saved as <code>c.sage</code>) gives the following session.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: runfile (<span style="color:#b44">&#34;c.sage&#34;</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">1</span>  :  (<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>)(<span style="color:#666">4</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">2</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">3</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">2</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">4</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>)(<span style="color:#666">2</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">5</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">5</span>)(<span style="color:#666">2</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">6</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">7</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>)(<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">8</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">9</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>)(<span style="color:#666">2</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">10</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">11</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">12</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">6</span>)(<span style="color:#666">2</span>,<span style="color:#666">5</span>)(<span style="color:#666">3</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">13</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">1</span>)(<span style="color:#666">3</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">14</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>)(<span style="color:#666">5</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">15</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>)(<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">16</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">4</span>)(<span style="color:#666">3</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">17</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">18</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">19</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">20</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">2</span>)(<span style="color:#666">4</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">21</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">22</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>)(<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">2</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">23</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>)(<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">24</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>,<span style="color:#666">4</span>)(<span style="color:#666">1</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">25</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">1</span>)(<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">26</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>)(<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">27</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>)(<span style="color:#666">1</span>,<span style="color:#666">2</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">28</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">29</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">30</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">2</span>)(<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">31</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>,<span style="color:#666">1</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">32</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>)(<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">33</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>)(<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">34</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>)(<span style="color:#666">1</span>,<span style="color:#666">3</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">35</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">2</span>)(<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">36</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">37</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">1</span>)(<span style="color:#666">2</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">38</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">39</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">40</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">1</span>,<span style="color:#666">3</span>)(<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">41</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>)(<span style="color:#666">1</span>,<span style="color:#666">4</span>)(<span style="color:#666">2</span>,<span style="color:#666">3</span>)
-found n<span style="color:#666">.</span>  <span style="color:#666">42</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">2</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>)
-</code></pre></div><p>Equivalently, and shortly:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: K<span style="color:#666">=</span>SimplicialComplex(myFacce)
-sage: T<span style="color:#666">=</span>simplicial_complexes<span style="color:#666">.</span>Torus()
-sage: T<span style="color:#666">.</span>is_isomorphic(K)
-<span style="color:#a2f;font-weight:bold">True</span>
-</code></pre></div><h2 id="embedding-the-complex-in-rr3">Embedding the complex in $\RR^3$</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>T <span style="color:#666">=</span> simplicial_complexes<span style="color:#666">.</span>Torus();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Facce<span style="color:#666">=</span> <span style="color:#a2f">list</span>(T<span style="color:#666">.</span>faces()[<span style="color:#666">2</span>])
+</span></span><span style="display:flex;"><span>Facce<span style="color:#666">.</span>sort()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">L</span>(x):
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">set</span>([ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ] )
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">U</span>(x):
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> <span style="color:#a2f">set</span>([ <span style="color:#a2f">frozenset</span>( [j,(j<span style="color:#666">+</span>x) <span style="color:#666">%</span> <span style="color:#666">7</span>, (j<span style="color:#666">+</span>x<span style="color:#666">+</span><span style="color:#666">1</span>) <span style="color:#666">%</span> <span style="color:#666">7</span> ]) <span style="color:#a2f;font-weight:bold">for</span> j <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">7</span>) ] )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>myFacce<span style="color:#666">=</span>[<span style="color:#a2f">tuple</span>(a) <span style="color:#a2f;font-weight:bold">for</span> a <span style="color:#a2f;font-weight:bold">in</span> ( L(<span style="color:#666">2</span>) <span style="color:#666">|</span> U(<span style="color:#666">2</span>) ) ]
+</span></span><span style="display:flex;"><span>myFacce<span style="color:#666">.</span>sort()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>G <span style="color:#666">=</span>SymmetricGroup((<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">def</span> <span style="color:#00a000">PermutedFacce</span>(g,ListOfTuples):
+</span></span><span style="display:flex;"><span> result<span style="color:#666">=</span>[]
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">for</span> t <span style="color:#a2f;font-weight:bold">in</span> ListOfTuples:
+</span></span><span style="display:flex;"><span>  goft<span style="color:#666">=</span>[g(x) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> t ]
+</span></span><span style="display:flex;"><span>  goft<span style="color:#666">.</span>sort()
+</span></span><span style="display:flex;"><span>  result <span style="color:#666">=</span> result <span style="color:#666">+</span> [<span style="color:#a2f">tuple</span>(goft)]
+</span></span><span style="display:flex;"><span> result<span style="color:#666">.</span>sort()
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">return</span> result
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>found<span style="color:#666">=</span><span style="color:#666">0</span>
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">for</span> g <span style="color:#a2f;font-weight:bold">in</span> G:
+</span></span><span style="display:flex;"><span> pFacce<span style="color:#666">=</span>PermutedFacce(g,Facce)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">if</span> pFacce <span style="color:#666">==</span> myFacce:
+</span></span><span style="display:flex;"><span>  found <span style="color:#666">+=</span> <span style="color:#666">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a2f">print</span> <span style="color:#b44">&#34;found n. &#34;</span>, found, <span style="color:#b44">&#34; : &#34;</span>, g
+</span></span></code></pre></div><p>And interactively loading it (saved as <code>c.sage</code>) gives the following session.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sage: runfile (<span style="color:#b44">&#34;c.sage&#34;</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">1</span>  :  (<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>)(<span style="color:#666">4</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">2</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">3</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">2</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">4</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>)(<span style="color:#666">2</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">5</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">5</span>)(<span style="color:#666">2</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">6</span>  :  (<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">7</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>)(<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">8</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">9</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>)(<span style="color:#666">2</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">10</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">11</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">12</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">1</span>,<span style="color:#666">6</span>)(<span style="color:#666">2</span>,<span style="color:#666">5</span>)(<span style="color:#666">3</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">13</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">1</span>)(<span style="color:#666">3</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">14</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>)(<span style="color:#666">5</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">15</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>)(<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">16</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">4</span>)(<span style="color:#666">3</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">17</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">18</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">2</span>,<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">19</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">20</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">2</span>)(<span style="color:#666">4</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">21</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">22</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>)(<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">2</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">23</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>)(<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">24</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>,<span style="color:#666">4</span>)(<span style="color:#666">1</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">25</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">1</span>)(<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">26</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>)(<span style="color:#666">2</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">27</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>)(<span style="color:#666">1</span>,<span style="color:#666">2</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">28</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">29</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">30</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">4</span>,<span style="color:#666">2</span>)(<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">31</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>,<span style="color:#666">2</span>,<span style="color:#666">1</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">32</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>)(<span style="color:#666">2</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">33</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>,<span style="color:#666">6</span>)(<span style="color:#666">1</span>,<span style="color:#666">2</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">34</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>)(<span style="color:#666">1</span>,<span style="color:#666">3</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">35</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">2</span>)(<span style="color:#666">1</span>,<span style="color:#666">4</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">36</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">6</span>,<span style="color:#666">2</span>,<span style="color:#666">3</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">37</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">3</span>,<span style="color:#666">1</span>)(<span style="color:#666">2</span>,<span style="color:#666">4</span>,<span style="color:#666">5</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">38</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">39</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">4</span>,<span style="color:#666">3</span>,<span style="color:#666">5</span>,<span style="color:#666">1</span>,<span style="color:#666">2</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">40</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">1</span>,<span style="color:#666">3</span>)(<span style="color:#666">2</span>,<span style="color:#666">5</span>,<span style="color:#666">4</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">41</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">5</span>)(<span style="color:#666">1</span>,<span style="color:#666">4</span>)(<span style="color:#666">2</span>,<span style="color:#666">3</span>)
+</span></span><span style="display:flex;"><span>found n<span style="color:#666">.</span>  <span style="color:#666">42</span>  :  (<span style="color:#666">0</span>,<span style="color:#666">6</span>,<span style="color:#666">2</span>,<span style="color:#666">1</span>,<span style="color:#666">5</span>,<span style="color:#666">3</span>,<span style="color:#666">4</span>)
+</span></span></code></pre></div><p>Equivalently, and shortly:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sage: K<span style="color:#666">=</span>SimplicialComplex(myFacce)
+</span></span><span style="display:flex;"><span>sage: T<span style="color:#666">=</span>simplicial_complexes<span style="color:#666">.</span>Torus()
+</span></span><span style="display:flex;"><span>sage: T<span style="color:#666">.</span>is_isomorphic(K)
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">True</span>
+</span></span></code></pre></div><h2 id="embedding-the-complex-in-rr3">Embedding the complex in $\RR^3$</h2>
 <p>The problem of embedding is not trivial. But &hellip;</p>
 <h2 id="poincaré-homology-3-sphere">Poincaré Homology 3-sphere</h2>
 <p>From <a href="http://doc.sagemath.org/html/en/reference/homology/sage/homology/examples.html#sage.homology.examples.PoincareHomologyThreeSphere">sagemath documentation</a>, and adding on&hellip;</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">sage: Sigma3 <span style="color:#666">=</span> simplicial_complexes<span style="color:#666">.</span>PoincareHomologyThreeSphere()
-sage: Sigma3<span style="color:#666">.</span>homology()
-{<span style="color:#666">0</span>: <span style="color:#666">0</span>, <span style="color:#666">1</span>: <span style="color:#666">0</span>, <span style="color:#666">2</span>: <span style="color:#666">0</span>, <span style="color:#666">3</span>: Z}
-sage: Sigma3<span style="color:#666">.</span>fundamental_group()<span style="color:#666">.</span>cardinality()
-sage: [<span style="color:#a2f">len</span>(Sigma3<span style="color:#666">.</span>faces()[x]) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">4</span>)]
-[<span style="color:#666">16</span>, <span style="color:#666">106</span>, <span style="color:#666">180</span>, <span style="color:#666">90</span>]
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>sage: Sigma3 <span style="color:#666">=</span> simplicial_complexes<span style="color:#666">.</span>PoincareHomologyThreeSphere()
+</span></span><span style="display:flex;"><span>sage: Sigma3<span style="color:#666">.</span>homology()
+</span></span><span style="display:flex;"><span>{<span style="color:#666">0</span>: <span style="color:#666">0</span>, <span style="color:#666">1</span>: <span style="color:#666">0</span>, <span style="color:#666">2</span>: <span style="color:#666">0</span>, <span style="color:#666">3</span>: Z}
+</span></span><span style="display:flex;"><span>sage: Sigma3<span style="color:#666">.</span>fundamental_group()<span style="color:#666">.</span>cardinality()
+</span></span><span style="display:flex;"><span>sage: [<span style="color:#a2f">len</span>(Sigma3<span style="color:#666">.</span>faces()[x]) <span style="color:#a2f;font-weight:bold">for</span> x <span style="color:#a2f;font-weight:bold">in</span> <span style="color:#a2f">range</span>(<span style="color:#666">4</span>)]
+</span></span><span style="display:flex;"><span>[<span style="color:#666">16</span>, <span style="color:#666">106</span>, <span style="color:#666">180</span>, <span style="color:#666">90</span>]
+</span></span></code></pre></div>
 </div>
 
      </div>

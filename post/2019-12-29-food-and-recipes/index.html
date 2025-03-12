@@ -5,7 +5,7 @@
   <head>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.123.7">
   <meta name="theme" content="a random mix of bootstrap, lanyon-hugo and hugo-academic themes">
   <meta name="author" content="DL Ferrario">
 
@@ -508,54 +508,54 @@ variable-value pairs can appear. Numbers according to locale,
 ISO format for dates, duration in time units, calories and macros in suitable units.
 All parameters are optional, except the title.
 Alternatives are separated by <code>|</code>.</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-TOML" data-lang="TOML"><span style="">+++</span>
-title<span style="">|</span>name<span style="">|</span>recipe= <span style="color:#b44">&#34;Manzo alla california&#34;</span>
-author= <span style="color:#b44">&#34;-dlf&#34;</span>
-version= <span style="color:#b44">&#34;2.1&#34;</span>
-date= <span style="color:#666">2019-08-02</span>
-lastmod= <span style="color:#666">2019-08-05</span>
-yield<span style="">|</span>servings= <span style="color:#666">6</span>
-lang= <span style="color:#b44">&#34;it&#34;</span>
-tags=  [<span style="color:#b44">&#34;dinner&#34;</span>,<span style="color:#b44">&#34;traditional&#34;</span>,<span style="color:#b44">&#34;meat&#34;</span>]
-category<span style="">|</span>cat= [<span style="color:#b44">&#34;Secondi&#34;</span>, <span style="color:#b44">&#34;Carne&#34;</span>, <span style="color:#b44">&#34;Taxonomy-Term&#34;</span>]
-preptime<span style="">|</span>prep_time<span style="">|</span>preparazione= <span style="color:#666">1.5</span> h 
-cooktime<span style="">|</span>cook_time<span style="">|</span>cottura= <span style="color:#666">0.5</span> h 
-difficulty= <span style="color:#666">4</span><span style="">/</span><span style="color:#666">5</span> 
-id<span style="">|</span>index<span style="">|</span>rid= <span style="color:#b44">&#34;i0310450&#34;</span>
-cost<span style="">|</span>costs<span style="">|</span>costo= <span style="color:#666">20</span><span style="">€</span>
-country= Italy 
-allergies= [<span style="color:#b44">&#34;noci&#34;</span>,<span style="color:#b44">&#34;latte&#34;</span>]
-nutrition<span style="">|</span>calories= <span style="color:#666">540</span> kcal<span style="">/</span><span style="color:#666">100</span>g 
-macros= [ proteins, carbo, fat ] 
-<span style="">+++</span>
-</code></pre></div><p>Example of structure of a recipe:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">+++
-TOML header
-+++
-
-.. markdown summary/introduction/abstract .. 
-here a reference to the <span style="color:#b44">`SOURCE`</span> of the recipe, 
-maybe <span style="color:#b44">`EQUIPMENT`</span>, <span style="color:#b44">`NOTES`</span>, ...
-
-
-<span style="color:#000080;font-weight:bold"># Ingredients 
-</span><span style="color:#000080;font-weight:bold"></span>
- <span style="color:#a2f;font-weight:bold">-</span> ingredient1 (qty)
- <span style="color:#a2f;font-weight:bold">-</span> ingredient2 
- <span style="color:#a2f;font-weight:bold">-</span> [optional ingredient3]
- <span style="color:#a2f;font-weight:bold">-</span> (ingr4 | ingr5) //alternative (inline comment)
-
-EQUIPMENT|ATTREZZATURA: casseruola, fornelli 
-<span style="color:#a2f;font-weight:bold">
-</span><span style="color:#a2f;font-weight:bold">&gt; </span><span style="font-style:italic">note (alternatives to ingredients, preparation ... ) 
-</span><span style="font-style:italic"></span>
-<span style="color:#000080;font-weight:bold"># instructions | directions | preparation 
-</span><span style="color:#000080;font-weight:bold"></span> 
-..  whatever chunk of markdown (list or not) .. 
-<span style="color:#a2f;font-weight:bold">
-</span><span style="color:#a2f;font-weight:bold">&gt; </span><span style="font-style:italic">note (how to serve, to preserve, ... ) 
-</span><span style="font-style:italic"></span>...
-</code></pre></div><h2 id="ingredients">Ingredients</h2>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-TOML" data-lang="TOML"><span style="display:flex;"><span><span style="">+++</span>
+</span></span><span style="display:flex;"><span>title<span style="">|</span>name<span style="">|</span>recipe= <span style="color:#b44">&#34;Manzo alla california&#34;</span>
+</span></span><span style="display:flex;"><span>author= <span style="color:#b44">&#34;-dlf&#34;</span>
+</span></span><span style="display:flex;"><span>version= <span style="color:#b44">&#34;2.1&#34;</span>
+</span></span><span style="display:flex;"><span>date= <span style="color:#666">2019-08-02</span>
+</span></span><span style="display:flex;"><span>lastmod= <span style="color:#666">2019-08-05</span>
+</span></span><span style="display:flex;"><span>yield<span style="">|</span>servings= <span style="color:#666">6</span>
+</span></span><span style="display:flex;"><span>lang= <span style="color:#b44">&#34;it&#34;</span>
+</span></span><span style="display:flex;"><span>tags=  [<span style="color:#b44">&#34;dinner&#34;</span>,<span style="color:#b44">&#34;traditional&#34;</span>,<span style="color:#b44">&#34;meat&#34;</span>]
+</span></span><span style="display:flex;"><span>category<span style="">|</span>cat= [<span style="color:#b44">&#34;Secondi&#34;</span>, <span style="color:#b44">&#34;Carne&#34;</span>, <span style="color:#b44">&#34;Taxonomy-Term&#34;</span>]
+</span></span><span style="display:flex;"><span>preptime<span style="">|</span>prep_time<span style="">|</span>preparazione= <span style="color:#666">1.5</span> h 
+</span></span><span style="display:flex;"><span>cooktime<span style="">|</span>cook_time<span style="">|</span>cottura= <span style="color:#666">0.5</span> h 
+</span></span><span style="display:flex;"><span>difficulty= <span style="color:#666">4</span><span style="">/</span><span style="color:#666">5</span> 
+</span></span><span style="display:flex;"><span>id<span style="">|</span>index<span style="">|</span>rid= <span style="color:#b44">&#34;i0310450&#34;</span>
+</span></span><span style="display:flex;"><span>cost<span style="">|</span>costs<span style="">|</span>costo= <span style="color:#666">20</span><span style="">€</span>
+</span></span><span style="display:flex;"><span>country= Italy 
+</span></span><span style="display:flex;"><span>allergies= [<span style="color:#b44">&#34;noci&#34;</span>,<span style="color:#b44">&#34;latte&#34;</span>]
+</span></span><span style="display:flex;"><span>nutrition<span style="">|</span>calories= <span style="color:#666">540</span> kcal<span style="">/</span><span style="color:#666">100</span>g 
+</span></span><span style="display:flex;"><span>macros= [ proteins, carbo, fat ] 
+</span></span><span style="display:flex;"><span><span style="">+++</span>
+</span></span></code></pre></div><p>Example of structure of a recipe:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>TOML header
+</span></span><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>.. markdown summary/introduction/abstract .. 
+</span></span><span style="display:flex;"><span>here a reference to the <span style="color:#b44">`SOURCE`</span> of the recipe, 
+</span></span><span style="display:flex;"><span>maybe <span style="color:#b44">`EQUIPMENT`</span>, <span style="color:#b44">`NOTES`</span>, ...
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000080;font-weight:bold"># Ingredients 
+</span></span></span><span style="display:flex;"><span><span style="color:#000080;font-weight:bold"></span>
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">-</span> ingredient1 (qty)
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">-</span> ingredient2 
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">-</span> [optional ingredient3]
+</span></span><span style="display:flex;"><span> <span style="color:#a2f;font-weight:bold">-</span> (ingr4 | ingr5) //alternative (inline comment)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>EQUIPMENT|ATTREZZATURA: casseruola, fornelli 
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">&gt; </span><span style="font-style:italic">note (alternatives to ingredients, preparation ... ) 
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>
+</span></span><span style="display:flex;"><span><span style="color:#000080;font-weight:bold"># instructions | directions | preparation 
+</span></span></span><span style="display:flex;"><span><span style="color:#000080;font-weight:bold"></span> 
+</span></span><span style="display:flex;"><span>..  whatever chunk of markdown (list or not) .. 
+</span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">
+</span></span></span><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">&gt; </span><span style="font-style:italic">note (how to serve, to preserve, ... ) 
+</span></span></span><span style="display:flex;"><span><span style="font-style:italic"></span>...
+</span></span></code></pre></div><h2 id="ingredients">Ingredients</h2>
 <p>Each ingredient has quantity, expressed in some <em>units</em>; no quantity equals <em>qb</em> quantity (<em>quanto basta</em>);
 it might be expressed in a range;
 the ingredient can be optional, or can have alternative forms.
@@ -639,13 +639,13 @@ unary operator <code>=</code>, parallelize <code>+</code>, binary operand <code>
 <ul>
 <li><code>[@ ...]</code> for the location (pan, oven, cutting board, bowl, &hellip;)
 when possible;</li>
-<li><code>[!10 min]</code> for setting a timer of 10 minutes, or [⏰10 min];</li>
+<li><code>[!10 min]</code> for setting a timer of 10 minutes, or [&#x23f0;10 min];</li>
 <li>and the <strong>actions</strong> either uppercase or boldface, or whatever markdown. Maybe emojis
 or Unicode arrows.</li>
 <li>All literal symbols should refer to <strong>equipment</strong>, in a direct or indirect way, and appear between brackets (and with an argument if needed).</li>
 </ul>
 <p>For example,
-Apicius' dessert would be:</p>
+Apicius&rsquo; dessert would be:</p>
 <ul>
 <li>[@pan] middle hot:
 <ul>
@@ -662,13 +662,13 @@ Apicius' dessert would be:</p>
 <strong>TOAST</strong> them;
 <strong>CRUSH</strong> with honey;</li>
 <li>[@bowl]:
-<strong>MIX</strong> in pepper, broth, milk and eggs and a little oil. <strong>ADD</strong> ➡️  [@pan]:
-<strong>COOK</strong> [⏰10 min]</li>
+<strong>MIX</strong> in pepper, broth, milk and eggs and a little oil. <strong>ADD</strong> &#x27a1;&#xfe0f;  [@pan]:
+<strong>COOK</strong> [&#x23f0;10 min]</li>
 </ul>
-<p>The nice little clock ⏰ (from <code>emojify</code>) can help visualize the timer. Other
+<p>The nice little clock &#x23f0; (from <code>emojify</code>) can help visualize the timer. Other
 Unicode symbols might help as well. Useful to pre-process markdown and replace
-short versions ⏰ = <code>!</code>, and ➡️=<code>-&gt;</code>.</p>
-<p>Other symbol? Maybe ⬅️ for adding to the left&hellip; Just all of the symbols should
+short versions &#x23f0; = <code>!</code>, and &#x27a1;&#xfe0f;=<code>-&gt;</code>.</p>
+<p>Other symbol? Maybe &#x2b05;&#xfe0f; for adding to the left&hellip; Just all of the symbols should
 appear between brackets (and brackets should never precede a left parenthesis).</p>
 <blockquote>
 <p>Do I need photos? Not at all. I am not sure about emojis or visual hints (they might be useful) but photos are a kind of clutter.</p>

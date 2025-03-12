@@ -7,25 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Thu, 07 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/home/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>homepage</title>
       <link>//www.dlfer.xyz/home/main/</link>
       <pubDate>Thu, 07 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/home/main/</guid>
-      <description>Var  Pagina personale di matapp.unimib.it Varie cose vecchie Varie cose nuove Ricette MCQ-XelaTeX: Multiple Choice Questions for mathematics and (Xe)LaTeX XHTMLATEX a latex-to-XHTML-MathJax conversion tool.  </description>
+      <description> Var Pagina personale di matapp.unimib.it Varie cose vecchie Varie cose nuove Ricette MCQ-XelaTeX: Multiple Choice Questions for mathematics and (Xe)LaTeX XHTMLATEX a latex-to-XHTML-MathJax conversion tool. </description>
     </item>
-    
     <item>
       <title>about</title>
       <link>//www.dlfer.xyz/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/home/about/</guid>
-      <description>&amp;gt;? «Chi pensa profondamente sa di avere sempre torto, comunque agisca o giudichi.»  (F. Nietzsche - Umano, troppo umano I, Parte nona, L&amp;rsquo;uomo solo con se stesso, n° 518, 1878)
-[Wer tiefer denkt, weiss, dass er immer Unrecht hat, er mag handeln und urtheilen, wie er will.]</description>
+      <description>&amp;gt;? «Chi pensa profondamente sa di avere sempre torto, comunque agisca o giudichi.» (F. Nietzsche - Umano, troppo umano I, Parte nona, L&amp;rsquo;uomo solo con se stesso, n° 518, 1878)&#xA;[Wer tiefer denkt, weiss, dass er immer Unrecht hat, er mag handeln und urtheilen, wie er will.]</description>
     </item>
-    
   </channel>
 </rss>

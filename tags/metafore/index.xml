@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>metafore on Test Web Page</title>
+    <title>Metafore on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/metafore/</link>
-    <description>Recent content in metafore on Test Web Page</description>
+    <description>Recent content in Metafore on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/metafore/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/metafore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sette-dieci cakra (chakra)</title>
       <link>//www.dlfer.xyz/post/2020-07-29-sette-chakras/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2020-07-29-sette-chakras/</guid>
-      <description>Yoga Shastra = «istruzioni sullo yoga»
-Trimurti è la trinità induista: Brahma il creatore [terra], Vishnu il conservatore [acqua], Shiva il distruttore [fuoco]. Tre aspetti della stessa divinità Ishvara.
- ROOT CHAKRA [rosso; 4; terra (base); mūlādhāra] Sotto il coccige, perineo, base della spina dorsale. Assorbe energia dalla terra. Istinti. Sopravvivenza. Paura ( fear ).
-Ganesh (dio degli inizi, successo e saggezza). Elefante. Indra ( underworld, abissi dell&amp;rsquo;inconscio)
-Seed Mantra: LAM.</description>
+      <description>Yoga Shastra = «istruzioni sullo yoga»&#xA;Trimurti è la trinità induista: Brahma il creatore [terra], Vishnu il conservatore [acqua], Shiva il distruttore [fuoco]. Tre aspetti della stessa divinità Ishvara.&#xA;ROOT CHAKRA [rosso; 4; terra (base); mūlādhāra] Sotto il coccige, perineo, base della spina dorsale. Assorbe energia dalla terra. Istinti. Sopravvivenza. Paura ( fear ).&#xA;Ganesh (dio degli inizi, successo e saggezza). Elefante. Indra ( underworld, abissi dell&amp;rsquo;inconscio)&#xA;Seed Mantra: LAM.</description>
     </item>
-    
   </channel>
 </rss>

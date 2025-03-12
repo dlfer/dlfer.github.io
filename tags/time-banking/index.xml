@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Time banking on Test Web Page</title>
+    <title>Time Banking on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/time-banking/</link>
-    <description>Recent content in Time banking on Test Web Page</description>
+    <description>Recent content in Time Banking on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 19 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/time-banking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/time-banking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tempus fugit</title>
       <link>//www.dlfer.xyz/post/tempusfugit/</link>
       <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/tempusfugit/</guid>
-      <description>Un sistema equo e solidale di scambio di tempo? Come dicevano gli antichi, tempus fugit, il tempo fugge irreparabilmente.
- Sed fugit interea fugit irreparabile tempus (Virgilio)
- È possibile utilizzarlo in modo più efficace, scambiandolo con altre persone, senza che alla base dello scambio ci sia sfruttamento o guadagno asimmetrico? Il tempo, così prezioso, può davvero avere un corrispettivo in denaro?
-Ecco un possibile sistema di timebanking (o meglio: time-sharing) in versione minimale (cioè senza ragioneria del registro delle transazioni o sistemi contabili complicati), basato interamente sulla fiducia e la responsabilità.</description>
+      <description>Un sistema equo e solidale di scambio di tempo? Come dicevano gli antichi, tempus fugit, il tempo fugge irreparabilmente.&#xA;Sed fugit interea fugit irreparabile tempus (Virgilio)&#xA;È possibile utilizzarlo in modo più efficace, scambiandolo con altre persone, senza che alla base dello scambio ci sia sfruttamento o guadagno asimmetrico? Il tempo, così prezioso, può davvero avere un corrispettivo in denaro?&#xA;Ecco un possibile sistema di timebanking (o meglio: time-sharing) in versione minimale (cioè senza ragioneria del registro delle transazioni o sistemi contabili complicati), basato interamente sulla fiducia e la responsabilità.</description>
     </item>
-    
   </channel>
 </rss>

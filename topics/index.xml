@@ -7,60 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/topics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poetry</title>
       <link>//www.dlfer.xyz/topics/poetry/</link>
       <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/topics/poetry/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Var</title>
       <link>//www.dlfer.xyz/topics/var/</link>
       <pubDate>Mon, 19 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/topics/var/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>University</title>
       <link>//www.dlfer.xyz/topics/university/</link>
       <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/topics/university/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Topology</title>
       <link>//www.dlfer.xyz/topics/topology/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/topics/topology/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Analysis</title>
       <link>//www.dlfer.xyz/topics/analysis/</link>
       <pubDate>Mon, 29 Oct 2018 10:53:07 +0100</pubDate>
-      
       <guid>//www.dlfer.xyz/topics/analysis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Algebra</title>
       <link>//www.dlfer.xyz/topics/algebra/</link>
       <pubDate>Fri, 28 Apr 2017 15:11:07 +0200</pubDate>
-      
       <guid>//www.dlfer.xyz/topics/algebra/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

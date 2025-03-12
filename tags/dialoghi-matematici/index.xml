@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dialoghi matematici on Test Web Page</title>
+    <title>Dialoghi Matematici on Test Web Page</title>
     <link>//www.dlfer.xyz/tags/dialoghi-matematici/</link>
-    <description>Recent content in dialoghi matematici on Test Web Page</description>
+    <description>Recent content in Dialoghi Matematici on Test Web Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; 2016 - 3016, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="//www.dlfer.xyz/tags/dialoghi-matematici/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//www.dlfer.xyz/tags/dialoghi-matematici/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piccoli dialoghi matematici</title>
       <link>//www.dlfer.xyz/post/2019-12-23-qmath/</link>
       <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//www.dlfer.xyz/post/2019-12-23-qmath/</guid>
-      <description>La matematica è fatta di domande. Tante domande. E di risposte. Poche risposte giuste e complete, molte risposte parziali, moltissime risposte sbagliate.  »Qual è il concetto più grande di infinito? ¬ Cosa intendi per infinito?
-» Non so, l&amp;rsquo;infinito &amp;hellip; una cosa infinitamente grande.
-¬ Ah, ho capito. Una cosa che non è finita, e quindi che se si prova a contarla non si finisce mai di contare. È così?</description>
+      <description>La matematica è fatta di domande. Tante domande. E di risposte. Poche risposte giuste e complete, molte risposte parziali, moltissime risposte sbagliate. »Qual è il concetto più grande di infinito? ¬ Cosa intendi per infinito?&#xA;» Non so, l&amp;rsquo;infinito &amp;hellip; una cosa infinitamente grande.&#xA;¬ Ah, ho capito. Una cosa che non è finita, e quindi che se si prova a contarla non si finisce mai di contare. È così?</description>
     </item>
-    
   </channel>
 </rss>
