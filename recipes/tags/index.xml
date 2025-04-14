@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>chai</title>
+      <link>https://www.dlfer.xyz/recipes/tags/chai/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/chai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>India</title>
+      <link>https://www.dlfer.xyz/recipes/tags/india/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/india/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latte</title>
+      <link>https://www.dlfer.xyz/recipes/tags/latte/</link>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/latte/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>merluzzo</title>
@@ -36,15 +63,6 @@
       <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/stoccafisso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>latte</title>
-      <link>https://www.dlfer.xyz/recipes/tags/latte/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/latte/</guid>
       <description></description>
     </item>
     

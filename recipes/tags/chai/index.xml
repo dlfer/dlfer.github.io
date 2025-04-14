@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dessert on Alcune Ricette</title>
-    <link>https://www.dlfer.xyz/recipes/categories/dessert/</link>
-    <description>Recent content in Dessert on Alcune Ricette</description>
+    <title>chai on Alcune Ricette</title>
+    <link>https://www.dlfer.xyz/recipes/tags/chai/</link>
+    <description>Recent content in chai on Alcune Ricette</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.dlfer.xyz/recipes/categories/dessert/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.dlfer.xyz/recipes/tags/chai/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <guid>https://www.dlfer.xyz/recipes/dessert/goldenmilk/</guid>
       <description>(Latte con proprietà medicinali, ayurveda)
 Ingredienti  1 cup Latte ¼ cup Acqua 1 c(ucchiaino) di Curcuma macinata [Turmeric] ¼ c di Cardamomo macinato qb Cannella in polvere qb Pepe nero macinato (sul momento) 2 Chiodi di Garofano 4-5 fette di Ginger (Zenzero) congelato/fresco, affettato da poco. ¼ c di Olio di cocco qb Sciroppo di Acero (o miele)  Prep  @Pentolino: latte + acqua, fuoco, ↓ Curcuma, Cardamomo, Cannella, Pepe, Chiodi di Garofano, Ginger.</description>
-    </item>
-    
-    <item>
-      <title>Latte alla Grotta</title>
-      <link>https://www.dlfer.xyz/recipes/dessert/latteallagrotta/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/dessert/latteallagrotta/</guid>
-      <description>(Conosciuto anche come sciumette, dolce genovese)
-Ingredienti  ½ L latte (abbondante) 4 uova 1 C farina 8 C zucchero [cannella, pistacchi/nocciole trito fine, granella di pistacchi/nocciole]  Prep  Bollire latte in padella. Intanto: montare a neve gli albumi; poi, mescolando adagio + 3 C zucchero (a velo). A cucchiaiate scottare nel latte bollente, poche per volta, girando fino a quando rapprendono, poi scolare con schiumarola e posare su piatto.</description>
     </item>
     
   </channel>
