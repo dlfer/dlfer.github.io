@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Veg</title>
+      <link>https://www.dlfer.xyz/recipes/tags/veg/</link>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/veg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chai</title>
@@ -130,7 +139,7 @@
     </item>
     
     <item>
-      <title>Pollo</title>
+      <title>pollo</title>
       <link>https://www.dlfer.xyz/recipes/tags/pollo/</link>
       <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
       
@@ -364,7 +373,7 @@
     </item>
     
     <item>
-      <title>patate</title>
+      <title>Patate</title>
       <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
       <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
       

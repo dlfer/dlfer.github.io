@@ -34,12 +34,32 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/var/ratatouille/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/secondi/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/veg/</loc>
+    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,11 +88,6 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/main/baccala-alla-vicentina/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url>
@@ -84,11 +99,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/pesce/</loc>
-    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/secondi/</loc>
     <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url>
   
