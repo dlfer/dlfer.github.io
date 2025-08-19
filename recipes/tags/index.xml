@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Wed, 16 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>indian</title>
+      <link>https://www.dlfer.xyz/recipes/tags/indian/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/indian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>riso</title>
+      <link>https://www.dlfer.xyz/recipes/tags/riso/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/riso/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Veg</title>
@@ -634,15 +652,6 @@
     </item>
     
     <item>
-      <title>riso</title>
-      <link>https://www.dlfer.xyz/recipes/tags/riso/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/riso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>spinaci</title>
       <link>https://www.dlfer.xyz/recipes/tags/spinaci/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
@@ -778,7 +787,7 @@
     </item>
     
     <item>
-      <title>Involtini</title>
+      <title>involtini</title>
       <link>https://www.dlfer.xyz/recipes/tags/involtini/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       

@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/main/</loc>
-    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -34,12 +34,37 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/dessert/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/indian/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/main/payasam/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/riso/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2025-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -53,22 +78,12 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
-    <lastmod>2025-07-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/tags/veg/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/chai/</loc>
-    <lastmod>2025-04-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/dessert/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -730,11 +745,6 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/tags/ricotta/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/riso/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
