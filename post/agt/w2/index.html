@@ -350,17 +350,9 @@
   </span>
   <h2 id="dato-da-fare-la-scorsa-volta">Dato da fare la scorsa volta:</h2>
 <blockquote>
-<p>Scrivere un notebook python/sagemath (dopo averlo correttamente
-installato?) che dato un grafo (assegnato come complesso simpliciale
-astratto) calcola i due gruppi di omologia <span
-class="math inline">\(H_0\)</span> e <span
-class="math inline">\(H_1\)</span>. Opzionale: assegnare (in qualche
-modo razionale) delle coordinate ai vertici, trasformandolo in grafo
-<strong>possibilmente</strong> euclideo, e visualizzare quel che
-viene.</p>
+<p>Scrivere un notebook python/sagemath (dopo averlo correttamente installato?) che dato un grafo (assegnato come complesso simpliciale astratto) calcola i due gruppi di omologia <span class="math inline">\(H_0\)</span> e <span class="math inline">\(H_1\)</span>. Opzionale: assegnare (in qualche modo razionale) delle coordinate ai vertici, trasformandolo in grafo <strong>possibilmente</strong> euclideo, e visualizzare quel che viene.</p>
 </blockquote>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define a function for visualization:</span></span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define a function for visualization:</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib <span class="im">as</span> mpl</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib.collections <span class="im">import</span> LineCollection</span>
@@ -389,8 +381,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a hr
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>                ax.annotate(<span class="st">&quot;$</span><span class="sc">%s</span><span class="st">$&quot;</span> <span class="op">%</span> j, vertices[j] , (Px<span class="op">-</span><span class="fl">0.06</span>,Py<span class="op">+</span><span class="fl">0.01</span>),fontsize<span class="op">=</span><span class="dv">24</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    ax.plot()   <span class="co">#Causes an autoscale update.</span></span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Primo problema: come **codificare** un grafo: elenco di vertici (euclidei?) e di spigoli.</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Primo problema: come **codificare** un grafo: elenco di vertici (euclidei?) e di spigoli.</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">3</span> <span class="co">#numero di case/pozzi</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -406,14 +397,11 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a hr
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># di tutto dovremmo capire se è connesso oppure no... </span></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>view(X,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>view(X,show_labels<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
 <figure>
-<img src="w2_files/w2_4_0.png" alt="png" />
-<figcaption aria-hidden="true">png</figcaption>
+<img src="w2_files/w2_4_0.png" alt="png" /><figcaption aria-hidden="true">png</figcaption>
 </figure>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># now: come calcolare le componenti connesse? e l&#39;omologia? come fare? </span></span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># now: come calcolare le componenti connesse? e l&#39;omologia? come fare? </span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Classico: https://en.wikipedia.org/wiki/Breadth-first_search</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.sparse <span class="im">import</span> csr_matrix</span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy.sparse.csgraph <span class="im">import</span> connected_components</span>
@@ -437,8 +425,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a hr
 <span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(h0(X))</span>
 <span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>    </span></code></pre></div>
 <pre><code>2</code></pre>
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ora calcoliamo h_1: teniamo conto che h_0 - h_1 = c_0 - c_1 :</span></span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ora calcoliamo h_1: teniamo conto che h_0 - h_1 = c_0 - c_1 :</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># segue che h_1 = h0 - c_0 + c_1 </span></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> h1(X):</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    vertices, edges <span class="op">=</span> X </span>
@@ -448,8 +435,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a hr
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(h1(X))</span></code></pre></div>
 <pre><code>2</code></pre>
-<div class="sourceCode" id="cb8"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># e per dare delle coordinate migliori di quelle random?</span></span>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># e per dare delle coordinate migliori di quelle random?</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> scipy.optimize</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>elastic_constant<span class="op">=</span><span class="fl">1.0</span></span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -545,8 +531,7 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a hr
 <span id="cb8-94"><a href="#cb8-94" aria-hidden="true" tabindex="-1"></a>    eucl_edges<span class="op">=</span> [ (eucl_vertices[i],eucl_vertices[j]) <span class="cf">for</span> i,j <span class="kw">in</span> edges ]</span>
 <span id="cb8-95"><a href="#cb8-95" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (eucl_vertices,eucl_edges)</span>
 <span id="cb8-96"><a href="#cb8-96" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
-<div class="sourceCode" id="cb9"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">5</span> <span class="co">#numero di case/pozzi</span></span>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">5</span> <span class="co">#numero di case/pozzi</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>A<span class="op">=</span>[x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]  <span class="co"># complesso simplicial astratto o euclideo</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>B<span class="op">=</span>[ y <span class="cf">for</span> y <span class="kw">in</span>  <span class="bu">range</span>(N,N<span class="op">+</span>N)]  <span class="co"># (niente cooordinate o coordinate?)</span></span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>vertices <span class="op">=</span> A <span class="op">+</span> B <span class="co"># concatenation of lists (overloading degli operatori)</span></span>
@@ -557,11 +542,9 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a hr
 <pre><code>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9] [[0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9]]
 howsol: 1.4563980367849192e-05</code></pre>
 <figure>
-<img src="w2_files/w2_8_1.png" alt="png" />
-<figcaption aria-hidden="true">png</figcaption>
+<img src="w2_files/w2_8_1.png" alt="png" /><figcaption aria-hidden="true">png</figcaption>
 </figure>
-<div class="sourceCode" id="cb11"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">7</span></span>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>N<span class="op">=</span><span class="dv">7</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>vertices <span class="op">=</span> [ x <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)]</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>edges <span class="op">=</span> [ <span class="bu">sorted</span>( [x, (x<span class="op">+</span><span class="dv">1</span>) <span class="op">%</span> N] ) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N)] <span class="op">+</span> <span class="op">\</span></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a> [ <span class="bu">sorted</span>( [x,(x<span class="op">+</span><span class="dv">3</span>) <span class="op">%</span>N ]) <span class="cf">for</span> x <span class="kw">in</span> <span class="bu">range</span>(N) ]</span>
@@ -571,19 +554,13 @@ class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a h
 <pre><code>[0, 1, 2, 3, 4, 5, 6] [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [0, 6], [0, 3], [1, 4], [2, 5], [3, 6], [0, 4], [1, 5], [2, 6]]
 howsol: 3.9716886522722156e-06</code></pre>
 <figure>
-<img src="w2_files/w2_9_1.png" alt="png" />
-<figcaption aria-hidden="true">png</figcaption>
+<img src="w2_files/w2_9_1.png" alt="png" /><figcaption aria-hidden="true">png</figcaption>
 </figure>
 <h2 id="quindi-da-fare">Quindi da fare…</h2>
 <blockquote>
-<p>Provare a fare eseguire i pezzi sopra di codice (copia-e-incolla),
-modificandoli qua e là. Quale potenziale è meglio per rappresentare
-visualmente i grafi? Qualcosa in 3d? E se ciascuno riuscisse a portare
-su <em>e-learning</em> l’immagine di un grafo di cui si è calcolato
-l’omologia? Fare piccola una galleria?</p>
+<p>Provare a fare eseguire i pezzi sopra di codice (copia-e-incolla), modificandoli qua e là. Quale potenziale è meglio per rappresentare visualmente i grafi? Qualcosa in 3d? E se ciascuno riuscisse a portare su <em>e-learning</em> l’immagine di un grafo di cui si è calcolato l’omologia? Fare piccola una galleria?</p>
 </blockquote>
-<div class="sourceCode" id="cb13"><pre
-class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
 
 </div>
 
