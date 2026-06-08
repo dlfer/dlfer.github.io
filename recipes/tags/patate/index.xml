@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Patate on Alcune Ricette</title>
+    <title>patate on Alcune Ricette</title>
     <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
-    <description>Recent content in Patate on Alcune Ricette</description>
+    <description>Recent content in patate on Alcune Ricette</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/patate/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Frittata di Patate (Omelette spagnola, *tortilla de patatas*)</title>
+      <link>https://www.dlfer.xyz/recipes/var/omelette-spagnola/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/var/omelette-spagnola/</guid>
+      <description>Ingredienti  3-4 uova 2-3 patate 1 cipolla olio EVO sale qb farina, latte  Prep  In una padella con abbastanza olio EVO, friggere/stufare cipolla e patate (tagliate sottili) per [! 15&amp;rsquo;-20&amp;rsquo;], salare. (Forse basta meno? Le cipolle meglio più tempo?) Lasciare raffreddare/intiepidire. In una ciotola/scodella: battere le uova, con sale, pepe, con poca farina e latte. Amalgamare le patate e cipolle con le uova, quando tiepide. Lasciare riposare [!</description>
+    </item>
     
     <item>
       <title>Hachis Parmentier (Sformato di ragù e patate)</title>
