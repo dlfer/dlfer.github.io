@@ -21,10 +21,10 @@ pair V3 = rotate (360/3) * V2;
 
 
 
-filldraw ( circle (O,rad), thickpen + orange , fillpen=white);
+filldraw ( circle (O,rad), thickpen + OrangeRed , fillpen=white);
 
-draw ( circle (O, 0.8 * rad) , thickpen + orange )  ; 
-draw ( circle (O+0.1*I, 0.7 * rad) , thickpen + orange )  ; 
+draw ( circle (O, 0.8 * rad) , thickpen + OrangeRed)  ; 
+draw ( circle (O+0.1*I, 0.7 * rad) , thickpen + OrangeRed)  ; 
 
 // draw ( P[0] -- P[1] -- P[2] -- P[3] -- P[4] -- P[5] --  cycle, thickpen+ black);
 
@@ -36,6 +36,10 @@ lotus ( O, one, rad, 1.5, N );
 // for (int k=0; k<N; ++k) {
 // 	punto( P[k] ) ;
 // }
+
+
+lotuschars( O, rotate(90+360/12) * one, 1.03 , new string[] {
+"बं", "भं", "मं", "यं", "रं", "लं" } );
 
 fine();
 

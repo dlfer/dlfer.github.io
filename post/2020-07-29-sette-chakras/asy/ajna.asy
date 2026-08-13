@@ -21,14 +21,16 @@ pair V3 = rotate (360/3) * V2;
 
 
 
-draw ( circle (O,rad), thickpen + purple);
+// filldraw(circle (0,rad), thickpen + Gainsboro);
+draw ( circle (O,rad), thickpen + Silver );
+
 
 // draw ( circle (O, 0.8 * rad) , thickpen + yellow )  ; 
 // draw ( circle (O+0.1*I, 0.7 * rad) , thickpen + yellow )  ; 
 
 // draw ( P[0] -- P[1] -- P[2] -- P[3] -- P[4] -- P[5] --  cycle, thickpen+ black);
 
-draw (V1 -- V2 -- V3 -- cycle, thickpen + purple );
+draw (V1 -- V2 -- V3 -- cycle, thickpen + Silver );
 
 // draw ( circle (O,0.5*rad), thickpen + blue );
 
@@ -43,6 +45,13 @@ petalo ( P[3], P[5], 1.7) ;
 // for (int k=0; k<N; ++k) {
 // 	punto( P[k] ) ;
 // }
+
+lotuschars( O,  rotate(-90) *  one, 1.02 , new string[]
+{ "हं", "क्षं" } 
+);
+
+draw( Label ("ॐ", (0,0), fontsize(48pt) + 0.61* Gold ), (0,0) );
+
 
 fine();
 

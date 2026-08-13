@@ -1,6 +1,11 @@
 import fontsize;
+import x11colors; 
+import settings;
+settings.tex="xelatex";
 // texpreamble("\usepackage{esvect}\usepackage{mathptmx}\usepackage{bm}");
 texpreamble("\usepackage{esvect}\usepackage{mathpazo}\usepackage{bm}");
+texpreamble("\usepackage{fontspec}");
+texpreamble("\setmainfont[Script=Devanagari]{Sanskrit 2003}");
 pen thickpen = black + 2;
 pen oneptpen = 1 + black;
 pen thinpen = 0.5 + black;
@@ -56,8 +61,8 @@ return C + t * (D-C);
 }
 
 void petalo( pair A, pair B, real rrad ) {
-draw (A{A+0.7*B} .. (rrad * norm(A) * norm(A+B)**(-1)*(A+B)){A+B}   ) ;
-draw (B{0.7*A+B} .. (rrad * norm(B) * norm(A+B)**(-1)*(A+B)){A+B}  ) ;
+draw (A{A+0.7*B} .. (rrad * norm(A) * norm(A+B)**(-1)*(A+B)){A+B}) ;
+draw (B{0.7*A+B} .. (rrad * norm(B) * norm(A+B)**(-1)*(A+B)){A+B}) ;
 }
 
 
@@ -74,6 +79,16 @@ B = rotate(360/N)*A;
 }
 }
 
+void lotuschars(pair O, pair P0, real rrad, string[] chars , pen col = 0.61 * Gold ) {
+int N = chars.length; 
+pair P; 
+P = rotate(-360/N / 2) * P0; 	
+for(int i = 0 ; i < N ; ++i) {
+    draw( Label (chars[i],(0,0), P, fontsize(28pt) + col ), rrad * P );
+    // label(chars[i], P);
+    P = rotate(-360/N)* P; 	
+    }
+}
 
 widefig();
 
