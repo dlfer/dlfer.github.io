@@ -9,7 +9,7 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/primi/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -34,12 +34,62 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/mais/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/var/pangialt/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/pan-gialt/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/pane/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/pane/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/pane-giallo/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/polenta/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/primi/pult/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
+    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,11 +109,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/categories/secondi-di-carne/</loc>
-    <lastmod>2026-06-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/</loc>
     <lastmod>2026-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -304,11 +349,6 @@
   
   <url>
     <loc>https://www.dlfer.xyz/recipes/primi/pasta-alla-genovese/</loc>
-    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/primi/</loc>
     <lastmod>2022-01-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -1313,16 +1353,6 @@
   </url>
   
   <url>
-    <loc>https://www.dlfer.xyz/recipes/categories/pane/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.dlfer.xyz/recipes/tags/pane/</loc>
-    <lastmod>2020-02-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.dlfer.xyz/recipes/tags/peperoni/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url>
@@ -1360,6 +1390,11 @@
   <url>
     <loc>https://www.dlfer.xyz/recipes/dessert/zeppole-di-san-giuseppe/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.dlfer.xyz/recipes/tags/finferli/</loc>
+    <lastmod>2020-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mais</title>
+      <link>https://www.dlfer.xyz/recipes/tags/mais/</link>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/mais/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pan gialt</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pan-gialt/</link>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pan-gialt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pane</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pane/</link>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pane giallo</title>
+      <link>https://www.dlfer.xyz/recipes/tags/pane-giallo/</link>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/pane-giallo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polenta</title>
+      <link>https://www.dlfer.xyz/recipes/tags/polenta/</link>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/polenta/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chili</title>
@@ -58,7 +103,7 @@
     </item>
     
     <item>
-      <title>patate</title>
+      <title>Patate</title>
       <link>https://www.dlfer.xyz/recipes/tags/patate/</link>
       <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
       
@@ -1057,15 +1102,6 @@
     </item>
     
     <item>
-      <title>pane</title>
-      <link>https://www.dlfer.xyz/recipes/tags/pane/</link>
-      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/pane/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>peperoni</title>
       <link>https://www.dlfer.xyz/recipes/tags/peperoni/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
@@ -1089,6 +1125,15 @@
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/zeppole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finferli</title>
+      <link>https://www.dlfer.xyz/recipes/tags/finferli/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/finferli/</guid>
       <description></description>
     </item>
     
