@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
     <copyright>Copyright &amp;copy; 2020 - 3020, DL Ferrario</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.dlfer.xyz/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>biscotti</title>
+      <link>https://www.dlfer.xyz/recipes/tags/biscotti/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/biscotti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nocciole</title>
+      <link>https://www.dlfer.xyz/recipes/tags/nocciole/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/nocciole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scozia</title>
+      <link>https://www.dlfer.xyz/recipes/tags/scozia/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/scozia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortbread</title>
+      <link>https://www.dlfer.xyz/recipes/tags/shortbread/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/shortbread/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tirolese</title>
+      <link>https://www.dlfer.xyz/recipes/tags/tirolese/</link>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dlfer.xyz/recipes/tags/tirolese/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>mais</title>
@@ -882,15 +927,6 @@
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.dlfer.xyz/recipes/tags/natale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nocciole</title>
-      <link>https://www.dlfer.xyz/recipes/tags/nocciole/</link>
-      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.dlfer.xyz/recipes/tags/nocciole/</guid>
       <description></description>
     </item>
     
